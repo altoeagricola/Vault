@@ -1,0 +1,228 @@
+{
+  "settings_version": "0.23.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {},
+  "show_installation_warnings": true,
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "execution_notification_mode": "permanent",
+  "output_channel_clipboard_also_outputs_to_notification": false,
+  "output_channel_notification_decorates_output": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "command_palette": {
+    "re_execute_last_shell_command": {
+      "enabled": true,
+      "prefix": "Re-execute: "
+    }
+  },
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": [
+    {
+      "id": "7bmavbi135",
+      "platform_specific_commands": {
+        "default": "/Users/Edgar/.local/bin/claude --dangerously-skip-permissions -p \"/ingest-youtube {{_video_url}}\""
+      },
+      "shells": {},
+      "alias": "Extract notes from YouTube Video",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": "{{_video_url}}"
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "vh73jy6a95"
+        }
+      ],
+      "variable_default_values": {}
+    },
+    {
+      "id": "tts_read_note",
+      "platform_specific_commands": {
+        "default": "/Users/edgar/Vault/Products/PKM/Scripts/tts-read.sh"
+      },
+      "shells": {
+        "darwin": "/bin/zsh"
+      },
+      "alias": "Read note aloud (Edge TTS)",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": "{{note_content}}"
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "tts_stop",
+      "platform_specific_commands": {
+        "default": "/Users/edgar/Vault/Products/PKM/Scripts/tts-stop.sh"
+      },
+      "shells": {
+        "darwin": "/bin/zsh"
+      },
+      "alias": "Stop TTS playback",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "q9rnbes1i8",
+      "platform_specific_commands": {
+        "default": "/Users/edgar/Vault/Products/PKM/Scripts/sync-to-vault.sh"
+      },
+      "shells": {
+        "darwin": "/bin/zsh"
+      },
+      "alias": "Sync MDs from Base",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": "coxnezphwz",
+        "stderr": "c7uur3tfx3"
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    }
+  ],
+  "prompts": [
+    {
+      "id": "vh73jy6a95",
+      "title": "Inform the Video",
+      "description": "",
+      "preview_shell_command": false,
+      "fields": [
+        {
+          "type": "single-line-text",
+          "label": "URL",
+          "description": "",
+          "default_value": "",
+          "target_variable_id": "tgqfswwtxd",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Execute"
+    }
+  ],
+  "builtin_variables": {},
+  "custom_variables": [
+    {
+      "id": "tgqfswwtxd",
+      "name": "video_url",
+      "description": "",
+      "default_value": null
+    }
+  ],
+  "custom_variables_notify_changes_via": {
+    "obsidian_uri": true,
+    "output_assignment": true
+  },
+  "custom_shells": [],
+  "output_wrappers": [
+    {
+      "id": "coxnezphwz",
+      "title": "Execution",
+      "content": "{{output}}"
+    },
+    {
+      "id": "c7uur3tfx3",
+      "title": "Error",
+      "content": "{{output}}"
+    }
+  ]
+}

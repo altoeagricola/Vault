@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Products/PKM/Scripts")
+    - file.ext != "base"
+views:
+  - type: table
+    name: Table

@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Wiki/Figures")
+    - '!file.name.endsWith("base")'
+views:
+  - type: table
+    name: Table

@@ -1,0 +1,77 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-shellcommands:shell-command-tts_read_note",
+      "icon": "lucide-play",
+      "name": "Shell commands: Execute: Read note aloud (Edge TTS)",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-tts_stop",
+      "icon": "lucide-square",
+      "name": "Shell commands: Execute: Stop TTS playback",
+      "mode": "any"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 1,
+          "delay": 250
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-shellcommands:shell-command-7bmavbi135"
+        }
+      ],
+      "name": "Extract Notes from YouTube Video",
+      "icon": "lucide-airplay",
+      "startup": false
+    }
+  ],
+  "explorer": [
+    {
+      "id": "obsidian-shellcommands:shell-command-7bmavbi135",
+      "icon": "lucide-airplay",
+      "name": "Extract notes from YouTube Video",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-q9rnbes1i8",
+      "icon": "lucide-arrow-left-right",
+      "name": "Shell commands: Execute: Sync MDs from Base",
+      "mode": "any"
+    },
+    {
+      "id": "terminal:open-terminal.integrated.root",
+      "icon": "terminal",
+      "name": "Terminal: Open root directory in terminal: Integrated",
+      "mode": "any"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

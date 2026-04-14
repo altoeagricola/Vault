@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("Wiki/Tools")
+    - file.ext != "base"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - related
+  - type: cards
+    name: Cards
+    image: note.cover
+    cardSize: 110

@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Prospections/Financial Assets")
+    - file.ext != "base"
+views:
+  - type: table
+    name: Table

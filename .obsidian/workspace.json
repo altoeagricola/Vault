@@ -1,0 +1,523 @@
+{
+  "main": {
+    "id": "18f0e075f7cb5383",
+    "type": "split",
+    "children": [
+      {
+        "id": "91f20512131f8416",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4c0d45d52860864",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Products/AI-KB/AI-KB.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": true,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AI-KB"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "081f04f7c895d603",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fb4e38769091eea",
+        "type": "tabs",
+        "dimension": 64.13043478260869,
+        "children": [
+          {
+            "id": "a6970f043aaae8da",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "828a8b254d02bbeb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Renan",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5ce541f9b6deb85a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "2cab7410039b4a16",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
+            }
+          }
+        ]
+      },
+      {
+        "id": "eb74630b5e690463",
+        "type": "tabs",
+        "dimension": 35.869565217391305,
+        "children": [
+          {
+            "id": "247236329a9d869d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Products/AI-KB/AI-KB.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7833405094820556,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of AI-KB"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 487.50271224975586
+  },
+  "right": {
+    "id": "86fd2513b981393a",
+    "type": "split",
+    "children": [
+      {
+        "id": "613de183cc1aa7ab",
+        "type": "tabs",
+        "dimension": 60,
+        "children": [
+          {
+            "id": "62bcd00a93cb5c64",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Products/AI-KB/AI-KB.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AI-KB"
+            }
+          },
+          {
+            "id": "e850bcd3c46dc47e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Journal/Daily/2026-01-11.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-01-11"
+            }
+          },
+          {
+            "id": "91507a195c094bae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1de56eb04855b62b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7b0ac570323a5c50",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "194fc84e607611f6",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
+            }
+          },
+          {
+            "id": "0a205f91b1ba4633",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-lookup-view"
+            }
+          },
+          {
+            "id": "e6d05558ac48fdb2",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "65fa3a9dea8dd1fc",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "1110fc5b5f087d32",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "824cf9c26928a6b9",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "51f60d6b52fc4552",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "ca567299bfe29ad4",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "ea097aa2d7829817",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "SC-custom-variables-view"
+            }
+          },
+          {
+            "id": "5386bbcb5f1ebb00",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "SC-custom-variables-view"
+            }
+          },
+          {
+            "id": "b823271df212dcb5",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "SC-custom-variables-view"
+            }
+          },
+          {
+            "id": "b30b6d6d610c322d",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "SC-custom-variables-view"
+            }
+          },
+          {
+            "id": "3729b37f16667412",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "SC-custom-variables-view"
+            }
+          },
+          {
+            "id": "e9dec56eff60c8d3",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "SC-custom-variables-view"
+            }
+          },
+          {
+            "id": "0b78189d8b10aad2",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "SC-custom-variables-view"
+            }
+          },
+          {
+            "id": "d1a775f1a1b1654d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "c9e49bb2d72314dd",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "file-digit",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "dd73a98829221253",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 20
+      },
+      {
+        "id": "c853d59fd63acd97",
+        "type": "tabs",
+        "dimension": 40,
+        "children": [
+          {
+            "id": "37d657a05dc57fa9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 328.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "daily-notes:Open today's daily note": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "bases:Create new base": true,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "custom-sort:Toggle custom sorting": false,
+      "iconic:Open rulebook": false,
+      "hide-folders:Show hidden folders": false,
+      "omnisearch:Omnisearch": false,
+      "terminal:Open terminal": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "marp-slides:Show Slide Preview": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "open-vscode:VS Code": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+      "homepage:Open homepage": false,
+      "edge-tts:Read note aloud": false,
+      "task-board:Open task board": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "d4c0d45d52860864",
+  "lastOpenFiles": [
+    "Products/Products.md",
+    "Areas/Areas.md",
+    "Wiki/Tools/zoxide.md",
+    "Wiki/Tools/Zinit.md",
+    "Wiki/Tools/yq.md",
+    "Wiki/Tools/UTM.md",
+    "Wiki/Tools/Tools.base",
+    "Wiki/Tools/tmux.md",
+    "Wiki/Tools/tldr.md",
+    "Wiki/Tools/Starship.md",
+    "Wiki/Tools/ripgrep.md",
+    "Wiki/Tools/QEMU.md",
+    "Wiki/Tools/Proxmox VE.md",
+    "Wiki/Tools/PostgreSQL.md",
+    "Wiki/Tools/Portainer.md",
+    "Wiki/Tools/OPNsense.md",
+    "Wiki/Tools/OpenObserve.md",
+    "Wiki/Tools/neovim.md",
+    "Wiki/Tools/lazygit.md",
+    "Wiki/Tools/jq.md",
+    "Wiki/Tools/htop.md",
+    "Wiki/Tools/Homebrew.md",
+    "Wiki/Tools/Home Assistant.md",
+    "Wiki/Tools/Homarr.md",
+    "Wiki/Tools/glow.md",
+    "Wiki/Tools/git-delta.md",
+    "Wiki/Tools/gh.md",
+    "Wiki/Tools/_covers/zoxide.png",
+    "Wiki/Tools/_covers/zinit.png",
+    "Wiki/Tools/_covers/yq.png",
+    "Wiki/Tools/_covers/utm.png",
+    "Wiki/Tools/_covers/tmux.png",
+    "Wiki/Tools/_covers/tldr.png",
+    "Wiki/Tools/_covers/starship.png",
+    "Wiki/Tools/_covers/ripgrep.png",
+    "Wiki/Tools/_covers/qemu.png",
+    "Wiki/Tools/_covers/proxmox.png",
+    "Wiki/Tools/_covers",
+    "Wiki/Tools/_attachments",
+    "Sources/Books/Books.base",
+    "Prospections/R&D Public Calls/R&D Public Calls.base",
+    "Prospections/Financial Assets/Financial Assets.base",
+    "Sources/Articles/Articles.base",
+    "Sources/Papers/Papers.base",
+    "Sources/Data/Data.base",
+    "Journal/_attachments",
+    "Products/InfraKeeper/Untitled.canvas",
+    "Untitled.canvas"
+  ]
+}

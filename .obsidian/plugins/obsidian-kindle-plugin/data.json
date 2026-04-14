@@ -1,0 +1,11 @@
+{
+  "amazonRegion": "global",
+  "highlightsFolder": "Sources/Books",
+  "lastSyncMode": "amazon",
+  "hasStartedSync": true,
+  "isLoggedIn": true,
+  "syncOnBoot": false,
+  "downloadBookMetadata": true,
+  "ignoredBooks": [],
+  "fileNameTemplate": "{{authorsLastNames}} - {{title}}"
+}

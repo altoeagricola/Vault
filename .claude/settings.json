@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Edit(Wiki/*)|Write(Wiki/*)",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/Products/PKM/AI/hooks/validate-frontmatter.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

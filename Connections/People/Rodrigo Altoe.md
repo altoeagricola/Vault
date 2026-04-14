@@ -1,0 +1,6 @@
+---
+aliases:
+  - Altoe
+area:
+  - - People
+---

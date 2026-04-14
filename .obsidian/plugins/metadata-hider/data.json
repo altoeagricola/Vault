@@ -1,0 +1,27 @@
+{
+  "autoFold": false,
+  "hideEmptyEntry": true,
+  "hideEmptyEntryInSideDock": false,
+  "propertiesVisible": "",
+  "propertyHideAll": "hide",
+  "entries": [
+    {
+      "name": "cover",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": true,
+        "fileProperties": true,
+        "allProperties": true
+      }
+    },
+    {
+      "name": "title",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": true,
+        "fileProperties": true,
+        "allProperties": true
+      }
+    }
+  ]
+}

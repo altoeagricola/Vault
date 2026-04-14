@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Sources/Articles")
+    - '!file.name.endsWith("base")'
+views:
+  - type: table
+    name: Table

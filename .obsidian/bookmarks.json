@@ -1,0 +1,167 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1767305038940,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1767305275284,
+          "path": "Areas",
+          "title": "Areas"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775922571457,
+          "path": "Areas/Self",
+          "title": "Areas/Self"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767314896476,
+          "path": "Areas/Pets",
+          "title": "Areas/Pets"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996235682,
+          "path": "Areas/Pets/Lily",
+          "title": "Areas/Pets/Lily"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996396493,
+          "path": "Areas/Pets/Maggie",
+          "title": "Areas/Pets/Maggie"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996534284,
+          "path": "Areas/Pets/Hanna",
+          "title": "Areas/Pets/Hanna"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996431886,
+          "path": "Areas/Pets/Mel",
+          "title": "Areas/Pets/Mel"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996469607,
+          "path": "Areas/Pets/Barney",
+          "title": "Areas/Pets/Barney"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996501940,
+          "path": "Areas/Pets/Belinha",
+          "title": "Areas/Pets/Belinha"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767344731935,
+          "path": "Areas/Family",
+          "title": "Areas/Family"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767344750498,
+          "path": "Areas/Finance",
+          "title": "Areas/Finance"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767305233819,
+          "path": "Products",
+          "title": "Products"
+        },
+        {
+          "type": "folder",
+          "ctime": 1776159636859,
+          "path": "Prospections",
+          "title": "Prospections"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775997657652,
+          "path": "Linked Vaults",
+          "title": "Linked Vaults"
+        },
+        {
+          "type": "folder",
+          "ctime": 1776006044399,
+          "path": "Connections",
+          "title": "Connections"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996659381,
+          "path": "Products/PKM",
+          "title": "Products/PMK"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996682602,
+          "path": "Products/InfraKeeper",
+          "title": "Products/InfraKeeper"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996712340,
+          "path": "Products/ControlPlane",
+          "title": "Products/ControlPlane"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767305253469,
+          "path": "Wiki",
+          "title": "Wiki"
+        },
+        {
+          "type": "folder",
+          "ctime": 1775996806153,
+          "path": "Wiki/Concepts",
+          "title": "Wiki/Concepts"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767305125551,
+          "path": "Journal",
+          "title": "Journal"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767349741712,
+          "path": "Sources",
+          "title": "Sources"
+        },
+        {
+          "type": "folder",
+          "ctime": 1767305330331,
+          "path": "Archive",
+          "title": "Archive"
+        },
+        {
+          "type": "file",
+          "ctime": 1768251608851,
+          "path": "Tasks.md",
+          "title": "Tasks"
+        }
+      ],
+      "title": "sortspec"
+    },
+    {
+      "type": "url",
+      "ctime": 1767435159341,
+      "url": "https://calendar.google.com/calendar/u/0/r",
+      "title": "Google Calendar"
+    },
+    {
+      "type": "url",
+      "ctime": 1767443768118,
+      "url": "https://read.amazon.com/notebook",
+      "title": "Kindle Highlights"
+    }
+  ]
+}

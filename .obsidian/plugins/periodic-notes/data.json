@@ -1,0 +1,34 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "folder": "Journal/Daily",
+    "template": "Products/PKM/Templates/Daily Note.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "Products/PKM/Templates/Weekly Note.md",
+    "folder": "Journal/Weekly",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "Products/PKM/Templates/Monthly Note.md",
+    "folder": "",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": "Journal/Quarterly",
+    "enabled": true
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": "Journal/Yearly",
+    "enabled": true
+  }
+}

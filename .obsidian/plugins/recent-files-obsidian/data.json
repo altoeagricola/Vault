@@ -1,0 +1,140 @@
+{
+  "recentFiles": [
+    {
+      "basename": "AI-KB",
+      "path": "Products/AI-KB/AI-KB.md"
+    },
+    {
+      "basename": "Products",
+      "path": "Products/Products.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Areas/Areas.md"
+    },
+    {
+      "basename": "Books",
+      "path": "Sources/Books/Books.base"
+    },
+    {
+      "basename": "Sources",
+      "path": "Sources/Sources.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "Products/PKM/ai/skills/ingest/SKILL.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "Products/PKM/ai/skills/ingest-tweet/SKILL.md"
+    },
+    {
+      "basename": "Journal",
+      "path": "Journal/Journal.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "Products/PKM/ai/skills/ingest-pdf/SKILL.md"
+    },
+    {
+      "basename": "R&D Public Calls",
+      "path": "Prospections/R&D Public Calls/R&D Public Calls.base"
+    },
+    {
+      "basename": "Financial Assets",
+      "path": "Prospections/Financial Assets/Financial Assets.base"
+    },
+    {
+      "basename": "Prospections",
+      "path": "Prospections/Prospections.md"
+    },
+    {
+      "basename": "Connections",
+      "path": "Connections/Connections.md"
+    },
+    {
+      "basename": "Linked Vaults",
+      "path": "Linked Vaults/Linked Vaults.md"
+    },
+    {
+      "basename": "Papers",
+      "path": "Sources/Papers/Papers.base"
+    },
+    {
+      "basename": "Data",
+      "path": "Sources/Data/Data.base"
+    },
+    {
+      "basename": "Wiki",
+      "path": "Wiki/Wiki.md"
+    },
+    {
+      "basename": "Sprint Contract",
+      "path": "Wiki/Concepts/Sprint Contract.md"
+    },
+    {
+      "basename": "PKM",
+      "path": "Products/PKM/PKM.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "Products/AI-KB/Skills/paperclip/SKILL.md"
+    },
+    {
+      "basename": "Scripts",
+      "path": "Products/PKM/Scripts/Scripts.base"
+    },
+    {
+      "basename": "Sync MDs from Base",
+      "path": "Products/PKM/Scripts/Sync MDs from Base.md"
+    },
+    {
+      "basename": "Edge TTS Reader",
+      "path": "Products/PKM/Scripts/Edge TTS Reader.md"
+    },
+    {
+      "basename": "Agent Self-Evaluation Failure",
+      "path": "Wiki/Concepts/Agent Self-Evaluation Failure.md"
+    },
+    {
+      "basename": "Harness Simplification",
+      "path": "Wiki/Concepts/Harness Simplification.md"
+    },
+    {
+      "basename": "Grading Criteria for Subjective Quality",
+      "path": "Wiki/Concepts/Grading Criteria for Subjective Quality.md"
+    },
+    {
+      "basename": "Generator-Evaluator Pattern",
+      "path": "Wiki/Concepts/Generator-Evaluator Pattern.md"
+    },
+    {
+      "basename": "DHCP Static Mapping",
+      "path": "Wiki/Concepts/DHCP Static Mapping.md"
+    },
+    {
+      "basename": "Concepts",
+      "path": "Wiki/Concepts/Concepts.base"
+    },
+    {
+      "basename": "SKILL",
+      "path": "Products/AI-KB/Skills/karpathy-guidelines/SKILL.md"
+    },
+    {
+      "basename": "Database Hardening",
+      "path": "Wiki/Concepts/Database Hardening.md"
+    },
+    {
+      "basename": "Maggie",
+      "path": "Areas/Pets/Maggie/Maggie.md"
+    },
+    {
+      "basename": "Hanna",
+      "path": "Areas/Pets/Hanna/Hanna.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
