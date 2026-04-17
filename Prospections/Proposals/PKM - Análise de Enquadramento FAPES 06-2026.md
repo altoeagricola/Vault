@@ -91,7 +91,9 @@ Recomenda-se **não** perseguir essa rota como eixo principal.
 
 ## Riscos e Lacunas
 
-1. **Elegibilidade da consultoria**: confirmar que a empresa tem sede ou filial ativa no ES, ≥6 meses de atividade, regularidade fiscal, e que **não foi contratada nos Editais 07/2024 (Tecnova III) nem 10/2025 (Nova Economia Capixaba)** — vedação explícita.
+1. **Elegibilidade da consultoria**: confirmar sede ou filial ativa no ES, regularidade fiscal, e que **não foi contratada nos Editais 07/2024 (Tecnova III) nem 10/2025 (Nova Economia Capixaba)** — vedação explícita.
+    - **Marco dos 6 meses de atividade (item 9.4 do edital, texto literal)**: *"A empresa proponente deverá estar ativa, demonstrando atividades e operações econômicas e financeiras a pelo menos 6 (seis) meses antes da data de publicação deste Edital."* O marco é **20/02/2026 (publicação)**, não a data de contratação — a empresa precisa estar ativa desde **20/08/2025 ou antes**. Prorrogações de submissão ou demora na contratação não afrouxam esse ponto.
+    - A exigência é de "atividades e operações econômicas e financeiras" — CNPJ dormente não satisfaz. É necessário comprovar faturamento, movimentação e despesas no período.
 2. **Limite da cadeia coberta**: o edital cobre **indústria** de alimentos e bebidas, não produção primária (lavoura). O projeto deve ser redigido com foco claro no elo industrial — torrefação, beneficiamento, processamento — e no apoio à consultoria como fornecedora de ferramentas a esse elo. Evitar linguagem que sugira atendimento direto ao produtor rural, pois pode ser interpretado como fora do escopo.
 3. **Concorrência com [[Conilon Trace]]**: há outra proposta em desenvolvimento no vault voltada ao mesmo setor, no mesmo cluster, para o mesmo edital. Revisar sobreposição — há complementaridade ou canibalização? Possível oportunidade de **parceria ou submissão única** em vez de competição interna.
 4. **Avaliação ad hoc externa**: mérito avaliado por pareceristas preferencialmente fora do ES — a redação precisa comunicar a relevância do conilon e da região sem assumir familiaridade do avaliador.
