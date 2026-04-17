@@ -64,4 +64,5 @@ updated: 2026-04-14
 | Wiki/Figures/David Allen.md | Figure | David Allen | GTD, productivity, attention management | PKM | high | 2026-04-14 |
 | Wiki/Figures/Tiago Forte.md | Figure | Tiago Forte | PARA, Building a Second Brain, PKM education | PKM | high | 2026-04-14 |
 | Wiki/Figures/Andrej Karpathy.md | Figure | Andrej Karpathy | AI researcher, LLM Wiki, OpenAI, Tesla Autopilot | Karpathy's LLM Wiki The Complete Guide to His Idea File | high | 2026-04-14 |
+| Wiki/Concepts/MCR.md | Concept | MCR — Manual de Crédito Rural | credit, rural, BCB, CMN, SNCR, Sicor, Pronaf, Pronamp, Funcafé, Proagro, InvestAgro, regulation | BCB - Manual de Crédito Rural (MCR) | high | 2026-04-17 |
 
