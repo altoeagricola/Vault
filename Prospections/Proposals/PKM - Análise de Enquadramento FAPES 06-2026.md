@@ -1,11 +1,12 @@
 ---
 title: "PKM — Análise de Enquadramento no FAPES 06/2026 (Clusters de Inovação)"
 type: analysis
-status: archived
+status: open
 product: "[[Products/PKM/PKM]]"
 origin: "[[FAPES 06-2026 Clusters de Inovacao]]"
-cluster: "Comércio (Cluster 1)"
-fit_score: medium
+cluster: "Alimentos e Bebidas (Cluster 2)"
+fit_score: medium-high
+deadline: 2026-05-06
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -15,117 +16,110 @@ tags:
 
 ## Contexto
 
-Esta nota analisa o potencial de enquadramento do produto [[Products/PKM/PKM|PKM]] no [[FAPES 06-2026 Clusters de Inovacao|Edital FAPES Nº 06/2026 — Apoio aos Clusters de Inovação Capixaba]]. O prazo da 2ª edição encerrou em **06/04/2026** — esta análise serve como base para a **3ª edição** do programa, a ser monitorada.
+Esta nota analisa o enquadramento do produto [[Products/PKM/PKM|PKM]] no [[FAPES 06-2026 Clusters de Inovacao|Edital FAPES Nº 06/2026]]. O prazo foi **prorrogado para 06/05/2026 às 17h59** — há janela real de submissão.
 
-O PKM, em sua forma atual, é um sistema pessoal de gestão do conhecimento. Para fins deste edital, seria necessário reposicioná-lo como **produto inovador com aplicação empresarial**, o que implica um esforço de produtização que também é avaliado aqui.
+**Premissas revisadas desta análise:**
 
----
+1. O produto PKM seria desenvolvido como **piloto interno de uma consultoria de crédito rural** sediada na região central do ES (Marilândia e municípios adjacentes) — consultoria que estrutura propostas de desenvolvimento agropecuário com base em editais de subvenção econômica.
+2. O foco setorial regional é **café conilon**, cultura dominante na região central-serrana capixaba, com cadeia produtiva que envolve produtores, cooperativas, indústrias de torrefação e processamento.
+3. A empresa proponente seria a própria consultoria, com o PKM como produto/plataforma desenvolvida para uso piloto e posterior oferta ao setor.
 
-## Síntese do Enquadramento
+## Correção a uma Premissa Inicial
 
-O PKM tem enquadramento **viável com ressalvas** no Cluster 1 (Comércio), sob o tema **Transformação Digital**, com reforço pelos temas transversais de **Automação e IA**. O produto carrega inovação genuína na camada de agente de IA, mas sua maturidade comercial atual é baixa — o que exigiria que o projeto de P&D proposto ao edital financiasse a transição da solução pessoal para um produto empresarial.
+> *Sinalização solicitada pelo usuário:* a hipótese de que o edital seria "principalmente voltado a alimentos e bebidas" **não se sustenta na leitura do edital nem na comunicação oficial da FAPES**.
 
-| Dimensão | Avaliação | Observação |
-|----------|-----------|------------|
-| Alinhamento temático | ✅ Alto | Transformação digital + IA se encaixam no Cluster 1 |
-| Inovação tecnológica | ✅ Alto | Agente LLM como mantenedor de wiki é diferencial real |
-| Maturidade do produto | ⚠️ Baixa | Solução pessoal, sem versão comercial ou clientes |
-| Aplicabilidade setorial | ⚠️ Média | Requer adaptação para casos de uso do comércio |
-| Capacidade de execução | ⚠️ A avaliar | Depende da estrutura jurídica da empresa proponente |
-| Adequação ao edital | ✅ Média-alta | Subvenção cobre P&D para chegar à condição de certificação/comercialização |
+O edital é **paritário** entre os dois clusters:
 
----
+| Cluster | Orçamento | Projetos mínimos |
+|---------|-----------|------------------|
+| Comércio | R$ 6.000.000 | 10 |
+| Indústria de Alimentos e Bebidas | R$ 6.000.000 | 10 |
 
-## Enquadramento Temático
+Recursos remanescentes de um cluster **podem** ser redirecionados ao outro (item orçamentário), mas isso é uma regra de contingência — não um viés de desenho. A 2ª edição do programa Clusters de Inovação Capixaba manteve a mesma estrutura dual da 1ª edição.
 
-### Cluster 1 — Comércio: Transformação Digital
-
-O PKM pode ser enquadrado como uma **plataforma de inteligência de conhecimento para empresas de comércio**, cobrindo:
-
-- **CRM e Inteligência de Cliente**: o pipeline de ingestão pode ser configurado para processar transcrições de reuniões, interações de vendas e feedbacks de clientes — construindo uma base de conhecimento estruturada e consultável sobre comportamento do consumidor.
-- **Automação de marketing e inteligência competitiva**: ingestão automatizada de artigos, relatórios de mercado e notícias do setor, com síntese por agente e geração de insights acionáveis.
-- **Centralização e retenção do conhecimento organizacional**: problema crítico no varejo com alta rotatividade de equipe — o PKM endereça diretamente a captura e estruturação do conhecimento tácito.
-
-### Temas Transversais: Automação e IA
-
-A camada de agente LLM é o diferencial central e o núcleo de inovação do projeto:
-
-- Agente autônomo para manutenção de wiki (ingestão, lint, síntese)
-- Skills como workflows reutilizáveis (`/ingest`, `/conceptualize`, `/lint`)
-- Automação agendada (ex.: `weekly-wiki-lint`)
-- Validação de qualidade por hooks pré-operação
-- Integração com Claude Code (Anthropic) como runtime de agente
-
-Esses elementos configuram um **sistema de IA aplicada à gestão do conhecimento empresarial**, com potencial de publicação como produto SaaS ou licença de software.
+**Implicação:** a estratégia de enquadramento deve escolher **um dos dois clusters** como eixo principal, sem assumir que alimentos e bebidas tem preferência intrínseca.
 
 ---
 
-## Proposta de Produto para o Edital
+## Enquadramento Recomendado: Cluster 2 — Alimentos e Bebidas
 
-Para submissão ao edital, o projeto de P&D precisaria ser formulado como a criação de um **produto novo ou significativamente melhorado**, com resultado final em condição de ingressar em certificação, produção e/ou comercialização (exigência do edital, item 3.1).
+Dado o recorte regional (café conilon em Marilândia) e o perfil da consultoria como proponente, o enquadramento mais defensável é o **Cluster 2 — Indústria de Alimentos e Bebidas**, tema principal **Rastreabilidade e Segurança Alimentar**, com reforço no tema transversal **Automação e IA**.
 
-### Framing recomendado
+### Racional do enquadramento
 
-> **"Plataforma de Gestão do Conhecimento Empresarial com Agente de IA para o Setor de Comércio"**
->
-> Desenvolvimento de uma solução SaaS de PKM corporativo que utiliza agentes de IA para automatizar a ingestão, organização e síntese de informações estratégicas de empresas de comércio, com foco em inteligência competitiva, retenção de conhecimento organizacional e apoio à tomada de decisão.
+O café conilon é, para fins do edital, uma commodity de entrada para a **indústria de bebidas** (torrefação, moagem, blending, produção de cafés solúveis, cápsulas). O elo industrial da cadeia — não a produção primária — é o que está coberto pelo cluster. A consultoria, ao desenvolver o PKM como piloto e oferecer a ferramenta para indústrias de torrefação e cooperativas com unidades de beneficiamento na região, entrega valor exatamente no segmento alvo do cluster.
 
-### Entregas do projeto (24 meses)
+### Proposta de produto
 
-| Entrega | Descrição | Mês estimado |
-|---------|-----------|--------------|
-| MVP empresarial | Adaptação do vault para multiusuário e contexto corporativo | M6 |
-| Integração com fontes comerciais | Conectores para CRM, e-mail, notas de reunião, ERPs | M12 |
-| Interface de consulta | Frontend para queries em linguagem natural sobre a base de conhecimento | M16 |
-| Piloto setorial | Implantação em 2–3 empresas de comércio capixabas parceiras | M20 |
-| Certificação e lançamento | Produto em condição de comercialização / SaaS | M24 |
+> **"Plataforma de Conhecimento Agroindustrial para a Cadeia do Café Conilon — curadoria assistida por IA de dados regulatórios, técnicos e de mercado para indústrias de torrefação e cooperativas de beneficiamento do Espírito Santo"**
+
+A plataforma consolida, num único ambiente mantido por agente LLM:
+
+- **Base de conhecimento regulatória**: normas MAPA, ANVISA, certificações (Rainforest, UTZ, 4C, orgânico, fair trade), exigências de exportação
+- **Inteligência de mercado**: preços CEPEA, tendências de consumo, compradores internacionais, câmbio
+- **Rastreabilidade documental**: histórico de lotes, origem por propriedade/região, dados de beneficiamento, certificações vigentes
+- **Curadoria técnica**: fichas de variedades clonais (Vitória, Diamante, Centenária), protocolos de pós-colheita, parâmetros de qualidade (tipos 2 a 8, bebidas)
+- **Pipeline de propostas de fomento**: ingestão automatizada de editais (FAPES, FINEP, BANDES, BNDES), cruzamento com perfil do cliente, geração de briefings
+
+### Alinhamento com os temas do Cluster 2
+
+| Tema do edital | Como o PKM endereça |
+|----------------|---------------------|
+| Rastreabilidade e segurança alimentar | Curadoria documental estruturada de lotes, origens, certificações — acessível via consultas em linguagem natural |
+| Automação e Indústria 4.0 (transversal) | Agente LLM que ingere fontes (editais, normas, relatórios), mantém wiki viva, gera sínteses — automação de trabalho cognitivo |
+| Eficiência (transversal) | Redução de tempo de pesquisa e preparo de documentação técnica em cooperativas e torrefadoras de pequeno/médio porte |
 
 ---
 
-## Pontos Fortes
+## Enquadramento Alternativo: Cluster 1 — Comércio
 
-1. **Inovação tecnológica real**: o padrão LLM Wiki (Karpathy) aplicado a contexto empresarial é genuinamente inovador no mercado nacional.
-2. **Fundamentos sólidos**: GTD + PARA + LLM fornecem base metodológica rigorosa e referenciada.
-3. **Prova de conceito funcional**: o vault existente é prova de conceito — 88 fontes ingeridas, 55 páginas de wiki, 7 skills operacionais.
-4. **Baixa contrapartida**: 5% financeira é acessível para startup/empresa pequena.
-5. **Subvenção não reembolsável**: risco financeiro controlado — adequado para estágio de P&D.
-6. **Alinhamento com ODS**: ODS 8 (trabalho decente) e ODS 9 (inovação) são facilmente argumentáveis.
+Possível, porém menos aderente à realidade regional proposta. Exigiria enquadrar a consultoria como **empresa de comércio de serviços** e o PKM como ferramenta de transformação digital do seu próprio negócio. O edital, entretanto, dá exemplos de Comércio focados em varejo/e-commerce (CRM, logística reversa, meios de pagamento) — a consultoria como comércio é um esticamento conceitual.
+
+Recomenda-se **não** perseguir essa rota como eixo principal.
+
+---
+
+## Pontos Fortes do Enquadramento Revisado
+
+1. **Coerência regional forte**: Marilândia e municípios vizinhos formam o coração da produção de conilon no ES — o estado responde por ~70% da produção nacional de conilon, concentrada na região central. A proposta tem identidade territorial clara, fator valorizado na avaliação de mérito.
+2. **Empresa proponente viável**: a consultoria já atua no domínio de editais de subvenção — tem maturidade institucional para executar projeto FAPES de 24 meses.
+3. **Piloto interno + produto**: a consultoria se autoaplica como primeiro cliente (redução de risco de adoção), e o produto se projeta para a cadeia de torrefação e cooperativas.
+4. **Inovação tecnológica real**: o padrão LLM Wiki aplicado à cadeia do café é inédito — não há concorrente direto no mercado nacional para este recorte.
+5. **ODS alinhados**: ODS 8, 9, 12 e 17 todos defensáveis. Especialmente ODS 12 (produção/consumo responsável) pela ênfase em rastreabilidade.
+6. **Parceria natural com ICT/IES**: Incaper (pesquisa de conilon consolidada), Ifes Santa Teresa ou Colatina, UFES campus São Mateus — todos com agenda de pesquisa em café.
+7. **Contrapartida 5%**: acessível para a consultoria.
 
 ## Riscos e Lacunas
 
-1. **Ausência de empresa proponente formal**: o PKM é produto pessoal — seria necessário uma empresa ES registrada há ≥6 meses como proponente.
-2. **Maturidade comercial baixa**: sem clientes, sem CNPJ, sem modelo de negócio definido — o projeto proposto teria que cobrir essa transição.
-3. **Foco setorial forçado**: a adaptação para comércio especificamente (vs. uso genérico) adiciona escopo ao projeto.
-4. **Vedação de editais anteriores**: verificar se a empresa proponente não foi contratada nos Editais 07/2024 ou 10/2025.
-5. **Concorrência com soluções consolidadas**: Notion AI, Confluence + AI, Microsoft Copilot — necessário diferenciar no formulário de mérito.
+1. **Elegibilidade da consultoria**: confirmar que a empresa tem sede ou filial ativa no ES, ≥6 meses de atividade, regularidade fiscal, e que **não foi contratada nos Editais 07/2024 (Tecnova III) nem 10/2025 (Nova Economia Capixaba)** — vedação explícita.
+2. **Limite da cadeia coberta**: o edital cobre **indústria** de alimentos e bebidas, não produção primária (lavoura). O projeto deve ser redigido com foco claro no elo industrial — torrefação, beneficiamento, processamento — e no apoio à consultoria como fornecedora de ferramentas a esse elo. Evitar linguagem que sugira atendimento direto ao produtor rural, pois pode ser interpretado como fora do escopo.
+3. **Concorrência com [[Conilon Trace]]**: há outra proposta em desenvolvimento no vault voltada ao mesmo setor, no mesmo cluster, para o mesmo edital. Revisar sobreposição — há complementaridade ou canibalização? Possível oportunidade de **parceria ou submissão única** em vez de competição interna.
+4. **Avaliação ad hoc externa**: mérito avaliado por pareceristas preferencialmente fora do ES — a redação precisa comunicar a relevância do conilon e da região sem assumir familiaridade do avaliador.
+5. **Maturidade do produto**: PKM hoje é pessoal. O projeto de 24 meses cobre a transição, mas a narrativa precisa ser honesta sobre o TRL inicial e o salto pretendido.
+6. **Uma proposta por empresa**: se a consultoria pretende submeter outra proposta, esta precisa ser a escolhida.
 
 ---
 
-## Comparação com Conilon Trace
+## Articulação com [[Conilon Trace]]
 
-O projeto [[Conilon Trace]], também enquadrado no FAPES 06-2026, oferece referência valiosa:
+Ambas as propostas incidem sobre a cadeia do conilon e o Cluster 2 do mesmo edital. Antes de qualquer avanço, é necessário definir a relação entre elas:
 
-| Aspecto | Conilon Trace | PKM |
-|---------|--------------|-----|
-| Cluster | Alimentos e Bebidas | Comércio |
-| Tema principal | Rastreabilidade + Blockchain | Transformação Digital + IA |
-| Maturidade do produto | — | Baixa (pessoal → empresarial) |
-| Diferencial tecnológico | Rastreabilidade de origem | Agente LLM para curadoria |
-| Complexidade de produtização | — | Média-alta |
+- **Cenário A — Consolidação**: unir as duas propostas em uma única, usando o PKM como camada de conhecimento/curadoria e o Conilon Trace como camada de rastreabilidade operacional. Complementaridade natural.
+- **Cenário B — Separação**: se forem empresas proponentes distintas, ambas podem ser submetidas (edital não impede submissões independentes de empresas diferentes); se for a mesma empresa, apenas uma pode concorrer.
+- **Cenário C — Priorização**: escolher a mais madura para esta edição e reservar a outra para a 3ª edição ou outro edital (ex.: FINEP, BNDES Agro).
 
 ---
 
-## Recomendação
+## Próximos Passos
 
-**Não submeter na 2ª edição** (prazo encerrado). Para a **3ª edição**, recomenda-se:
-
-- [ ] Definir estrutura jurídica: abrir empresa ES ou usar empresa existente como proponente
-- [ ] Validar modelo de negócio: SaaS, licença, consultoria com implementação?
-- [ ] Identificar 1–2 empresas de comércio capixabas parceiras para piloto (fortalecem a proposta de mérito)
-- [ ] Mapear concorrentes diretos no mercado nacional e posicionamento diferencial
-- [ ] Avaliar parceria com ICT/IES capixaba (IFES, UFES, FAESA) — não obrigatório mas valorizado na avaliação
-- [ ] Monitorar lançamento da 3ª edição via FAPES (duvidas.inovacao@fapes.es.gov.br)
-- [ ] Revisar esta análise quando o novo edital for publicado — temas e critérios podem mudar
+- [ ] Confirmar estrutura jurídica e elegibilidade da consultoria de crédito rural (sede/filial ES, ≥6 meses, regularidade, vedação de editais anteriores)
+- [ ] Definir relação com [[Conilon Trace]] (consolidação, separação ou priorização)
+- [ ] Mapear 2–3 indústrias de torrefação ou cooperativas de beneficiamento em Marilândia/região que aceitem ser parceiras-piloto (cartas de anuência fortalecem o mérito)
+- [ ] Avaliar parceria com ICT: Incaper (preferencial pela trajetória em conilon), Ifes, UFES — verificar se o NIT da parceira foi apoiado pelo Edital FAPES 11/2025
+- [ ] Levantar dados de mercado: tamanho da indústria capixaba de torrefação/beneficiamento de conilon, número de empresas potencialmente atendidas
+- [ ] Rascunhar Anexo I (Formulário de Submissão) com foco no elo industrial da cadeia
+- [ ] Definir cronograma de 24 meses com entregas claras: MVP empresarial → integrações setoriais (preços, certificações, editais) → piloto com consultoria e 1–2 indústrias → empacotamento SaaS
+- [ ] Submeter via SigFapes até **06/05/2026 17h59**
 
 ---
 
@@ -134,3 +128,4 @@ O projeto [[Conilon Trace]], também enquadrado no FAPES 06-2026, oferece refer�
 - [[FAPES 06-2026 Clusters de Inovacao]]
 - [[Products/PKM/PKM]]
 - [[Products/PKM/ai/Instructions]]
+- FAPES, notícia oficial da prorrogação (fonte: fapes.es.gov.br)

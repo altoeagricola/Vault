@@ -1,11 +1,11 @@
 ---
 title: "EDITAL FAPES Nº 06/2026 — Apoio aos Clusters de Inovação Capixaba"
 issuer: "[[FAPES]]"
-status: archived
+status: open
 budget_total: "R$ 12.000.000,00"
 budget_per_project: "R$ 250.000,00 – R$ 600.000,00"
 counterpart: "5%"
-deadline: 2026-04-06
+deadline: 2026-05-06
 execution_months: 24
 sectors:
   - "Comércio"
@@ -24,14 +24,14 @@ Chamada pública da FAPES para seleção de projetos inovadores voltados ao fort
 
 O edital busca incentivar transformação digital, eficiência operacional e práticas sustentáveis, alinhado aos ODS 8, 9, 12 e 17, ao Plano ES 500 Anos e ao Plano Estadual de CTI. O edital foi alterado em 02/04/2026 com ajustes no cronograma e orçamento (item 7.7).
 
-**Nota:** Prazo de submissão encerrado em 06/04/2026. Arquivado para referência em futuras edições.
+**Nota:** Prazo original de 06/04/2026 foi **prorrogado para 06/05/2026 às 17h59** (fonte: FAPES, notícia oficial).
 
 ## Key Dates
 
 | Stage | Date |
 |-------|------|
 | Publicação | 20/02/2026 |
-| Prazo de submissão | 06/04/2026 às 17h59 |
+| Prazo de submissão (prorrogado) | 06/05/2026 às 17h59 |
 | Resultado preliminar (habilitação) | A partir de 24/04/2026 |
 | Resultado preliminar (mérito) | A partir de 26/06/2026 |
 | Resultado final homologado | A partir de 20/07/2026 |
