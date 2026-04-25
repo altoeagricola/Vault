@@ -66,3 +66,10 @@ Organização voltada para meio ambiente, sediada em Vila Velha/ES.
 ## Perfil Online
 
 - **LinkedIn:** https://www.linkedin.com/in/lucas-faria
+
+---
+
+## Relações
+
+- [[Murilo Carvalho]] — colega
+- [[Julio Bonella]] — colega

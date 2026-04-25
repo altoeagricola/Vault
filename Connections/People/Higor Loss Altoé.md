@@ -64,3 +64,11 @@ Entusiasta de projetos de fomento e agroturismo na região de Marilândia/ES. Te
 - **Sindicato Rural de Marilândia** — posição institucional que facilita mobilização de produtores locais para projetos coletivos (rastreabilidade, certificação, agroturismo)
 - **Interesse em mestrado IFES Itapina/Colatina** — potencial de construir parceria ICT–produtor em projetos de pesquisa sobre microbiota e manejo sustentável de café
 - **Agroturismo em Marilândia** — interesse complementar às vocações identificadas pelo [[ES2030 — Plano de Desenvolvimento do ES]] para a região noroeste do ES
+
+---
+
+## Relações
+
+- [[Rodrigo Altoé]] — primo
+- [[Murilo Carvalho]] — primo
+- [[Leonardo Altoé]] — mesmo sobrenome e base territorial em Marilândia (relação familiar a confirmar)

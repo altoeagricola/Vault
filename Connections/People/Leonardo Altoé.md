@@ -49,3 +49,9 @@ Produtor rural e CEO da [[Amigos do Campo]] desde a fundação da empresa, da qu
 - **Proponente operacional do [[Conilon Trace — FAPES 06-2026]]** — como CEO da Amigos do Campo, Leonardo é o responsável pela execução do projeto caso aprovado, e sua experiência direta em conilon confere credibilidade técnica à proposta junto aos avaliadores
 - **Rede de produtores em Marilândia** — liderança local no setor agropecuário, com potencial de mobilização de produtores para adesão a projetos de rastreabilidade e certificação
 - **Conexão com [[Higor Loss Altoé]]** — mesmo sobrenome e mesma base territorial (Marilândia), sugerindo proximidade de rede ou vínculo familiar relevante para articulações locais
+
+---
+
+## Relações
+
+- [[Rodrigo Altoé]] — irmão

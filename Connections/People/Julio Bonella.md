@@ -92,3 +92,10 @@ Projeto em destaque: implementação de educação personalizada com IA para red
 
 - **LinkedIn:** https://www.linkedin.com/in/julio-bonella
 - **LUMA:** https://www.lumaescola.com.br
+
+---
+
+## Relações
+
+- [[Murilo Carvalho]] — sócio (LUMA)
+- [[Lucas Faria]] — colega

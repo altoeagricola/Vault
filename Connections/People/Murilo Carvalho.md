@@ -69,3 +69,13 @@ Ativo no tema de **leis de incentivo fiscal** (Lei Rouanet, ICMS, IRPJ/CSLL) e *
 - Conexões em comum no LinkedIn: Mariana e Pedro
 - Registrado no Mapa Cultural do Espírito Santo — sugere envolvimento com projetos culturais no estado
 - Potencial de contribuição em estratégias de **captação via leis de incentivo** (Lei Rouanet, leis estaduais de cultura/esporte) e estruturação de componentes de **impacto social e ESG** em propostas
+
+---
+
+## Relações
+
+- [[Rodrigo Altoé]] — primo
+- [[Higor Loss Altoé]] — primo
+- [[Julio Bonella]] — sócio (LUMA)
+- [[Lucas Faria]] — colega
+- *Maçon* — vínculo relevante no contexto do interior do ES
