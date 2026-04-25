@@ -22,6 +22,19 @@ updated: 2026-04-25
 **ICT Parceira:** [[IFES Santa Teresa]] — pesquisador responsável: Luiz Carlos Pimentel
 **Região:** Colatina / Noroeste do Espírito Santo
 
+---
+
+## Equipe da Proposta
+
+| Papel | Pessoa | Vínculo |
+|-------|--------|---------|
+| **Coordenador** | [[Leonardo Altoé]] | CEO da [[Amigos do Campo]] — proponente |
+| **Co-desenvolvedor e Gestor** | [[Murilo Carvalho]] | LUMA — negócios, ESG e captação |
+| **Co-desenvolvedor e Gestor** | [[Julio Bonella]] | LUMA — tecnologia, produto e dados |
+| **Participante** | [[Rodrigo Altoe]] | — |
+| **Participante** | Rodrigo Loss Altoé | — |
+| **Pesquisador ICT** | Luiz Carlos Pimentel | [[IFES Santa Teresa]] |
+
 > **Nota:** Os documentos PDF de referência (proposta e resumo executivo) estão desatualizados e citam o IFES Campus Colatina como ICT parceira. O parceiro ICT **atualizado e confirmado** é o **[[IFES Santa Teresa]]**, com o pesquisador **Luiz Carlos Pimentel**. Os documentos formais precisam ser atualizados antes da submissão.
 
 ---
