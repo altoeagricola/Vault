@@ -111,4 +111,5 @@ Atuação em vários municípios do Espírito Santo e Bahia. Modelo replicável 
 ## Referências
 
 - **LinkedIn:** https://www.linkedin.com/company/amigos-do-campo-fertilizantes/
+- **Econodata:** https://www.econodata.com.br/consulta-empresa/27263624000158-amigos-do-campo-ltda
 - **Apresentação institucional (PDF):** `ALTOÈ Agricola/Projeto_01/DOCS AMIGOS DO CAMPO/apresentacao_amigos_do_campo 1.pdf`
