@@ -4,7 +4,7 @@ type: Concept
 sources: []
 related:
   - "[[Personal Knowledge Management]]"
-  - "[[Julio — CEFETES Colatina]]"
+  - "[[Julio C. Nardi]]"
 created: 2026-04-26
 updated: 2026-04-26
 confidence: medium
@@ -57,4 +57,4 @@ A estrutura implícita do vault já é ontológica — `Concept`, `Entity`, `Fig
 - **[[Products/AI-KB/AI-KB|AI-KB]]** — modelar formalmente `Skills`, `Commands`, `Agents`, `Prompts` e suas composições, permitindo que agentes raciocinem sobre capacidades disponíveis e as combinem automaticamente
 - **[[Products/PKM/PKM|PKM]]** — tornar o grafo de conhecimento navegável por agentes de IA via SPARQL, em vez de depender de busca textual ou embeddings
 
-[[Julio — CEFETES Colatina]], especialista na área e coordenador no IFES Campus Colatina, é um colaborador potencial para esta formalização.
+[[Julio C. Nardi]], Professor Titular no IFES Campus Colatina e especialista em Ontology Engineering, é um colaborador potencial para esta formalização.

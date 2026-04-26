@@ -1,23 +1,22 @@
 ---
 area: "[[People]]"
 aliases:
+  - Julio Nardi
   - Julio CEFETES
 role:
-  - Especialista em Ontologia
-  - Coordenador Educacional
+  - Professor Titular
 company: IFES — Instituto Federal do Espírito Santo, Campus Colatina
+linkedin: https://www.linkedin.com/in/julio-c-nardi-3631bb1a6/
 localização: Colatina, Espírito Santo, Brasil
 updated: 2026-04-26
 ---
 
-## Julio — CEFETES Colatina
+## Julio C. Nardi
 
-> **Nota:** Sobrenome pendente de confirmação.
-
-**Especialista em Ontologia · Coordenador no IFES Campus Colatina**
+**Professor Titular · IFES Campus Colatina**
 Colatina, Espírito Santo, Brasil
 
-Colega de ensino médio do fundador da [[ALTOÈ Agricola]] e de [[Edgar O. Machado]], com quem cursou **Processamento de Dados no CEFETES** (hoje IFES). Especialista em ontologia — área da ciência da computação e filosofia que formaliza conceitos, suas propriedades e relações para representação de conhecimento em sistemas computacionais. Atua como coordenador no **IFES Campus Colatina**, consolidando trajetória acadêmica na mesma instituição onde estudou.
+Colega de ensino médio do fundador da [[ALTOÈ Agricola]] e de [[Edgar O. Machado]], com quem cursou **Processamento de Dados no CEFETES** (hoje IFES). Professor Titular no IFES Campus Colatina, com especialidade em **Ontology Engineering** — a formalização de conceitos, propriedades e relações para representação de conhecimento em sistemas computacionais. Nos últimos anos, vem aplicando seu background em ontologia ao domínio de **Inovação e Propriedade Intelectual**.
 
 ---
 
@@ -26,8 +25,24 @@ Colega de ensino médio do fundador da [[ALTOÈ Agricola]] e de [[Edgar O. Macha
 | Aspecto | Informação |
 |---------|-----------|
 | **Ensino médio técnico** | Processamento de Dados — CEFETES (atual IFES) |
-| **Especialidade** | Ontologia — representação formal de conhecimento |
-| **Cargo atual** | Coordenador — IFES Campus Colatina |
+| **Especialidade** | Ontology Engineering |
+| **Cargo atual** | Professor Titular — IFES Campus Colatina |
+| **LinkedIn** | [julio-c-nardi-3631bb1a6](https://www.linkedin.com/in/julio-c-nardi-3631bb1a6/) |
+
+---
+
+## Pesquisa
+
+Foco atual: aplicação de Ontology Engineering ao domínio de **Inovação e Propriedade Intelectual**, endereçando os desafios semânticos que surgem com informação heterogênea de múltiplas fontes.
+
+**Publicações recentes:**
+- *"An Analysis of Ontologies for the Intellectual Property Domain"* — Applied Ontology Journal. Em coautoria com Dra. Monalessa Perini Barcellos e Dr. João Paulo Almeida (NEMO/UFES).
+
+**Redes e comunidades:**
+- NEMO — Ontology & Conceptual Modeling Research Group, UFES
+- IAOA — International Association for Ontology and its Applications
+- ONTOBRAS — fórum científico de ontologia no Brasil
+- FOIS — Formal Ontology in Information Systems (conferência internacional)
 
 ---
 
