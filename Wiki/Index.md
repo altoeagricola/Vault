@@ -65,4 +65,5 @@ updated: 2026-04-14
 | Wiki/Figures/Tiago Forte.md | Figure | Tiago Forte | PARA, Building a Second Brain, PKM education | PKM | high | 2026-04-14 |
 | Wiki/Figures/Andrej Karpathy.md | Figure | Andrej Karpathy | AI researcher, LLM Wiki, OpenAI, Tesla Autopilot | Karpathy's LLM Wiki The Complete Guide to His Idea File | high | 2026-04-14 |
 | Wiki/Concepts/MCR.md | Concept | MCR — Manual de Crédito Rural | credit, rural, BCB, CMN, SNCR, Sicor, Pronaf, Pronamp, Funcafé, Proagro, InvestAgro, regulation | BCB - Manual de Crédito Rural (MCR) | high | 2026-04-17 |
+| Wiki/Concepts/Ontologia.md | Concept | Ontologia | ontologia, representação de conhecimento, OWL, RDF, grafo de conhecimento, taxonomia, AI-KB, PKM, semântica | — | medium | 2026-04-26 |
 
