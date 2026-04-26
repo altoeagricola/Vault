@@ -1,7 +1,0 @@
-filters:
-  and:
-    - file.inFolder("Prospections/R&D Public Calls")
-    - file.ext != "base"
-views:
-  - type: table
-    name: Table
