@@ -1,7 +1,7 @@
 ---
 title: Technical Summary — High-Efficiency Coffee Dryer
 tipo: Memorial Descritivo Técnico
-projeto: "[[High-Efficiency Coffee Dryer]]"
+projeto: "[[Overview]]"
 status: Rascunho — levantamento de viabilidade técnica
 audience: Engenheiros eletricistas e de automação
 updated: 2026-04-26
@@ -181,5 +181,5 @@ Baseado na patente BR 10 2012 019091-5 A2 (domínio público desde 2016) com adi
 
 ## Conexões
 
-- [[High-Efficiency Coffee Dryer]]
+- [[Overview]]
 - [[Beto Parteli]]
