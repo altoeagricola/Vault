@@ -110,7 +110,7 @@ Atuação em vários municípios do Espírito Santo e Bahia. Modelo replicável 
 
 ## Nota — Mundo Verde e MCR
 
-O grupo Altoé inclui ou incluiu a empresa **Mundo Verde** — entidade B2B que não atende produtores rurais diretamente. [[Rodrigo Altoé]] recebeu 5% da Mundo Verde como pagamento por um projeto técnico executado para a Amigos do Campo. Esse vínculo corporativo foi identificado pelo [[Sicredi]] como impedimento MCR (veda vínculo com comercialização de insumos). Rodrigo providenciou sua saída do quadro da Mundo Verde.
+O grupo Altoé inclui ou incluiu a empresa [[Mundo Verde]] — criada para fabricar fertilizantes secos em Marilândia, com [[Leonardo Altoé]] e Valquimar Comério como sócios-administradores (os mesmos da Amigos do Campo). [[Rodrigo Altoé]] recebeu 5% da Mundo Verde como pagamento por um projeto técnico executado para a Amigos do Campo — nunca recebeu recursos financeiros da empresa. Esse vínculo corporativo foi identificado pelo [[Sicredi]] como impedimento MCR (veda vínculo com comercialização de insumos). Rodrigo formalizou sua saída em 18/03/2026 (2ª Alteração).
 
 Adicionalmente, o gerente do Sicredi ([[Ramão Lorenzoni]]) apontou que a **relação familiar** entre Rodrigo e Leonardo (irmãos) também configura "vínculo direto" com a Amigos do Campo segundo o MCR, independentemente de participação societária formal. Ver contexto completo em [[Connections/Banks/Sicredi/Cadastro/Cadastro|Cadastro Sicredi]].
 
