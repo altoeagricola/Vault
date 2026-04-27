@@ -29,7 +29,9 @@ Além da atuação em IA, tem um **estúdio de fotografia** em Marilândia, embo
 
 Produto SaaS que automatiza a elaboração de **dossiês de crédito rural**, com controles de glebas conforme **MCR** e **SICOR Campo 25**. Desenvolvido para técnicos agrícolas e cooperativas de crédito que precisam de velocidade sem abrir mão da conformidade regulatória.
 
-> Alta relevância para [[ALTOÈ Agricola]]: MAYA é diretamente aplicável ao processo de elaboração de propostas de financiamento rural (Pronaf, Pronamp, linhas Sicoob/Sicredi).
+> **Status com ALTOÈ (abr/2026):** Dellano ofereceu o MAYA para a ALTOÈ. Proposta declinada em um primeiro momento — a ALTOÈ ainda não está operacional (aguardando cadastros nos bancos parceiros para iniciar operações de crédito rural). Manter como possibilidade futura assim que a operação estiver ativa.
+>
+> **Sobreposição com AI-KB:** O MAYA automatiza a elaboração de dossiês (geração de documentos estruturados a partir de dados do produtor). O [[AI-KB]] que a ALTOÈ está montando é uma camada de base de conhecimento e memória institucional — mais denso e de propósito amplo (PKM + contexto técnico + raciocínio agronômico). As ferramentas não são idênticas: MAYA é um produto vertical de crédito rural; AI-KB é infraestrutura de conhecimento. Há sobreposição parcial no fluxo de elaboração de propostas, mas AI-KB não substitui MAYA nem vice-versa — poderiam ser complementares (AI-KB fornece contexto técnico; MAYA estrutura o dossiê formal). Reavaliar quando ambos estiverem maduros.
 
 ### AgentHouse — Consultoria de Agentes de IA
 
