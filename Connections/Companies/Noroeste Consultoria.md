@@ -44,7 +44,7 @@ A saída de Luis Eduardo da Noroeste explica sua disponibilidade para assinar pr
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `Contrato Social — 2ª Alteração (set2021).pdf` | 2ª Alteração Contratual — saída de Luis Eduardo Gottardo (set/2021) |
+| `_attachments/Noroeste Consultoria — Contrato Social 2ª Alteração (set2021).pdf` | 2ª Alteração Contratual — saída de Luis Eduardo Gottardo (set/2021) |
 
 ---
 

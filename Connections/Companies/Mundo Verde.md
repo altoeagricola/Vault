@@ -73,7 +73,7 @@ Rodrigo argumentou que a empresa era B2B e não atendia produtores diretamente �
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `Contrato Social — 2ª Alteração (mar2026).pdf` | 2ª Alteração Contratual (18/03/2026) — saída de Rodrigo Altoé; registro JUCEES 04/04/2026 |
+| `_attachments/Mundo Verde — Contrato Social 2ª Alteração (mar2026).pdf` | 2ª Alteração Contratual (18/03/2026) — saída de Rodrigo Altoé; registro JUCEES 04/04/2026 |
 
 ---
 
