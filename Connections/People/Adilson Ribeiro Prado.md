@@ -19,7 +19,20 @@ Tem acesso direto ao grupo de pesquisadores da área de **automação** do IFES 
 
 Sua esposa é tailandesa e atua profissionalmente com **importação e exportação com a China** — potencial canal para fornecedores asiáticos (equipamentos, insumos, componentes).
 
-> Área de pesquisa e departamento específico a confirmar.
+---
+
+## Formação acadêmica
+
+| Nível | Instituição | Área / Título |
+|-------|-------------|---------------|
+| Graduação | [[UFES]] | Química (2002–2006) |
+| Mestrado | [[UFES]] — Eng. Elétrica | Músculos Artificiais em Polímeros Eletroativos / Robótica de Reabilitação (2006–2008) |
+| Doutorado | [[UFES]] — Eng. Elétrica | Nanopartículas de Ouro em Fibras Ópticas para Detecção de H₂S por Ressonância Plasmônica (2013–2017) |
+| Pós-doutorado | [[UFES]] | Instrumentação Analítica / Engenharia Elétrica (2019) |
+
+**Área de pesquisa:** Sensores ópticos, nanomateriais (nanopartículas de ouro), fibra óptica, instrumentação analítica, polímeros eletroativos, nanotecnologia aplicada.
+
+> Formação em Química (graduação) na UFES — mesma turma que o fundador da ALTOÈ e [[Luiz Carlos Pimentel Almeida]].
 
 ---
 

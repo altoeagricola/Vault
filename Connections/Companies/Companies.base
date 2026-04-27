@@ -1,7 +1,11 @@
 filters:
   and:
-    - file.inFolder("Network/Companies")
+    - file.inFolder("Connections/Companies")
     - '!file.name.endsWith("base")'
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - cnpj
+      - email
