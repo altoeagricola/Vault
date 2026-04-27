@@ -3,7 +3,7 @@ area: "[[People]]"
 role:
   - Empreendedora
   - Ex-Gerente Agro
-company: "[[Roma Gourmet]]"
+company: "[[Roma Gourmet|Roma Gourmet Cafeteria]]"
 localização: Marilândia, Espírito Santo, Brasil
 instagram: https://www.instagram.com/nadiapassamani/
 updated: 2026-04-27

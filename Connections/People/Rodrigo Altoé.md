@@ -172,8 +172,15 @@ Professor de Química
 
 ---
 
+## Estado Civil
+
+**Divorciado** — conforme Contrato Social da ALTOÈ (26/02/2026). Mantém **união estável** com [[Eliane Ayumi Okuma]].
+
+---
+
 ## Relações
 
-- [[Leonardo Altoé]] — irmão
+- [[Leonardo Altoé]] — irmão; sócio da [[Amigos do Campo]] (empresa de insumos — relação com MCR/Sicredi)
+- [[Eliane Ayumi Okuma]] — companheira; união estável
 - [[Higor Loss Altoé]] — primo
 - [[Murilo Carvalho]] — primo

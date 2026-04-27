@@ -4,7 +4,7 @@ role:
   - Empreendedor
   - Construtor de Agentes de IA
   - Ex-Bancário
-company: "[[Roma Gourmet]]"
+company: "[[Roma Gourmet|Roma Gourmet Cafeteria]]"
 localização: Marilândia, Espírito Santo, Brasil
 linkedin: https://www.linkedin.com/in/dellano-sanz-26a73a32/
 instagram: https://www.instagram.com/dellano_ai/

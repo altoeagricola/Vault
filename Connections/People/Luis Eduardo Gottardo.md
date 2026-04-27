@@ -7,6 +7,10 @@ localização: Marilândia, Espírito Santo, Brasil
 linkedin: https://www.linkedin.com/in/luis-eduardo-gottardo-955387152/
 crea: ES-0045577/D
 lattes: http://lattes.cnpq.br/4456263329654726
+cpf: 058.694.597-02
+nascimento: 27/07/1994
+estado-civil: Casado (Comunhão Parcial)
+endereço: Córrego Alegria, sn, Zona Rural, Marilândia-ES, CEP 29725-000
 updated: 2026-04-27
 ---
 
@@ -48,6 +52,6 @@ O cadastro de Graziela no Sicoob foi negado porque seu CNPJ pessoal listava ativ
 ## Relações
 
 - [[ALTOÈ Agricola]] — sócio minoritário (1%), responsável técnico para fins de credenciamento
-- [[Graziela]] — parceira técnica complementar (contrato de prestação de serviços)
+- [[Graziela Evencio de Oliveira]] — parceira técnica complementar (contrato de prestação de serviços)
 - [[Leonardo Altoé]] — quem indicou Luis Eduardo ao fundador
 - [[Connections/Banks/Sicredi/Cadastro/Cadastro|Cadastro Sicredi]] — sua inclusão como sócio resolve o impedimento MCR levantado por Ramão
