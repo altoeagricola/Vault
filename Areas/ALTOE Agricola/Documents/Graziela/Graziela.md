@@ -8,7 +8,10 @@ atualizado: 2026-04-27
 
 Documentos pessoais e profissionais de Graziela — Engenheira Agrônoma parceira técnica da [[ALTOÈ Agricola]], registrada no CREA. É a técnica responsável pelas laudos e projetos técnicos da consultoria.
 
-> **Relevância para cadastros bancários:** o Sicredi (via [[Ramão Lorenzoni]]) apontou que o credenciamento da ALTOÈ requer técnico agrícola/engenheiro agrônomo como sócio ou credenciado como PF. Graziela é a candidata natural para essa solução.
+> **Situação nos cadastros bancários:**
+> - **Sicoob:** cadastro negado — CNPJ de Graziela listava atividade de venda de equipamentos, vedada pelo MCR para consultores de financiamento rural. Solução adotada: remoção dessa atividade do CNPJ.
+> - **Sicredi:** Graziela não pode entrar no quadro social da ALTOÈ (trabalha no SENAR — conflito de interesse). Solução: [[Luis Eduardo Gottardo]] incluído como sócio (1%) para cumprir exigência de técnico como sócio.
+> - Graziela atua exclusivamente via **contrato de prestação de serviços**, sem vínculo societário.
 
 | Arquivo | Descrição |
 |---------|-----------|

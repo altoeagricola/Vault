@@ -18,7 +18,7 @@ Repositório de documentos institucionais e pessoais da consultoria [[ALTOÈ Agr
 | [[Rodrigo Altoè/Rodrigo Altoè\|Rodrigo Altoè]] | CNH, Certidão de Casamento, Comprovante de Endereço, IRPF, União Estável | 6 |
 | [[Eliane Ayumi Okuma/Eliane Ayumi Okuma\|Eliane Ayumi Okuma]] | CNH | 1 |
 | [[Graziela/Graziela\|Graziela]] | CREA, CNH, Certidão de Casamento, Comprovante de Residência, Contrato | 6 |
-| [[Eduardo Gottardo/Eduardo Gottardo\|Eduardo Gottardo]] | Comprovante de Residência | 1 |
+| [[Luis Eduardo Gottardo/Luis Eduardo Gottardo\|Luis Eduardo Gottardo]] | Comprovante de Residência | 1 |
 
 ---
 
