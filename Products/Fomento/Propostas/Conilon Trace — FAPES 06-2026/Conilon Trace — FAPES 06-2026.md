@@ -5,13 +5,17 @@ edital: "[[FAPES 06-2026 Clusters de Inovação]]"
 cluster: "2 — Indústria de Alimentos e Bebidas"
 proponente: "[[Amigos do Campo]]"
 ict-parceira: "[[IFES Santa Teresa]]"
-pesquisador-ict: "[[IFES Santa Teresa#Luiz Carlos Pimentel]]"
+pesquisador-ict: "[[Luiz Carlos Pimentel Almeida]]"
+coordenador: "[[Leonardo Altoé]]"
 status: Em elaboração
 subvenção: R$ 580.000,00
 contrapartida: R$ 29.000,00 (5%)
+bolsas-ict: R$ 72.000,00
+prazo-submissao: 2026-05-06
 prazo-execução: 24 meses
 pontuação-estimada: 81–90 pts
-updated: 2026-04-25
+parceria-murilo: true
+updated: 2026-04-28
 ---
 
 ## Conilon Trace — Plataforma de Rastreabilidade e IA para o Café Conilon Capixaba
@@ -31,7 +35,7 @@ updated: 2026-04-25
 | **Coordenador** | [[Leonardo Altoé]] | CEO da [[Amigos do Campo]] — proponente |
 | **Co-desenvolvedor e Gestor** | [[Murilo Carvalho]] | LUMA — negócios, ESG e captação |
 | **Co-desenvolvedor e Gestor** | [[Julio Bonella]] | LUMA — tecnologia, produto e dados |
-| **Participante** | [[Rodrigo Altoe]] | — |
+| **Participante** | [[Rodrigo Altoé]] | [[ALTOÈ Agricola]] — construção da proposta |
 | **Participante** | Rodrigo Loss Altoé | — |
 | **Pesquisador ICT** | Luiz Carlos Pimentel | [[IFES Santa Teresa]] |
 
@@ -124,7 +128,21 @@ O Conilon capixaba é o maior produtor nacional, mas é "invisível" em rastreab
 
 ---
 
+## Prazos
+
+| Marco | Data |
+|-------|------|
+| Assinaturas do Termo de Compromisso ICT | 27/04/2026 |
+| Submissão no SIGFAPES | **06/05/2026 às 17h59** |
+
+---
+
 ## Documentos
 
-- **Proposta completa (PDF):** [[Conilon_Trace_Proposta_FAPES_06-2026.pdf]]
-- **Resumo Executivo (PDF):** [[Conilon_Trace_RESUMO_EXECUTIVO.pdf]]
+| Arquivo | Descrição |
+|---------|-----------|
+| `_attachments/Conilon_Trace_Proposta_FAPES_06-2026.pdf` | Proposta completa (versão com IFES Colatina — desatualizada) |
+| `_attachments/Conilon_Trace_RESUMO_EXECUTIVO.pdf` | Resumo executivo (idem — desatualizado) |
+| `Termo de Compromisso — Amigos do Campo × IFES Santa Teresa.docx` | Termo de Compromisso Empresa/ICT (Anexo V do Edital FAPES 06-2026) |
+
+> **Modelo de Termo de Compromisso ICT assinado** disponível em [[Products/Fomento/WikiF/Termo de Compromisso ICT — Modelo Assinado (Unidos-IFES)|WikiF]] (projeto Unidos × IFES Santa Teresa).
