@@ -1,7 +1,7 @@
 ---
 tipo: Conceito de Projeto
 nome: High-Efficiency Coffee Dryer — Secador Elétrico Solar Off-Grid para Café Conilon
-status: Conceito inicial — levantamento de viabilidade técnica
+status: Conceito
 origem: Demanda de [[Beto Parteli]] (advogado e vereador, Marilândia/ES)
 região: Marilândia / Centro-Oeste do Espírito Santo
 cliente: Beto Parteli

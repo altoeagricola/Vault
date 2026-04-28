@@ -2,7 +2,7 @@
 title: Technical Summary — High-Efficiency Coffee Dryer
 tipo: Memorial Descritivo Técnico
 projeto: "[[Overview]]"
-status: Rascunho — levantamento de viabilidade técnica
+status: Conceito
 audience: Engenheiros eletricistas e de automação
 updated: 2026-04-26
 ---
