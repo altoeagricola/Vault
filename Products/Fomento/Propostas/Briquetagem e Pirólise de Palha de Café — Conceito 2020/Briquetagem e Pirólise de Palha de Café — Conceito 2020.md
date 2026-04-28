@@ -1,7 +1,7 @@
 ---
 tipo: Conceito de Projeto
 nome: Planta de Briquetagem e Pirólise de Palha de Café
-status: Conceito
+status: Arquivada
 origem: Emenda parlamentar (Associação de Fruticultores de Marilândia, 2020)
 potencial: Editais de fomento em energia renovável, economia circular, agronegócio sustentável
 região: Marilândia / Centro-Oeste do Espírito Santo
