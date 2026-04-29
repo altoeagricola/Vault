@@ -25,31 +25,29 @@ Graziela é casada com **Gustavo Altoé** (primo de [[Rodrigo Altoé]], irmão d
 
 ## Papel na ALTOÈ Agricola
 
-**Status atual: relação desgastada — sem contrato ativo**
+**Status atual: contrato ativo — relação em tensão**
 
-A proposta de prestação de serviços foi feita mas não foi formalizada. A relação está desgastada após episódio de ofensa percebida (ver histórico abaixo). Graziela não é atualmente parceira técnica ativa da [[ALTOÈ Agricola]].
+Graziela é parceira técnica da [[ALTOÈ Agricola]] com **contrato de prestação de serviços formalizado** (`Areas/ALTOE Agricola/Documents/Graziela/Contrato de Prestação de Serviços.pdf`). A relação tem tensão após episódio de ofensa percebida (ver histórico), mas o contrato está vigente.
 
-A responsabilidade técnica formal está com [[Luis Eduardo Gottardo]] (sócio 1%), que resolve os requisitos de credenciamento bancário.
+A responsabilidade técnica formal para fins de credenciamento bancário está com [[Luis Eduardo Gottardo]] (sócio 1%). Graziela atua como responsável técnica via contrato de serviços, com função complementar a Eduardo.
 
 ### Histórico da negociação
 
-A proposta de parceria foi feita primeiro a Graziela, que demorou a dar resposta. Nesse intervalo, [[Luis Eduardo Gottardo]] foi contatado e aceitou a proposta. Dias depois, Graziela também aceitou. Luis Eduardo foi mantido como sócio (1%) para fins de credenciamento bancário.
+A proposta de parceria foi feita primeiro a Graziela, que demorou a dar resposta. Nesse intervalo, [[Luis Eduardo Gottardo]] foi contatado e aceitou. Dias depois, Graziela também aceitou e o contrato foi assinado. Eduardo foi mantido como sócio (1%) para fins de credenciamento bancário.
 
-Quando o Sicoob identificou que o CNPJ de Graziela listava atividade de **venda de equipamentos agrícolas** — vedada pelo MCR para consultores de financiamento rural —, Rodrigo sugeriu que ela removesse essa atividade do CNPJ caso quisesse continuar a relação. Graziela **sentiu-se ofendida** com a sugestão. A relação não avançou após esse ponto.
+O ponto de tensão surgiu quando Rodrigo comunicou a Graziela que Eduardo permaneceria como parceiro de primeira ordem para fins formais, e que ela seria parceira de segunda ordem caso não pudesse ou desistisse de ajustar a situação do CNPJ. **Graziela sentiu-se ofendida com esse enquadramento** — não com a solicitação de ajuste do CNPJ em si, que ela afirma ter solicitado há mais de um mês.
 
-Rodrigo comunicou que Eduardo permaneceria como parceiro de segunda ordem caso Graziela desistisse ou não pudesse ajustar a situação.
+### Impedimento no Sicoob — pendente (atualização cadastral)
+
+O [[Sicoob]] (Joselvi Paier) identificou que o CNPJ de Graziela listava atividade de **venda de equipamentos agrícolas** — vedada pelo MCR para consultores de financiamento rural. Graziela afirma ter solicitado a remoção dessa atividade há mais de um mês. Porém, segundo Joselvi (Sicoob), a atualização **ainda não consta no sistema do banco** — o que impede Graziela de assinar como responsável técnica no cadastro do Sicoob.
+
+**Decisão estratégica de Rodrigo:** aguardar a atualização do CNPJ de Graziela no sistema do Sicoob antes de pedir a inclusão de Eduardo como RT nesse banco. Ou seja, a [[ALTOÈ Agricola]] ainda não está operando no Sicoob — não por impedimento definitivo, mas por **escolha deliberada de preservar o papel de Graziela nessa instituição**. Eduardo poderia ser usado como alternativa imediata, mas Rodrigo optou por esperar.
 
 ### Situação em 29/04/2026
 
-Bia, funcionária da [[Amigos do Campo]], está saindo. Há especulação de que [[Leonardo Altoé]] chamará Graziela para substituí-la. Se confirmado, Graziela estaria na estrutura da Amigos do Campo — com acesso direto à base de 1.523 clientes produtores. O risco para a [[ALTOÈ Agricola]] depende de se Leonardo planeja criar uma frente de crédito rural dentro da Amigos do Campo.
+Bia, funcionária da [[Amigos do Campo]], está saindo. Há especulação de que [[Leonardo Altoé]] chamará Graziela para substituí-la. Se confirmado, Graziela — que tem contrato ativo com a [[ALTOÈ Agricola]] — passaria a atuar também na Amigos do Campo, o que cria **potencial conflito de interesse**. O risco maior materializa-se se Leonardo criar uma frente de crédito rural dentro da Amigos do Campo.
 
 > Ver análise completa e parecer em [[Journal/Daily/2026-04-29]].
-
-### Impedimento no Sicoob
-
-O cadastro de Graziela no Sicoob foi negado porque seu CNPJ pessoal listava atividade de **venda de equipamentos** — vedada pelo MCR para consultores de financiamento rural. A solução exigiria remoção dessa atividade do CNPJ, o que Graziela não confirmou ter feito.
-
-> Ver contexto dos cadastros em [[Connections/Banks/Sicredi/Cadastro/Cadastro|Cadastro Sicredi]].
 
 ---
 
