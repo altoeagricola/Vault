@@ -35,7 +35,7 @@ updated: 2026-04-28
 | **Coordenador** | [[Leonardo Altoé]] | CEO da [[Amigos do Campo]] — proponente |
 | **Co-desenvolvedor e Gestor** | [[Murilo Carvalho]] | LUMA — negócios, ESG e captação |
 | **Co-desenvolvedor e Gestor** | [[Julio Bonella]] | LUMA — tecnologia, produto e dados |
-| **Participante** | [[Rodrigo Altoé]] | [[ALTOÈ Agricola]] — construção da proposta |
+| **Participante** | [[Rodrigo Altoé]] | [[ALTOE Agricola]] — construção da proposta |
 | **Participante** | Rodrigo Loss Altoé | — |
 | **Pesquisador ICT** | Luiz Carlos Pimentel | [[IFES Santa Teresa]] |
 
@@ -119,7 +119,7 @@ O Conilon capixaba é o maior produtor nacional, mas é "invisível" em rastreab
 > Estes itens determinam a diferença entre 81 e 90 pontos — e podem ser decisivos em campo competitivo.
 
 - [ ] **Verificar elegibilidade do proponente (bloqueante):** Confirmar que a [[Amigos do Campo]] NÃO foi beneficiária dos Editais FAPES 07/2024 (Tecnova III) nem 10/2025 (Nova Economia). Se foi, a proposta é automaticamente inabilitada.
-- [ ] **Atualizar ICT nos documentos formais:** Os PDFs de proposta e resumo executivo estão desatualizados e citam IFES Campus Colatina. Substituir por [[IFES Santa Teresa]] / Luiz Carlos Pimentel em todos os documentos antes da submissão.
+- [x] **Atualizar ICT nos documentos formais:** Os PDFs de proposta e resumo executivo estão desatualizados e citam IFES Campus Colatina. Substituir por [[IFES Santa Teresa]] / Luiz Carlos Pimentel em todos os documentos antes da submissão. ✅ 2026-04-29
 - [ ] **Seção 2.5 — Histórico de P&D:** Demonstrar que a Amigos do Campo já entregou projetos de tecnologia. Sem isso, o critério de Viabilidade Técnica cai significativamente.
 - [ ] **Quadro 6 — Currículos da equipe:** Inserir perfis técnicos com experiência comprovável em blockchain ou IA. Se a equipe não tiver, considerar incluir consultor externo com currículo.
 - [ ] **Quadro 7 — Cronograma:** Detalhar as entregas do IFES mês a mês — exigência explícita do edital, com peso direto no critério de Alinhamento Estratégico (critério 04).

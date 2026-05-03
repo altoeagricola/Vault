@@ -5,7 +5,7 @@ finalidade: Irrigação
 órgão: AGERH — Agência Estadual de Recursos Hídricos do Espírito Santo
 sistema: Sistema AGERH Online
 url-sistema: https://servicos.agerh.es.gov.br/sistema_agerh/inicial.php
-login: email institucional da [[ALTOÈ Agricola]]
+login: email institucional da [[ALTOE Agricola]]
 senha: Alr5794
 data-servico: 2026-04-28
 validade: verificar no documento PDF
@@ -14,7 +14,7 @@ updated: 2026-04-28
 
 # Outorga de Direito de Uso de Recursos Hídricos — Sergio Jose Altoe
 
-Outorga de uso de água para **irrigação**, gerenciada pela [[ALTOÈ Agricola]] em nome de Sergio Jose Altoe (primeiro cliente da consultoria). Serviço executado pela secretaria da ALTOÈ em 28/04/2026 — primeira operação de outorga realizada pela empresa.
+Outorga de uso de água para **irrigação**, gerenciada pela [[ALTOE Agricola]] em nome de Sergio Jose Altoe (primeiro cliente da consultoria). Serviço executado pela secretaria da ALTOÈ em 28/04/2026 — primeira operação de outorga realizada pela empresa.
 
 ---
 
@@ -26,10 +26,10 @@ Outorga de uso de água para **irrigação**, gerenciada pela [[ALTOÈ Agricola]
 |-------|-------|
 | **Sistema** | AGERH Online — Outorga de Recursos Hídricos |
 | **URL** | https://servicos.agerh.es.gov.br/sistema_agerh/inicial.php |
-| **Login** | Email institucional da [[ALTOÈ Agricola]] |
+| **Login** | Email institucional da [[ALTOE Agricola]] |
 | **Senha** | `Alr5794` |
 
-A secretaria cadastrou o email da [[ALTOÈ Agricola]] como login. Conta válida para futuras solicitações de outros clientes — **o mesmo cadastro pode ser usado para múltiplos requerimentos**.
+A secretaria cadastrou o email da [[ALTOE Agricola]] como login. Conta válida para futuras solicitações de outros clientes — **o mesmo cadastro pode ser usado para múltiplos requerimentos**.
 
 ---
 
@@ -90,4 +90,4 @@ Para uso em **irrigação agrícola**, o requerimento é feito 100% online no si
 - [AGERH — Como solicitar Outorga para Uso de Água Superficial](https://agerh.es.gov.br/como-solicitar-outorga-para-uso-de-agua-superficial)
 - [AGERH — Renovação de Outorga](https://agerh.es.gov.br/renovacao-de-outorga)
 - [Sistema AGERH Online](https://servicos.agerh.es.gov.br/sistema_agerh/inicial.php)
-- [[ALTOÈ Agricola]] — empresa responsável pelo gerenciamento
+- [[ALTOE Agricola]] — empresa responsável pelo gerenciamento

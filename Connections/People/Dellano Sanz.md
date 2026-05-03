@@ -56,4 +56,4 @@ Tem expectativa de comercializar agentes de IA para estabelecimentos comerciais 
 - [[Nadia Passamani]] — esposa; co-empreendedora da [[Roma Gourmet]]
 - [[Roma Gourmet]] — cafeteria em Marilândia; foco principal atual
 - [[Sicoob]] — ex-empregador; ~10 anos como bancário (crédito rural)
-- [[ALTOÈ Agricola]] — potencial parceria em automação de crédito rural (MAYA) e/ou agentes de IA para agronegócio
+- [[ALTOE Agricola]] — potencial parceria em automação de crédito rural (MAYA) e/ou agentes de IA para agronegócio

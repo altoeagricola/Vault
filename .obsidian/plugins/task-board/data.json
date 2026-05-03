@@ -89,8 +89,8 @@
           "filterGroups": []
         },
         "taskCount": {
-          "pending": 47,
-          "completed": 6
+          "pending": 112,
+          "completed": 10
         }
       },
       {
@@ -150,8 +150,8 @@
           "filterGroups": []
         },
         "taskCount": {
-          "pending": 0,
-          "completed": 0
+          "pending": 112,
+          "completed": 10
         }
       },
       {
@@ -221,8 +221,8 @@
           "filterGroups": []
         },
         "taskCount": {
-          "pending": 0,
-          "completed": 0
+          "pending": 112,
+          "completed": 10
         }
       }
     ],

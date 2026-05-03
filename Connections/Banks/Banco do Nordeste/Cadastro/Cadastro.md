@@ -5,9 +5,9 @@ status: Documentação em levantamento
 atualizado: 2026-04-28
 ---
 
-# Cadastro ALTOÈ Agricola — Banco do Nordeste
+# Cadastro ALTOE Agricola — Banco do Nordeste
 
-Processo de cadastro da **[[ALTOÈ Agricola]]** (PJ) e dos sócios (PF) junto ao Banco do Nordeste. Exigência prévia para operar linhas de crédito junto ao banco.
+Processo de cadastro da **[[ALTOE Agricola]]** (PJ) e dos sócios (PF) junto ao Banco do Nordeste. Exigência prévia para operar linhas de crédito junto ao banco.
 
 ---
 
@@ -41,9 +41,9 @@ Processo de cadastro da **[[ALTOÈ Agricola]]** (PJ) e dos sócios (PF) junto ao
 
 ## Próximos Passos
 
-- [ ] Preencher Proposta de Cadastro PJ
-- [ ] Preencher Proposta de Cadastro PF para cada sócio
-- [ ] Obter assinatura digital dos representantes legais
-- [ ] Reunir documentos da empresa (alteração contratual, GRF, PGDAS)
-- [ ] Reunir documentos dos sócios (RG/CPF, certidões, renda, residência)
-- [ ] Entregar documentação à agência do BNB
+- [x] Preencher Proposta de Cadastro PJ ✅ 2026-04-29
+- [x] Preencher Proposta de Cadastro PF para cada sócio ✅ 2026-04-29
+- [x] Obter assinatura digital dos representantes legais ✅ 2026-04-29
+- [x] Reunir documentos da empresa (alteração contratual, GRF, PGDAS) ✅ 2026-04-29
+- [x] Reunir documentos dos sócios (RG/CPF, certidões, renda, residência) ✅ 2026-04-29
+- [x] Entregar documentação à agência do BNB ✅ 2026-04-29

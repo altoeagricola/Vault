@@ -341,10 +341,6 @@
       "flag": ""
     },
     {
-      "regex": "Tasks.md",
-      "flag": ""
-    },
-    {
       "regex": "Sources",
       "flag": ""
     },
@@ -353,7 +349,7 @@
       "flag": ""
     },
     {
-      "regex": "Products/ControlPlane",
+      "regex": "Products/AI-KB",
       "flag": ""
     }
   ],

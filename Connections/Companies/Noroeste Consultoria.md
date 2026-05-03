@@ -9,7 +9,7 @@ updated: 2026-04-27
 
 ## Noroeste Consultoria — Noroeste Projetos Agrícolas Ltda
 
-Consultoria agronômica sediada em **Marilândia-ES**, atuando no mesmo mercado que a [[ALTOÈ Agricola]]. Fundada inicialmente com [[Luis Eduardo Gottardo]] como sócio, que cedeu sua participação em setembro/2021. Atual nome fantasia: **Noroeste Consultoria**.
+Consultoria agronômica sediada em **Marilândia-ES**, atuando no mesmo mercado que a [[ALTOE Agricola]]. Fundada inicialmente com [[Luis Eduardo Gottardo]] como sócio, que cedeu sua participação em setembro/2021. Atual nome fantasia: **Noroeste Consultoria**.
 
 ---
 
@@ -36,7 +36,7 @@ Consultoria agronômica sediada em **Marilândia-ES**, atuando no mesmo mercado 
 
 A **2ª Alteração Contratual** (23/09/2021, JUCEES 32202676231) registra a saída de [[Luis Eduardo Gottardo]] — que cedeu suas 100 quotas ao sócio remanescente Mateus de Nadai Dondoni. A partir dessa data, Mateus tornou-se único sócio.
 
-A saída de Luis Eduardo da Noroeste explica sua disponibilidade para assinar projetos técnicos como parceiro da [[ALTOÈ Agricola]] a partir de 2024, sem conflito de interesse societário.
+A saída de Luis Eduardo da Noroeste explica sua disponibilidade para assinar projetos técnicos como parceiro da [[ALTOE Agricola]] a partir de 2024, sem conflito de interesse societário.
 
 ---
 
@@ -51,4 +51,4 @@ A saída de Luis Eduardo da Noroeste explica sua disponibilidade para assinar pr
 ## Relações
 
 - [[Luis Eduardo Gottardo]] — ex-sócio fundador; saiu em set/2021; atualmente parceiro técnico da ALTOÈ
-- [[ALTOÈ Agricola]] — referência de mercado; mesmo nicho geográfico (Marilândia-ES e região)
+- [[ALTOE Agricola]] — referência de mercado; mesmo nicho geográfico (Marilândia-ES e região)

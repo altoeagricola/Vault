@@ -25,4 +25,4 @@ Formulário oficial do Banco do Nordeste para cadastro de **Pessoa Jurídica** (
 
 ## Quem deve preencher
 
-- Representante legal da empresa ([[ALTOÈ Agricola]])
+- Representante legal da empresa ([[ALTOE Agricola]])

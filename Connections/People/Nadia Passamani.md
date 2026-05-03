@@ -33,4 +33,4 @@ Instagram da cafeteria: [@romagourmetoficial](https://www.instagram.com/romagour
 
 - [[Dellano Sanz]] — marido; co-empreendedor da [[Roma Gourmet]] e construtor de agentes de IA
 - [[Sicoob]] — ex-empregadora; atuação como Gerente Agro por longo período
-- [[ALTOÈ Agricola]] — contato de interesse em crédito rural e financiamento agro
+- [[ALTOE Agricola]] — contato de interesse em crédito rural e financiamento agro

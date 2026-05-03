@@ -108,13 +108,13 @@ Processo de conversão termoquímica da biomassa (briquetes ou palha) em ambient
 
 O rascunho de 2020 cobre bem a introdução técnica e a disponibilidade de matéria-prima, mas as seguintes seções estão incompletas ou ausentes:
 
-- [ ] **Seção de dimensionamento de equipamentos** — marcada como "IMPORTANTE — precisa ser reescrita com base em dados do fornecedor Lippel"
+- [x] **Seção de dimensionamento de equipamentos** — marcada como "IMPORTANTE — precisa ser reescrita com base em dados do fornecedor Lippel" ✅ 2026-04-29
 - [ ] **Viabilidade técnica e econômica completa** — projeção de custos operacionais, investimento em equipamentos e análise de retorno (TIR/VPL)
 - [ ] **Lista de equipamentos e orçamento** — placeholders sem valores
 - [ ] **Estágio de pirólise** — não documentado; precisa de proposta técnica específica (tipo de reator, temperatura, produtos e volumes esperados)
 - [ ] **Marco regulatório da pirólise** — verificar enquadramento na IN IDAF e legislação ambiental para operação de reator de pirólise
-- [ ] **Proponente e estrutura jurídica** — o documento usa "Associação XXXX" e "Deputado Fulano de Tal"; precisa ser adaptado para o edital-alvo
-- [ ] **ICT ou parceiro técnico** — pirólise controlada requer expertise que pode demandar parceria com universidade (UFES, IFES) ou centro de pesquisa (Embrapa Agroenergia)
+- [x] **Proponente e estrutura jurídica** — o documento usa "Associação XXXX" e "Deputado Fulano de Tal"; precisa ser adaptado para o edital-alvo ✅ 2026-04-29
+- [x] **ICT ou parceiro técnico** — pirólise controlada requer expertise que pode demandar parceria com universidade (UFES, IFES) ou centro de pesquisa (Embrapa Agroenergia) ✅ 2026-04-29
 
 ---
 

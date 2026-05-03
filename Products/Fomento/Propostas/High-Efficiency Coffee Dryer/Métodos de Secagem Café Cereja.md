@@ -16,16 +16,16 @@ Levantamento comparativo de métodos de secagem aplicáveis ao café cereja, com
 
 ## Quadro Comparativo
 
-| Método | Escala Atual | Custo Relativo | Qualidade do Grão |
-|--------|-------------|----------------|-------------------|
-| ☀️ Solar Natural (Terreiro) | Comercial | Baixo | Variável — risco de fermentação e mofo |
-| 🌡️ Ar Quente Convectivo (Rotativo / Leito Fixo) | Comercial | Médio | Boa — depende do controle de temperatura |
-| 🌤️ Solar + Ar Quente (Pré-secagem Combinada) | Comercial | Médio-Baixo | Boa — reduz riscos vs. solar puro |
-| 📡 Micro-ondas | Semi-industrial (P&D / piloto) | Alto | Boa–Ótima — controle preciso de umidade |
-| 🔴 Infravermelho (IV) | Experimental / Semi-industrial | Alto | Ótima — menor dano térmico, maior uniformidade |
-| 📻 Radiofrequência (RF) | Experimental / P&D | Alto | Potencialmente Ótima — penetração profunda, aquecimento volumétrico |
-| 🔊 Ultrassom (pré-tratamento) | Laboratorial | Alto | Em avaliação — promissor como pré-tratamento |
-| ❄️ Liofilização / Vácuo | Industrial (apenas extratos) | Muito Alto | Excelente — preservação máxima de aromas e bioativos |
+| Método                                           | Escala Atual                   | Custo Relativo | Qualidade do Grão                                                   |
+| ------------------------------------------------ | ------------------------------ | -------------- | ------------------------------------------------------------------- |
+| ☀️ Solar Natural (Terreiro)                      | Comercial                      | Baixo          | Variável — risco de fermentação e mofo                              |
+| 🌡️ Ar Quente Convectivo (Rotativo / Leito Fixo) | Comercial                      | Médio          | Boa — depende do controle de temperatura                            |
+| 🌤️ Solar + Ar Quente (Pré-secagem Combinada)    | Comercial                      | Médio-Baixo    | Boa — reduz riscos vs. solar puro                                   |
+| 📡 Micro-ondas                                   | Semi-industrial (P&D / piloto) | Alto           | Boa–Ótima — controle preciso de umidade                             |
+| 🔴 Infravermelho (IV)                            | Experimental / Semi-industrial | Alto           | Ótima — menor dano térmico, maior uniformidade                      |
+| 📻 Radiofrequência (RF)                          | Experimental / P&D             | Alto           | Potencialmente Ótima — penetração profunda, aquecimento volumétrico |
+| 🔊 Ultrassom (pré-tratamento)                    | Laboratorial                   | Alto           | Em avaliação — promissor como pré-tratamento                        |
+| ❄️ Liofilização / Vácuo                          | Industrial (apenas extratos)   | Muito Alto     | Excelente — preservação máxima de aromas e bioativos                |
 
 ---
 

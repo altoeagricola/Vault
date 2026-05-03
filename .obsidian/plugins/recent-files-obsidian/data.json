@@ -1,136 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "AI-KB",
-      "path": "Products/AI-KB/AI-KB.md"
+      "basename": "Estrutura de Agentes IA",
+      "path": "Areas/ALTOE Agricola/Estrutura de Agentes IA.md"
     },
     {
-      "basename": "Products",
-      "path": "Products/Products.md"
+      "basename": "Documents",
+      "path": "Areas/ALTOE Agricola/Documents/Documents.md"
     },
     {
       "basename": "Areas",
       "path": "Areas/Areas.md"
     },
     {
-      "basename": "Books",
-      "path": "Sources/Books/Books.base"
-    },
-    {
-      "basename": "Sources",
-      "path": "Sources/Sources.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "Products/PKM/ai/skills/ingest/SKILL.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "Products/PKM/ai/skills/ingest-tweet/SKILL.md"
-    },
-    {
-      "basename": "Journal",
-      "path": "Journal/Journal.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "Products/PKM/ai/skills/ingest-pdf/SKILL.md"
-    },
-    {
-      "basename": "R&D Public Calls",
-      "path": "Prospections/R&D Public Calls/R&D Public Calls.base"
-    },
-    {
-      "basename": "Financial Assets",
-      "path": "Prospections/Financial Assets/Financial Assets.base"
-    },
-    {
-      "basename": "Prospections",
-      "path": "Prospections/Prospections.md"
+      "basename": "ALTOE Agricola",
+      "path": "Areas/ALTOE Agricola/ALTOE Agricola.md"
     },
     {
       "basename": "Connections",
       "path": "Connections/Connections.md"
     },
     {
-      "basename": "Linked Vaults",
-      "path": "Linked Vaults/Linked Vaults.md"
+      "basename": "SKILL",
+      "path": "Products/PKM/ai/skills/update-mcr/SKILL.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "Products/PKM/ai/skills/ingest-call/SKILL.md"
+    },
+    {
+      "basename": "Products",
+      "path": "Products/Products.md"
+    },
+    {
+      "basename": "Luis Eduardo Gottardo",
+      "path": "Connections/People/Luis Eduardo Gottardo.md"
+    },
+    {
+      "basename": "Articles",
+      "path": "Sources/Articles/Articles.base"
+    },
+    {
+      "basename": "Finance",
+      "path": "Areas/Finance/Finance.md"
+    },
+    {
+      "basename": "Métodos de Secagem Café Cereja",
+      "path": "Products/Fomento/Propostas/High-Efficiency Coffee Dryer/Métodos de Secagem Café Cereja.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Products/Fomento/Propostas/High-Efficiency Coffee Dryer/Overview.md"
+    },
+    {
+      "basename": "Eco Café Circular — LIR-MMA 2026",
+      "path": "Products/Fomento/Propostas/Eco Café Circular — LIR-MMA 2026/Eco Café Circular — LIR-MMA 2026.md"
+    },
+    {
+      "basename": "Conilon Trace — FAPES 06-2026",
+      "path": "Products/Fomento/Propostas/Conilon Trace — FAPES 06-2026/Conilon Trace — FAPES 06-2026.md"
+    },
+    {
+      "basename": "GERENCIAR IA — FAPES 06-2026",
+      "path": "Products/Fomento/Propostas/GERENCIAR IA — FAPES 06-2026/GERENCIAR IA — FAPES 06-2026.md"
+    },
+    {
+      "basename": "MCR",
+      "path": "Wiki/Concepts/MCR.md"
+    },
+    {
+      "basename": "SECAGEM DE CAFÉ CEREJA DESCASCADO POR AR QUENTE E MICROONDAS",
+      "path": "Products/Fomento/Propostas/High-Efficiency Coffee Dryer/_attachments/SECAGEM DE CAFÉ CEREJA DESCASCADO POR AR QUENTE E MICROONDAS.pdf"
+    },
+    {
+      "basename": "2026-04-28",
+      "path": "Journal/Daily/2026-04-28.md"
+    },
+    {
+      "basename": "Leonardo Altoé",
+      "path": "Connections/People/Leonardo Altoé.md"
+    },
+    {
+      "basename": "Banco do Nordeste",
+      "path": "Connections/Banks/Banco do Nordeste/Banco do Nordeste.md"
+    },
+    {
+      "basename": "Sicredi",
+      "path": "Connections/Banks/Sicredi/Sicredi.md"
+    },
+    {
+      "basename": "Banco do Brasil",
+      "path": "Connections/Banks/Banco do Brasil/Banco do Brasil.md"
+    },
+    {
+      "basename": "Cadastro",
+      "path": "Connections/Banks/Banco do Brasil/Cadastro/Cadastro.md"
+    },
+    {
+      "basename": "Banks",
+      "path": "Connections/Banks/Banks.base"
+    },
+    {
+      "basename": "2026-04-16",
+      "path": "Journal/Daily/2026-04-16.md"
     },
     {
       "basename": "Papers",
       "path": "Sources/Papers/Papers.base"
     },
     {
-      "basename": "Data",
-      "path": "Sources/Data/Data.base"
+      "basename": "Briquetagem e Pirólise de Palha de Café — Conceito 2020",
+      "path": "Products/Fomento/Propostas/Briquetagem e Pirólise de Palha de Café — Conceito 2020/Briquetagem e Pirólise de Palha de Café — Conceito 2020.md"
+    },
+    {
+      "basename": "Alchemco — Inspeção Preditiva — FAPES 06-2026",
+      "path": "Products/Fomento/Propostas/Alchemco — Inspeção Preditiva — FAPES 06-2026/Alchemco — Inspeção Preditiva — FAPES 06-2026.md"
     },
     {
       "basename": "Wiki",
       "path": "Wiki/Wiki.md"
     },
     {
-      "basename": "Sprint Contract",
-      "path": "Wiki/Concepts/Sprint Contract.md"
+      "basename": "FAPES 06-2026 Clusters de Inovação",
+      "path": "Products/Fomento/Editais/FAPES 06-2026 Clusters de Inovação.md"
     },
     {
-      "basename": "PKM",
-      "path": "Products/PKM/PKM.md"
+      "basename": "Higor Loss Altoé",
+      "path": "Connections/People/Higor Loss Altoé.md"
     },
     {
-      "basename": "SKILL",
-      "path": "Products/AI-KB/Skills/paperclip/SKILL.md"
+      "basename": "People",
+      "path": "Connections/People/People.base"
     },
     {
-      "basename": "Scripts",
-      "path": "Products/PKM/Scripts/Scripts.base"
+      "basename": "Dellano Sanz",
+      "path": "Connections/People/Dellano Sanz.md"
     },
     {
-      "basename": "Sync MDs from Base",
-      "path": "Products/PKM/Scripts/Sync MDs from Base.md"
+      "basename": "Companies",
+      "path": "Connections/Companies/Companies.base"
     },
     {
-      "basename": "Edge TTS Reader",
-      "path": "Products/PKM/Scripts/Edge TTS Reader.md"
+      "basename": "Sicredi",
+      "path": "Connections/Companies/Sicredi.md"
     },
     {
-      "basename": "Agent Self-Evaluation Failure",
-      "path": "Wiki/Concepts/Agent Self-Evaluation Failure.md"
+      "basename": "Sicoob",
+      "path": "Connections/Companies/Sicoob.md"
     },
     {
-      "basename": "Harness Simplification",
-      "path": "Wiki/Concepts/Harness Simplification.md"
+      "basename": "ALTOÈ Agricola",
+      "path": "Connections/Companies/ALTOÈ Agricola.md"
     },
     {
-      "basename": "Grading Criteria for Subjective Quality",
-      "path": "Wiki/Concepts/Grading Criteria for Subjective Quality.md"
+      "basename": "Casgen Biotecnologia Micropropagação",
+      "path": "Connections/Companies/Casgen Biotecnologia Micropropagação.md"
     },
     {
-      "basename": "Generator-Evaluator Pattern",
-      "path": "Wiki/Concepts/Generator-Evaluator Pattern.md"
+      "basename": "Graziela Evencio de Oliveira",
+      "path": "Connections/People/Graziela Evencio de Oliveira.md"
     },
     {
-      "basename": "DHCP Static Mapping",
-      "path": "Wiki/Concepts/DHCP Static Mapping.md"
+      "basename": "Ramão Lorenzoni",
+      "path": "Connections/People/Ramão Lorenzoni.md"
     },
     {
-      "basename": "Concepts",
-      "path": "Wiki/Concepts/Concepts.base"
+      "basename": "Joselvi Paier",
+      "path": "Connections/People/Joselvi Paier.md"
     },
     {
-      "basename": "SKILL",
-      "path": "Products/AI-KB/Skills/karpathy-guidelines/SKILL.md"
+      "basename": "Luiz Carlos Pimentel Almeida",
+      "path": "Connections/People/Luiz Carlos Pimentel Almeida.md"
     },
     {
-      "basename": "Database Hardening",
-      "path": "Wiki/Concepts/Database Hardening.md"
+      "basename": "Polimeros",
+      "path": "Products/MGg3/Gerdau Graphene/Polimeros/Polimeros.md"
     },
     {
-      "basename": "Maggie",
-      "path": "Areas/Pets/Maggie/Maggie.md"
+      "basename": "Concretos",
+      "path": "Products/MGg3/Gerdau Graphene/Concretos/Concretos.md"
     },
     {
-      "basename": "Hanna",
-      "path": "Areas/Pets/Hanna/Hanna.md"
+      "basename": "Inteligencia de Mercado",
+      "path": "Products/MGg3/Gerdau Graphene/Inteligencia de Mercado/Inteligencia de Mercado.md"
+    },
+    {
+      "basename": "Inteligencia de Mercado - Case GG03 - Aditivos Quimicos T&R Update - Ago24",
+      "path": "Products/MGg3/Gerdau Graphene/Inteligencia de Mercado/Inteligencia de Mercado - Case GG03 - Aditivos Quimicos T&R Update - Ago24.pdf"
+    },
+    {
+      "basename": "Inteligencia de Mercado - Case GG02 - 2023 - Graphene flagship",
+      "path": "Products/MGg3/Gerdau Graphene/Inteligencia de Mercado/Inteligencia de Mercado - Case GG02 - 2023 - Graphene flagship.pdf"
+    },
+    {
+      "basename": "Resultados Tecnicos Polimeros - Apresentação BlackSwan_23_12_19",
+      "path": "Products/MGg3/Gerdau Graphene/Polimeros/Resultados Tecnicos Polimeros - Apresentação BlackSwan_23_12_19.pdf"
+    },
+    {
+      "basename": "Inteligencia de Mercado - Case GG04 - Indorama AUG 2024",
+      "path": "Products/MGg3/Gerdau Graphene/Inteligencia de Mercado/Inteligencia de Mercado - Case GG04 - Indorama AUG 2024.pdf"
     }
   ],
   "omittedPaths": [],

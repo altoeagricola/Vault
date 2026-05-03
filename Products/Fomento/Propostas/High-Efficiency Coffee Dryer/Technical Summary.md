@@ -169,13 +169,13 @@ Baseado na patente BR 10 2012 019091-5 A2 (domínio público desde 2016) com adi
 
 ## 6. Pontos de Decisão para Engenharia
 
-- [ ] **Capacidade exata do secador-alvo** — volume do tambor, vazão do ventilador existente (m³/h), potência do motor
+- [x] **Capacidade exata do secador-alvo** — volume do tambor, vazão do ventilador existente (m³/h), potência do motor ✅ 2026-04-29
 - [ ] **Temperatura-alvo de processo** — commodity (~120°C no ponto) ou gourmet (70–80°C) ou perfis duplos com troca de setpoint
 - [ ] **Incluir recirculação parcial?** — reduz potência instalada ~20–30%; adiciona damper + tubulação de retorno
-- [ ] **Regime de operação noturna** — proporção entre baterias, PCM e gerador auxiliar
-- [ ] **Escala de implantação** — único produtor ou consórcio/associação (compartilhamento reduz custo per capita do sistema solar)
-- [ ] **Retrofit vs. equipamento novo** — custo de adequação mecânica do secador existente para acoplamento da câmara elétrica
-- [ ] **Orçamento por subsistema** — resistências + câmara + painéis FV + baterias + inversores off-grid + automação
+- [x] **Regime de operação noturna** — proporção entre baterias, PCM e gerador auxiliar ✅ 2026-04-29
+- [x] **Escala de implantação** — único produtor ou consórcio/associação (compartilhamento reduz custo per capita do sistema solar) ✅ 2026-04-29
+- [x] **Retrofit vs. equipamento novo** — custo de adequação mecânica do secador existente para acoplamento da câmara elétrica ✅ 2026-04-29
+- [x] **Orçamento por subsistema** — resistências + câmara + painéis FV + baterias + inversores off-grid + automação ✅ 2026-04-29
 
 ---
 

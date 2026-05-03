@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Products/AI-KB/AI-KB.md",
+                "file": "Journal/Daily/2026-04-17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,89 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI-KB"
+              "title": "2026-04-17"
+            }
+          },
+          {
+            "id": "0b8f486228987d47",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "1e31427d7962a9cc",
+            "type": "leaf",
+            "state": {
+              "type": "task-board-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "task-board-view"
+            }
+          },
+          {
+            "id": "fa848e1ded129d60",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "207307b4f66616c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Areas/ALTOE Agricola/ALTOE Agricola.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": true,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ALTOE Agricola"
+            }
+          },
+          {
+            "id": "7771b66b51c0ee80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": true,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Estrutura de Agentes IA"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -43,7 +122,7 @@
       {
         "id": "4fb4e38769091eea",
         "type": "tabs",
-        "dimension": 64.13043478260869,
+        "dimension": 78.79109225874868,
         "children": [
           {
             "id": "a6970f043aaae8da",
@@ -55,7 +134,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -64,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Renan",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +151,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -100,7 +179,7 @@
       {
         "id": "eb74630b5e690463",
         "type": "tabs",
-        "dimension": 35.869565217391305,
+        "dimension": 21.208907741251327,
         "children": [
           {
             "id": "247236329a9d869d",
@@ -108,7 +187,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Products/AI-KB/AI-KB.md",
+                "file": "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,14 +215,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of AI-KB"
+              "title": "Gráfico de Estrutura de Agentes IA"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 487.50271224975586
+    "width": 366.5024719238281
   },
   "right": {
     "id": "86fd2513b981393a",
@@ -160,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Products/AI-KB/AI-KB.md",
+                "file": "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -170,7 +249,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AI-KB"
+              "title": "Links inversos para Estrutura de Agentes IA"
             }
           },
           {
@@ -387,7 +466,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "title": "Fila de Notas para Revisar"
             }
           },
           {
@@ -396,7 +475,7 @@
             "state": {
               "type": "Strange New Worlds",
               "state": {},
-              "icon": "file-digit",
+              "icon": "lucide-ghost",
               "title": "Strange New Worlds"
             }
           },
@@ -406,8 +485,28 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "d63a73101739b6db",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "file-digit",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "2d84ac9f20c4bd2a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "title": "Fila de Notas para Revisar"
             }
           }
         ],
@@ -432,18 +531,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Manage workspace layouts": false,
-      "daily-notes:Open today's daily note": true,
-      "switcher:Open quick switcher": true,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": true,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "bases:Create new base": true,
+      "obsidian-spaced-repetition:Revisar flashcards": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "bases:Criar nova base": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
       "smart-connections:Smart Connections: Open random connection": false,
@@ -461,7 +562,6 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "homepage:Open homepage": false,
       "edge-tts:Read note aloud": false,
@@ -469,54 +569,55 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d4c0d45d52860864",
+  "active": "a6970f043aaae8da",
   "lastOpenFiles": [
-    "Products/Products.md",
+    "Areas/ALTOE Agricola/Cadencia - Revisao de Agentes e Vault.md",
+    "Areas/ALTOE Agricola/Onboard - Sintese e Feedback dos Agentes.md",
+    "Areas/ALTOE Agricola/Estrutura de Agentes IA - Contexto.md",
+    "Areas/ALTOE Agricola/_attachments/Proposta de Agentes vs IA Models.xlsx",
+    "Areas/ALTOE Agricola/_attachments",
+    "Areas/ALTOE Agricola/Documents/Documents.md",
+    "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
+    "Journal/Daily/2026-05-03.md",
+    "Products/PKM/ai/skills/ingest-business/SKILL.md",
     "Areas/Areas.md",
-    "Wiki/Tools/zoxide.md",
-    "Wiki/Tools/Zinit.md",
-    "Wiki/Tools/yq.md",
-    "Wiki/Tools/UTM.md",
-    "Wiki/Tools/Tools.base",
-    "Wiki/Tools/tmux.md",
-    "Wiki/Tools/tldr.md",
-    "Wiki/Tools/Starship.md",
-    "Wiki/Tools/ripgrep.md",
-    "Wiki/Tools/QEMU.md",
-    "Wiki/Tools/Proxmox VE.md",
-    "Wiki/Tools/PostgreSQL.md",
-    "Wiki/Tools/Portainer.md",
-    "Wiki/Tools/OPNsense.md",
-    "Wiki/Tools/OpenObserve.md",
-    "Wiki/Tools/neovim.md",
-    "Wiki/Tools/lazygit.md",
-    "Wiki/Tools/jq.md",
-    "Wiki/Tools/htop.md",
-    "Wiki/Tools/Homebrew.md",
-    "Wiki/Tools/Home Assistant.md",
-    "Wiki/Tools/Homarr.md",
-    "Wiki/Tools/glow.md",
-    "Wiki/Tools/git-delta.md",
-    "Wiki/Tools/gh.md",
-    "Wiki/Tools/_covers/zoxide.png",
-    "Wiki/Tools/_covers/zinit.png",
-    "Wiki/Tools/_covers/yq.png",
-    "Wiki/Tools/_covers/utm.png",
-    "Wiki/Tools/_covers/tmux.png",
-    "Wiki/Tools/_covers/tldr.png",
-    "Wiki/Tools/_covers/starship.png",
-    "Wiki/Tools/_covers/ripgrep.png",
-    "Wiki/Tools/_covers/qemu.png",
-    "Wiki/Tools/_covers/proxmox.png",
-    "Wiki/Tools/_covers",
-    "Wiki/Tools/_attachments",
-    "Sources/Books/Books.base",
-    "Prospections/R&D Public Calls/R&D Public Calls.base",
-    "Prospections/Financial Assets/Financial Assets.base",
-    "Sources/Articles/Articles.base",
-    "Sources/Papers/Papers.base",
-    "Sources/Data/Data.base",
-    "Journal/_attachments",
+    "Areas/ALTOE Agricola/ALTOE Agricola.md",
+    "Areas/ALTOE Agricola/Regras de Organizacao do Vault.md",
+    "Areas/ALTOE Agricola/Servicos-Satelites.md",
+    "Products/PKM/ai/skills/ingest-business/_attachments",
+    "Products/PKM/ai/skills/ingest-business",
+    "Areas/ALTOE Agricola/Equipe.md",
+    "Products/Crédito-Rural/Projetos/Pronaf Habitacao - Sergio Jose Altoe.md",
+    "Wiki-Comercial/MCR.md",
+    "Connections/Regioes/Marilandia/Marilandia.md",
+    "Connections/Banks/Banestes/Banestes.md",
+    "Connections/Banks/Sicoob/Sicoob.md",
+    "Connections/Banks/Cresol/_attachments",
+    "Connections/Banks/Cresol/Cresol.md",
+    "Connections/Banks/Banestes",
+    "Connections/Banks/Sicoob",
+    "Connections/Banks/Cresol",
+    "Connections/Connections.md",
+    "Products/Crédito-Rural/Propostas",
+    "Products/Fomento/Projetos",
+    "Products/PKM/ai/skills/update-mcr/SKILL.md",
+    "Products/PKM/ai/skills/ingest-call/SKILL.md",
+    "Products/Products.md",
+    "Connections/People/Luis Eduardo Gottardo.md",
+    "Connections/People/Luis Eduardo Gottardo 1.md",
+    "Areas/Finance/Finance.md",
+    "Products/Fomento/Propostas/High-Efficiency Coffee Dryer/Métodos de Secagem Café Cereja.md",
+    "Areas/ALTOE Agricola/Documents/Luis Eduardo Gottardo/Comprovante de Residência.jpeg",
+    "Connections/People/_attachments/0b77bcd26ae40c117bee73527600a124_MD5.jpg",
+    "Connections/Companies/_attachments/ae877b9b8ca10eeb0cab818fb66bfa9c_MD5.png",
+    "Connections/Companies/_attachments/2404698ad5e3e7efde7c28c66dbea1ab_MD5.png",
+    "Connections/Companies/_attachments/01be682a52b20c8d557fecab9e23e086_MD5.png",
+    "Connections/Companies/_attachments/305889398e6f71f116e1bb02df5b330f_MD5.png",
+    "Connections/Companies/_attachments/492ee2b64825c2f9ceb47e770c51d517_MD5.png",
+    "Connections/Companies/_attachments/52f14693b547e7fd27251637e9b9ca86_MD5.png",
+    "Connections/Companies/_attachments/867342167ca7d3ad0694f4f530c33292_MD5.png",
+    "Connections/Companies/_attachments/8a506428188b24426375548838079a14_MD5.png",
+    "Products/Fomento/Propostas/MGg-3.canvas",
     "Products/InfraKeeper/Untitled.canvas",
     "Untitled.canvas"
   ]

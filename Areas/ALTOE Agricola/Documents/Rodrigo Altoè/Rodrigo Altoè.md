@@ -7,7 +7,7 @@ atualizado: 2026-04-27
 
 # Documentos — Rodrigo Altoè
 
-Documentos pessoais do sócio fundador da [[ALTOÈ Agricola]]. Ver perfil completo em [[Rodrigo Altoé]].
+Documentos pessoais do sócio fundador da [[ALTOE Agricola]]. Ver perfil completo em [[Rodrigo Altoé]].
 
 | Arquivo | Descrição |
 |---------|-----------|

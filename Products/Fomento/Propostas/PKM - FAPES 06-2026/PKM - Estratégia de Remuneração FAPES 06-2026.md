@@ -5,7 +5,7 @@ status: Em elaboração
 product: "[[Products/PKM/PKM]]"
 origin: "[[FAPES 06-2026 Clusters de Inovação]]"
 coordenador: "[[Edgar O. Machado]]"
-parceira-piloto: "[[ALTOÈ Agricola]]"
+parceira-piloto: "[[ALTOE Agricola]]"
 related:
   - "[[PKM - Análise de Enquadramento FAPES 06-2026]]"
 created: 2026-04-17
@@ -112,7 +112,7 @@ O CLT ativo em outra empresa é a variável crítica. Três caminhos, em ordem d
 - Responsabilidades: indicar bolsistas (item 17.2), assinar Termo de Outorga, responder pelos relatórios técnicos e financeiros, acompanhar execução
 - Vedação: não pode delegar a gestão e administração dos recursos para terceiros (item 2.e, definição de Empresa Proponente)
 
-**Decisão (28/04/2026):** [[Edgar O. Machado]] é o coordenador do projeto. Perfil TI, ex-CEFETES, arquiteto de dados — coerente com a natureza técnica do produto PKM. [[Rodrigo Altoé]] ([[ALTOÈ Agricola]]) atua como parceiro piloto (Mecanismo C — Serviços PJ).
+**Decisão (28/04/2026):** [[Edgar O. Machado]] é o coordenador do projeto. Perfil TI, ex-CEFETES, arquiteto de dados — coerente com a natureza técnica do produto PKM. [[Rodrigo Altoé]] ([[ALTOE Agricola]]) atua como parceiro piloto (Mecanismo C — Serviços PJ).
 
 ---
 
@@ -147,15 +147,15 @@ Para uma proposta no meio da faixa (**R$ 425.000,00**), uma composição plausí
 
 ## Próximos Passos
 
-- [ ] Obter e ler a resolução FAPES vigente para bolsa DTI — verificar compatibilidade com CLT em outra empresa
-- [ ] Confirmar com a empresa proponente o aceite formal da composição da equipe
-- [ ] Decidir o coordenador entre os dois concepentes e preparar procuração
-- [ ] Edgar: decidir entre rota bolsa DTI ou rota PJ (abertura de CNPJ leva 15–30 dias)
-- [ ] Usuário: definir escopo técnico detalhado do serviço PJ a ser prestado (input para contrato e NFs)
-- [ ] Modelar três cenários orçamentários (piso R$ 250k, médio R$ 425k, teto R$ 600k) com divisão entre PJ, bolsas e demais rubricas
-- [ ] Redigir minuta de contrato PJ entre proponente e consultoria do usuário
-- [ ] Preencher Quadro 6.1 do Anexo I com carga horária e papel de cada membro
-- [ ] Incluir orçamento detalhado no formulário SigFapes respeitando teto de 30% em Serviços de Terceiros PJ
+- [x] Obter e ler a resolução FAPES vigente para bolsa DTI — verificar compatibilidade com CLT em outra empresa ✅ 2026-04-29
+- [x] Confirmar com a empresa proponente o aceite formal da composição da equipe ✅ 2026-04-29
+- [x] Decidir o coordenador entre os dois concepentes e preparar procuração ✅ 2026-04-29
+- [x] Edgar: decidir entre rota bolsa DTI ou rota PJ (abertura de CNPJ leva 15–30 dias) ✅ 2026-04-29
+- [x] Usuário: definir escopo técnico detalhado do serviço PJ a ser prestado (input para contrato e NFs) ✅ 2026-04-29
+- [x] Modelar três cenários orçamentários (piso R$ 250k, médio R$ 425k, teto R$ 600k) com divisão entre PJ, bolsas e demais rubricas ✅ 2026-04-29
+- [x] Redigir minuta de contrato PJ entre proponente e consultoria do usuário ✅ 2026-04-29
+- [x] Preencher Quadro 6.1 do Anexo I com carga horária e papel de cada membro ✅ 2026-04-29
+- [x] Incluir orçamento detalhado no formulário SigFapes respeitando teto de 30% em Serviços de Terceiros PJ ✅ 2026-04-29
 
 ---
 

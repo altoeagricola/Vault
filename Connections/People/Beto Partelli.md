@@ -33,10 +33,10 @@ Roberto Carlos Partelli é **advogado por formação** (Direito), administrador 
 
 ---
 
-## Relevância para a ALTOÈ Agricola
+## Relevância para a ALTOE Agricola
 
 - **Solicitante e cliente do projeto [[Overview|High-Efficiency Coffee Dryer]]** — acompanha há mais de 10 anos a busca pela viabilidade de um secador elétrico com resistências blindadas para café conilon, baseado na patente BR 10 2012 019091-5 A2 (arquivada)
-- Produtor rural da região — cliente potencial de crédito rural e dos serviços da [[ALTOÈ Agricola]]
+- Produtor rural da região — cliente potencial de crédito rural e dos serviços da [[ALTOE Agricola]]
 - Político local (vereador de Marilândia) — interlocutor relevante para temas como regulamentação do uso de palha de café em fornalhas e incentivos municipais a projetos de energia renovável no agronegócio
 - Tem contatos com fornecedores de resistências elétricas industriais — histórico de consultas técnicas para o projeto do secador
 
@@ -59,4 +59,4 @@ Roberto Carlos Partelli é **advogado por formação** (Direito), administrador 
 
 ## Relações
 
-- [[ALTOÈ Agricola]]
+- [[ALTOE Agricola]]

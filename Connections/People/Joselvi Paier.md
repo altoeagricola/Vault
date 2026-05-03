@@ -29,4 +29,4 @@ Gestora com longa trajetória no cooperativismo de crédito. Atua no [[Sicoob]] 
 ## Relações
 
 - [[Sicoob]] — empregadora; Gerente Sicoob Conexão desde 2007
-- [[ALTOÈ Agricola]] — contato de interesse em crédito rural cooperativo
+- [[ALTOE Agricola]] — contato de interesse em crédito rural cooperativo

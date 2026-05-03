@@ -179,4 +179,4 @@ Palha de café gerada na safra
 
 - [[Beto Parteli]]
 - [[Briquetagem e Pirólise de Palha de Café — Conceito 2020]]
-- [[ALTOÈ Agricola]]
+- [[ALTOE Agricola]]

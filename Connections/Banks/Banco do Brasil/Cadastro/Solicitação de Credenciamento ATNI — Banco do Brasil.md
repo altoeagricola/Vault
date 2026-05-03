@@ -31,7 +31,7 @@ Formulário formal de credenciamento enviado pelo CENOP SERV SP como anexo do em
 
 ## Próximos Passos
 
-- [ ] Abrir `Solicitacao_Credenciamento.docx`, preencher todos os campos
-- [ ] Assinar (Rodrigo Altoé como dirigente da ALTOÈ Agricola Ltda)
-- [ ] Converter para PDF
-- [ ] Enviar junto com os demais documentos do [[Checklist ATNI — Banco do Brasil]]
+%%- [ ] Abrir `Solicitacao_Credenciamento.docx`, preencher todos os campos%%
+- [x] Assinar (Rodrigo Altoé como dirigente da ALTOE Agricola Ltda) ✅ 2026-04-29
+%%- [ ] Converter para PDF%%
+- [x] Enviar junto com os demais documentos do [[Checklist ATNI — Banco do Brasil]] ✅ 2026-04-29

@@ -13,7 +13,7 @@ The MCR is updated irregularly (typically monthly or more often) by the BCB. The
 
 - **Concept page:** `Wiki/Concepts/MCR.md` — frontmatter field `version` (ex.: `"Atualização MCR nº 754, de 31/03/2026"`)
 - **Source page:** `Sources/Papers/BCB - Manual de Crédito Rural (MCR).md` — same field
-- **Local PDF:** `/Users/okumaaltoe/Documents/ALTOÈ Agricola/MCR e Regulacoes/ManualCompleto.pdf`
+- **Local PDF:** `/Users/okumaaltoe/Documents/ALTOE Agricola/MCR e Regulacoes/ManualCompleto.pdf`
 
 The canonical portal for the MCR is https://manuais.bcb.gov.br/app/manual/mcr/publico.
 
@@ -42,7 +42,7 @@ The canonical portal for the MCR is https://manuais.bcb.gov.br/app/manual/mcr/pu
 
 ### Step 4: Download and Replace the Local PDF
 
-1. Download the new full PDF to `/Users/okumaaltoe/Documents/ALTOÈ Agricola/MCR e Regulacoes/ManualCompleto.pdf`, overwriting the existing file.
+1. Download the new full PDF to `/Users/okumaaltoe/Documents/ALTOE Agricola/MCR e Regulacoes/ManualCompleto.pdf`, overwriting the existing file.
 2. Verify the download: open with pdfplumber and confirm the cover page shows the expected update number.
 3. If download fails, abort the run and report.
 

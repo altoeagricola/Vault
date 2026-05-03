@@ -4,9 +4,9 @@ tipo: Documentos da Empresa
 atualizado: 2026-04-27
 ---
 
-# Documentos — ALTOÈ Agricola (Empresa)
+# Documentos — ALTOE Agricola (Empresa)
 
-Documentos institucionais da pessoa jurídica [[ALTOÈ Agricola]].
+Documentos institucionais da pessoa jurídica [[ALTOE Agricola]].
 
 ## Dados Cadastrais
 
@@ -39,7 +39,7 @@ Documentos institucionais da pessoa jurídica [[ALTOÈ Agricola]].
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `CNPJ_ALTOÈ Agricola.pdf` | Cartão CNPJ |
-| `Contrato Social-ALTOÈ Agricola.pdf` | Contrato Social original (26/02/2026) — Rodrigo como único sócio |
+| `CNPJ_ALTOE Agricola.pdf` | Cartão CNPJ |
+| `Contrato Social-ALTOE Agricola.pdf` | Contrato Social original (26/02/2026) — Rodrigo como único sócio |
 | `Alteração Contratual.pdf` | 1ª Alteração e Consolidação (17/03/2026) — admissão de Luis Eduardo Gottardo (1%) |
 | `Endereço Comercial — IPTU Dom Bosco 114.pdf` | Comprovante de endereço comercial (IPTU) — Av. Dom Bosco 114, Loteamento Catelan |

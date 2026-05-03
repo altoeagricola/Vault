@@ -40,12 +40,12 @@ Para **cada técnico autorizado** a assinar ART/projetos da empresa, apresentar 
 
 ---
 
-## Análise para a ALTOÈ Agricola
+## Análise para a ALTOE Agricola
 
 | Item | Situação | Ação necessária |
 |------|----------|-----------------|
-| Cadastro BB atualizado (empresa, sócios, técnicos) | ⬜ Verificar | Confirmar cadastro da ALTOÈ Agricola e de Luis Eduardo Gottardo em agência BB |
-| Registro + certidão de regularidade no CREA | ⬜ Pendente | ALTOÈ Agricola precisa de registro no CREA-ES como pessoa jurídica; Luis Eduardo Gottardo (técnico responsável) deve figurar como vinculado |
+| Cadastro BB atualizado (empresa, sócios, técnicos) | ⬜ Verificar | Confirmar cadastro da ALTOE Agricola e de Luis Eduardo Gottardo em agência BB |
+| Registro + certidão de regularidade no CREA | ⬜ Pendente | ALTOE Agricola precisa de registro no CREA-ES como pessoa jurídica; Luis Eduardo Gottardo (técnico responsável) deve figurar como vinculado |
 | Alvará de localização / Declaração de Dispensa | ⬜ Pendente | Verificar se Marilândia emite Declaração de Dispensa de Alvará; se não, obter alvará municipal |
 | Vínculo empregatício do técnico (Luis Eduardo Gottardo) | ⬜ Pendente | Sócio CLT não é CLT — vínculo é societário. Verificar com o BB qual documento aceito para sócios-técnicos (contrato social + certidão CREA podem ser suficientes) |
 
@@ -53,10 +53,10 @@ Para **cada técnico autorizado** a assinar ART/projetos da empresa, apresentar 
 
 ## Próximos Passos
 
-- [ ] Verificar se ALTOÈ Agricola já possui registro no CREA-ES como PJ — se não, iniciar processo
-- [ ] Obter certidão de regularidade no CREA para a empresa (ou Certidão Integrada)
-- [ ] Confirmar com Prefeitura de Marilândia se emite Declaração de Dispensa de Alvará
-- [ ] Confirmar com BB (Jair Santos) qual documento comprova vínculo de sócio-técnico
-- [ ] Garantir cadastro atualizado da empresa e sócios em agência BB
-- [ ] Preencher e assinar [[Solicitação de Credenciamento ATNI — Banco do Brasil|Solicitação de Credenciamento]]
-- [ ] Enviar tudo em PDF respondendo ao email original (assunto inalterado)
+- [x] Verificar se ALTOE Agricola já possui registro no CREA-ES como PJ — se não, iniciar processo ✅ 2026-04-29
+- [x] Obter certidão de regularidade no CREA para a empresa (ou Certidão Integrada) ✅ 2026-04-29
+%%- [ ] Confirmar com Prefeitura de Marilândia se emite Declaração de Dispensa de Alvará%%
+- [x] Confirmar com BB (Jair Santos) qual documento comprova vínculo de sócio-técnico ✅ 2026-04-29
+- [x] Garantir cadastro atualizado da empresa e sócios em agência BB ✅ 2026-04-29
+- [x] Preencher e assinar [[Solicitação de Credenciamento ATNI — Banco do Brasil|Solicitação de Credenciamento]] ✅ 2026-04-29
+- [x] Enviar tudo em PDF respondendo ao email original (assunto inalterado) ✅ 2026-04-29

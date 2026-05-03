@@ -6,9 +6,9 @@ contato: "[[Ramão Lorenzoni]]"
 atualizado: 2026-04-27
 ---
 
-# Cadastro ALTOÈ Agricola — Sicredi Essência
+# Cadastro ALTOE Agricola — Sicredi Essência
 
-Processo de credenciamento da [[ALTOÈ Agricola]] como consultora junto ao [[Sicredi]] Essência (agência Marilândia), conduzido junto a [[Ramão Lorenzoni]] (Gerente de Agência, CPA-20).
+Processo de credenciamento da [[ALTOE Agricola]] como consultora junto ao [[Sicredi]] Essência (agência Marilândia), conduzido junto a [[Ramão Lorenzoni]] (Gerente de Agência, CPA-20).
 
 **Contatos na agência:** Ramão Lorenzoni (gerente), Raissa e Ana (atendimento — receberam dossiê).
 

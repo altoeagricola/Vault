@@ -25,13 +25,13 @@ Formado no curso de Agronomia do IFES, com participação de 3 anos em iniciaç�
 
 ---
 
-## Papel na ALTOÈ Agricola
+## Papel na ALTOE Agricola
 
 **Sócio minoritário (1%) — Responsável Técnico**
 
 Luis Eduardo foi contatado após a demora de [[Graziela]] em dar resposta à proposta de parceria técnica. Indicado por [[Leonardo Altoé]] (irmão do fundador). Já conhecia o processo por ter assinado projetos para a consultoria Noroeste.
 
-Ele aceitou assinar os projetos técnicos da [[ALTOÈ Agricola]] em troca de **comissão por projeto assinado**, com uma condição clara: seu objetivo é trabalhar na propriedade da família — não ficará em escritório, não fará visitas a propriedades de clientes.
+Ele aceitou assinar os projetos técnicos da [[ALTOE Agricola]] em troca de **comissão por projeto assinado**, com uma condição clara: seu objetivo é trabalhar na propriedade da família — não ficará em escritório, não fará visitas a propriedades de clientes.
 
 Após Graziela também aceitar a proposta (dias depois), Luis Eduardo foi mantido como sócio (1% do quadro social) porque:
 
@@ -51,7 +51,7 @@ O cadastro de Graziela no Sicoob foi negado porque seu CNPJ pessoal listava ativ
 
 ## Relações
 
-- [[ALTOÈ Agricola]] — sócio minoritário (1%), responsável técnico para fins de credenciamento
+- [[ALTOE Agricola]] — sócio minoritário (1%), responsável técnico para fins de credenciamento
 - [[Graziela Evencio de Oliveira]] — parceira técnica complementar (contrato de prestação de serviços)
 - [[Leonardo Altoé]] — quem indicou Luis Eduardo ao fundador
 - [[Connections/Banks/Sicredi/Cadastro/Cadastro|Cadastro Sicredi]] — sua inclusão como sócio resolve o impedimento MCR levantado por Ramão

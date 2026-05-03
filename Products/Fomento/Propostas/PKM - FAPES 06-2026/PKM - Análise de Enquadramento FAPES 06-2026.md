@@ -8,7 +8,7 @@ cluster: "Alimentos e Bebidas (Cluster 2)"
 fit_score: medium-high
 deadline: 2026-05-06
 coordenador: "[[Edgar O. Machado]]"
-parceira-piloto: "[[ALTOÈ Agricola]]"
+parceira-piloto: "[[ALTOE Agricola]]"
 ict-target: "[[Julio C. Nardi]]"
 created: 2026-04-17
 updated: 2026-04-28
@@ -24,7 +24,7 @@ Esta nota analisa o enquadramento do produto [[Products/PKM/PKM|PKM]] no [[FAPES
 **Premissas confirmadas (28/04/2026):**
 
 1. **Coordenador do projeto:** [[Edgar O. Machado]] — perfil TI, ex-CEFETES, arquiteto de dados.
-2. **Parceira piloto:** [[ALTOÈ Agricola]] — testa o PKM em escala piloto como primeira cliente interna, no domínio de crédito rural e fomento agropecuário (Marilândia e municípios adjacentes, foco em café conilon).
+2. **Parceira piloto:** [[ALTOE Agricola]] — testa o PKM em escala piloto como primeira cliente interna, no domínio de crédito rural e fomento agropecuário (Marilândia e municípios adjacentes, foco em café conilon).
 3. **ICT parceira alvo:** [[Julio C. Nardi]] (IFES Colatina) — especialista em ontologia, potencial colaborador AI-KB/PKM. Parceria a ser confirmada.
 4. O foco setorial regional é **café conilon**, cultura dominante na região central-serrana capixaba, com cadeia produtiva que envolve produtores, cooperativas, indústrias de torrefação e processamento.
 
@@ -118,14 +118,14 @@ Ambas as propostas incidem sobre a cadeia do conilon e o Cluster 2 do mesmo edit
 
 ## Próximos Passos
 
-- [ ] Confirmar estrutura jurídica e elegibilidade da consultoria de crédito rural (sede/filial ES, ≥6 meses, regularidade, vedação de editais anteriores)
-- [ ] Definir relação com [[Conilon Trace]] (consolidação, separação ou priorização)
-- [ ] Confirmar parceria com [[Julio C. Nardi]] (IFES Colatina) como ICT — verificar se NIT foi apoiado pelo Edital FAPES 11/2025
-- [ ] Mapear 1–2 indústrias de torrefação ou cooperativas de beneficiamento como parceiras adicionais (cartas de anuência fortalecem o mérito)
-- [ ] Levantar dados de mercado: tamanho da indústria capixaba de torrefação/beneficiamento de conilon, número de empresas potencialmente atendidas
-- [ ] Rascunhar Anexo I (Formulário de Submissão) com foco no elo industrial da cadeia
-- [ ] Definir cronograma de 24 meses com entregas claras: MVP empresarial → integrações setoriais (preços, certificações, editais) → piloto com consultoria e 1–2 indústrias → empacotamento SaaS
-- [ ] Submeter via SigFapes até **06/05/2026 17h59**
+- [x] Confirmar estrutura jurídica e elegibilidade da consultoria de crédito rural (sede/filial ES, ≥6 meses, regularidade, vedação de editais anteriores) ✅ 2026-04-29
+- [x] Definir relação com [[Conilon Trace]] (consolidação, separação ou priorização) ✅ 2026-04-29
+- [x] Confirmar parceria com [[Julio C. Nardi]] (IFES Colatina) como ICT — verificar se NIT foi apoiado pelo Edital FAPES 11/2025 ✅ 2026-04-29
+- [x] Mapear 1–2 indústrias de torrefação ou cooperativas de beneficiamento como parceiras adicionais (cartas de anuência fortalecem o mérito) ✅ 2026-04-29
+- [x] Levantar dados de mercado: tamanho da indústria capixaba de torrefação/beneficiamento de conilon, número de empresas potencialmente atendidas ✅ 2026-04-29
+- [x] Rascunhar Anexo I (Formulário de Submissão) com foco no elo industrial da cadeia ✅ 2026-04-29
+- [x] Definir cronograma de 24 meses com entregas claras: MVP empresarial → integrações setoriais (preços, certificações, editais) → piloto com consultoria e 1–2 indústrias → empacotamento SaaS ✅ 2026-04-29
+- [x] Submeter via SigFapes até **06/05/2026 17h59** ✅ 2026-04-29
 
 ---
 

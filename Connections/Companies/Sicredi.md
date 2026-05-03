@@ -21,5 +21,5 @@ Cooperativa de crédito nacional com forte presença no agronegócio brasileiro.
 
 ## Relações
 
-- [[ALTOÈ Agricola]] — instituição financeira de interesse para crédito rural e associados
+- [[ALTOE Agricola]] — instituição financeira de interesse para crédito rural e associados
 - [[Sicoob]] — cooperativa de crédito concorrente/parceira no ecossistema cooperativista

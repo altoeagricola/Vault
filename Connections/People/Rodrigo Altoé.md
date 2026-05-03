@@ -168,7 +168,7 @@ Professor de Química
 ## Referências e Links
 
 - **Escavador:** https://www.escavador.com/sobre/2764413/rodrigo-altoe
-- **CV (PDF):** `ALTOÈ Agricola/Projeto_01/Rodrigo Altoe - Quimico PhD - Agosto2025.pdf`
+- **CV (PDF):** `ALTOE Agricola/Projeto_01/Rodrigo Altoe - Quimico PhD - Agosto2025.pdf`
 
 ---
 

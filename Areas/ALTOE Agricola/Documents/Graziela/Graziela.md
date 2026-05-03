@@ -6,7 +6,7 @@ atualizado: 2026-04-27
 
 # Documentos — Graziela (Engenheira Agrônoma)
 
-Documentos pessoais e profissionais de Graziela — Engenheira Agrônoma parceira técnica da [[ALTOÈ Agricola]], registrada no CREA. É a técnica responsável pelas laudos e projetos técnicos da consultoria.
+Documentos pessoais e profissionais de Graziela — Engenheira Agrônoma parceira técnica da [[ALTOE Agricola]], registrada no CREA. É a técnica responsável pelas laudos e projetos técnicos da consultoria.
 
 > **Situação nos cadastros bancários:**
 > - **Sicoob:** cadastro negado — CNPJ de Graziela listava atividade de venda de equipamentos, vedada pelo MCR para consultores de financiamento rural. Solução adotada: remoção dessa atividade do CNPJ.
@@ -26,5 +26,5 @@ Documentos pessoais e profissionais de Graziela — Engenheira Agrônoma parceir
 
 ## Relações
 
-- [[ALTOÈ Agricola]] — parceira técnica (contrato de prestação de serviços)
+- [[ALTOE Agricola]] — parceira técnica (contrato de prestação de serviços)
 - [[Connections/Banks/Sicredi/Cadastro/Cadastro|Cadastro Sicredi]] — solução pendente: Graziela pode se credenciar como PF ou entrar como sócia

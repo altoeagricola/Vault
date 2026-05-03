@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Connections/Institutes")
+    - file.ext != "base"
+views:
+  - type: table
+    name: Tabela

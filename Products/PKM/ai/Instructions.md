@@ -229,9 +229,10 @@ Skills are reusable workflows located in `Products/PKM/AI/skills/` and registere
 | `lint` | `/lint` | User says "lint" or "health check" | Full wiki health check: contradictions, orphans, missing pages, stale claims, frontmatter, index sync |
 | `conceptualize` | `/conceptualize` | User says "conceptualize" or wants to define/flesh out a concept | Surveys vault-wide usage of a concept, then creates or updates its Wiki/Concepts page with definition and perspectives |
 | `ingest-call` | `/ingest-call` | User provides URLs to a public R&D call (edital) | Downloads documents, extracts key metadata, creates structured prospection note in `Prospections/R&D Public Calls/` |
+| `ingest-business` | `/ingest-business` | User provides personal/corporate identity docs, editais de fomento agropecuário, or BCB/bank regulatory documents | Files docs into operational layers: `Areas/ALTOE Agricola/Documents/`, `Products/Fomento/Editais/`, `Products/Crédito-Rural/WikiCR/`, or `Products/Fomento/WikiF/`. Does NOT delegate to `/ingest`. |
 | `update-mcr` | `/update-mcr` | User says "update mcr" / "atualizar mcr" or scheduled monthly | Fetches the current MCR from the BCB portal, compares with the version in `Wiki/Concepts/MCR.md`, ingests updates if any, and flags impacted wiki pages |
 
-All specialized ingestion skills extract content into a source file, then delegate to `/ingest` for the standard wiki pipeline. The `ingest-call` skill is an exception — it targets `Prospections/`, not the wiki.
+All specialized ingestion skills extract content into a source file, then delegate to `/ingest` for the standard wiki pipeline. The `ingest-call` and `ingest-business` skills are exceptions — they target `Prospections/`, `Areas/`, and `Products/`, not the wiki.
 
 
 ## Automation

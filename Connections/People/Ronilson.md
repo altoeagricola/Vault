@@ -14,9 +14,9 @@ Proprietário de empresa de projetos ambientais em Colatina. Não atua com créd
 
 ---
 
-## Relação com a ALTOÈ Agricola
+## Relação com a ALTOE Agricola
 
-Identificado por [[Gabriely]] como parceiro de referência para serviços ambientais e licenciamentos fora do escopo do crédito rural. Na consultoria anterior ([[Adriana Vermelho]]), havia um acordo de parceria: os serviços eram repassados a Ronilson, que os executava, e a consultoria recebia comissão. Esse modelo é candidato natural para a [[ALTOÈ Agricola]] replicar.
+Identificado por [[Gabriely]] como parceiro de referência para serviços ambientais e licenciamentos fora do escopo do crédito rural. Na consultoria anterior ([[Adriana Vermelho]]), havia um acordo de parceria: os serviços eram repassados a Ronilson, que os executava, e a consultoria recebia comissão. Esse modelo é candidato natural para a [[ALTOE Agricola]] replicar.
 
 Visita de prospecção à agenda: [[Gabriely]] sugeriu ir a Colatina conversar com Ronilson para avaliar um acordo similar.
 

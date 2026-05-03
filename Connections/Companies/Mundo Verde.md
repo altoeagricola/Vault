@@ -61,7 +61,7 @@ A 2ª Alteração (18/03/2026, registrada JUCEES em 04/04/2026) formalizou a ret
 
 ## Relevância para MCR / Cadastro Sicredi
 
-A presença de Rodrigo no quadro da Mundo Verde foi identificada pelo [[Sicredi]] como impedimento para o credenciamento da [[ALTOÈ Agricola]] como consultora de crédito rural. O MCR veda o credenciamento de consultores com vínculo em empresas de **comercialização de insumos agropecuários** (CNAE 46.83-4/00).
+A presença de Rodrigo no quadro da Mundo Verde foi identificada pelo [[Sicredi]] como impedimento para o credenciamento da [[ALTOE Agricola]] como consultora de crédito rural. O MCR veda o credenciamento de consultores com vínculo em empresas de **comercialização de insumos agropecuários** (CNAE 46.83-4/00).
 
 Rodrigo argumentou que a empresa era B2B e não atendia produtores diretamente — mas procedeu com a retirada formal do quadro. O gerente [[Ramão Lorenzoni]] reconheceu que o impedimento corporativo foi eliminado, mas apontou que (a) o histórico do processo já estava registrado no sistema e (b) o vínculo **familiar** com [[Leonardo Altoé]] (sócio da Mundo Verde e da [[Amigos do Campo]]) ainda configura "vínculo direto" segundo o MCR.
 
@@ -82,5 +82,5 @@ Rodrigo argumentou que a empresa era B2B e não atendia produtores diretamente �
 - [[Leonardo Altoé]] — sócio-administrador; adquiriu as quotas de Rodrigo na 2ª Alteração
 - [[Amigos do Campo]] — empresa do mesmo grupo (Leonardo e Valquimar Comério são sócios em ambas)
 - [[Rodrigo Altoé]] — ex-sócio (5%, set/2023–mar/2026); nunca recebeu recursos; saiu para resolver impedimento MCR
-- [[ALTOÈ Agricola]] — relação indireta: a participação de Rodrigo aqui foi o primeiro impedimento levantado pelo Sicredi
+- [[ALTOE Agricola]] — relação indireta: a participação de Rodrigo aqui foi o primeiro impedimento levantado pelo Sicredi
 - [[Connections/Banks/Sicredi/Cadastro/Cadastro|Cadastro Sicredi]] — contexto do impedimento MCR

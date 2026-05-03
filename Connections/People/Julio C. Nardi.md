@@ -16,7 +16,7 @@ updated: 2026-04-26
 **Professor Titular · IFES Campus Colatina**
 Colatina, Espírito Santo, Brasil
 
-Colega de ensino médio do fundador da [[ALTOÈ Agricola]] e de [[Edgar O. Machado]], com quem cursou **Processamento de Dados no CEFETES** (hoje IFES). Professor Titular no IFES Campus Colatina, com especialidade em **Ontology Engineering** — a formalização de conceitos, propriedades e relações para representação de conhecimento em sistemas computacionais. Nos últimos anos, vem aplicando seu background em ontologia ao domínio de **Inovação e Propriedade Intelectual**.
+Colega de ensino médio do fundador da [[ALTOE Agricola]] e de [[Edgar O. Machado]], com quem cursou **Processamento de Dados no CEFETES** (hoje IFES). Professor Titular no IFES Campus Colatina, com especialidade em **Ontology Engineering** — a formalização de conceitos, propriedades e relações para representação de conhecimento em sistemas computacionais. Nos últimos anos, vem aplicando seu background em ontologia ao domínio de **Inovação e Propriedade Intelectual**.
 
 ---
 
@@ -46,7 +46,7 @@ Foco atual: aplicação de Ontology Engineering ao domínio de **Inovação e Pr
 
 ---
 
-## Relevância para a ALTOÈ Agricola
+## Relevância para a ALTOE Agricola
 
 - **Consultor potencial para ontologia do [[Products/AI-KB/AI-KB|AI-KB]]** — a estrutura do AI-KB (Skills, Commands, Agents, Prompts e suas relações) pode se beneficiar de modelagem ontológica formal para queries, composição e raciocínio automático
 - **Consultor potencial para ontologia do [[Products/PKM/PKM|PKM]]** — o vault já tem uma taxonomia implícita (Concepts, Entities, Figures, Summaries…); uma ontologia explícita tornaria o grafo de conhecimento navegável por agentes de IA
@@ -65,4 +65,4 @@ Foco atual: aplicação de Ontology Engineering ao domínio de **Inovação e Pr
 ## Relações
 
 - [[Edgar O. Machado]] — colega de CEFETES
-- [[ALTOÈ Agricola]]
+- [[ALTOE Agricola]]

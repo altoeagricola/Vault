@@ -18,13 +18,13 @@ Presença nacional via 27 Administrações Regionais (uma por estado + DF) e red
 
 ---
 
-## Relevância para ALTOÈ Agricola
+## Relevância para ALTOE Agricola
 
-[[Graziela Evencio de Oliveira]], parceira técnica da [[ALTOÈ Agricola]], é funcionária do SENAR. Por isso, não pode integrar o quadro social da empresa — sua presença em contrato social configuraria conflito de interesse com o vínculo empregatício no SENAR. Atua exclusivamente via contrato de prestação de serviços.
+[[Graziela Evencio de Oliveira]], parceira técnica da [[ALTOE Agricola]], é funcionária do SENAR. Por isso, não pode integrar o quadro social da empresa — sua presença em contrato social configuraria conflito de interesse com o vínculo empregatício no SENAR. Atua exclusivamente via contrato de prestação de serviços.
 
 ---
 
 ## Relações
 
 - [[Graziela Evencio de Oliveira]] — funcionária do SENAR; parceira técnica da ALTOÈ via prestação de serviços
-- [[ALTOÈ Agricola]] — relação indireta via Graziela
+- [[ALTOE Agricola]] — relação indireta via Graziela

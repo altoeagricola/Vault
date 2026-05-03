@@ -41,5 +41,5 @@ Sua esposa é tailandesa e atua profissionalmente com **importação e exportaç
 - [[IFES]] Campus Serra — instituição de vínculo; acesso a pesquisadores de automação
 - [[UFES]] — graduação compartilhada (amizade de faculdade)
 - [[Luiz Carlos]] — amigo em comum, colega de UFES, docente no [[IFES Santa Teresa]]
-- [[ALTOÈ Agricola]] — amigo pessoal do fundador; potencial parceiro em projetos
+- [[ALTOE Agricola]] — amigo pessoal do fundador; potencial parceiro em projetos
 

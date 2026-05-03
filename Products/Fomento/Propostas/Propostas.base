@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Products/Fomento/Propostas")
+    - file.ext != "base"
+views:
+  - type: table
+    name: Tabela

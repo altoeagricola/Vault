@@ -47,5 +47,5 @@ Bolsa de doutorado FAPESP: **BP.DR** — *Células solares orgânicas e híbrida
 - [[IFES Santa Teresa]] — instituição de vínculo; contato principal para projetos IFES
 - [[UFES]] — graduação compartilhada (amizade de faculdade)
 - [[Adilson Ribeiro Prado]] — amigo em comum, colega de UFES, docente no [[IFES Serra]]
-- [[ALTOÈ Agricola]] — parceiro no projeto [[Conilon Trace — FAPES 06-2026]]
+- [[ALTOE Agricola]] — parceiro no projeto [[Conilon Trace — FAPES 06-2026]]
 - [[Conilon Trace — FAPES 06-2026]] — pesquisador ICT responsável pela proposta FAPES

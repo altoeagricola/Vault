@@ -203,7 +203,7 @@ Revisão agendada na primeira segunda-feira de cada mês:
 
 ---
 
-## Relevância para a ALTOÈ Agricola
+## Relevância para a ALTOE Agricola
 
 O MCR é referência direta para:
 

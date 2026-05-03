@@ -42,7 +42,7 @@ O laboratório **não vende direto ao produtor** — está associado ao segmento
 
 ---
 
-## Relevância para a ALTOÈ Agricola
+## Relevância para a ALTOE Agricola
 
 - **Parceria estratégica potencial em projetos FINEP** — Casgen ocupa a lacuna de biotecnologia vegetal que a ALTOÈ não tem internamente; ALTOÈ complementa a Casgen com expertise em nanotecnologia
 - **Modelo de colaboração definido** (reunião 2026-04-26 com [[Tertuliano Castro]]): ALTOÈ participa de projetos da Casgen como especialista em nanotecnologia; Casgen compõe equipe ALTOÈ para projetos que exigem biotecnologia

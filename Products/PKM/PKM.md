@@ -70,6 +70,7 @@ cellStyle:
     - **skills**
         - [[Products/PKM/ai/skills/conceptualize/SKILL.md|conceptualize]]
         - [[Products/PKM/ai/skills/ingest/SKILL.md|ingest]]
+        - [[Products/PKM/ai/skills/ingest-business/SKILL.md|ingest-business]]
         - [[Products/PKM/ai/skills/ingest-call/SKILL.md|ingest-call]]
         - [[Products/PKM/ai/skills/ingest-pdf/SKILL.md|ingest-pdf]]
         - [[Products/PKM/ai/skills/ingest-product/SKILL.md|ingest-product]]

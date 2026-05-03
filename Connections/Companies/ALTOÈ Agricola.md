@@ -8,7 +8,7 @@ status: Em estruturação
 updated: 2026-04-25
 ---
 
-## ALTOÈ Agricola
+## ALTOE Agricola
 
 Consultoria agropecuária fundada por [[Rodrigo Altoé]], sediada em Marilândia/ES. Empresa construída sobre o retorno do fundador à sua cidade natal, trazendo consigo uma trajetória técnico-científica de alto nível — doutorado, pós-doutorado, atuação em Petrobras, CDTN e Gerdau Graphene — e a decisão de aplicá-la no território que o formou.
 
@@ -38,9 +38,9 @@ A visão do fundador é desenvolver, no médio e longo prazo, serviços que não
 
 ## Posicionamento Estratégico
 
-A ALTOÈ Agricola não é uma distribuidora de insumos nem uma consultoria de gestão genérica. Ocupa um espaço distinto: **o da inteligência técnico-científica aplicada ao campo**.
+A ALTOE Agricola não é uma distribuidora de insumos nem uma consultoria de gestão genérica. Ocupa um espaço distinto: **o da inteligência técnico-científica aplicada ao campo**.
 
-Enquanto a [[Amigos do Campo]] (empresa do irmão [[Leonardo Altoé]]) atua na ponta operacional — assistência técnica agronômica, insumos, relação diária com o produtor — a ALTOÈ Agricola opera na camada estratégica: crédito, fomento, inovação, articulação institucional. As duas empresas são naturalmente complementares no ecossistema local.
+Enquanto a [[Amigos do Campo]] (empresa do irmão [[Leonardo Altoé]]) atua na ponta operacional — assistência técnica agronômica, insumos, relação diária com o produtor — a ALTOE Agricola opera na camada estratégica: crédito, fomento, inovação, articulação institucional. As duas empresas são naturalmente complementares no ecossistema local.
 
 O ecossistema mais amplo de atuação está mapeado em [[Ecossistema de Fomento — Rede Altoé-LUMA]].
 
@@ -60,7 +60,7 @@ Na prática, isso se traduz em alguns traços que a empresa deve expressar:
 - **Inovação enraizada** — não inovação pela inovação, mas soluções que fazem sentido no território, para pessoas reais, com resultados mensuráveis
 - **Princípios não negociáveis** — transparência no crédito, honestidade na avaliação de viabilidade de projetos, recusa a propostas que não entregam o que prometem
 - **Visão de longo prazo** — construção gradual e sólida, sem promessas infladas; preferência por relações duradouras a transações pontuais
-- **Humanidade como diferencial** — em um setor onde o produtor frequentemente é tratado como tomador de crédito ou comprador de insumo, a ALTOÈ Agricola trata como parceiro
+- **Humanidade como diferencial** — em um setor onde o produtor frequentemente é tratado como tomador de crédito ou comprador de insumo, a ALTOE Agricola trata como parceiro
 
 ---
 

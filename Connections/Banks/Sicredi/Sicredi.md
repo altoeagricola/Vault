@@ -12,6 +12,14 @@ Cooperativa de crédito com forte atuação no agronegócio. No Espírito Santo,
 
 ---
 
+## Credenciamento ALTOE Agricola
+
+**Status:** Credenciamento em andamento
+
+**RT Responsável:** Luis Eduardo Gottardo (sócio 1% — responsabilidade técnica formal)
+
+---
+
 ## Pastas
 
 | Pasta | Conteúdo |
@@ -35,4 +43,4 @@ O credenciamento de consultoras junto ao Sicredi segue as **regras do MCR (Manua
 ## Relações
 
 - [[Ramão Lorenzoni]] — Gerente de Agência, contato principal
-- [[ALTOÈ Agricola]] — processo de credenciamento em andamento
+- [[ALTOE Agricola]] — processo de credenciamento em andamento

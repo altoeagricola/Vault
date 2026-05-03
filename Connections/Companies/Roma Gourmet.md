@@ -27,4 +27,4 @@ O nome é uma referência a Roma — a cafeteria tem posicionamento premium para
 
 - [[Nadia Passamani]] — co-fundadora
 - [[Dellano Sanz]] — co-fundador
-- [[ALTOÈ Agricola]] — potencial relação de serviços (proposta de consultoria a avaliar)
+- [[ALTOE Agricola]] — potencial relação de serviços (proposta de consultoria a avaliar)

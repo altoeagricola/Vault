@@ -13,7 +13,7 @@ updated: 2026-04-29
 **Engenheira Agrônoma · SENAR**
 Nova Venécia, Espírito Santo, Brasil
 
-Engenheira Agrônoma formada pela [[UFES]]. Atua no **SENAR** (Serviço Nacional de Aprendizagem Rural) e tem experiência em consultoria técnica rural via CNPJ próprio. Também tem passagem pela Terra Forte Tecnologias Agrícolas. Indicada por [[Leonardo Altoé]] como parceira técnica para a [[ALTOÈ Agricola]].
+Engenheira Agrônoma formada pela [[UFES]]. Atua no **SENAR** (Serviço Nacional de Aprendizagem Rural) e tem experiência em consultoria técnica rural via CNPJ próprio. Também tem passagem pela Terra Forte Tecnologias Agrícolas. Indicada por [[Leonardo Altoé]] como parceira técnica para a [[ALTOE Agricola]].
 
 ---
 
@@ -23,11 +23,11 @@ Graziela é casada com **Gustavo Altoé** (primo de [[Rodrigo Altoé]], irmão d
 
 ---
 
-## Papel na ALTOÈ Agricola
+## Papel na ALTOE Agricola
 
 **Status atual: contrato ativo — relação em tensão**
 
-Graziela é parceira técnica da [[ALTOÈ Agricola]] com **contrato de prestação de serviços formalizado** (`Areas/ALTOE Agricola/Documents/Graziela/Contrato de Prestação de Serviços.pdf`). A relação tem tensão após episódio de ofensa percebida (ver histórico), mas o contrato está vigente.
+Graziela é parceira técnica da [[ALTOE Agricola]] com **contrato de prestação de serviços formalizado** (`Areas/ALTOE Agricola/Documents/Graziela/Contrato de Prestação de Serviços.pdf`). A relação tem tensão após episódio de ofensa percebida (ver histórico), mas o contrato está vigente.
 
 A responsabilidade técnica formal para fins de credenciamento bancário está com [[Luis Eduardo Gottardo]] (sócio 1%). Graziela atua como responsável técnica via contrato de serviços, com função complementar a Eduardo.
 
@@ -41,11 +41,11 @@ O ponto de tensão surgiu quando Rodrigo comunicou a Graziela que Eduardo perman
 
 O [[Sicoob]] (Joselvi Paier) identificou que o CNPJ de Graziela listava atividade de **venda de equipamentos agrícolas** — vedada pelo MCR para consultores de financiamento rural. Graziela afirma ter solicitado a remoção dessa atividade há mais de um mês. Porém, segundo Joselvi (Sicoob), a atualização **ainda não consta no sistema do banco** — o que impede Graziela de assinar como responsável técnica no cadastro do Sicoob.
 
-**Decisão estratégica de Rodrigo:** aguardar a atualização do CNPJ de Graziela no sistema do Sicoob antes de pedir a inclusão de Eduardo como RT nesse banco. Ou seja, a [[ALTOÈ Agricola]] ainda não está operando no Sicoob — não por impedimento definitivo, mas por **escolha deliberada de preservar o papel de Graziela nessa instituição**. Eduardo poderia ser usado como alternativa imediata, mas Rodrigo optou por esperar.
+**Decisão estratégica de Rodrigo:** aguardar a atualização do CNPJ de Graziela no sistema do Sicoob antes de pedir a inclusão de Eduardo como RT nesse banco. Ou seja, a [[ALTOE Agricola]] ainda não está operando no Sicoob — não por impedimento definitivo, mas por **escolha deliberada de preservar o papel de Graziela nessa instituição**. Eduardo poderia ser usado como alternativa imediata, mas Rodrigo optou por esperar.
 
 ### Situação em 29/04/2026
 
-Bia, funcionária da [[Amigos do Campo]], está saindo. Há especulação de que [[Leonardo Altoé]] chamará Graziela para substituí-la. Se confirmado, Graziela — que tem contrato ativo com a [[ALTOÈ Agricola]] — passaria a atuar também na Amigos do Campo, o que cria **potencial conflito de interesse**. O risco maior materializa-se se Leonardo criar uma frente de crédito rural dentro da Amigos do Campo.
+Bia, funcionária da [[Amigos do Campo]], está saindo. Há especulação de que [[Leonardo Altoé]] chamará Graziela para substituí-la. Se confirmado, Graziela — que tem contrato ativo com a [[ALTOE Agricola]] — passaria a atuar também na Amigos do Campo, o que cria **potencial conflito de interesse**. O risco maior materializa-se se Leonardo criar uma frente de crédito rural dentro da Amigos do Campo.
 
 > Ver análise completa e parecer em [[Journal/Daily/2026-04-29]].
 
@@ -59,7 +59,7 @@ Bia, funcionária da [[Amigos do Campo]], está saindo. Há especulação de que
 
 ## Relações
 
-- [[ALTOÈ Agricola]] — proposta de parceria não formalizada; relação desgastada
+- [[ALTOE Agricola]] — proposta de parceria não formalizada; relação desgastada
 - [[Luis Eduardo Gottardo]] — assumiu o papel de responsável técnico formal (sócio 1%)
 - [[Leonardo Altoé]] — quem a indicou ao fundador da ALTOÈ; possível futuro empregador
 - [[SENAR]] — empregadora atual

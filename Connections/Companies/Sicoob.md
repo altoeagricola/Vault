@@ -22,5 +22,5 @@ Cooperativa de crédito nacional, com forte atuação no interior do Espírito S
 
 ## Relações
 
-- [[ALTOÈ Agricola]] — instituição financeira de interesse para crédito rural e associados
+- [[ALTOE Agricola]] — instituição financeira de interesse para crédito rural e associados
 - [[Sicredi]] — cooperativa de crédito concorrente/parceira no ecossistema cooperativista

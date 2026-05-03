@@ -1,4 +1,0 @@
----
-root:
-  - "[[Linked Vaults]]"
----
