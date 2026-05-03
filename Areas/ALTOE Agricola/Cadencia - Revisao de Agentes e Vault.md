@@ -105,6 +105,7 @@ Estrutura de rituais recorrentes para iteração contínua e saudável da arquit
 - **Não é revisão ansiosa:** O objetivo não é mudar tudo o tempo todo. A cadência dá espaço para que mudanças menores sejam absorvidas naturalmente, e mudanças maiores tenham discussão estruturada.
 - **Integração com operação:** Insights dos rituais de revisão alimentam o backlog de skills, priorizações de agentes e pauta de onboards de novos agentes.
 - **Documento vivo:** Esta cadência pode evoluir. Sugestões de ajuste no próprio ritual devem ser capturadas como issue com tag "cadencia-meta", revistas a cada trimestre.
+- **Cadência operacional complementar:** Os rituais de negócio (pipeline de crédito, fomento, mercado, clientes, compliance) estão documentados em [[Cadencia - Operacional ALTOE Agricola]]. Este documento e aquele formam o sistema completo de cadências.
 
 ---
 

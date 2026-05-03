@@ -17,6 +17,8 @@ Banco público federal com ampla atuação no crédito rural e agronegócio. Cre
 
 **RT Responsável:** Luis Eduardo Gottardo (sócio 1% — responsabilidade técnica formal)
 
+**Pendências:** Envio do registro da ALTOE Agricola junto ao CREA ES. Cadastro encontra-se pré-aprovado.
+
 ---
 
 ## Pastas

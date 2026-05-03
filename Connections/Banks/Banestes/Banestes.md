@@ -15,7 +15,7 @@ Banco do Estado do Espírito Santo. Atua nos 78 municípios capixabas, atendendo
 
 **Status:** Credenciamento em andamento
 
-**RT Responsável:** Luis Eduardo Gottardo (sócio 1% — responsabilidade técnica formal)
+**RT Responsável:** Graziela Evencio de Oliveira (parceira técnica — contrato de prestação de serviços)
 
 ---
 

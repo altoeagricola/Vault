@@ -15,9 +15,9 @@ Cooperativa de crédito com forte presença em [[Marilandia]]. Assumiu lideranç
 
 **Status:** Credenciamento em andamento
 
-**RT Responsável:** Luis Eduardo Gottardo (sócio 1% — responsabilidade técnica formal)
+**RT Responsável:** Graziela Evencio de Oliveira (parceira técnica — contrato de prestação de serviços)
 
-**Contexto:** Aguardando atualização do CNPJ de Graziela no sistema do Sicoob (remover atividade de venda de equipamentos agrícolas, vedada pelo MCR). Decisão estratégica de Rodrigo: aguardar essa atualização antes de incluir Luis Eduardo como RT.
+**Pendências:** Questão documental de Graziela. Joselvi Paier (gerente) confirmou que o cadastro está pronto para assinatura — a única pendência é uma documentação de Graziela. Alternativamente, se Luis Eduardo for incluído como RT, não haveria pendências.
 
 ---
 

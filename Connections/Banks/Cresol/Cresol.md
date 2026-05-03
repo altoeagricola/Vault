@@ -15,7 +15,7 @@ Cooperativa de crédito com atuação relevante em crédito rural. Considerado o
 
 **Status:** Credenciamento ativo
 
-**RT Responsável:** Luis Eduardo Gottardo (sócio 1% — responsabilidade técnica formal)
+**RT Responsável:** Graziela Evencio de Oliveira (parceira técnica — contrato de prestação de serviços)
 
 ---
 
