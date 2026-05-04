@@ -1,6 +1,6 @@
 ---
 tipo: Outorga de Direito de Uso de Recursos Hídricos
-cliente: "[[Connections/People/Sergio Jose Altoe|Sergio Jose Altoe]]"
+cliente: "[[Sergio Jose Altoe]]"
 finalidade: Irrigação
 órgão: AGERH — Agência Estadual de Recursos Hídricos do Espírito Santo
 sistema: Sistema AGERH Online
@@ -14,7 +14,7 @@ updated: 2026-04-28
 
 # Outorga de Direito de Uso de Recursos Hídricos — Sergio Jose Altoe
 
-Outorga de uso de água para **irrigação**, gerenciada pela [[ALTOE Agricola]] em nome de Sergio Jose Altoe (primeiro cliente da consultoria). Serviço executado pela secretaria da ALTOÈ em 28/04/2026 — primeira operação de outorga realizada pela empresa.
+Outorga de uso de água para **irrigação**, gerenciada pela [[ALTOE Agricola]] em nome de [[Sergio Jose Altoe]] (primeiro cliente da consultoria). Serviço executado pela secretaria da ALTOÈ em 28/04/2026 — primeira operação de outorga realizada pela empresa.
 
 ---
 
