@@ -3,12 +3,22 @@ tipo: Banco / Cooperativa de Crédito
 contexto: "[[Connections/Banks]]"
 site: https://www.sicredi.com.br
 contato-principal: "[[Ramão Lorenzoni]]"
-atualizado: 2026-04-27
+atualizado: 2026-05-04
 ---
 
 # Sicredi — Conexão ALTOÈ
 
 Cooperativa de crédito com forte atuação no agronegócio. No Espírito Santo, a singular responsável é o **Sicredi Essência**, com agência em Marilândia conduzida por [[Ramão Lorenzoni]] (Gerente de Agência, CPA-20).
+
+Cooperativa de crédito nacional com forte presença no agronegócio brasileiro. Opera por meio de cooperativas singulares regionais.
+
+---
+
+## Contatos
+
+| Nome | Cargo | Nota |
+|------|-------|------|
+| [[Ramão Lorenzoni]] | Gerente de Agência · CPA 20 | Sicredi Essência — ES |
 
 ---
 
@@ -44,3 +54,4 @@ O credenciamento de consultoras junto ao Sicredi segue as **regras do MCR (Manua
 
 - [[Ramão Lorenzoni]] — Gerente de Agência, contato principal
 - [[ALTOE Agricola]] — processo de credenciamento em andamento
+- [[Sicoob]] — cooperativa de crédito concorrente/parceira no ecossistema cooperativista

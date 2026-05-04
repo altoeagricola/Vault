@@ -8,66 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4c0d45d52860864",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/Daily/2026-04-17.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": true,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-17"
-            }
-          },
-          {
-            "id": "0b8f486228987d47",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
             "id": "1e31427d7962a9cc",
             "type": "leaf",
             "state": {
               "type": "task-board-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "task-board-view"
+              "icon": "brick-wall",
+              "title": "Task Board"
             }
           },
           {
-            "id": "fa848e1ded129d60",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
-            "id": "207307b4f66616c7",
+            "id": "4fa180a133f36c88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/ALTOE Agricola/ALTOE Agricola.md",
+                "file": "Connections/Companies/Polystell.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,35 +38,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ALTOE Agricola"
-            }
-          },
-          {
-            "id": "7771b66b51c0ee80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": true,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Estrutura de Agentes IA"
+              "title": "Polystell"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
+                "file": "Connections/Companies/Polystell.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +147,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Estrutura de Agentes IA"
+              "title": "Gráfico de Polystell"
             }
           }
         ]
@@ -239,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
+                "file": "Connections/Companies/Polystell.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -249,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Estrutura de Agentes IA"
+              "title": "Links inversos para Polystell"
             }
           },
           {
@@ -571,6 +503,36 @@
   },
   "active": "a6970f043aaae8da",
   "lastOpenFiles": [
+    "Products/PKM/ai/skills/score-aderencia-edital",
+    "Connections/Companies/Noroeste Consultoria.md",
+    "Connections/Companies/Mundo Verde.md",
+    "Connections/Companies/Polystell.md",
+    "Connections/Companies/Sobre nós.md",
+    "Journal/Daily/2026-04-17.md",
+    "Connections/Companies/Sicoob.md",
+    "Products/Fomento/WikiF/Matriz de Aderencia de Parceiros ICTs.md",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/_attachments",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/test_integration.py",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/test_monitorar_regulatorio.py",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/SKILL_README.md",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/monitorar_regulatorio_integrated.py",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/vault_adapter.py",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/monitorar_regulatorio_skill.py",
+    "Products/PKM/ai/skills/monitorar-regulatorio/SKILL.md",
+    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments",
+    "Products/PKM/ai/skills/monitorar-regulatorio",
+    "Connections/Companies/_attachments/4a68dbf0f8219545f9b41c738390190f_MD5.webp",
+    "Connections/Companies/_attachments/eac6957e53f94f56e5bbc5816e651bc7_MD5.webp",
+    "Connections/Companies/_attachments/30f2744c1a8687929d6021fdff360f24_MD5.webp",
+    "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores/Sustentabilidade e Conformidade Ambiental.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores/Plano de Trabalho — Estruturas Reutilizaveis.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores/Parcerias ICTs — IFES, LUMA e Rede.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores/Inovacao e Diferenciais — ALTOE Agricola.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores/Impacto Regional — Marilandia e Conilon.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores/Relevancia Cientifica — Rodrigo Altoe.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores/Argumentos Vencedores.md",
+    "Products/Fomento/WikiF/Argumentos Vencedores",
     "Areas/ALTOE Agricola/Design — Matriz de Handoff entre Agentes.md",
     "Journal/Weekly/Weekly.md",
     "Areas/ALTOE Agricola/Cadencia - Operacional ALTOE Agricola.md",
@@ -579,34 +541,7 @@
     "Areas/ALTOE Agricola/Onboard - Sintese e Feedback dos Agentes.md",
     "Areas/ALTOE Agricola/Estrutura de Agentes IA - Contexto.md",
     "Areas/ALTOE Agricola/_attachments/Proposta de Agentes vs IA Models.xlsx",
-    "Areas/ALTOE Agricola/_attachments",
     "Areas/ALTOE Agricola/Documents/Documents.md",
-    "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
-    "Journal/Daily/2026-05-03.md",
-    "Products/PKM/ai/skills/ingest-business/SKILL.md",
-    "Areas/Areas.md",
-    "Areas/ALTOE Agricola/ALTOE Agricola.md",
-    "Areas/ALTOE Agricola/Regras de Organizacao do Vault.md",
-    "Areas/ALTOE Agricola/Servicos-Satelites.md",
-    "Products/PKM/ai/skills/ingest-business/_attachments",
-    "Products/PKM/ai/skills/ingest-business",
-    "Areas/ALTOE Agricola/Equipe.md",
-    "Products/Crédito-Rural/Projetos/Pronaf Habitacao - Sergio Jose Altoe.md",
-    "Wiki-Comercial/MCR.md",
-    "Connections/Regioes/Marilandia/Marilandia.md",
-    "Connections/Banks/Banestes/Banestes.md",
-    "Connections/Banks/Sicoob/Sicoob.md",
-    "Connections/Banks/Cresol/_attachments",
-    "Connections/Banks/Cresol/Cresol.md",
-    "Connections/Banks/Banestes",
-    "Connections/Banks/Sicoob",
-    "Connections/Banks/Cresol",
-    "Connections/Connections.md",
-    "Products/Crédito-Rural/Propostas",
-    "Products/Fomento/Projetos",
-    "Products/PKM/ai/skills/update-mcr/SKILL.md",
-    "Products/PKM/ai/skills/ingest-call/SKILL.md",
-    "Products/Products.md",
     "Areas/ALTOE Agricola/Documents/Luis Eduardo Gottardo/Comprovante de Residência.jpeg",
     "Connections/People/_attachments/0b77bcd26ae40c117bee73527600a124_MD5.jpg",
     "Connections/Companies/_attachments/ae877b9b8ca10eeb0cab818fb66bfa9c_MD5.png",
@@ -614,9 +549,6 @@
     "Connections/Companies/_attachments/01be682a52b20c8d557fecab9e23e086_MD5.png",
     "Connections/Companies/_attachments/305889398e6f71f116e1bb02df5b330f_MD5.png",
     "Connections/Companies/_attachments/492ee2b64825c2f9ceb47e770c51d517_MD5.png",
-    "Connections/Companies/_attachments/52f14693b547e7fd27251637e9b9ca86_MD5.png",
-    "Connections/Companies/_attachments/867342167ca7d3ad0694f4f530c33292_MD5.png",
-    "Connections/Companies/_attachments/8a506428188b24426375548838079a14_MD5.png",
     "Products/Fomento/Propostas/MGg-3.canvas",
     "Products/InfraKeeper/Untitled.canvas",
     "Untitled.canvas"

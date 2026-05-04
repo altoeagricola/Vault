@@ -1,10 +1,10 @@
 {
     "VaultName": "InnerGarden",
-    "Modified_at": "2026-05-03T20:22:41",
+    "Modified_at": "2026-05-04T09:46:12",
     "Pending": {
         "Journal/Weekly/Weekly.md": [
             {
-                "id": "183928718",
+                "id": "2229270019",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ]",
@@ -1829,9 +1829,6 @@
         "Connections/People/Leonardo Altoé.md": [],
         "Connections/Banks/Banco do Nordeste/Cadastro/Requisitos de Cadastro — BNB.md": [],
         "Connections/Banks/Banco do Nordeste/Cadastro/Proposta de Cadastro PJ — BNB.md": [],
-        "Connections/Banks/Banco do Brasil/Banco do Brasil.md": [],
-        "Connections/Banks/Banestes/Banestes.md": [],
-        "Connections/Banks/Cresol/Cresol.md": [],
         "Connections/Companies/Casgen Biotecnologia Micropropagação.md": [],
         "Connections/Companies/Sicoob.md": [],
         "Connections/Companies/Noroeste Consultoria.md": [],
@@ -1845,7 +1842,13 @@
         "Wiki/Concepts/Harness Simplification.md": [],
         "Wiki/Concepts/LXC Containers.md": [],
         "Wiki/Concepts/DNS-01 ACME Challenge.md": [],
-        "Wiki/Concepts/MCR.md": []
+        "Wiki/Concepts/MCR.md": [],
+        "Areas/ALTOE Agricola/Design — Matriz de Handoff entre Agentes.md": [],
+        "Connections/Banks/Cresol/Cresol.md": [],
+        "Connections/Banks/Banco do Brasil/Banco do Brasil.md": [],
+        "Connections/Banks/Banestes/Banestes.md": [],
+        "Products/PKM/ai/skills/monitorar-regulatorio/SKILL.md": [],
+        "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/SKILL_README.md": []
     },
     "Completed": {
         "Archive/Products/Obsidian.md": [],
@@ -3333,9 +3336,6 @@
         "Connections/People/Leonardo Altoé.md": [],
         "Connections/Banks/Banco do Nordeste/Cadastro/Requisitos de Cadastro — BNB.md": [],
         "Connections/Banks/Banco do Nordeste/Cadastro/Proposta de Cadastro PJ — BNB.md": [],
-        "Connections/Banks/Banco do Brasil/Banco do Brasil.md": [],
-        "Connections/Banks/Banestes/Banestes.md": [],
-        "Connections/Banks/Cresol/Cresol.md": [],
         "Connections/Companies/Casgen Biotecnologia Micropropagação.md": [],
         "Connections/Companies/Sicoob.md": [],
         "Connections/Companies/Noroeste Consultoria.md": [],
@@ -3350,7 +3350,12 @@
         "Wiki/Concepts/LXC Containers.md": [],
         "Wiki/Concepts/DNS-01 ACME Challenge.md": [],
         "Areas/ALTOE Agricola/Cadencia - Operacional ALTOE Agricola.md": [],
-        "Journal/Weekly/Weekly.md": []
+        "Areas/ALTOE Agricola/Design — Matriz de Handoff entre Agentes.md": [],
+        "Connections/Banks/Cresol/Cresol.md": [],
+        "Connections/Banks/Banco do Brasil/Banco do Brasil.md": [],
+        "Connections/Banks/Banestes/Banestes.md": [],
+        "Products/PKM/ai/skills/monitorar-regulatorio/SKILL.md": [],
+        "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/SKILL_README.md": []
     },
     "Notes": []
 }
