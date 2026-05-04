@@ -301,3 +301,28 @@ Stage only the files changed by the workflow. Push to remote after commit.
 3. Maintain wiki-link references to connect related content
 4. Keep `Journal/Daily/` private per the permissions
 5. When in doubt about folder placement or new page types, ask the user
+
+---
+
+## File System — Absolute Paths and Placement Rules
+
+**CRITICAL: Never create files outside the Vault root.** All work must be saved directly inside the Vault — never in a temporary `workdir/`, a workspace directory, or any path outside the Vault root.
+
+| Description | Absolute path |
+|-------------|--------------|
+| **Vault root** | `/Users/okumaaltoe/AltoèAgricola.Vault/` |
+| Wiki | `…/Wiki/` |
+| Sources | `…/Sources/` |
+| Crédito Rural (product) | `…/Products/Crédito-Rural/` |
+| CR — client folders | `…/Products/Crédito-Rural/Clientes/<Client Name>/` |
+| CR — operational templates & forms | `…/Products/Crédito-Rural/Operacoes/Fichas/` |
+| CR — proposals | `…/Products/Crédito-Rural/Propostas/` |
+| CR — projects | `…/Products/Crédito-Rural/Projetos/` |
+| CR — knowledge base | `…/Products/Crédito-Rural/WikiCR/` |
+| Connections — people | `…/Connections/People/` |
+| Connections — companies | `…/Connections/Companies/` |
+
+**Placement rules for Crédito Rural:**
+- Operational forms, templates, CSV models, scripts → `Products/Crédito-Rural/Operacoes/Fichas/`
+- Client-specific documents → `Products/Crédito-Rural/Clientes/<Client Name>/`
+- Bank registration files → `Connections/Banks/<Bank Name>/Cadastro/`
