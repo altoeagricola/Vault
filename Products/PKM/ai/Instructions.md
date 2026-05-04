@@ -321,6 +321,9 @@ Stage only the files changed by the workflow. Push to remote after commit.
 | CR — knowledge base | `…/Products/Crédito-Rural/WikiCR/` |
 | Connections — people | `…/Connections/People/` |
 | Connections — companies | `…/Connections/Companies/` |
+| Connections — clients (CRM) | `…/Connections/Clientes/` |
+| Connections — partners (CRM) | `…/Connections/Parceiros/` |
+| CRM template | `…/Products/PKM/Templates/T-CRM.md` |
 
 **Placement rules for Crédito Rural:**
 - Operational forms, templates, CSV models, scripts → `Products/Crédito-Rural/Operacoes/Fichas/`
