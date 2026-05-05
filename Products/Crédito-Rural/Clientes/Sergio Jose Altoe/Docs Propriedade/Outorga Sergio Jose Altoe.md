@@ -6,7 +6,7 @@ finalidade: Irrigação
 sistema: Sistema AGERH Online
 url-sistema: https://servicos.agerh.es.gov.br/sistema_agerh/inicial.php
 login: email institucional da [[ALTOE Agricola]]
-senha: Alr5794
+credenciais-local: 1Password / Vault corporativo (não armazenar em Git)
 data-servico: 2026-04-28
 validade: verificar no documento PDF
 updated: 2026-04-28
@@ -18,18 +18,15 @@ Outorga de uso de água para **irrigação**, gerenciada pela [[ALTOE Agricola]]
 
 ---
 
-## Credenciais de Acesso — Sistema AGERH
+## Acesso ao Sistema AGERH
 
-> **Acesso rápido para recuperação de senha:**
+**Credenciais:** Armazenadas em local seguro (1Password / password manager corporativo). Não devem estar no Vault em Git — procure Rodrigo/Cacilda para acesso.
 
-| Campo | Valor |
-|-------|-------|
-| **Sistema** | AGERH Online — Outorga de Recursos Hídricos |
-| **URL** | https://servicos.agerh.es.gov.br/sistema_agerh/inicial.php |
-| **Login** | Email institucional da [[ALTOE Agricola]] |
-| **Senha** | `Alr5794` |
-
-A secretaria cadastrou o email da [[ALTOE Agricola]] como login. Conta válida para futuras solicitações de outros clientes — **o mesmo cadastro pode ser usado para múltiplos requerimentos**.
+**Informações operacionais:**
+- Sistema: AGERH Online — Outorga de Recursos Hídricos
+- URL: https://servicos.agerh.es.gov.br/sistema_agerh/inicial.php
+- Login: Email institucional da [[ALTOE Agricola]]
+- Obs: Cadastro feito uma vez, reutilizável para todos os clientes da ALTOÈ
 
 ---
 
