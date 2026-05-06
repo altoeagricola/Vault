@@ -129,6 +129,19 @@ confidence: high | medium | low
 
 **Trigger:** User says "ingest [source-type] [filename]" (e.g., "ingest article Karpathy's LLM Wiki...")
 
+**Pre-ingestion placement checklist:**
+Before reading or writing any source, wiki page, index, log, extracted transcript, PDF text, or auxiliary file:
+1. Confirm the Vault root is `/Users/okumaaltoe/AltoèAgricola.Vault/`
+2. Confirm the current working directory is inside that Vault root, not inside `/Users/okumaaltoe/multica_workspaces/`
+3. Confirm the target folders exist inside the Vault (`Sources/`, `Wiki/`, or the approved structural target)
+4. If any generated file was accidentally created outside the Vault, move it into the correct Vault folder before continuing and do not reference the outside path in wiki pages
+5. If the correct folder is ambiguous, stop and ask the user before creating files
+
+Optional terminal check:
+```bash
+Products/PKM/AI/hooks/validate-vault-root.sh
+```
+
 **Process:**
 1. Read the source file in `Sources/[type]/`
 2. Present a first inspection: key questions and observations that help the user capture the gist. Be narrative but straight to the point — not a dry list, but not verbose either.
@@ -249,8 +262,9 @@ All specialized ingestion skills extract content into a source file, then delega
 | Hook | Event | Scope | Purpose |
 |------|-------|-------|---------|
 | `validate-frontmatter.sh` | PreToolUse (Write) | `Wiki/*` | Blocks writes to wiki pages missing required frontmatter fields or with invalid type values |
+| `validate-vault-root.sh` | Manual pre-flight | All ingestion workflows | Confirms the agent is running inside `/Users/okumaaltoe/AltoèAgricola.Vault/` and not in a Multica `workdir/` |
 
-Hook script location: `Products/PKM/AI/hooks/validate-frontmatter.sh`
+Hook script location: `Products/PKM/AI/hooks/`
 
 
 ## Git Conventions
@@ -307,6 +321,8 @@ Stage only the files changed by the workflow. Push to remote after commit.
 ## File System — Absolute Paths and Placement Rules
 
 **CRITICAL: Never create files outside the Vault root.** All work must be saved directly inside the Vault — never in a temporary `workdir/`, a workspace directory, or any path outside the Vault root.
+
+This applies even when the agent is launched from a Multica workspace such as `/Users/okumaaltoe/multica_workspaces/.../workdir/`. Treat that directory as execution context only; it is not part of the Obsidian Vault, and files created there will not appear in Obsidian.
 
 | Description | Absolute path |
 |-------------|--------------|
