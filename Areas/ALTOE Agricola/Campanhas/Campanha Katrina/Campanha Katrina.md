@@ -97,4 +97,4 @@ Concluir o Ciclo 0:
 - [x] Criar cronograma inicial
 - [x] Criar agenda humana inicial
 - [x] Abrir primeiras issues filhas P0 para agentes
-- [ ] Publicar resumo inicial na issue ALT-84
+- [x] Publicar resumo inicial na issue ALT-84

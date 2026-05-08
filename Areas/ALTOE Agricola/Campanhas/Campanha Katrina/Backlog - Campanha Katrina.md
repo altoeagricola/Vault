@@ -21,7 +21,7 @@ tags:
 | KAT-002 | Criar cronograma inicial | Carmen | done | Cronograma semanal criado |
 | KAT-003 | Criar agenda humana inicial | Carmen | done | Blocos de Rodrigo e Gaby definidos |
 | KAT-004 | Abrir issues filhas P0 | Carmen | done | Issues criadas com donos e criterios |
-| KAT-005 | Publicar resumo de inicio | Carmen | todo | Comentario na issue ALT-84 |
+| KAT-005 | Publicar resumo de inicio | Carmen | done | Comentario na issue ALT-84 |
 
 ## Ciclo 1 - P0
 
