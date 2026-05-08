@@ -13,13 +13,13 @@ The vault keeps a clean separation:
 
 ## When to Use This Skill vs. Others
 
-| If the document is… | Use |
-|---|---|
-| A research paper, article, video, tweet | `/ingest`, `/ingest-pdf`, `/ingest-youtube`, `/ingest-tweet` |
-| A public **R&D** call (FAPES, FINEP, CNPq research) | `/ingest-call` |
-| A personal/corporate identity doc (CNH, CNPJ, IRPF, Certidão, Contrato Social, Comprovante) | `/ingest-business` → **Personal/Corporate** branch |
-| An **agricultural** funding/credit call (Plano Safra, Pronaf, FNE, programas estaduais rurais) | `/ingest-business` → **Edital Fomento** branch |
-| An official BCB/bank rule, MCR chapter, manual de crédito rural, marco legal | `/ingest-business` → **Regulatory** branch |
+| If the document is…                                                                            | Use                                                          |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| A research paper, article, video, tweet                                                        | `/ingest`, `/ingest-pdf`, `/ingest-youtube`, `/ingest-tweet` |
+| A public **R&D** call (FAPES, FINEP, CNPq research)                                            | `/ingest-call`                                               |
+| A personal/corporate identity doc (CNH, CNPJ, IRPF, Certidão, Contrato Social, Comprovante)    | `/ingest-business` → **Personal/Corporate** branch           |
+| An **agricultural** funding/credit call (Plano Safra, Pronaf, FNE, programas estaduais rurais) | `/ingest-business` → **Edital Fomento** branch               |
+| An official BCB/bank rule, MCR chapter, manual de crédito rural, marco legal                   | `/ingest-business` → **Regulatory** branch                   |
 
 If a single document fits two branches (e.g., an edital that also defines new credit rules), pick the **primary intent** and cross-link the other location.
 

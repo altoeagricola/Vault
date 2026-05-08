@@ -53,7 +53,7 @@ Estrutura de rituais recorrentes para iteração contínua e saudável da arquit
 **Duração:** 1–1,5h  
 **Participantes:** Todos os agentes + Rodrigo
 
-**Objetivo:** Garantir que o Vault está evoluindo com a operação; pastasconhecimento não usadas são consolidadas, conceitos sem local são acomodados.
+**Objetivo:** Garantir que o Vault está evoluindo com a operação; pastas/conhecimento não usados são consolidados, conceitos sem local são acomodados.
 
 **Agenda:**
 - Auditoria leve: Quais pastas estão crescendo? Quais estão vazias?
@@ -108,4 +108,3 @@ Estrutura de rituais recorrentes para iteração contínua e saudável da arquit
 - **Cadência operacional complementar:** Os rituais de negócio (pipeline de crédito, fomento, mercado, clientes, compliance) estão documentados em [[Cadencia - Operacional ALTOE Agricola]]. Este documento e aquele formam o sistema completo de cadências.
 
 ---
-

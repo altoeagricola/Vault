@@ -11,7 +11,7 @@ company: Gerdau Graphene
 contato: altoe.rodrigo@gmail.com
 telefone: "+55 27 99511 9300"
 escavador: https://www.escavador.com/sobre/2764413/rodrigo-altoe
-updated: 2026-04-25
+updated: 2026-05-07
 ---
 
 ## Rodrigo Altoè
@@ -21,6 +21,19 @@ Brasileiro, 46 anos · Belo Horizonte/MG
 altoe.rodrigo@gmail.com · +55 27 99511 9300
 
 Pesquisador sênior com trajetória em P&D industrial e acadêmico, com foco em nanomateriais (grafeno), polímeros, petróleo pesado e processos de escalonamento. Experiência comprovada em captação e execução de projetos de fomento (FAPESP, FAPEMIG). Patente depositada na Petrobras. Prêmio Petrobras Inventor 2013.
+
+---
+
+## Relação com MGgrafeno / MGg3
+
+O catalogo MGg3.0 cita Rodrigo Altoe como co-idealizador das propostas atuais de licenciamento, retomada operacional e desenvolvimento de negocios em torno do pacote MGgrafeno. Esta nota ja existia e deve permanecer como registro canonico de pessoa para evitar duplicacao por grafias como `Rodrigo Altoe`, `Rodrigo Altoè` ou `Rodrigo Altoé`.
+
+Relações diretas nesta camada:
+
+- [[MGg2]] — camada historica MGgrafeno no Vault
+- [[Planta piloto CDTN]] — experiencia em escalonamento e producao de grafeno
+- [[Licenciamento UFMG CDTN]] — contexto de transferencia tecnologica
+- [[Flavio Plentz]] — co-idealizador citado no catalogo
 
 ---
 

@@ -22,16 +22,16 @@ tags:
 
 Este e o indice operacional do caso Sergio Jose Altoe. A estrutura correta fica assim:
 
-| Camada | Local | Uso |
-| --- | --- | --- |
-| Relacionamento/CRM | [[Sergio Jose Altoe]] | ficha comercial, contato, funil, proximas acoes |
-| Dossie operacional | esta nota | indice mestre do caso, rastreabilidade e decisao |
-| Documentos pessoais | `Products/Credito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/` | PDFs originais de identificacao e renda |
-| Documentos da propriedade | `Products/Credito-Rural/Clientes/Sergio Jose Altoe/Docs Propriedade/` | CCIR, ITR, CAR, escritura, outorga |
-| Documentos de avalista | `Products/Credito-Rural/Clientes/Sergio Jose Altoe/Docs Avalista/` | documentos de terceiros, se aplicavel |
-| Projeto de credito | [[Pronaf Habitacao - Sergio Jose Altoe]] | nota da operacao/linha/banco |
-| Banco | [[Cresol]] | pratica bancaria, contato e exigencias |
-| Regiao/mercado | [[Marilandia]] | contexto territorial e mercado de conilon |
+| Camada                    | Local                                                                 | Uso                                              |
+| ------------------------- | --------------------------------------------------------------------- | ------------------------------------------------ |
+| Relacionamento/CRM        | [[Sergio Jose Altoe]]                                                 | ficha comercial, contato, funil, proximas acoes  |
+| Dossie operacional        | esta nota                                                             | indice mestre do caso, rastreabilidade e decisao |
+| Documentos pessoais       | `Products/Credito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/`    | PDFs originais de identificacao e renda          |
+| Documentos da propriedade | `Products/Credito-Rural/Clientes/Sergio Jose Altoe/Docs Propriedade/` | CCIR, ITR, CAR, escritura, outorga               |
+| Documentos de avalista    | `Products/Credito-Rural/Clientes/Sergio Jose Altoe/Docs Avalista/`    | documentos de terceiros, se aplicavel            |
+| Projeto de credito        | [[Pronaf Habitacao - Sergio Jose Altoe]]                              | nota da operacao/linha/banco                     |
+| Banco                     | [[Cresol]]                                                            | pratica bancaria, contato e exigencias           |
+| Regiao/mercado            | [[Marilandia]]                                                        | contexto territorial e mercado de conilon        |
 
 Regra: documento bruto fica na pasta do cliente; analise fica em nota markdown; decisao fica no dossie. Sem isso, vira gaveta baguncada. E gaveta baguncada cobra juros.
 
@@ -41,7 +41,7 @@ Regra: documento bruto fica na pasta do cliente; analise fica em nota markdown; 
 | --- | --- | --- | --- |
 | 1. Ficha CRM | ficha do cliente | iniciado | [[Sergio Jose Altoe]] |
 | 2. Indice documental | lista de documentos encontrados | parcial | seções 3 e 4 deste dossie |
-| 3. Checklist documental | completo / ausente / vencido / confirmar | a produzir | `Checklist Documental - Sergio Jose Altoe` |
+| 3. Checklist documental | existente / ausente / vencido / confirmar | produzido | [[Checklist Documental - Sergio Jose Altoe]] |
 | 4. Enquadramento de credito | parecer linha/programa/banco | a produzir | [[Pronaf Habitacao - Sergio Jose Altoe]] |
 | 5. Mercado conilon | briefing Marilandia/ES | a produzir | linkar quando entregue |
 | 6. Analise financeira | capacidade de pagamento | a produzir | linkar quando entregue |

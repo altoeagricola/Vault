@@ -19,6 +19,7 @@ Pasta de inteligência de mercado sobre a **Gerdau Graphene**, empresa do grupo 
 | GG02 | Graphene Week — Gothenburg | Apresentação pública (Graphene Flagship) | Set/2023 |
 | GG03 | Aditivos Químicos T&R — Update | Apresentação interna (comercial + P&D) | Ago/2024 |
 | GG04 | Case Indorama | Proposta de parceria técnica | Ago/2024 |
+| GG05 | Benchmarking — Mercado de Masterbatch contendo Grafeno | Estudo de mercado | Mai/2026 |
 
 ---
 
@@ -126,6 +127,28 @@ Proposta de parceria técnica com a **Indorama** (especialista em dispersantes e
 2. Trabalho conjunto para segmentos específicos (polímeros, tintas, cimentícios, lubrificantes)
 3. Indorama explora aditivos à base de grafeno nas suas formulações (reforço mecânico, condutividade, barreira, lubrificidade)
 4. Indorama suporta GG com processos de funcionalização de polímeros (grafeno conectado a matrizes poliméricas)
+
+---
+
+### Benchmarking — Mercado de Masterbatch contendo Grafeno (Mai/2026)
+
+Estudo prospectivo que mapeia o mercado global de masterbatch com grafeno, identificando **12 produtores** em 3 regiões:
+
+**Brasil (2):** Gerdau Graphene, ZNANO  
+**América Latina (1):** Graphenemex (México)  
+**Internacional (9):** 2D fab (Suécia), AD-NANO (Índia), Chengdu Trustwell (China), Colloids (UK), First Graphene (Austrália/UK), Global Graphene Group (EUA), Graphmatech (Suécia), Nanoxplore (Canadá), Shanghai PGS Nanotech (China)
+
+**Achados-chave:**
+- Incorporação típica de grafeno em masterbatch: **5–20% em massa**
+- Diluição em polímeros finais: **<2% em massa** para alcançar propriedades (aumento módulo Young ~75%, resistência tração ~37%)
+- Elastômeros como segmento subutilizado: apenas **2 de 12 produtores** têm portfolio documentado
+- Colloids (UK) com portfólio mais amplo (11+ bases poliméricas: PA6, PA66, PBT, PET, PC, poliolefinas, PS, SAN, EMA, TPE, TPU)
+- Processamento: extrusão, moldagem por injeção, moldagem por sopro — métodos industriais convencionais
+
+**Implicações para MGg3:**
+- Elastômeros (borrachas industriais, pneumáticos) representam lacuna competitiva — oportunidade de diferenciação
+- Dispersão de grafeno permanece gargalo técnico central (validado via partnership Gerdau + Indorama)
+- Maioria dos concorrentes focada em commodity (PP, PE, PS) — margin baixa; MGg3 deve priorizar nichos (especialidades, engenharia, aplicações high-performance)
 
 ---
 

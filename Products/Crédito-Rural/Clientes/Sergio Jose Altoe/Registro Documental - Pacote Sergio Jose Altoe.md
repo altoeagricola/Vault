@@ -1,0 +1,365 @@
+---
+tipo: Índice de Documentos / Registro Documental
+cliente: "[[Sergio Jose Altoe]]"
+dossie: "[[Sergio Jose Altoe - Dossie Rural]]"
+checklist_ref: "[[Checklist Documental - Sergio Jose Altoe]]"
+produto: "Pronaf Habitacao Rural"
+banco_alvo: "[[Cresol]]"
+data_criacao: 2026-05-05
+data_atualizacao: 2026-05-05
+responsavel_organizacao: "Cacilda"
+status_geral: "parcialmente-validado"
+tags:
+  - indice-documental
+  - registro-documental
+  - compilacao-mestre
+  - credito-rural
+  - piloto-operacional
+---
+
+# Registro Documental — Pacote de Sergio Jose Altoe
+
+## Resumo Executivo
+
+Este documento consolida o inventário de documentos críticos para a operação de Pronaf Habitação Rural de Sergio Jose Altoe. Cada documento crítico tem:
+
+1. **Localização:** caminho no Vault
+2. **Status:** existente / ausente / precisa_confirmar / vencido
+3. **Nota operacional:** markdown com campos extraídos, riscos, próximas ações
+4. **Validade/pendências:** data de vencimento, se aplicável
+
+A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas com frontmatter estruturado + linkar a checklist e dossie**.
+
+---
+
+## 1. Documentos Pessoais (Identificação e Renda)
+
+### 1.1 Identificação Primária — RG + CPF
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Pessoais/RG + CPF - SERGIO.pdf` | existente | Scan de RG + CPF combinados |
+| **Registro markdown** | `Registro - CNH Sergio Jose Altoe.md` (referência cruzada) | precisa_confirmar | Conferir legibilidade e CPF sem divergência |
+
+**Observação:** RG + CPF é documento primário de identidade. CNH é documento secundário (validação de validade crítica).
+
+---
+
+### 1.2 Identificação Secundária — CNH
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Pessoais/CNH - SERGIO.pdf` | existente | Carteira Nacional de Habilitação |
+| **Registro markdown** | `[[Registro - CNH Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO:** Validar data de vencimento |
+
+**Riscos:** CNH expirada impede operação creditícia.
+
+---
+
+### 1.3 Qualificação Pronaf — CAF
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Pessoais/CAF. Sergio.pdf` | existente | Cadastro de Agricultores Familiares |
+| **Registro markdown** | `[[Registro - CAF Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO — MCR 10-2:** CAF válido é mandatório |
+
+**Riscos:** CAF vencido ou sem enquadramento Pronaf Habitação Rural impede operação.  
+**Ação:** Validar validade e enquadramento antes de protocolo.
+
+---
+
+### 1.4 Renda — Comprovante de Aposentadoria
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Pessoais/COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.pdf` | existente | Comprovante de renda previdenciária |
+| **Nota operacional** | Ref. no dossie mestre | a_processar | Entrada para análise financeira |
+
+**Observação:** Documento bifaria (ambos os cônjuges). Base para avaliação de capacidade de pagamento.
+
+---
+
+### 1.5 Acessório — Documento de Patrimônio (Motocicleta)
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Pessoais/DOC - MOTO.pdf` | existente | Documento de Motocicleta (bem acessório) |
+| **Classific.** | Acessório (não obrigatório) | a_classificar | Usar apenas se banco solicitar patrimônio complementar |
+
+---
+
+## 2. Documentos de Conjuge (Maria de Lourdes Bernabe Altoe)
+
+### 2.1 Identificação — RG + CPF de Conjuge
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Pessoais/RG E CPF - MARIA DE LOURDES BERNABE ALTOE.pdf` | existente | Documentação de cônjuge |
+| **Registro markdown** | A criar (mesmo padrão) | a_criar | Conferir legibilidade e CPF |
+
+---
+
+### 2.2 Estado Civil — Certidão de Casamento
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Pessoais/CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf` | existente | Comprovante de união legal |
+| **Registro markdown** | `[[Registro - Certidao de Casamento Sergio e Lourdes.md]]` | precisa_confirmar | **CRÍTICO:** Regime de bens define se cônjuge assina |
+
+**Riscos:** Regime desconhecido pode exigir anuência de cônjuge não planejada. Averbação de divórcio anterior pode indicar situação não resolvida.
+
+---
+
+## 3. Documentos de Propriedade Rural
+
+### 3.1 Registro Rural — CCIR 2025
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Propriedade/CCIR 2025 Sergio Altoe.pdf` | existente | Documento-chave de cadastro INCRA |
+| **Registro markdown** | `[[Registro - CCIR Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO:** Validar quitação e área |
+
+**Riscos:** Divergência de titularidade, área ou regularidade impede operação.
+
+---
+
+### 3.2 Documento de Propriedade — Escritura
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Propriedade/ESCRITURA Sergio Altoe.pdf` | existente | Prova de domínio registrado |
+| **Registro markdown** | `[[Registro - Escritura Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO:** Conferir matrícula, titularidade, onus |
+
+**Riscos:** Hipoteca ativa, domínio de terceiro ou divergência de matrícula impede operação.  
+**Ação:** Extrair matrícula; solicitar certidão atualizada se banco exigir.
+
+---
+
+### 3.3 Imposto Territorial Rural — ITR 2025
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Propriedade/ITR 2025 Sergio Altoe.pdf` | existente | Regularidade fiscal rural |
+| **Registro markdown** | `[[Registro - ITR Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO:** Validar pagamento e recibo |
+
+**Riscos:** ITR não pago gera restrição Receita Federal. Divergência de área é comum.  
+**Ação:** Obter recibo de quitação; conferir coerência de área com CCIR e escritura.
+
+---
+
+### 3.4 Ambiental — CAR + Recibo
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Propriedade/RECIBO DO CAR E CAR Sergio Altoe.pdf` | existente | Cadastro Ambiental Rural |
+| **Registro markdown** | `[[Registro - CAR Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO — Lei 12.651:** Validar no SICAR |
+
+**Riscos:** Embargo ambiental, sobreposição a TI/UC ou status pendente impede operação.  
+**Ação:** Validar status no SICAR online antes de protocolo.
+
+---
+
+### 3.5 Recursos Hídricos — Outorga
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | `Docs Propriedade/Outorga-Sergio-Jose-Altoe.pdf` | existente | Autorização para uso de água (irrigação) |
+| **Nota operacional** | `[[Outorga Sergio Jose Altoe.md]]` | existente-estruturado | Nota operacional já existe com boas práticas |
+
+**Observação:** Outorga é crítica para caso de irrigação. Validade: até 10 anos (IN AGERH nº 002/2023). Renovação: 90 dias antes do vencimento.  
+**Risco:** Não foi essencial para análise de habitação rural, mas deve ser mantida em ordem para coerência ambiental.
+
+---
+
+## 4. Status Consolidado por Categoria
+
+### Documentos Válidos e Estruturados
+
+✓ **Outorga Sergio Jose Altoe** — Nota existente, boa estrutura, credenciais movidas para gerenciador seguro
+
+### Documentos Existentes mas Não Validados (precisa_confirmar)
+
+⚠️ **CNH** — PDF existe, precisa validar vencimento  
+⚠️ **CAF** — PDF existe, precisa validar validade e enquadramento Pronaf  
+⚠️ **CCIR** — PDF existe, precisa validar quitação e área  
+⚠️ **ITR** — PDF existe, precisa validar pagamento e recibo  
+⚠️ **CAR** — PDF existe, precisa validar status no SICAR  
+⚠️ **Escritura** — PDF existe, precisa validar matrícula, titularidade e onus  
+⚠️ **Certidão de Casamento** — PDF existe, precisa validar regime de bens  
+
+### Documentos Ausentes ou Não Localizados
+
+✗ **Comprovante de endereço rural/residencial** — Ausente  
+✗ **Projeto técnico de habitação rural** — Ausente  
+✗ **Orçamento e cronograma da obra** — Ausente  
+✗ **Certidão atualizada de matrícula** — Não obtida (pode ser exigida pelo banco)  
+✗ **Comprovante de quitação de ITR** — Não localizado (crítico)  
+✗ **Confirmação de status CAR no SICAR** — Não realizada (crítica)
+
+---
+
+## 5. Documentos Críticos — Próximos Passos
+
+### Prazo Imediato (antes de protocolo)
+
+1. **CNH:**  
+   - [ ] Visualizar PDF; extrair data de vencimento  
+   - [ ] Validar se ainda é válida  
+   - [ ] Se expirada, solicitar renovação  
+
+2. **CAF:**  
+   - [ ] Visualizar PDF; extrair número, datas, enquadramento  
+   - [ ] Validar se ainda é válido (BCR MCR 10-2: **obrigatório**)  
+   - [ ] Confirmar que enquadramento é Pronaf Habitação Rural (ou compatível)  
+
+3. **CCIR:**  
+   - [ ] Visualizar PDF; extrair NIRF, datas, quitação, área  
+   - [ ] Validar quitação (sem pendência fiscal/ambiental)  
+   - [ ] Conferir área contra ESCRITURA e ITR  
+
+4. **ITR:**  
+   - [ ] Visualizar PDF; extrair processo ITR, datas, valor  
+   - [ ] **CRÍTICO:** Obter recibo de quitação (não apenas PDF bruto)  
+   - [ ] Conferir coerência de área com CCIR e ESCRITURA  
+
+5. **CAR:**  
+   - [ ] Visualizar PDF; extrair recibo nº, data, situação  
+   - [ ] **CRÍTICO:** Validar status no SICAR (https://www.car.gov.br/)  
+   - [ ] Confirmar ausência de embargo/sobreposição a TI, UC ou áreas restritas  
+
+6. **Escritura:**  
+   - [ ] Visualizar PDF; extrair matrícula, cartório, titularidade, datas, área, onus  
+   - [ ] Validar que Sergio Jose Altoe é titular  
+   - [ ] Conferir ausência de hipoteca ativa ou onus que impeça operação  
+   - [ ] Se banco exigir, solicitar certidão atualizada de matrícula  
+
+7. **Certidão de Casamento:**  
+   - [ ] Visualizar PDF; extrair datas, regime de bens, averbações  
+   - [ ] **CRÍTICO:** Determinar regime (comunhão/separação) — afeta se cônjuge assina  
+   - [ ] Conferir nomes contra RG/CPF de ambos  
+
+### Prazo Operacional (antes de submissão ao banco)
+
+8. **Processamento de OCR (futuro):**  
+   - Se necessário para auditoria futura, gerar OCR/transcrição de documentos críticos  
+   - Armazenar em `_registros/` ou `_ocr/` (conforme estrutura futura)  
+
+9. **Atualização de notas:**  
+   - Após confirmação de cada documento, atualizar nota correspondente com campos extraídos  
+   - Marcar `status_conferencia: "validado"` quando pronto  
+
+---
+
+## 6. Padrão de Notas Operacionais Criadas
+
+Cada documento crítico agora tem uma **nota markdown estruturada** em `Registro - <Tipo> <Cliente>.md` com:
+
+| Campo | Propósito |
+|-------|-----------|
+| **frontmatter** | Metadados estruturados (tipo, titular, datas, status, tags) |
+| **Resumo Operacional** | Contexto breve e essencial |
+| **Campos Extraídos** | Tabela com dados esperados e status de preenchimento |
+| **Conferência e Divergências** | Riscos identificados, próximas ações |
+| **Base Normativa** | Referências a Lei, Manual de Crédito Rural, normativos |
+| **Armazenamento** | Localização de documentos relacionados |
+| **Referências Operacionais** | Links a cliente, checklist, dossie e documentos relacionados |
+| **Observações de Conferência** | Assinatura, data, status atual |
+
+Padrão aplicado a:  
+- `Registro - CNH Sergio Jose Altoe.md`  
+- `Registro - CAF Sergio Jose Altoe.md`  
+- `Registro - CCIR Sergio Jose Altoe.md`  
+- `Registro - ITR Sergio Jose Altoe.md`  
+- `Registro - CAR Sergio Jose Altoe.md`  
+- `Registro - Escritura Sergio Jose Altoe.md`  
+- `Registro - Certidao de Casamento Sergio e Lourdes.md`  
+
+---
+
+## 7. Validação contra Proposta de Carmen
+
+✓ **Preservar PDFs originais:** Feito — nenhum PDF foi deletado ou sobrescrito.
+
+✓ **Criar notas markdown com frontmatter:** Feito — 7 notas estruturadas criadas.
+
+✓ **Usar frontmatter mínimo:** Feito — tipo_documento, titular, datas, orgao_emissor, status_documental, status_conferencia, fontes, tags, referências.
+
+✓ **Separar resumo operacional, campos extraídos, conferência, divergências:** Feito — estrutura consistente nas 7 notas.
+
+✓ **Linkar ao checklist e ao dossie:** Feito — cada nota tem campos `checklist_ref` e `dossie_ref`.
+
+✓ **Criar nota índice do pacote:** Feito — esta nota.
+
+✓ **Consolidar documentos válidos, vencidos, em `precisa_confirmar`, divergências e próximos passos:** Feito — ver seção 4 e 5.
+
+⚠️ **OCR/transcrição:** Ainda não processado — recomendado para auditoria futura.
+
+⚠️ **Segurança de credenciais:** Já tratado na nota Outorga (credenciais movidas para gerenciador seguro).
+
+---
+
+## 8. Recomendação de Padrão Reutilizável para Próximos Clientes Rurais
+
+Para **próximas operações de crédito rural**, seguir esta estrutura já validada no caso Sergio:
+
+### Fase 1: Preparação (pasta do cliente)
+
+1. Criar pastas: `Docs Pessoais/`, `Docs Propriedade/`, `Docs Avalista/`, `Projetos/`
+2. Armazenar PDFs originais sem renomeação em massa (preservar rastreamento de origem)
+3. Criar `<Cliente> - Dossie Rural.md` como índice mestre
+
+### Fase 2: Checklist Documental
+
+4. Criar `Checklist Documental - <Cliente>.md`  
+5. Mapear documentos esperados por bloco (identidade, propriedade, ambiental, etc.)  
+6. Marcar status: existente / ausente / precisa_confirmar
+
+### Fase 3: Notas Operacionais Estruturadas
+
+7. Para cada documento crítico (CNH, CAF, CCIR, ITR, CAR, Escritura, Certidões):  
+   - Criar `Registro - <Tipo> <Cliente>.md`  
+   - Incluir frontmatter com tipo_documento, titular, datas, status_conferencia, tags  
+   - Incluir seções: Resumo, Campos Extraídos, Conferência/Riscos, Normativa, Próximas Ações  
+
+### Fase 4: Índice Consolidado
+
+8. Criar `Registro Documental - Pacote <Cliente>.md`  
+9. Consolidar status de todos os documentos  
+10. Listar próximos passos e prazos críticos
+
+### Fase 5: Linkagem
+
+11. Linkar cada nota ao cliente, checklist, dossie e banco alvo  
+12. Atualizar referências cruzadas conforme trabalho avança
+
+---
+
+## 9. Observações Finais de Organização
+
+| Aspecto | Status | Observação |
+|--------|--------|-----------|
+| **Organização física** | ✓ Completa | Pastas bem estruturadas, PDFs preservados |
+| **Documentação operacional** | ⚠️ Parcial | Notas criadas, mas dados ainda não extraídos (OCR pendente) |
+| **Validação de dados** | ⚠️ Crítica | Nenhum documento foi conferido visualmente — status "precisa_confirmar" |
+| **Linkagem interna** | ✓ Completa | Todas as notas linkem a cliente, checklist, dossie |
+| **Padrão reutilizável** | ✓ Validado | Estrutura pronta para aplicação em próximos clientes |
+| **Segurança** | ⚠️ Atenção | Credenciais já foram movidas para gerenciador seguro (Outorga); sem achados novos |
+
+---
+
+## 10. Próxima Entrega
+
+Esta nota consolida o trabalho de **registro e organização estruturada de documentos**. Os dados específicos de cada documento (CNH válida até X, CAF número Y, CCIR quitado Z) devem ser preenchidos na etapa de **conferência visual**, que fica como responsabilidade operacional do caso.
+
+Estrutura está pronta para:
+- ✓ Rastreamento de documentos  
+- ✓ Auditoria de completude  
+- ✓ Escalação de pendências ao banco  
+- ✓ Reutilização em próximos clientes  
+
+---
+
+**Criado por:** Cacilda  
+**Data:** 2026-05-05  
+**Referência:** [[ALT-71]] (problema) | [[ALT-66]] (proposta) | [[ALT-69]] (origem)
+

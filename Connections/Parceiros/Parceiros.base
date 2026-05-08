@@ -2,6 +2,14 @@ filters:
   and:
     - file.inFolder("Connections/Parceiros")
     - file.ext != "base"
+    - file.name != "Parceiros"
 views:
   - type: table
     name: Tabela
+    order:
+      - file.name
+      - tipo_registro
+      - categoria
+      - status_funil
+      - ultima_interacao
+      - proxima_acao_data

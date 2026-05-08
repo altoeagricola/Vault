@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "4fa180a133f36c88",
+            "id": "1ae7fdcb3b2b3b96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Connections/Companies/Polystell.md",
+                "file": "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Polystell"
+              "title": "Modelo de negocios MGgrafeno - orquestracao aplicada"
             }
           }
         ],
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Connections/Companies/Polystell.md",
+                "file": "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -147,14 +147,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Polystell"
+              "title": "Gráfico de Modelo de negocios MGgrafeno - orquestracao aplicada"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 366.5024719238281
+    "width": 310.5024719238281
   },
   "right": {
     "id": "86fd2513b981393a",
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Connections/Companies/Polystell.md",
+                "file": "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Polystell"
+              "title": "Links inversos para Modelo de negocios MGgrafeno - orquestracao aplicada"
             }
           },
           {
@@ -501,47 +501,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a6970f043aaae8da",
+  "active": "1ae7fdcb3b2b3b96",
   "lastOpenFiles": [
-    "Products/PKM/ai/skills/score-aderencia-edital",
-    "Connections/Companies/Noroeste Consultoria.md",
-    "Connections/Companies/Mundo Verde.md",
-    "Connections/Companies/Polystell.md",
-    "Connections/Companies/Sobre nós.md",
-    "Journal/Daily/2026-04-17.md",
-    "Connections/Companies/Sicoob.md",
-    "Products/Fomento/WikiF/Matriz de Aderencia de Parceiros ICTs.md",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/_attachments",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/test_integration.py",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/test_monitorar_regulatorio.py",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/SKILL_README.md",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/monitorar_regulatorio_integrated.py",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/vault_adapter.py",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments/monitorar_regulatorio_skill.py",
-    "Products/PKM/ai/skills/monitorar-regulatorio/SKILL.md",
-    "Products/PKM/ai/skills/monitorar-regulatorio/_attachments",
-    "Products/PKM/ai/skills/monitorar-regulatorio",
+    "Products/MGg3/MGg2/Custos/Saneamento custos P100 P500.md",
+    "Connections/Companies/HydroGraph.md",
+    "Connections/Benchmarks/GG_Benchmark_Global_2026.md",
+    "Connections/Benchmarks",
+    "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
+    "Products/MGg3/MGg2/Fornecedores/Benchmark internacional - fornecedores de grafeno.md",
+    "Products/MGg3/MGg2/Fornecedores/NANOXPLORE-REL01_Relatorio-modelo-negocios-desempenho.md",
+    "Products/MGg3/MGg2/Fornecedores/NANOXPLORE-FORN01_Ficha-fornecedor-player.md",
+    "Connections/Companies/MstnLand.md",
+    "Connections/Companies/Carbon Rivers.md",
+    "Connections/Companies/Nacional de Grafite.md",
+    "Connections/Companies/Universal Matter.md",
+    "Connections/Companies/Thomas Swan.md",
+    "Products/MGg3/MGg2/Fornecedores/MGG3-FORN02_Fornecedores-insumos-grafeno-startup.md",
+    "Products/MGg3/MGg2/Fornecedores/Fornecedores de Grafeno - Startup Grafeno.xlsx",
+    "Products/MGg3/MGg3.md",
+    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/Checklist de Compliance — MDS SESAN 2-2026.md",
+    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026.md",
+    "Connections/Companies/Prefeitura Municipal de Marilândia.md",
+    "Products/Fomento/WikiF/_attachments/Playbook_Circular_Food_Systems.pdf",
+    "Products/Fomento/WikiF/_attachments",
+    "Products/Fomento/WikiF/Sistemas Alimentares Circulares — Playbook.md",
+    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/_attachments/Proposta_ALTOE_Prefeitura_Marilandia_Cultura_Alimentar_Circular.pdf",
+    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/_attachments",
+    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026",
+    "Products/Fomento/Editais/MDS SESAN 2-2026 Sistemas Alimentares Circulares Urbanos.md",
+    "Products/Fomento/Editais/_attachments/MDS-SESAN-2-2026/Circular_Food_Systems_Playbook.pdf",
+    "Products/Fomento/Editais/_attachments/MDS-SESAN-2-2026/Proposta_ALTOE_Prefeitura_Marilandia_Cultura_Alimentar_Circular.pdf",
+    "Products/Fomento/Editais/_attachments/MDS-SESAN-2-2026/Edital_MDS_SESAN_2_2026.pdf",
+    "Products/MGg3/MGg2/Fornecedores/MGG3-FORN01_Fornecedores-grafeno.md",
+    "Products/MGg3/MGg2/Custos/MGG3-CUSTO-P500_Projecao-KonMix.md",
+    "Products/MGg3/MGg2/Custos/MGG2-CUSTO-P100_Modelo-custo-planta-piloto.md",
+    "Products/MGg3/MGg2/Editais/MGG2-LICINFO_Licenciamento-pacote-tecnologico.md",
+    "Products/MGg3/MGg2/Editais/MGG2-EDITAL1337-ALT01_Alteracao-data.md",
+    "Products/MGg3/MGg2/Editais/MGG2-EDITAL1337_Edital-transferencia-tecnologia.md",
+    "Products/MGg3/MGg2/Plano de incorporacao - Arquivar no Vault.md",
     "Connections/Companies/_attachments/4a68dbf0f8219545f9b41c738390190f_MD5.webp",
     "Connections/Companies/_attachments/eac6957e53f94f56e5bbc5816e651bc7_MD5.webp",
     "Connections/Companies/_attachments/30f2744c1a8687929d6021fdff360f24_MD5.webp",
-    "Areas/ALTOE Agricola/Estrutura de Agentes IA.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores/Sustentabilidade e Conformidade Ambiental.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores/Plano de Trabalho — Estruturas Reutilizaveis.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores/Parcerias ICTs — IFES, LUMA e Rede.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores/Inovacao e Diferenciais — ALTOE Agricola.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores/Impacto Regional — Marilandia e Conilon.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores/Relevancia Cientifica — Rodrigo Altoe.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores/Argumentos Vencedores.md",
-    "Products/Fomento/WikiF/Argumentos Vencedores",
-    "Areas/ALTOE Agricola/Design — Matriz de Handoff entre Agentes.md",
-    "Journal/Weekly/Weekly.md",
-    "Areas/ALTOE Agricola/Cadencia - Operacional ALTOE Agricola.md",
-    "Areas/ALTOE Agricola/Design — Matriz RACI por Processo.md",
-    "Areas/ALTOE Agricola/Cadencia - Revisao de Agentes e Vault.md",
-    "Areas/ALTOE Agricola/Onboard - Sintese e Feedback dos Agentes.md",
-    "Areas/ALTOE Agricola/Estrutura de Agentes IA - Contexto.md",
-    "Areas/ALTOE Agricola/_attachments/Proposta de Agentes vs IA Models.xlsx",
-    "Areas/ALTOE Agricola/Documents/Documents.md",
     "Areas/ALTOE Agricola/Documents/Luis Eduardo Gottardo/Comprovante de Residência.jpeg",
     "Connections/People/_attachments/0b77bcd26ae40c117bee73527600a124_MD5.jpg",
     "Connections/Companies/_attachments/ae877b9b8ca10eeb0cab818fb66bfa9c_MD5.png",

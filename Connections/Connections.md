@@ -5,6 +5,21 @@ tags:
 ---
 ## Purpose
 - Curate People and Companies that form my professional network.
+- Para players citados em documentos de produto, verificar primeiro notas existentes e aliases antes de criar novo registro. Variacoes de nome, marca, acento, razao social e nome historico devem ser consolidadas em uma nota canonica sempre que representarem a mesma entidade.
+
+## Controle de duplicidade MGg3
+
+- [[Polystell]] e [[Rodrigo Altoé]] ja existiam e foram preservados como registros canonicos.
+- [[Codemge]] concentra tambem o alias `Codemig` para o contexto MGgrafeno.
+- [[BlackSwan Graphene]], [[HexoGraphene]], [[Montana Quimica]] e [[NanoXplore]] concentram aliases de grafia usados nos documentos MGg3.
+- [[Levidian]] concentra `Cambridge Nanosystems` e `CamGraph` para evitar duplicidade historica.
+- [[First Graphene]] concentra o erro de grafia `Frist Graphene`.
+- [[Universal Matter]] concentra `Applied Graphene Materials`, `AGM` e `Genable`.
+- [[Carbon Rivers]] concentra `CR Nano`.
+- [[Nacional de Grafite]] concentra `NG` e `Micrograf`.
+- [[Thomas Swan]] concentra `Elicarb` e `GraphCore`.
+- [[MstnLand]] concentra `MSTN`, `MSTN Land` e `MSTN Technologies`.
+- `Graphene Production` segue pendente e nao deve virar Connection ate haver fonte primaria confiavel.
 
 
 

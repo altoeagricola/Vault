@@ -2,6 +2,14 @@ filters:
   and:
     - file.inFolder("Connections/Clientes")
     - file.ext != "base"
+    - file.name != "Clientes"
 views:
   - type: table
     name: Tabela
+    order:
+      - file.name
+      - tipo_registro
+      - categoria
+      - status_funil
+      - ultima_interacao
+      - proxima_acao_data

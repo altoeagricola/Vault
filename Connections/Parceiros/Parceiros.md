@@ -13,12 +13,12 @@ Cada nota representa uma organização parceira, seguindo o template `[[T-CRM]]`
 
 ## Tipos de parceiros
 
-| Tipo | Exemplos |
-|------|----------|
-| Parceiro técnico | IFES, LUMA, centros de pesquisa |
-| ICT | Institutos de Ciência e Tecnologia |
-| Fornecedor | Insumos, equipamentos, serviços |
-| Banco / financiador | Linhas de crédito, fomento |
+| Tipo                | Exemplos                           |
+| ------------------- | ---------------------------------- |
+| Parceiro técnico    | IFES, LUMA, centros de pesquisa    |
+| ICT                 | Institutos de Ciência e Tecnologia |
+| Fornecedor          | Insumos, equipamentos, serviços    |
+| Banco / financiador | Linhas de crédito, fomento         |
 
 ## Template
 

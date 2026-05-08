@@ -87,6 +87,7 @@ cellStyle:
     - [[Products/PKM/Templates/Monthly Note.md|Monthly Note]]
     - [[Products/PKM/Templates/T-Area.md|T-Area]]
     - [[Products/PKM/Templates/T-Article.md|T-Article]]
+    - [[Products/PKM/Templates/T-CRM.md|T-CRM]]
     - [[Products/PKM/Templates/T-Person.md|T-Person]]
     - [[Products/PKM/Templates/T-Project.md|T-Project]]
     - [[Products/PKM/Templates/T-Video.md|T-Video]]
@@ -94,7 +95,6 @@ cellStyle:
     - [[Products/PKM/Templates/Weekly Note.md|Weekly Note]]
 
 %% End Catalog %%
-
 
 
 
