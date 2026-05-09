@@ -41,35 +41,6 @@ This vault serves **ALTOE Agricola**, a rural credit and agro-financing consulta
 | `Areas/ALTOE Agricola/Onboard - Sintese e Feedback dos Agentes.md` | Agent onboarding synthesis and open actions | Onboarding a new agent or reviewing past feedback |
 
 
----
-
-## Vault Architecture
-
-The vault has two distinct zones: the **Wiki** (agent-owned) and the **Structural layers** (human-owned, agent-assisted in the future).
-
-### Zone 1: New Knowledge Pipeline (active now)
-
-| Folder | Owner | Purpose |
-|--------|-------|---------|
-| `Sources/` | Human | Raw, unprocessed information. **Immutable. NEVER modify.** |
-| `Wiki/` | Agent | LLM-generated wiki. Organized, interlinked, and maintained by the agent. |
-
-
-### Zone 2: Structural Layers (agent reads, does not write — future scope)
-
-| Folder | Owner | Purpose |
-|--------|-------|---------|
-| `Areas/` | Human | Essential identity domains requiring ongoing commitment. |
-| `Products/` | Human | Knowledge consolidation as practical means for generating value. |
-| `Connections/` | Human | Professional contacts — People and Companies. |
-| `Linked Vaults/` | Human | Partner organizations with dedicated subfolders. |
-| `Journal/` | Human | Periodic logs. Only `Journal/Daily/` is private (in .claudeignore). |
-| `Archive/` | Human | Deprecated or archived content. |
-
-**Cross-zone principle:** The Wiki feeds the structural layers. Insights, analyses, and concepts compiled in the Wiki may later inform Products, Areas, and Network. The reverse does not apply — the agent reads Areas/Products/Network for context during queries but does not write to them unless explicitly asked.
-
-
----
 
 ## Sources Structure
 
@@ -102,14 +73,53 @@ Each subfolder maps to a page type. The folder name is the plural of the type.
 | `Wiki/Insights/`    | Insight    | Pages born from queries — the compounding loop |
 
 **Special files:**
-- `Wiki/Index.md` — Master catalog in table format. Updated on every ingest. Agent queries this with Grep to find relevant pages.
-- `Wiki/Log.md` — Append-only activity log in table format. Records every agent action.
+- `Wiki/Index.md` — Master catalog in table format. Updated on every ingest. Agent queries this with Grep to find relevant pages. *(Reference implementation of the vault-wide index convention — see below.)*
+- `Wiki/Log.md` — Append-only activity log in table format. Records every agent action. *(Reference implementation of the vault-wide log convention — see below.)*
 - `Wiki/Wiki.md` — Overview file for the Wiki folder.
 
 **Database views:** Each wiki subfolder contains a `.base` file (e.g., `Concepts.base`) that configures Obsidian database views. These are auto-managed by Obsidian — do not modify.
 
 **Creating new folders:** Ask the user before creating new Wiki subfolders, explaining why the existing types don't fit.
 
+
+---
+
+## Folder Index and Log Convention
+
+**MANDATORY — All agents must maintain `index.md` and `log.md` in every major vault folder they touch. This is not optional.**
+
+Every major vault folder (top-level and its direct subfolders, e.g., `Wiki/`, `Wiki/Concepts/`, `Sources/`, `Sources/Articles/`, `Areas/`, `Products/`) must contain two special files:
+
+| File | Format | Purpose |
+|------|--------|---------|
+| `<Folder>/index.md` | Markdown table (update on add, change, or delete) | Catalog of all content in that folder. Agents MUST query this file first (via Grep) before scanning the full folder tree. |
+| `<Folder>/log.md` | Markdown table — **append-only, never delete rows** | Activity log recording every agent action that touches the folder. One row per workflow run. |
+
+### Update Triggers
+
+- **index.md**: Update whenever a file is **created, updated, renamed, moved, or deleted** in the folder.
+- **log.md**: Append one row after every agent workflow that touches the folder (`ingest`, `query` with filed result, `lint`, `update`, `scaffold`, `conceptualize`).
+
+### When the Files Don't Exist Yet
+
+If you are working in a folder that is missing `index.md` or `log.md`, **create both files before finishing your task**. Do not leave a folder without them.
+
+### Index Column Formats
+
+Adapt the index columns to the folder's content type:
+
+| Folder type | Suggested columns |
+|-------------|------------------|
+| Wiki pages | `Path \| Type \| Title \| Topics \| Sources \| Confidence \| Updated` |
+| Sources | `Path \| Type \| Title \| Source URL \| Added \| Ingested` |
+| Areas / Products | `Path \| Type \| Title \| Description \| Updated` |
+| Journal | `Path \| Date \| Summary` |
+
+See `Wiki/Index.md` and `Wiki/Log.md` for reference implementations.
+
+### Lint Check
+
+The `lint` skill checks for missing or visibly stale `index.md` and `log.md` files and reports them as errors.
 
 ---
 
@@ -139,38 +149,6 @@ confidence: high | medium | low
 
 
 ---
-
-## Workflows
-
-### Ingest
-
-**Trigger:** User says "ingest [source-type] [filename]" (e.g., "ingest article Karpathy's LLM Wiki...")
-
-**Pre-ingestion placement checklist:**
-Before reading or writing any source, wiki page, index, log, extracted transcript, PDF text, or auxiliary file:
-1. Confirm the Vault root is `/Users/okumaaltoe/AltoèAgricola.Vault/`
-2. Confirm the current working directory is inside that Vault root, not inside `/Users/okumaaltoe/multica_workspaces/`
-3. Confirm the target folders exist inside the Vault (`Sources/`, `Wiki/`, or the approved structural target)
-4. If any generated file was accidentally created outside the Vault, move it into the correct Vault folder before continuing and do not reference the outside path in wiki pages
-5. If the correct folder is ambiguous, stop and ask the user before creating files
-
-Optional terminal check:
-```bash
-Products/PKM/AI/hooks/validate-vault-root.sh
-```
-
-**Process:**
-1. Read the source file in `Sources/[type]/`
-2. Present a first inspection: key questions and observations that help the user capture the gist. Be narrative but straight to the point — not a dry list, but not verbose either.
-3. Discuss with the user to align on emphasis and takeaways
-4. Create/update a Summary page in `Wiki/Summaries/`
-5. Create/update all relevant Concept, Entity, and Figure pages across the wiki
-6. Update `Wiki/Index.md` (add/update rows)
-7. Append entry to `Wiki/Log.md`
-8. **Git commit & push**: Stage all changed files, commit with a meaningful message, and push to remote
-
-**Ingestion is always one source at a time, interactive.**
-
 ### Query
 
 **Trigger:** User asks a question.
@@ -217,6 +195,8 @@ All note templates are in `Products/PKM/Templates/` (prefixed with `T-` for stru
 - **Attachments**: Stored in `_attachments/` folders (ignored in searches)
 - **Covers**: Stored in `_covers/` folders (ignored in searches)
 - **Overview files**: Each folder has an eponymous `.md` file (e.g., `Areas/Areas.md`, `Wiki/Wiki.md`)
+- **Index files**: Each major folder has an `index.md` catalog — agents query these first; see [Folder Index and Log Convention](#folder-index-and-log-convention)
+- **Log files**: Each major folder has a `log.md` activity log (append-only) — agents append a row after every workflow; see [Folder Index and Log Convention](#folder-index-and-log-convention)
 - **`.base` files**: Database view configurations for Obsidian — agent should not modify these
 
 ### Structural Note Frontmatter
@@ -244,44 +224,6 @@ Key plugins affecting vault behavior:
 - **Auto-Note-Mover**: Automatic file organization
 - **Periodic-Notes**: Daily/Weekly/Monthly note generation
 
-
-## Agent Skills
-
-Skills are reusable workflows located in `Products/PKM/AI/skills/` and registered as slash commands.
-
-| Skill | Command | Trigger | Purpose |
-|-------|---------|---------|---------|
-| `ingest` | `/ingest` | User says "ingest" or provides a source file | Standard wiki ingestion: first inspection, discussion, wiki pages, index/log, git commit |
-| `ingest-youtube` | `/ingest-youtube` | User provides a YouTube URL | Extracts transcript via Python script, saves to `Sources/Transcripts/`, then delegates to `/ingest` |
-| `ingest-tweet` | `/ingest-tweet` | User provides a Twitter/X URL | Extracts thread via browser tools, saves to `Sources/Tweets/`, then delegates to `/ingest` |
-| `ingest-pdf` | `/ingest-pdf` | User provides a PDF file path | Extracts text from PDF, saves to `Sources/Papers/`, then delegates to `/ingest` |
-| `ingest-product` | `/ingest-product` | User says "ingest product X" or names a product | Reads product docs from `~/Vault/Products/` and `~/Base/Products/`, saves to `Sources/Repos/`, then delegates to `/ingest` |
-| `lint` | `/lint` | User says "lint" or "health check" | Full wiki health check: contradictions, orphans, missing pages, stale claims, frontmatter, index sync |
-| `conceptualize` | `/conceptualize` | User says "conceptualize" or wants to define/flesh out a concept | Surveys vault-wide usage of a concept, then creates or updates its Wiki/Concepts page with definition and perspectives |
-| `ingest-call` | `/ingest-call` | User provides URLs to a public R&D call (edital) | Downloads documents, extracts key metadata, creates structured prospection note in `Prospections/R&D Public Calls/` |
-| `ingest-business` | `/ingest-business` | User provides personal/corporate identity docs, editais de fomento agropecuário, or BCB/bank regulatory documents | Files docs into operational layers: `Areas/ALTOE Agricola/Documents/`, `Products/Fomento/Editais/`, `Products/Crédito-Rural/WikiCR/`, or `Products/Fomento/WikiF/`. Does NOT delegate to `/ingest`. |
-| `update-mcr` | `/update-mcr` | User says "update mcr" / "atualizar mcr" or scheduled monthly | Fetches the current MCR from the BCB portal, compares with the version in `Wiki/Concepts/MCR.md`, ingests updates if any, and flags impacted wiki pages |
-
-All specialized ingestion skills extract content into a source file, then delegate to `/ingest` for the standard wiki pipeline. The `ingest-call` and `ingest-business` skills are exceptions — they target `Prospections/`, `Areas/`, and `Products/`, not the wiki.
-
-
-## Automation
-
-### Scheduled Tasks
-
-| Task | Schedule | Purpose |
-|------|----------|---------|
-| `weekly-wiki-lint` | Mondays 9:03 AM | Runs `/lint` automatically and reports findings |
-| `mcr-monthly-update` | First Monday of month, 9:00 AM | Runs `/update-mcr` to check for a new MCR version and ingest changes |
-
-### Hooks
-
-| Hook | Event | Scope | Purpose |
-|------|-------|-------|---------|
-| `validate-frontmatter.sh` | PreToolUse (Write) | `Wiki/*` | Blocks writes to wiki pages missing required frontmatter fields or with invalid type values |
-| `validate-vault-root.sh` | Manual pre-flight | All ingestion workflows | Confirms the agent is running inside `/Users/okumaaltoe/AltoèAgricola.Vault/` and not in a Multica `workdir/` |
-
-Hook script location: `Products/PKM/AI/hooks/`
 
 
 ## Git Conventions
@@ -340,25 +282,3 @@ Stage only the files changed by the workflow. Push to remote after commit.
 **CRITICAL: Never create files outside the Vault root.** All work must be saved directly inside the Vault — never in a temporary `workdir/`, a workspace directory, or any path outside the Vault root.
 
 This applies even when the agent is launched from a Multica workspace such as `/Users/okumaaltoe/multica_workspaces/.../workdir/`. Treat that directory as execution context only; it is not part of the Obsidian Vault, and files created there will not appear in Obsidian.
-
-| Description | Absolute path |
-|-------------|--------------|
-| **Vault root** | `/Users/okumaaltoe/AltoèAgricola.Vault/` |
-| Wiki | `…/Wiki/` |
-| Sources | `…/Sources/` |
-| Crédito Rural (product) | `…/Products/Crédito-Rural/` |
-| CR — client folders | `…/Products/Crédito-Rural/Clientes/<Client Name>/` |
-| CR — operational templates & forms | `…/Products/Crédito-Rural/Operacoes/Fichas/` |
-| CR — proposals | `…/Products/Crédito-Rural/Propostas/` |
-| CR — projects | `…/Products/Crédito-Rural/Projetos/` |
-| CR — knowledge base | `…/Products/Crédito-Rural/WikiCR/` |
-| Connections — people | `…/Connections/People/` |
-| Connections — companies | `…/Connections/Companies/` |
-| Connections — clients (CRM) | `…/Connections/Clientes/` |
-| Connections — partners (CRM) | `…/Connections/Parceiros/` |
-| CRM template | `…/Products/PKM/Templates/T-CRM.md` |
-
-**Placement rules for Crédito Rural:**
-- Operational forms, templates, CSV models, scripts → `Products/Crédito-Rural/Operacoes/Fichas/`
-- Client-specific documents → `Products/Crédito-Rural/Clientes/<Client Name>/`
-- Bank registration files → `Connections/Banks/<Bank Name>/Cadastro/`
