@@ -26,6 +26,23 @@ Knowledge curation leveraged by AI and cognitive augmentation leveraged by mindf
 
 ---
 
+## Company Context
+
+This vault serves **ALTOE Agricola**, a rural credit and agro-financing consultancy based in Marilândia, ES. For task-specific context, read these files on demand — **do not load all proactively**.
+
+| File | Purpose | Read When |
+|------|---------|----------|
+| `Areas/ALTOE Agricola/Estrutura de Agentes IA.md` | Agent roster, skills, responsibilities, and models | Task involves agents or multi-agent coordination |
+| `Areas/ALTOE Agricola/Regras de Organizacao do Vault.md` | Vault organization rules, content placement by type | Placing new content or organizing files |
+| `Areas/ALTOE Agricola/ALTOE Agricola.md` | Strategic vision, company objectives, PKM+AI roadmap | Strategic or architectural decisions |
+| `Areas/ALTOE Agricola/Design — Matriz de Handoff entre Agentes.md` | Inter-agent workflows and handoff patterns | Multi-agent task coordination |
+| `Areas/ALTOE Agricola/Equipe.md` | Human team — Rodrigo (founder, CRQ) and Gaby (credit ops) | Tasks involving human responsibilities or scope limits |
+| `Areas/ALTOE Agricola/Cadencia - Revisao de Agentes e Vault.md` | Recurring review rituals | Periodic review or structural change tasks |
+| `Areas/ALTOE Agricola/Onboard - Sintese e Feedback dos Agentes.md` | Agent onboarding synthesis and open actions | Onboarding a new agent or reviewing past feedback |
+
+
+---
+
 ## Vault Architecture
 
 The vault has two distinct zones: the **Wiki** (agent-owned) and the **Structural layers** (human-owned, agent-assisted in the future).
