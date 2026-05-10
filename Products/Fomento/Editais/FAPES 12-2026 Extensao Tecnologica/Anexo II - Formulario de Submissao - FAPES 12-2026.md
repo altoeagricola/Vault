@@ -94,13 +94,12 @@ Categorias previstas:
 
 O formulario lembra que aquisicoes devem seguir a Resolucao CCAF Nº 309/2022 e alteracoes, e que bens patrimoniais adquiridos ou produzidos com apoio financeiro integrarao o patrimonio das instituicoes participantes da execucao do projeto.
 
-## Implicacao para Proposta ALTOE + IFES Colatina
+## Implicacao para Proposta ALTOE Agricola + IFES Colatina
 
 O formulario favorece uma proposta com:
 
 - problema bem diagnosticado pela organizacao parceira;
 - escopo enxuto e verificavel;
-- entregas aceitas pela ALTOE;
+- entregas aceitas pela ALTOE Agricola;
 - bolsista com atividades formativas claras;
 - cronograma de 24 meses com evidencias de transferencia de conhecimento, oficinas, templates, protocolos e prototipo operacional do Vault/Second Brain.
-

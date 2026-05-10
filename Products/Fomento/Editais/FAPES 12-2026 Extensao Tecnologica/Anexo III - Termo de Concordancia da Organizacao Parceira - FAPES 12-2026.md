@@ -34,12 +34,11 @@ O documento declara que a organizacao parceira:
 
 ## Implicacao para ALTOE Agricola
 
-Se a ALTOE for a organizacao parceira, o termo deve ser assinado pelo representante legal e precisa estar coerente com o escopo real do projeto. O texto nao deve prometer infraestrutura ou equipe que nao possa ser efetivamente disponibilizada.
+Se a ALTOE Agricola for a organizacao parceira, o termo deve ser assinado pelo representante legal e precisa estar coerente com o escopo real do projeto. O texto nao deve prometer infraestrutura ou equipe que nao possa ser efetivamente disponibilizada.
 
-Para uma proposta com IFES Colatina, a ALTOE deve declarar com precisao:
+Para uma proposta com IFES Colatina, a ALTOE Agricola deve declarar com precisao:
 
 - qual ambiente operacional sera usado como campo de aplicacao;
 - quais pessoas internas participarao de entrevistas, oficinas, testes e validacao;
 - quais dados/documentos poderao ser usados, respeitando sigilo e LGPD;
 - quais entregas serao aceitas como resultado util para a organizacao.
-

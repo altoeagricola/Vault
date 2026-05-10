@@ -30,7 +30,7 @@ tags:
 
 Chamada publica da FAPES para selecionar projetos de extensao tecnologica coordenados por profissionais vinculados a Instituicoes de Ensino Superior, de Pesquisa ou de Tecnologia localizadas no Espirito Santo. O edital busca aproximar conhecimento cientifico e tecnologico de demandas reais da sociedade, com foco em desenvolvimento economico, social, inclusao produtiva e formacao de estudantes nas microrregioes capixabas.
 
-Para a ALTOE Agricola, o edital e relevante porque permite estruturar um projeto em que o IFES Colatina seja a instituicao executora e a ALTOE atue como organizacao parceira beneficiaria/ambiente de aplicacao. O teto financeiro e baixo para desenvolvimento robusto de software, mas adequado para extensao tecnologica, validacao metodologica, formacao de estudantes, documentacao, oficinas, prototipagem de fluxo e prova de conceito operacional.
+Para a ALTOE Agricola, o edital e relevante porque permite estruturar um projeto em que o IFES Colatina seja a instituicao executora e a ALTOE Agricola atue como organizacao parceira beneficiaria/ambiente de aplicacao. O teto financeiro e baixo para desenvolvimento robusto de software, mas adequado para extensao tecnologica, validacao metodologica, formacao de estudantes, documentacao, oficinas, prototipagem de fluxo e prova de conceito operacional.
 
 ## Objetivo do Edital
 
@@ -98,7 +98,7 @@ Recursos remanescentes de microrregioes sem contratacao podem ser redistribuidos
 - A parceira deve assinar o Termo de Concordancia e Compromisso da Organizacao Parceira.
 - Nao e permitida a participacao de Empresario Individual, MEI ou Empresa Junior como empresa parceira.
 
-## Microrregiao Relevante para ALTOE
+## Microrregiao Relevante para ALTOE Agricola
 
 Para projeto com ALTOE Agricola e IFES Colatina, a microrregiao mais defensavel e **Centro-Oeste**, que inclui Alto Rio Novo, Baixo Guandu, Colatina, Pancas, Governador Lindenberg, Marilandia, Sao Domingos do Norte, Sao Gabriel da Palha, Vila Valerio e Sao Roque do Canaa.
 
@@ -140,14 +140,14 @@ Pontuacao final de 0 a 100, com desclassificacao para NF inferior a 70 pontos. A
 O convite do Julio Cesar Nardi, do IFES Colatina, encaixa bem na logica do edital porque:
 
 - IFES Colatina pode ser instituicao executora, com Julio como coordenador, se atender aos requisitos do edital.
-- ALTOE pode atuar como organizacao parceira externa, com desafio real de aplicacao: desenvolvimento de metodologia Second Brain, Vault operacional, agentes de IA e gestao de conhecimento aplicada a fomento, credito rural e desenvolvimento regional.
+- ALTOE Agricola pode atuar como organizacao parceira externa, com desafio real de aplicacao: desenvolvimento de metodologia Second Brain, Vault operacional, agentes de IA e gestao de conhecimento aplicada a fomento, credito rural e desenvolvimento regional.
 - A microrregiao Centro-Oeste e coerente com Colatina e Marilandia, evitando deslocar a proposta para ampla concorrencia.
-- O projeto deve ser descrito como extensao tecnologica e formacao aplicada, nao como simples desenvolvimento interno de software para a ALTOE.
+- O projeto deve ser descrito como extensao tecnologica e formacao aplicada, nao como simples desenvolvimento interno de software para a ALTOE Agricola.
 
 ## Riscos e Alertas
 
 - O teto de R$ 60.000,00 restringe ambicao tecnica: foco deve ser metodologia, prototipo, validacao e capacitacao, nao produto SaaS completo.
-- A ALTOE nao pode ser MEI, Empresario Individual ou Empresa Junior como parceira.
+- A ALTOE Agricola nao pode ser MEI, Empresario Individual ou Empresa Junior como parceira.
 - A proposta precisa gerar resultado verificavel para a organizacao parceira e/ou beneficiarios, com criterios de aceite claros.
 - Como ha bolsa EXT obrigatoria por pelo menos 22 meses, o orcamento precisa ser montado de tras para frente, reservando esse custo antes de servicos e equipamentos.
 - Se o IFES Colatina possuir NIT envolvido/abrangido pelas regras do edital, a declaracao de ciencia do NIT deve ser providenciada.
@@ -166,4 +166,3 @@ O convite do Julio Cesar Nardi, do IFES Colatina, encaixa bem na logica do edita
 - Pagina oficial FAPES — Editais Abertos / Extensao: https://fapes.es.gov.br/editais-abertos-extensao-2
 - Noticia FAPES, 01/05/2026, atualizada em 04/05/2026: https://fapes.es.gov.br/Not%C3%ADcia/fapes-lanca-nova-edicao-de-edital-para-projetos-de-extensao-tecnologica-com-foco-no-desenvolvimento-regional
 - Edital PDF assinado baixado da FAPES em 10/05/2026.
-
