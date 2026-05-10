@@ -21,7 +21,7 @@ tags:
   - FAPES
   - extensao-tecnologica
   - desenvolvimento-regional
-  - espirito-santo
+  - espírito-santo
 ---
 
 # EDITAL FAPES Nº 12/2026 — Extensao Tecnologica
