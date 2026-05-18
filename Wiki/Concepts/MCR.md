@@ -18,9 +18,9 @@ related:
   - "[[Banco Central do Brasil]]"
   - "[[Conselho Monetário Nacional]]"
 created: 2026-04-17
-updated: 2026-04-28
+updated: 2026-05-18
 confidence: high
-version: "Atualização MCR nº 754, de 31/03/2026"
+version: "Atualização MCR nº 756, de 15/05/2026"
 documento: "[[_attachments/ManualCompleto.pdf]]"
 ---
 
@@ -28,7 +28,7 @@ documento: "[[_attachments/ManualCompleto.pdf]]"
 
 O **Manual de Crédito Rural (MCR)** é o documento normativo que codifica todas as normas do Conselho Monetário Nacional (CMN) e do Banco Central do Brasil (BCB) que regem o crédito rural no Brasil. Todas as instituições financeiras que operam no [[SNCR|Sistema Nacional de Crédito Rural]] e todos os beneficiários de crédito rural estão subordinados ao que está codificado no MCR.
 
-> Versão em vigor: **Atualização MCR nº 754, de 31 de março de 2026** (376 páginas).
+> Versão em vigor: **Atualização MCR nº 756, de 15 de maio de 2026** (377 páginas).
 > Documento original: `_attachments/ManualCompleto.pdf`
 
 Para consultorias de crédito rural — contexto em que este vault utiliza o manual — o MCR é a referência primária para:
@@ -162,8 +162,12 @@ São beneficiários do crédito rural:
 Vedações ao crédito rural em casos como:
 - Imóveis em áreas embargadas pelo Ibama
 - Produtores em listas de trabalho análogo à escravidão
-- Áreas de desmatamento ilegal na Amazônia e Bioma Mata Atlântica
-- Restrições específicas para determinadas culturas e biomas
+- Empreendimentos em imóveis com restrições por unidades de conservação, terras indígenas, territórios quilombolas ou florestas públicas tipo B
+- Projetos cujo orçamento preveja supressão de vegetação nativa
+
+A Atualização MCR nº 756 incorporou a Resolução CMN 5.303/2026, alterando os itens 17 e 18 e incluindo o item 17-A no MCR 2-9. A verificação de supressão de vegetação nativa posterior a 31/07/2019 passa a usar lista do Ministério do Meio Ambiente e Mudança do Clima baseada no BiomasBR/Prodes, com início escalonado: 04/01/2027 para imóveis acima de 15 módulos fiscais, 01/07/2027 para imóveis acima de 4 e até 15 módulos fiscais, e 03/01/2028 para imóveis de até 4 módulos fiscais. Para assentamentos da reforma agrária e povos/comunidades tradicionais com CAR coletivo, aplica-se o prazo de 03/01/2028.
+
+Quando houver supressão constatada, a operação com recursos controlados ou direcionados depende de documentação de regularidade ambiental, incluindo ASV conforme Resolução Conama 510/2025, UAS ou ato equivalente dentro dos limites temporais aceitos, PRAD/PRA, TAC, laudo técnico de sensoriamento remoto ou Termo de Compromisso Ambiental estadual.
 
 A consultoria deve verificar esses impedimentos antes de recomendar qualquer operação.
 
@@ -181,6 +185,8 @@ O MCR é **dinâmico**: o BCB publica "Atualizações MCR" numeradas à medida q
 
 | Atualização | Data | Destaques |
 |-------------|------|-----------|
+| **756** | 15/05/2026 | Res. CMN 5.303 — MCR 2-9: altera itens 17 e 18 e inclui 17-A sobre verificação de supressão de vegetação nativa, prazos por módulos fiscais e documentos de regularidade ambiental |
+| 755 | 23/04/2026 | Res. CMN 5.293 — MCR 10-18-16: condições especiais de capital de giro para cooperativas agropecuárias no Pronaf |
 | **754** | 31/03/2026 | Res. CMN 5.288, 5.289 e 5.290 — encargos Pronaf (MCR 7-6), Proagro (MCR 9-8), InvestAgro (MCR 11-7) |
 | 751 | 23/12/2025 | — |
 | 750 | 19/11/2025 | — |
