@@ -1,13 +1,14 @@
 ---
-título: Inventário Mestre — MGg3
+titulo: Inventário Mestre — MGg3
 tipo: Inventário de Fontes
+produto: MGg3
 classificação: CONFIDENCIAL
-atualizado: 2026-05-07
-total_fontes: 16
-fontes_com_nota: 16
-cobertura: 100% em registros iniciais; MGg2 estrutura documental completa, compliance de editais aprofundado, custos/fornecedores em validação por agentes
+atualizado: 2026-05-20
+total_fontes: 25
+fontes_com_nota: 25
+cobertura: 100% em registros iniciais; MGg2 estrutura documental completa, relato tacito Rodrigo padronizado como nota interna consultavel, compliance de editais aprofundado, custos/fornecedores em validação por agentes; controles operacionais de lotes, processos, volumes e balancos de massa incorporados; Inteligencia de Mercado MGg3 (raiz) com relatório consolidado 2026 e case NanoXplore incorporados
+confidencialidade: interno
 ---
-
 # Inventário Mestre — MGg3
 
 Compilação estruturada de fontes primárias e notas-resumo existentes na pasta `Products/MGg3`. A base Gerdau Graphene está em extração completa; a camada MGg2/MGgrafeno foi iniciada a partir do catalogo `MGG2-BASE01` e requer validação externa de links, editais e alegações de mercado.
@@ -18,12 +19,12 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 
 | Métrica | Valor |
 |---------|-------|
-| **Total de fontes mapeadas** | 16 documentos |
-| **Documentos com nota-resumo** | 16 / 16 (100% em registro inicial) |
-| **Pastas cobertas** | 5 (Apresentacoes, Concretos, Inteligencia de Mercado, Polímeros, MGg2) |
-| **Período coberto** | Jul/2022 – Abr/2026 |
-| **Volume total de dados** | ~43 MB (adicionado 9 MB em MGg2; novo arquivo Startup Grafeno ~26 KB) |
-| **Status de consultabilidade** | ALTA para Gerdau Graphene; operacional (registros-base) para MGg2 |
+| **Total de fontes mapeadas** | 25 documentos/registros |
+| **Documentos com nota-resumo** | 25 / 25 (100% em registro inicial) |
+| **Pastas cobertas** | 6 + registro tacito raiz (Apresentacoes, Concretos, Inteligencia de Mercado GG, Polímeros, MGg2, Inteligencia de Mercado MGg3) |
+| **Período coberto** | 2015 – Mai/2026 |
+| **Volume total de dados** | ~43 MB + relatório consolidado IM-2026 + case NanoXplore |
+| **Status de consultabilidade** | ALTA para Gerdau Graphene; operacional (registros-base) para MGg2; ALTA para Inteligencia de Mercado MGg3 (raiz) |
 | **Próxima ação** | Mariano (custos) e Eloi (fornecedores) aprofundam conteúdo; confirmar formalmente status UFMG/CDTN; Carmen consolida mapa estratégico |
 
 ---
@@ -35,21 +36,28 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 | Código | Documento | Tipo | Data | Tamanho | Confidencialidade | Nota-Resumo | Status | Temas | Lacunas |
 |--------|-----------|------|------|---------|-------------------|------------|--------|-------|---------|
 | **MGG2-BASE01** | Catalogo MGg3.0 | Briefing interno histórico-estratégico (DOCX) | Abr/2026 | 24 KB | INTERNO | [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]] | Extraído parcial | MGgrafeno; UFMG; CDTN; planta piloto; licenciamento; custos P100/P500; players brasileiros de grafeno | Validar links externos; separar fato documental de avaliação interna |
-| **MGG2-EDITAL1337** | Edital 1337/2025 UFMG/CDTN | Edital oficial (PDF) | 2025 | 723 KB | PÚBLICO | [[Editais/MGG2-EDITAL1337_Edital-transferencia-tecnologia]] | Extraido compliance | Licenciamento; transferência de tecnologia; propriedade intelectual; cronograma; NDA; sublicenciamento; planta piloto | Confirmar situacao final do edital/pacote com CTIT/UFMG e CDTN/CNEN antes de uso externo |
-| **MGG2-EDITAL1337-ALT01** | Alteração Edital 1337 - Prorrogação | Alteração de edital (PDF) | 2025 | 442 KB | PÚBLICO | [[Editais/MGG2-EDITAL1337-ALT01_Alteracao-data]] | Extraido compliance | Cronograma; prorrogação 29/09/2025; datas resultado/recurso | Cronograma extraido tem aparente inconsistencia de datas; confirmar versao vigente |
-| **MGG2-LICINFO** | Informativo Pacote Tecnológico | Apresentação visual (PDF) | 2025 | 5,9 MB | PÚBLICO | [[Editais/MGG2-LICINFO_Licenciamento-pacote-tecnologico]] | Pendente OCR | Apresentação pacote; oportunidades licenciamento; narrativa visual | Extração textual direta retornou 0 caracteres; nao reutilizar imagens/marcas em pitch sem autorização |
-| **MGG2-CUSTO-P100** | Modelo Custo P100 | Planilha econômica (XLSX) | Ago/2021 | 331 KB | INTERNO | [[Custos/MGG2-CUSTO-P100_Modelo-custo-planta-piloto]] | Registro-base criado | Custos produção; planta piloto P100; equipamentos; insumos; energia | Mariano extrai leitura econômica, premissas, comparação P100 x P500 |
-| **MGG3-CUSTO-P500** | Projeção Custo P500 KonMix | Planilha projeção (XLSX) | 2026 | 468 KB | INTERNO | [[Custos/MGG3-CUSTO-P500_Projecao-KonMix]] | Registro-base criado | Escalonamento P500; economia escala; viabilidade comercial; projeção MGg3 | Mariano extrai metricas escala, sensibilidade, riscos extrapolação |
-| **MGG3-FORN01** | Base Fornecedores Grafeno | Matriz insumos (XLSX) | 2026 | 60 KB | INTERNO | [[Fornecedores/MGG3-FORN01_Fornecedores-grafeno]] | Registro-base criado | Fornecedores internacionais; grafiênos comerciais; cotações; supply chain | Eloi valida fornecedores, conecta Connections, identifica enriquecimentos |
-| **MGG3-FORN02** | Fornecedores de Insumos e Grafeno - Startup Grafeno | Matriz de fornecedores, insumos, utilidades e HH (XLSX) | 2023-2025 | 26 KB | INTERNO | [[Fornecedores/MGG3-FORN02_Fornecedores-insumos-grafeno-startup]] | Extraido parcial | Insumos de produção; energia; agua/esgoto; HH; fornecedores de grafeno; cotacoes | Validar aliases, evitar duplicidade em Connections e reconciliar valores com custos P100/P500 |
+| **MGG2-EDITAL1337** | Edital 1337/2025 UFMG/CDTN | Edital oficial (PDF) | 2025 | 723 KB | PÚBLICO | [[MGg2/Editais/MGG2-EDITAL1337_Edital-transferencia-tecnologia]] | Extraido compliance | Licenciamento; transferência de tecnologia; propriedade intelectual; cronograma; NDA; sublicenciamento; planta piloto | Confirmar situacao final do edital/pacote com CTIT/UFMG e CDTN/CNEN antes de uso externo |
+| **MGG2-EDITAL1337-ALT01** | Alteração Edital 1337 - Prorrogação | Alteração de edital (PDF) | 2025 | 442 KB | PÚBLICO | [[MGg2/Editais/MGG2-EDITAL1337-ALT01_Alteracao-data]] | Extraido compliance | Cronograma; prorrogação 29/09/2025; datas resultado/recurso | Cronograma extraido tem aparente inconsistencia de datas; confirmar versao vigente |
+| **MGG2-LICINFO** | Informativo Pacote Tecnológico | Apresentação visual (PDF) | 2025 | 5,9 MB | PÚBLICO | [[MGg2/Editais/MGG2-LICINFO_Licenciamento-pacote-tecnologico]] | Pendente OCR | Apresentação pacote; oportunidades licenciamento; narrativa visual | Extração textual direta retornou 0 caracteres; nao reutilizar imagens/marcas em pitch sem autorização |
+| **MGG2-CUSTO-P100** | Modelo Custo P100 | Planilha econômica (XLSX) | Ago/2021 | 331 KB | INTERNO | [[MGg2/Custos/MGG2-CUSTO-P100_Modelo-custo-planta-piloto]] | Registro-base criado | Custos produção; planta piloto P100; equipamentos; insumos; energia | Mariano extrai leitura econômica, premissas, comparação P100 x P500 |
+| **MGG3-CUSTO-P500** | Projeção Custo P500 KonMix | Planilha projeção (XLSX) | 2026 | 468 KB | INTERNO | [[MGg2/Custos/MGG3-CUSTO-P500_Projecao-KonMix]] | Registro-base criado | Escalonamento P500; economia escala; viabilidade comercial; projeção MGg3 | Mariano extrai metricas escala, sensibilidade, riscos extrapolação |
+| **MGG2-CTRL01** | Controle de produções | Controle de lotes (XLSX) | 2017-2022 | interno | INTERNO | [[MGg2/Custos/Controle operacional de lotes/MGG2-CTRL01_Controle-de-producoes]] | Extraido operacional | Cadastro de lotes; campanhas; concentração; equipamento; formulários | Mariano cruza 20210720Pa com balanço de massa e custos |
+| **MGG2-CTRL02** | Volumes e quantidade processadas | Controle de volumes (XLSX) | 2017-2022 | interno | INTERNO | [[MGg2/Custos/Controle operacional de lotes/MGG2-CTRL02_Volumes-quantidade-processadas]] | Extraido operacional | Volumes anuais; lotes; massa estimada por escala; P100 | Validar estimativas agregadas contra balanços por lote |
+| **MGG2-CTRL03** | Balanço Global PPTX | Balanço de massa (PPTX) | 2021-2022 | interno | INTERNO | [[MGg2/Custos/Controle operacional de lotes/MGG2-CTRL03_Balanco-Global-PPTX]] | Extraido operacional | Campanhas Ana/Duda/Nicolas; rendimentos; perda mássica; 20210720Pa | Confirmar representatividade da baixa perda mássica do 20210720Pa |
+| **MGG2-CTRL04** | Controle de Processos 03_03_2022 | Controle estatístico/processo (XLSX) | 2017-2022 | interno | INTERNO | [[MGg2/Custos/Controle operacional de lotes/MGG2-CTRL04_Controle-de-Processos-2022]] | Extraido operacional | Banco de processo; rendimento P100; pH; condutividade; vazão | Sanear aliases Titon/Triton X-100 antes de cotação |
+| **MGG2-CTRL05** | Balanço Global XLSX | Balanço de massa estruturado (XLSX) | 2021-2022 | interno | INTERNO | [[MGg2/Custos/Controle operacional de lotes/MGG2-CTRL05_Balanco-Global-XLSX]] | Extraido operacional | Insumos; sólidos; rendimentos; perdas; lote 20210720Pa | Fonte principal para cálculo custo/kg do lote de referência |
+| **MGG2-CTRL06** | Controle documentos processo contínuo | Controle documental (XLSX) | 2021-2022 | interno | INTERNO | [[MGg2/Custos/Controle operacional de lotes/MGG2-CTRL06_Controle-documentos-processo-continuo]] | Extraido operacional | Status documental; processo; qualidade; flags de contaminação | Usar como filtro de validade documental, não como balanço de massa |
+| **MGG3-FORN01** | Base Fornecedores Grafeno | Matriz insumos (XLSX) | 2026 | 60 KB | INTERNO | [[MGg2/Fornecedores/MGG3-FORN01_Fornecedores-grafeno]] | Registro-base criado | Fornecedores internacionais; grafiênos comerciais; cotações; supply chain | Eloi valida fornecedores, conecta Connections, identifica enriquecimentos |
+| **MGG3-FORN02** | Fornecedores de Insumos e Grafeno - Startup Grafeno | Matriz de fornecedores, insumos, utilidades e HH (XLSX) | 2023-2025 | 26 KB | INTERNO | [[MGg2/Fornecedores/MGG3-FORN02_Fornecedores-insumos-grafeno-startup]] | Extraido parcial | Insumos de produção; energia; agua/esgoto; HH; fornecedores de grafeno; cotacoes | Validar aliases, evitar duplicidade em Connections e reconciliar valores com custos P100/P500 |
+| **MGG3-TACITA-RODRIGO01** | Descricao Tacita MGgrafeno Gerdau Graphene | Relato pessoal tacito (DOCX externo) | 2015-2026 / org. Mai/2026 | externo ao Vault | INTERNO | [[Historico MGgrafeno-Gerdau Graphene]] | Padronizado como nota tacita | Memoria MGgrafeno; transicao Gerdau Graphene; encerramento GG; Polystell/Colorfix; retomada MGg3 | Uso externo bloqueado sem validacao documental e revisao juridica; criar stubs apenas se atores virarem recorrentes |
 
-**Resumo executivo:** Camada MGg2/MGgrafeno agora estruturada em 3 subpastas temáticas (Editais, Custos, Fornecedores) com 7 documentos primários incorporados ao Vault. Fonte-guia [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]] complementada por: (1) edital oficial + alteração + informativo de licenciamento; (2) modelos econômicos P100 (histórico 2021) e P500 (projeção 2026 KonMix); (3) base de fornecedores internacionais de grafeno; (4) base Startup Grafeno com insumos, utilidades, HH e fornecedores de grafeno. A frente de compliance dos editais foi aprofundada por Tereza; custos e fornecedores seguem em aprofundamento por Mariano e Eloi.
+**Resumo executivo:** Camada MGg2/MGgrafeno agora estruturada em 3 subpastas temáticas (Editais, Custos, Fornecedores) com 13 documentos primários incorporados ao Vault, mais uma nota tacita raiz padronizada a partir do relato de Rodrigo Altoé. Fonte-guia [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]] complementada por: (1) edital oficial + alteração + informativo de licenciamento; (2) modelos econômicos P100 (histórico 2021) e P500 (projeção 2026 KonMix); (3) controles operacionais de lotes, volumes, processos e balanços de massa com rastreio explícito do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]]; (4) base de fornecedores internacionais de grafeno; (5) base Startup Grafeno com insumos, utilidades, HH e fornecedores de grafeno; (6) [[Historico MGgrafeno-Gerdau Graphene]] como memoria tacita interna, complementar a [[MGgrafeno - Historico institucional]]. A frente de compliance dos editais foi aprofundada por Tereza; custos, controles operacionais e fornecedores seguem em aprofundamento por Mariano e Eloi.
 
 ### 1. APRESENTACOES — Gerdau Graphene
 
 | Código | Documento | Tipo | Data | Tamanho | Confidencialidade | Nota-Resumo | Status | Temas | Lacunas |
 |--------|-----------|------|------|---------|-------------------|------------|--------|-------|---------|
-| **GG-APRES01** | Grafeno — Nanomaterial de alta performance V2 | Apresentação institucional (PDF) | 2023–2024 | 6,7 MB | CONFIDENCIAL | [[Apresentacoes\|Apresentações Institucionais]] | ✅ Extraído | Posicionamento científico do grafeno; cadeia de valor (Seleção–Dispersão–Blending–Formulação); plataformas (Concreto, Polímeros, Coatings); inovação aberta (GEIC Manchester); contatos (Flavia Zangrandi, Alessandra Zanuto) | Detalhes de clientes finais; roadmap 2025+ não coberto |
+| **GG-APRES01** | Grafeno — Nanomaterial de alta performance V2 | Apresentação institucional (PDF) | 2023–2024 | 6,7 MB | CONFIDENCIAL | [[Gerdau Graphene/Apresentacoes/Apresentacoes|Apresentações Institucionais]] | ✅ Extraído | Posicionamento científico do grafeno; cadeia de valor (Seleção–Dispersão–Blending–Formulação); plataformas (Concreto, Polímeros, Coatings); inovação aberta (GEIC Manchester); contatos (Flavia Zangrandi, Alessandra Zanuto) | Detalhes de clientes finais; roadmap 2025+ não coberto |
 
 **Resumo executivo:** Apresentação institucional que posiciona a Gerdau Graphene como intermediária tecnológica em nanomateriais. Cobre fundamentos científicos do grafeno, modelo B+C+D de cadeia de valor, 3 plataformas principais (adição mineral, polímeros, coatings), e validações de mercado (Ouro Branco 50k tpa; NanoDur W102 +40% durabilidade; G2D NanoTOC W105 +63% salt spray). Nota-resumo completa e consultável.
 
@@ -59,8 +67,8 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 
 | Código | Documento | Tipo | Data | Tamanho | Confidencialidade | Nota-Resumo | Status | Temas | Lacunas |
 |--------|-----------|------|------|---------|-------------------|------------|--------|-------|---------|
-| **GG-CM018** | CM018 — Atualização dez/2024 | Relatório técnico (PDF) | Dez/2024 | 2,7 MB | CONFIDENCIAL | [[Concretos\|Concretos & Lubrificantes]] | ✅ Extraído | Aditivo grafeno para concreto com escória; 8 grafenos avaliados (BlackSwan BS3 melhor resultado); dosagem 0,01–0,015%; +28% resistência aos 7 dias; testes com VW em lubrificantes (redução -2,6% consumo urbano); parceiros: Idemitsu, VW Way to Zero, USP/FEI | Resultados a 28 dias em concreto estrutural; testes em escala piloto |
-| **GG-RT** | Resultados Técnicos Aditivos para Concreto — CM018 | Relatório técnico (PDF) | Dez/2024 | 2,7 MB | CONFIDENCIAL | [[Concretos\|Concretos & Lubrificantes]] | ✅ Extraído | Sobreposição parcial com GG-CM018; conteúdo relevante integralmente capturado em nota-resumo | Conteúdo duplicado com GG-CM018 |
+| **GG-CM018** | CM018 — Atualização dez/2024 | Relatório técnico (PDF) | Dez/2024 | 2,7 MB | CONFIDENCIAL | [[Gerdau Graphene/Concretos/Concretos|Concretos & Lubrificantes]] | ✅ Extraído | Aditivo grafeno para concreto com escória; 8 grafenos avaliados (BlackSwan BS3 melhor resultado); dosagem 0,01–0,015%; +28% resistência aos 7 dias; testes com VW em lubrificantes (redução -2,6% consumo urbano); parceiros: Idemitsu, VW Way to Zero, USP/FEI | Resultados a 28 dias em concreto estrutural; testes em escala piloto |
+| **GG-RT** | Resultados Técnicos Aditivos para Concreto — CM018 | Relatório técnico (PDF) | Dez/2024 | 2,7 MB | CONFIDENCIAL | [[Gerdau Graphene/Concretos/Concretos|Concretos & Lubrificantes]] | ✅ Extraído | Sobreposição parcial com GG-CM018; conteúdo relevante integralmente capturado em nota-resumo | Conteúdo duplicado com GG-CM018 |
 
 **Resumo executivo:** Documentos de P&D de dez/2024 cobrindo o projeto CM018 (aditivo grafeno para concreto com escória) e lubrificantes com testes veiculares VW. CM018 é a fronteira mais avançada da GG em cimentícios — BS3 (BlackSwan) entrega +28% resistência aos 7 dias em sistema com escória, superando resultados anteriores de pasta pura. Dosagem extremamente baixa (0,01–0,015%) com implicações diretas em custo/benefício. Lubrificantes: co-desenvolvimento com Idemitsu + VW, resultado -1,9% consumo combinado. Nota-resumo completa.
 
@@ -70,10 +78,10 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 
 | Código | Documento | Tipo | Data | Tamanho | Confidencialidade | Nota-Resumo | Status | Temas | Lacunas |
 |--------|-----------|------|------|---------|-------------------|------------|--------|-------|---------|
-| **GG01** | Gerdau Graphene Introduction — Allnex | Apresentação institucional (PPTX) | Jul/2022 | 4,3 MB | CONFIDENCIAL | [[Inteligencia de Mercado\|Inteligência de Mercado]] | ✅ Extraído | Primeiro contato institucional com Allnex; modelo de negócio; posicionamento Gerdau Next | Conteúdo condensado; detalhes comerciais/técnicos em updates posteriores |
-| **GG02** | Graphene Week — Gothenburg | Apresentação pública (PDF) | Set/2023 | 4,4 MB | PUBLIC | [[Inteligencia de Mercado\|Inteligência de Mercado]] | ✅ Extraído | Apresentação pública em Graphene Flagship; validações técnicas; resultados de mercado (+13–14% resistência cimento aos 28d; +75% módulo PE; -30% zinco em anticorrosivos); parceiros (Manchester GEIC, UFMG, USP, IPT, SENAI) | Detalhe de segmentação de mercado |
-| **GG03** | Aditivos Químicos T&R — Update | Apresentação comercial (PDF) | Ago/2024 | 5,0 MB | CONFIDENCIAL | [[Inteligencia de Mercado\|Inteligência de Mercado]] | ✅ Extraído | Atualização comercial interna; portfólio completo de produtos (G2D, Poly-G, NanoCons); resultados de campo (Pindamonhangaba -33% consumo; ciclovia Mogi 7 meses com 2 demãos); gap meta/realizado (6% YTD aditivos químicos); parceria Indorama | Detalhes de pricing; pipeline/forecast completo |
-| **GG04** | Case Indorama | Proposta de parceria (PDF) | Ago/2024 | 4,2 MB | CONFIDENCIAL | [[Inteligencia de Mercado\|Inteligência de Mercado]] | ✅ Extraído | Eixos de parceria: (1) dispersão + formulação; (2) segmentos específicos; (3) aditivos em formulações Indorama; (4) funcionalização de polímeros; motivação: dispersão é o gargalo central | Detalhe de termos e expectativas comerciais |
+| **GG01** | Gerdau Graphene Introduction — Allnex | Apresentação institucional (PPTX) | Jul/2022 | 4,3 MB | CONFIDENCIAL | [[Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene|Inteligência de Mercado]] | ✅ Extraído | Primeiro contato institucional com Allnex; modelo de negócio; posicionamento Gerdau Next | Conteúdo condensado; detalhes comerciais/técnicos em updates posteriores |
+| **GG02** | Graphene Week — Gothenburg | Apresentação pública (PDF) | Set/2023 | 4,4 MB | PUBLIC | [[Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene|Inteligência de Mercado]] | ✅ Extraído | Apresentação pública em Graphene Flagship; validações técnicas; resultados de mercado (+13–14% resistência cimento aos 28d; +75% módulo PE; -30% zinco em anticorrosivos); parceiros (Manchester GEIC, UFMG, USP, IPT, SENAI) | Detalhe de segmentação de mercado |
+| **GG03** | Aditivos Químicos T&R — Update | Apresentação comercial (PDF) | Ago/2024 | 5,0 MB | CONFIDENCIAL | [[Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene|Inteligência de Mercado]] | ✅ Extraído | Atualização comercial interna; portfólio completo de produtos (G2D, Poly-G, NanoCons); resultados de campo (Pindamonhangaba -33% consumo; ciclovia Mogi 7 meses com 2 demãos); gap meta/realizado (6% YTD aditivos químicos); parceria Indorama | Detalhes de pricing; pipeline/forecast completo |
+| **GG04** | Case Indorama | Proposta de parceria (PDF) | Ago/2024 | 4,2 MB | CONFIDENCIAL | [[Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene/Inteligencia de Mercado - Gerdau Graphene|Inteligência de Mercado]] | ✅ Extraído | Eixos de parceria: (1) dispersão + formulação; (2) segmentos específicos; (3) aditivos em formulações Indorama; (4) funcionalização de polímeros; motivação: dispersão é o gargalo central | Detalhe de termos e expectativas comerciais |
 
 **Resumo executivo:** Pasta consolidando inteligência de mercado de 4 documentos (Jul/2022 – Ago/2024) sobre posicionamento, validações técnicas e desenvolvimento comercial da Gerdau Graphene. GG01 é o primeiro contato institucional (Allnex, Jul/2022). GG02 é apresentação pública em Graphene Flagship (Set/2023), com validações técnicas de portfólio e parceiros globais. GG03 é o update comercial mais recente (Ago/2024), mostrando portfólio completo, resultados de campo, e gap comercial significativo (6% da meta em aditivos químicos). GG04 sinaliza parceria com Indorama em dispersão e formulação. Nota-resumo integrada cobrindo evolução estratégica.
 
@@ -83,9 +91,22 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 
 | Código | Documento | Tipo | Data | Tamanho | Confidencialidade | Nota-Resumo | Status | Temas | Lacunas |
 |--------|-----------|------|------|---------|-------------------|------------|--------|-------|---------|
-| **GG-POL01** | Black Swan — R&D Update | Relatório técnico (PDF) | Dez/2023 | 746 KB | PUBLIC | [[Polimeros\|Polímeros]] | ✅ Extraído | Compósitos PP (Route 2 +31% módulo Young); compósitos PE (LPPE x2 +50% elongação); fornecedor BlackSwan (GCT0953, BS8, BS3); comparação de rotas de processamento; relação com produtos comerciais Poly-G PE/PP (ago/2024) | Detalhes de concentrações ótimas pós-dez/2023; formulações comerciais finais |
+| **GG-POL01** | Black Swan — R&D Update | Relatório técnico (PDF) | Dez/2023 | 746 KB | PUBLIC | [[Gerdau Graphene/Polimeros/Polimeros|Polímeros]] | ✅ Extraído | Compósitos PP (Route 2 +31% módulo Young); compósitos PE (LPPE x2 +50% elongação); fornecedor BlackSwan (GCT0953, BS8, BS3); comparação de rotas de processamento; relação com produtos comerciais Poly-G PE/PP (ago/2024) | Detalhes de concentrações ótimas pós-dez/2023; formulações comerciais finais |
 
 **Resumo executivo:** Documento técnico P&D (Dez/2023) com BlackSwan cobrindo masterbatches e compósitos de grafeno para polímeros. Dois desenvolvimentos paralelos: (1) PP com Route 2 entregando +31% módulo Young e +15% resistência ao impacto; (2) PE com grade x2 entregando +50% elongação total — criticamente importante para filmes flexíveis. Documento classificado PUBLIC, compartilhável com parceiros externos. Conecta ao portfólio comercial Poly-G PE/PP reportado em Ago/2024. Nota-resumo completa.
+
+---
+
+### 5. INTELIGENCIA DE MERCADO — MGg3 (raiz)
+
+Pasta `Products/MGg3/Inteligencia de Mercado/`. Documentos de inteligência de mercado de escopo amplo: relatório consolidado sobre o mercado global de grafeno e cases de análise competitiva de players específicos. Camada distinta da `Gerdau Graphene/Inteligencia de Mercado/`.
+
+| Código | Documento | Tipo | Data | Confidencialidade | Nota-Resumo | Status | Temas | Lacunas |
+|--------|-----------|------|------|-------------------|------------|--------|-------|---------|
+| **MGG3-IM01** | Inteligência de Mercado — Grafeno Global 2026 | Relatório consolidado (MD) | Mai/2026 | INTERNO | [[Inteligencia-de-Mercado-Grafeno-2026]] | ✅ Consolidado | Mercado global de grafeno; players internacionais e nacionais; modelos de negócio; benchmarking competitivo; patentes/PI; leitura estratégica para MGgrafeno/ALTOE | Atualizações contínuas conforme novos players e contratos surgirem |
+| **MGG3-CASE-NANOXPLORE** | Case NanoXplore — Verticalizacao aplicada em grafeno | Nota técnica de inteligência de mercado (MD) | Mai/2026 | INTERNO | [[Case NanoXplore]] | ✅ Completo | NanoXplore; verticalizacao; plasticos/compositos; baterias; modelo de negocios; benchmark competitivo; FY2025; dry graphene; riscos homologacao/IP/ciclicidade | Isolamento da receita de grafeno puro; validação do dry graphene lote a lote |
+
+**Resumo executivo:** Pasta raiz de inteligência de mercado MGg3, criada Mai/2026. Contém dois documentos de alta consultabilidade: (1) `Inteligencia-de-Mercado-Grafeno-2026.md` — relatório consolidado sobre players globais, modelos de negócio, patentes e leitura estratégica para MGgrafeno, originado de múltiplas frentes de pesquisa (ALT-104 a ALT-154); (2) `Case NanoXplore.md` — leitura técnico-comercial aprofundada da NanoXplore como benchmark de verticalizacao aplicada, com métricas FY2025, rota dry graphene, mapa de riscos e implicações práticas para MGg3. Fonte primária do case: `Levantamento NanoXplore.pptx` (recebido de Flávio).
 
 ---
 
@@ -97,9 +118,12 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 |-------|-----------|------------|-----------------|------------|
 | **Apresentacoes** | 1/1 | Apresentações Institucionais | ALTA | Cobertura completa; fundamentos científicos + cadeia de valor mapeada |
 | **Concretos** | 2/2 | Concretos & Lubrificantes | ALTA | Ambos documentos cobertos; CM018 é a fronteira mais avançada GG em cimento |
-| **Inteligencia de Mercado** | 4/4 | Inteligência de Mercado | ALTA | Cobertura integrada de 4 cases (Jul/2022 – Ago/2024); evolução estratégica clara |
+| **Inteligencia de Mercado (GG)** | 4/4 | Inteligência de Mercado | ALTA | Cobertura integrada de 4 cases (Jul/2022 – Ago/2024); evolução estratégica clara |
 | **Polímeros** | 1/1 | Polímeros | ALTA | Cobertura completa; rotas de processamento mapeadas; conecta a produtos comerciais |
-| **TOTAL** | **8/8** | **4 notas-resumo** | **100% ALTA** | Todas as fontes estão mapeadas, extraídas e resumidas |
+| **Inteligencia de Mercado (MGg3)** | 2/2 | Inteligencia-de-Mercado-Grafeno-2026 + Case NanoXplore | ALTA | Relatório consolidado global + case benchmark NanoXplore; incorporados Mai/2026 |
+| **Controles operacionais de lotes** | 6/6 | Controle operacional de lotes | ALTA | Produção, volumes, processos, documentos e balanços globais XLSX/PPTX; 20210720Pa rastreado |
+| **Registro tacito raiz** | 1/1 | Historico MGgrafeno-Gerdau Graphene | INTERNA/CONTROLADA | Relato pessoal padronizado; fatos sensiveis bloqueados para uso externo sem validação |
+| **TOTAL** | **17/17** | **12 notas-resumo/registros** | **100% ALTA/CONTROLADA** | Todas as fontes estão mapeadas, extraídas e resumidas |
 
 ### Status de Extração por Tipo
 
@@ -107,8 +131,10 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 |------|-----------|----------|------------|-----------|
 | PDF (Relatórios/Apresentações) | 6 | 6/6 | 6/6 | 100% coberto |
 | PPTX (Apresentações) | 1 | 1/1 | 1/1 | 100% coberto |
-| MD (Notas-Resumo) | 4 | 4/4 | 4/4 | 100% profissional |
-| **TOTAL** | **11** | **11/11** | **11/11** | **100% COMPLETO** |
+| XLSX/PPTX operacionais de lotes | 6 | 6/6 | 6/6 | Controles de produção, volume, processo, documentação e balanço de massa |
+| DOCX externo (Relato tacito) | 1 | 1/1 | 1/1 | Padronizado como nota tacita; uso externo restrito |
+| MD (Notas-Resumo) | 5 | 5/5 | 5/5 | 100% profissional |
+| **TOTAL** | **19** | **19/19** | **19/19** | **100% COMPLETO/CONTROLADO** |
 
 ---
 
@@ -237,6 +263,11 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 ```
 /Users/okumaaltoe/AltoèAgricola.Vault/Products/MGg3/
 ├── INVENTÁRIO-MESTRE.md ← [ESTE DOCUMENTO]
+├── Historico MGgrafeno-Gerdau Graphene.md [NOTA TACITA — RODRIGO01, uso interno controlado]
+├── Inteligencia de Mercado/                         ← ADICIONADO Mai/2026
+│   ├── Inteligencia-de-Mercado-Grafeno-2026.md [RELATÓRIO CONSOLIDADO — MGG3-IM01]
+│   └── Case NanoXplore.md [CASE BENCHMARK — MGG3-CASE-NANOXPLORE]
+│       (fonte primária: Levantamento NanoXplore.pptx — recebido de Flávio, arquivo externo ao vault)
 └── Gerdau Graphene/
     ├── Apresentacoes/
     │   ├── Apresentacoes.md [NOTA-RESUMO]
@@ -254,6 +285,9 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
     └── Polimeros/
         ├── Polimeros.md [NOTA-RESUMO]
         └── Resultados Tecnicos Polimeros - Apresentação BlackSwan_23_12_19.pdf [FONTE PRIMÁRIA — 746 KB]
+└── MGg2/
+    └── Custos/
+        └── Controle operacional de lotes/ [ALT-254 — 6 fontes XLSX/PPTX + 6 notas]
 ```
 
 ---
@@ -262,13 +296,13 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 
 - [x] Inventário mestre criado em `/Products/MGg3/INVENTÁRIO-MESTRE.md`
 - [x] Tabela fonte-por-fonte com: caminho, tipo, data, confidencialidade, status, nota-resumo, temas, métricas, lacunas, ações
-- [x] Todos os 8 documentos mapeados e 100% com cobertura de nota-resumo
+- [x] 25 documentos/registros mapeados e 100% com cobertura de nota-resumo ou registro consultavel
 - [x] Documentos com cobertura e documentos sem cobertura claramente identificados
 - [x] Anexos originais preservados como evidência primária
 - [x] Estrutura pronta para rastreamento periódico e atualizações
 
-**Próxima ação:** Comunicar conclusão em ALT-87 com path da nota e quantidade de fontes mapeadas.
+**Próxima ação:** Mariano extrai métricas econômicas de custo/kg, rendimento por etapa, consumo de insumos e representatividade do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
 
 ---
 
-*Inventário compilado por Cacilda em 2026-05-07 | Total de fontes: 8 | Cobertura: 100% | Consultabilidade: ALTA*
+*Inventário compilado por Cacilda em 2026-05-07 | Atualizado 2026-05-20 (Cacilda) — controles operacionais de lotes/processos/volumes/balanços incorporados em ALT-254; lote 20210720Pa rastreado | Total de fontes: 25 | Cobertura: 100% | Consultabilidade: ALTA/CONTROLADA*
