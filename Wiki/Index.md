@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 owner: Agent
-updated: 2026-05-18
+updated: 2026-05-21
 ---
 
 <!-- FORMAT: Each entry is a row. Agent queries this file with Grep to find relevant pages. -->
@@ -92,6 +92,6 @@ Root map: [[Wiki/Wiki.md|Wiki]]
 | Wiki/Figures/Julio C. Nardi.md | Figure | Julio C. Nardi | ontology, knowledge engineering, PKM | Ontologia | medium | 2026-05-18 |
 | Wiki/Summaries/Culturas_Campo_Episodio_2026_05_02.md | Summary | Culturas do Campo — Episódio de 02/05/2026 | conilon, Socol, Natcup, Espírito Santo, agriculture automation | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
 | Wiki/Wiki.md | MoC | Wiki | root, map of content, catalog | Vault | high | 2026-05-18 |
-| Wiki/Entities/NanoXplore.md | Entity | NanoXplore | graphene, company, Canada, composites, batteries, vertically integrated, TSX:GRA | NanoXplore - Resumo de Mercado 2025 | medio | 2026-05-21 |
-| Wiki/Entities/Levidian.md | Entity | Levidian | graphene, plasma synthesis, microwave, patent, Cambridge, FGV Cambridge Nanosystems | Levidian - Patente EP3167694B1 | medio | 2026-05-21 |
-| Wiki/Concepts/Síntese de Grafeno por Plasma de Microondas.md | Concept | Síntese de Grafeno por Plasma de Microondas | graphene, plasma, microwave, synthesis, bottom-up, continuous, atmospheric pressure, Levidian | Levidian - Patente EP3167694B1 | medio | 2026-05-21 |
+| Wiki/Entities/NanoXplore.md | Entity | NanoXplore | graphene, company, Canada, composites, batteries, vertically integrated, TSX:GRA | NanoXplore - Resumo de Mercado 2025 | medium | 2026-05-21 |
+| Wiki/Entities/Levidian.md | Entity | Levidian | graphene, plasma synthesis, microwave, patent, Cambridge, FGV Cambridge Nanosystems | Levidian - Patente EP3167694B1 | medium | 2026-05-21 |
+| Wiki/Concepts/Síntese de Grafeno por Plasma de Microondas.md | Concept | Síntese de Grafeno por Plasma de Microondas | graphene, plasma, microwave, synthesis, bottom-up, continuous, atmospheric pressure, Levidian | Levidian - Patente EP3167694B1 | medium | 2026-05-21 |

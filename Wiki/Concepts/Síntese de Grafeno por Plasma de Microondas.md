@@ -8,7 +8,7 @@ related:
   - "[[NanoXplore]]"
 created: 2026-05-21
 updated: 2026-05-21
-confidence: medio
+confidence: medium
 ---
 
 # Síntese de Grafeno por Plasma de Microondas
@@ -20,7 +20,7 @@ Técnica "bottom-up" para produção de grafeno em escala a partir do craqueamen
 A síntese ocorre em duas etapas no interior do reator:
 
 1. **Cracking:** feedstock carbonáceo (ex: CH₄) é introduzido no bocal de plasma, onde radiação de microondas (2,45 GHz) excita o gás e cria um plasma que quebra as moléculas de carbono em espécies atômicas/radicais
-2. **Recombinação:** as espécies de carbono craquedas passam para a câmara de afterglow, onde se resfriamm e recombinamo, formando folhas de grafeno (single-layer e multi-layer)
+2. **Recombinação:** as espécies de carbono craquedas passam para a câmara de afterglow, onde se resfriam e recombinam, formando folhas de grafeno (single-layer e multi-layer)
 
 A temperatura ideal de formação de grafeno é 900–1.000°C (temperatura no ponto de formação na saída do bocal).
 

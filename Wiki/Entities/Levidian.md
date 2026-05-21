@@ -9,7 +9,7 @@ related:
   - "[[CAGR Mercado Grafeno]]"
 created: 2026-05-21
 updated: 2026-05-21
-confidence: medio
+confidence: medium
 ---
 
 # Levidian

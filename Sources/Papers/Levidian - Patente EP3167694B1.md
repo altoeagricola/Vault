@@ -13,6 +13,8 @@ source: "European Patent Office — EP 3 167 694 B1"
 link: ""
 published: 2018-05-02
 created: 2026-05-21
+accessed: 2026-05-21
+confidence: high
 tags:
   - clippings
   - paper
