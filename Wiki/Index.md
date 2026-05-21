@@ -1,11 +1,13 @@
 ---
 title: Wiki Index
 owner: Agent
-updated: 2026-04-14
+updated: 2026-05-18
 ---
 
 <!-- FORMAT: Each entry is a row. Agent queries this file with Grep to find relevant pages. -->
 <!-- Columns: Path | Type | Title | Topics (comma-separated) | Sources | Confidence | Updated -->
+
+Root map: [[Wiki/Wiki.md|Wiki]]
 
 | Path                        | Type   | Title             | Topics                    | Sources | Confidence | Updated    |
 | --------------------------- | ------ | ----------------- | ------------------------- | ------- | ---------- | ---------- |
@@ -66,3 +68,30 @@ updated: 2026-04-14
 | Wiki/Figures/Andrej Karpathy.md | Figure | Andrej Karpathy | AI researcher, LLM Wiki, OpenAI, Tesla Autopilot | Karpathy's LLM Wiki The Complete Guide to His Idea File | high | 2026-04-14 |
 | Wiki/Concepts/MCR.md | Concept | MCR — Manual de Crédito Rural | credit, rural, BCB, CMN, SNCR, Sicor, Pronaf, Pronamp, Funcafé, Proagro, InvestAgro, regulation | BCB - Manual de Crédito Rural (MCR) | high | 2026-05-18 |
 | Wiki/Concepts/Ontologia.md | Concept | Ontologia | ontologia, representação de conhecimento, OWL, RDF, grafo de conhecimento, taxonomia, AI-KB, PKM, semântica | — | medium | 2026-04-26 |
+| Wiki/Concepts/Conilon.md | Concept | Conilon | coffee, agriculture, Espírito Santo, Coffea canephora, robusta | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Concepts/Indicacao_Geografica.md | Concept | Indicação Geográfica | intellectual property, certification, origin, food, Socol | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Concepts/Melhoramento_Genetico.md | Concept | Melhoramento Genético em Café | agriculture, genetics, coffee, conilon, Incapé | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Concepts/SNCR.md | Concept | SNCR | credit, rural, regulation, MCR, BCB | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/Sicor.md | Concept | Sicor | credit, rural, registry, Proagro, BCB | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/Pronaf.md | Concept | Pronaf | credit, rural, agriculture family, MCR, conilon | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/Pronamp.md | Concept | Pronamp | credit, rural, medium producer, MCR | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/Funcafé.md | Concept | Funcafé | credit, coffee, conilon, MCR | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/Proagro.md | Concept | Proagro | credit, insurance, rural risk, MCR | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/InvestAgro.md | Concept | InvestAgro | credit, rural investment, MCR | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/LCA.md | Concept | LCA | agribusiness credit, funding source, MCR | MCR | medium | 2026-05-18 |
+| Wiki/Entities/Baixo_Guandu.md | Entity | Baixo Guandu | Espírito Santo, Natcup, automation, agriculture | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Entities/Incapé.md | Entity | Incapé | research, conilon, coffee, Espírito Santo | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Entities/Marilândia.md | Entity | Marilândia | conilon, coffee research, Espírito Santo | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Entities/Natcup.md | Entity | Natcup | cooperative, automation, feed production, Baixo Guandu | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Entities/Socol.md | Entity | Socol | food, cultural heritage, Indicação Geográfica, Venda Nova do Imigrante | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Entities/Venda_Nova_do_Imigrante.md | Entity | Venda Nova do Imigrante | Espírito Santo, Socol, cultural heritage | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Entities/Espírito_Santo.md | Entity | Espírito Santo | conilon, Socol, Marilândia, Venda Nova do Imigrante | Culturas_Campo_Conilon_Socol | medium | 2026-05-18 |
+| Wiki/Entities/Banco Central do Brasil.md | Entity | Banco Central do Brasil | BCB, MCR, rural credit, regulation | MCR | medium | 2026-05-18 |
+| Wiki/Entities/Conselho Monetário Nacional.md | Entity | Conselho Monetário Nacional | CMN, MCR, rural credit, regulation | MCR | medium | 2026-05-18 |
+| Wiki/Figures/Lucas Celim.md | Figure | Lucas Celim | conilon, coffee quality, Espírito Santo | Culturas_Campo_Conilon_Socol | medium | 2026-05-18 |
+| Wiki/Figures/Julio C. Nardi.md | Figure | Julio C. Nardi | ontology, knowledge engineering, PKM | Ontologia | medium | 2026-05-18 |
+| Wiki/Summaries/Culturas_Campo_Episodio_2026_05_02.md | Summary | Culturas do Campo — Episódio de 02/05/2026 | conilon, Socol, Natcup, Espírito Santo, agriculture automation | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
+| Wiki/Wiki.md | MoC | Wiki | root, map of content, catalog | Vault | high | 2026-05-18 |
+| Wiki/Entities/NanoXplore.md | Entity | NanoXplore | graphene, company, Canada, composites, batteries, vertically integrated, TSX:GRA | NanoXplore - Resumo de Mercado 2025 | medio | 2026-05-21 |
+| Wiki/Entities/Levidian.md | Entity | Levidian | graphene, plasma synthesis, microwave, patent, Cambridge, FGV Cambridge Nanosystems | Levidian - Patente EP3167694B1 | medio | 2026-05-21 |
+| Wiki/Concepts/Síntese de Grafeno por Plasma de Microondas.md | Concept | Síntese de Grafeno por Plasma de Microondas | graphene, plasma, microwave, synthesis, bottom-up, continuous, atmospheric pressure, Levidian | Levidian - Patente EP3167694B1 | medio | 2026-05-21 |
