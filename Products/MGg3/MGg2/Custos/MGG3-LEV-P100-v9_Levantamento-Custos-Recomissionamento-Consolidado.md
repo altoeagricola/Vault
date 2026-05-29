@@ -37,15 +37,15 @@ O segundo número, de R$1,68 milhão, também precisa ser lido com cuidado. Ele 
 
 Com essas duas leituras separadas, e incorporando a função adicional de pesquisa em desenvolvimento de aplicações e fomento, o custo de operação recorrente da P100 fica em R$2,397 milhões por ano quando olhamos apenas o caixa operacional, isto é, os gastos que tendem a sair efetivamente da operação ao longo do ano. Quando incluímos uma reserva gerencial de depreciação, que é uma forma de reconhecer o desgaste econômico dos equipamentos ao longo do tempo, o custo técnico completo sobe para R$2,563 milhões por ano.
 
-| Indicador | Valor consolidado | Como interpretar |
-|---|---:|---|
-| CAPEX incremental para recomissionamento | R$ 610.000 | Estimativa gerencial preliminar do dinheiro novo para recolocar a planta existente em operação; requer vistoria, RFQ e gates documentais |
-| Base bruta histórica dos equipamentos da P100 | R$ 1.680.560 | Valor extraído da planilha P100 de 2021 para produção + SSMA; não inclui depreciação acumulada |
-| OPEX caixa recorrente | R$ 2.396.908/ano | Gastos operacionais anuais sem depreciação gerencial, já incluindo o pesquisador adicional de aplicações e fomento |
-| OPEX técnico completo | R$ 2.563.484/ano | OPEX caixa mais depreciação/reserva gerencial |
-| Produção técnica de referência | 10.315 kg/ano | Capacidade calculada, não garantia de venda integral |
-| Custo caixa estimado | R$ 232/kg | OPEX caixa dividido pela produção técnica |
-| Custo técnico completo | R$ 249/kg | OPEX completo dividido pela produção técnica |
+| Indicador                                     | Valor consolidado | Como interpretar                                                                                                                         |
+| --------------------------------------------- | ----------------: | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| CAPEX incremental para recomissionamento      |        R$ 610.000 | Estimativa gerencial preliminar do dinheiro novo para recolocar a planta existente em operação; requer vistoria, RFQ e gates documentais |
+| Base bruta histórica dos equipamentos da P100 |      R$ 1.680.560 | Valor extraído da planilha P100 de 2021 para produção + SSMA; não inclui depreciação acumulada                                           |
+| OPEX caixa recorrente                         |  R$ 2.396.908/ano | Gastos operacionais anuais sem depreciação gerencial, já incluindo o pesquisador adicional de aplicações e fomento                       |
+| OPEX técnico completo                         |  R$ 2.563.484/ano | OPEX caixa mais depreciação/reserva gerencial                                                                                            |
+| Produção técnica de referência                |     10.315 kg/ano | Capacidade calculada, não garantia de venda integral                                                                                     |
+| Custo caixa estimado                          |         R$ 232/kg | OPEX caixa dividido pela produção técnica                                                                                                |
+| Custo técnico completo                        |         R$ 249/kg | OPEX completo dividido pela produção técnica                                                                                             |
 
 ## 3. Códigos e termos usados no documento
 
@@ -85,21 +85,21 @@ A estimativa parte da planta P100, composta por dois módulos de conversão — 
 
 Essa combinação gera uma produção calculada de aproximadamente 19,76 kg por lote, ou 10.315 kg por ano. Este número deve ser tratado com cuidado. Ele é uma referência de capacidade técnica, útil para calcular custo por lote e custo por kg, mas não significa que todo esse volume será vendido como produto final com preço cheio. Em uma planta piloto, parte relevante dos lotes pode ser consumida em ajuste de processo, desenvolvimento de formulação, envio de amostras, qualificação por cliente, retrabalho, controle de qualidade e validação de desempenho.
 
-| Parâmetro operacional | Valor usado | Leitura no modelo |
-|---|---:|---|
-| Módulos de conversão | 2 unidades (cada um: tanque de 100 L nominal + cisalhador KonMix) | Configuração P100, preservando rastreabilidade com documentos que usam "reatores KonMix" |
-| Volume nominal total por lote | 200 L | Resultado da operação paralela dos dois tanques de 100 L nominal |
-| Regime operacional | 1 turno | Base de planejamento, não limite físico absoluto |
-| Lotes por mês | 43,5 | Produção média planejada |
-| Lotes por ano | 522 | Denominador usado para custo por lote |
-| Grafite por lote | 20,0 kg | 10 kg por tanque de conversão × 2 tanques — concentração nominal de 100 g/L (100 g/kg de dispersão líquida) por tanque |
-| Tempo técnico de ciclo | 10,75 h/lote | Base operacional extraída do modelo P100 — leitura otimista; ver decomposição abaixo |
-| Rendimento GPC/FLG | 0,80% | 0,160 kg/lote |
-| Rendimento NPG/GNP | 5,00% | 1,000 kg/lote |
-| Rendimento NG | 93,00% | 18,600 kg/lote |
-| Perdas de processo | 1,20% | 0,240 kg/lote |
-| Produção técnica calculada | 19,760 kg/lote | Massa total produzida antes de qualificação comercial |
-| Produção técnica anual | 10.314,72 kg/ano | 19,760 kg/lote x 522 lotes/ano |
+| Parâmetro operacional         |                                                       Valor usado | Leitura no modelo                                                                                                      |
+| ----------------------------- | ----------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- |
+| Módulos de conversão          | 2 unidades (cada um: tanque de 100 L nominal + cisalhador KonMix) | Configuração P100, preservando rastreabilidade com documentos que usam "reatores KonMix"                               |
+| Volume nominal total por lote |                                                             200 L | Resultado da operação paralela dos dois tanques de 100 L nominal                                                       |
+| Regime operacional            |                                                           1 turno | Base de planejamento, não limite físico absoluto                                                                       |
+| Lotes por mês                 |                                                              43,5 | Produção média planejada                                                                                               |
+| Lotes por ano                 |                                                               522 | Denominador usado para custo por lote                                                                                  |
+| Grafite por lote              |                                                           20,0 kg | 10 kg por tanque de conversão × 2 tanques — concentração nominal de 100 g/L (100 g/kg de dispersão líquida) por tanque |
+| Tempo técnico de ciclo        |                                                      10,75 h/lote | Base operacional extraída do modelo P100 — leitura otimista; ver decomposição abaixo                                   |
+| Rendimento GPC/FLG            |                                                             0,80% | 0,160 kg/lote                                                                                                          |
+| Rendimento NPG/GNP            |                                                             5,00% | 1,000 kg/lote                                                                                                          |
+| Rendimento NG                 |                                                            93,00% | 18,600 kg/lote                                                                                                         |
+| Perdas de processo            |                                                             1,20% | 0,240 kg/lote                                                                                                          |
+| Produção técnica calculada    |                                                    19,760 kg/lote | Massa total produzida antes de qualificação comercial                                                                  |
+| Produção técnica anual        |                                                  10.314,72 kg/ano | 19,760 kg/lote x 522 lotes/ano                                                                                         |
 
 Para garantia de leitura técnica inequívoca, registra-se a seguir a composição do lote em relação à configuração física da P100. A P100 possui dois módulos de conversão, cada um constituído por um tanque de 100 L (volume nominal do equipamento) e um cisalhador KonMix, operando em paralelo dentro do mesmo ciclo. A carga de grafite de cada tanque de 100 L é de 10 kg, resultando em concentração nominal de 100 g/L — equivalente a 100 g/kg de dispersão líquida — por tanque. Com dois módulos combinados, a carga de entrada total por lote é de 20 kg de grafite (10 kg + 10 kg), e o volume nominal total é de 200 L. O processo é, portanto, simétrico: dois tanques de 100 L, cada um com 10 kg de grafite a 100 g/L, operando em paralelo. Ao término de cada ciclo de conversão, a totalidade do material processado nesses dois módulos é transferida para o módulo de separação, onde é processada sequencialmente nas fases 1 e 2. A unidade de referência adotada neste modelo é o quilograma (kg): 20,0 kg de grafite como carga de entrada e 19,760 kg como produção técnica calculada por lote. A referência a "tanques de 100 L" descreve o volume nominal dos equipamentos de conversão; não é uma medida de massa do lote.
 
