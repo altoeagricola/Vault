@@ -2370,3 +2370,4 @@
 "event_logs:sources:modified": {"key":"sources:modified","ct":8276,"first_at":1776114576856,"last_at":1780084749136,"class_name":"EventLog","event_sources":{"obsidian:workspace.editor-change":4810,"obsidian:vault.modify":3466}},
 "event_logs:sources:imported": {"key":"sources:imported","ct":65616,"first_at":1767286454990,"last_at":1780084757954,"class_name":"EventLog"},
 "event_logs:item:embedded": {"key":"item:embedded","ct":40699,"first_at":1767286470003,"last_at":1780084758406,"class_name":"EventLog"},
+"event_logs:plugin:new_version_available": {"key":"plugin:new_version_available","ct":485,"first_at":1767434059023,"last_at":1780087268920,"class_name":"EventLog"},
