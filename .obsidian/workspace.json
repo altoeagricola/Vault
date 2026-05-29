@@ -21,24 +21,14 @@
             "id": "04e3e56641efdadd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Products/MGg3/_modelos/MGG3-MODELO-DADOS_proposta-v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": true,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".claude/worktrees/laughing-roentgen-7d852a",
+                "bFile": ".claude/worktrees/laughing-roentgen-7d852a",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "MGG3-MODELO-DADOS_proposta-v1"
+              "icon": "diff",
+              "title": "Diff: laughing-roentgen-7d852a  (Working Tree)"
             }
           }
         ],
@@ -119,7 +109,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Products/MGg3/_modelos/MGG3-MODELO-DADOS_proposta-v1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -147,7 +136,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de MGG3-MODELO-DADOS_proposta-v1"
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -171,7 +160,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Products/MGg3/_modelos/MGG3-MODELO-DADOS_proposta-v1.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -181,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para MGG3-MODELO-DADOS_proposta-v1"
+              "title": "Links inversos"
             }
           },
           {
@@ -511,10 +499,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef9f092883bda50b",
+  "active": "04e3e56641efdadd",
   "lastOpenFiles": [
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado.md",
     "Products/MGg3/_modelos/MGG3-MODELO-DADOS_proposta-v1.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado.md",
     "Products/MGg3/index.md",
     "Products/MGg3/Historico MGgrafeno-Gerdau Graphene.md",
     "Journal/Daily/2026-05-29.md",
