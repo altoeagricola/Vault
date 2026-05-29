@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-29",
+      "path": "Journal/Daily/2026-05-29.md"
+    },
+    {
+      "basename": "2026-04-16",
+      "path": "Journal/Daily/2026-04-16.md"
+    },
+    {
       "basename": "MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado",
       "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "CAGR Mercado Grafeno",
       "path": "Products/MGg3/Inteligencia de Mercado/CAGR Mercado Grafeno.md"
-    },
-    {
-      "basename": "Checklist Documental - Sergio Jose Altoe",
-      "path": "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Checklist Documental - Sergio Jose Altoe.md"
-    },
-    {
-      "basename": "Protocolo de manutencao - novas fontes MGg3",
-      "path": "Products/MGg3/Protocolo de manutencao - novas fontes MGg3.md"
     }
   ],
   "omittedPaths": [],
