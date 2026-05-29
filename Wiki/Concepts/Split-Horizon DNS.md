@@ -2,7 +2,7 @@
 title: Split-Horizon DNS
 type: Concept
 sources:
-  - "[[Products/InfraKeeper/InfraKeeper]]"
+  - "InfraKeeper"
 related:
   - "[[AdGuard Home]]"
   - "[[OPNsense]]"

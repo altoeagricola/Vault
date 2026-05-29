@@ -1,10 +1,11 @@
 ---
-título: Concretos & Lubrificantes — Gerdau Graphene
+titulo: Concretos & Lubrificantes — Gerdau Graphene
 pasta: "[[Gerdau Graphene]]"
 tipo: Capa / Resumo Executivo
+produto: MGg3
 atualizado: 2026-04-26
+confidencialidade: interno
 ---
-
 # Concretos & Lubrificantes — Gerdau Graphene
 
 Pasta com documentos de P&D da **Gerdau Graphene** sobre duas plataformas tecnológicas: o projeto **CM018** (aditivo grafeno para concreto com escória de alto forno) e resultados de **lubrificantes** com GNP em testes veiculares na VW. Ambos datam de dezembro de 2024.

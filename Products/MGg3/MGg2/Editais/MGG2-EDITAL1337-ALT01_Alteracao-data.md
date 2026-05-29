@@ -1,6 +1,7 @@
 ---
 titulo: Alteração Edital 1337/2025 - Prorrogação de Prazo
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG2-EDITAL1337-ALT01
 fonte_arquivo: "Alterao-data-Edital-MGGrafeno-pdf-D4Sign.pdf"
 caminho_fonte: "Products/MGg3/MGg2/Editais/Alterao-data-Edital-MGGrafeno-pdf-D4Sign.pdf"
@@ -34,7 +35,6 @@ links_relacionados:
   - "[[Compliance - licenciamento UFMG CDTN]]"
 atualizado: 2026-05-07
 ---
-
 # MGG2-EDITAL1337-ALT01: Alteração Edital 1337/2025 - Prorrogação de Prazo
 
 ## Identificacao

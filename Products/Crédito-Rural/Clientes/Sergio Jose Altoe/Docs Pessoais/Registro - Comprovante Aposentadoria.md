@@ -1,20 +1,20 @@
 ---
 tipo_documento: Comprovante de Aposentadoria / Renda Previdenciária
 titulares: "Sergio Jose Altoe e Maria de Lourdes Bernabe Altoe"
-cpf_primario: "a confirmar"
-cpf_secundario: "a confirmar"
+cpf_primario: "não consta no comprovante visualizado"
+cpf_secundario: "não consta no comprovante visualizado"
 orgao_emissor: "INSS (Instituto Nacional do Seguro Social)"
-tipo_beneficio: "Aposentadoria (presumido)"
+tipo_beneficio: "Saque de benefício — INSS pago benefício"
 status_renda: "ativo"
 status_documental: "existente"
-status_conferencia: "precisa_confirmar"
+status_conferencia: "validado_visual_com_pendencia_cpf_e_recencia"
 fonte_arquivo: "Docs Pessoais/COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.pdf"
-fonte_ocr: "não processado"
-data_conferencia: 2026-05-05
+fonte_ocr: "PDF sem texto pesquisável; conferência visual em PNG temporário"
+data_conferencia: 2026-05-23
 conferido_por: Cacilda
-confianca_extracao: "baixa - PDF sem OCR"
+confianca_extracao: "média - leitura visual direta do scan; comprovante não contém CPF"
 divergencias: "nenhuma identificada até agora"
-pendencias: "confirmar competência (mês/ano de emissão); validar se é documento recente; extrair valores de renda de ambos; validar se renda é suficiente para operação"
+pendencias: "solicitar comprovante INSS mais completo/recente com CPF; validar aceitação bancária; recalcular capacidade de pagamento"
 tags:
   - renda
   - aposentadoria
@@ -40,15 +40,19 @@ Localizado em: `Docs Pessoais/COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.p
 
 | Campo | Valor | Status |
 |-------|-------|--------|
-| **Tipo documento** | Comprovante de Aposentadoria INSS | Presumido (confirmar no PDF) |
-| **Titulares** | Sergio Jose Altoe e Maria de Lourdes | Presumido (confirmar no PDF) |
-| **CPF (titular 1)** | *a confirmar no PDF* | **PENDENTE** |
-| **CPF (titular 2)** | *a confirmar no PDF* | **PENDENTE** |
-| **Tipo de benefício** | Aposentadoria (presumido) | **PENDENTE** |
-| **Competência/mês de emissão** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
-| **Renda mensal (titular 1)** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
-| **Renda mensal (titular 2)** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
-| **Renda total (ambos)** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
+| **Tipo documento** | Comprovante de saque de benefício INSS via Banco do Brasil | Confirmado visualmente |
+| **Titular 1** | Sergio Jose Altoe | Confirmado visualmente |
+| **Benefício titular 1** | 548.408.852-2 | Confirmado visualmente |
+| **Data comprovante titular 1** | 02/04/2026 | Confirmado visualmente |
+| **Valor saque titular 1** | R$ 1.620,00 | Confirmado visualmente |
+| **Próximo pagamento titular 1** | A partir de 27/04/2026 | Confirmado visualmente |
+| **Titular 2** | Maria de Lourdes Bernabe | Confirmado visualmente |
+| **Benefício titular 2** | 162.730.510-3 | Confirmado visualmente |
+| **Data comprovante titular 2** | 15/04/2026 | Confirmado visualmente |
+| **Valor saque titular 2** | R$ 8,00 | Confirmado visualmente |
+| **Próximo pagamento titular 2** | A partir de 08/05/2026 | Confirmado visualmente |
+| **CPF (titular 1/2)** | Não consta no comprovante | **PENDENTE** |
+| **Renda mensal total comprovada no scan** | R$ 1.628,00 | **Parcial; validar com extrato INSS completo** |
 
 ---
 
@@ -58,32 +62,21 @@ Localizado em: `Docs Pessoais/COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.p
 
 - PDF localizado: ✓ `Docs Pessoais/COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.pdf`
 - OCR processado: ✗ Não (PDF com scan sem texto pesquisável)
-- Competência confirmada: ✗ Não
-- Renda extraída: ✗ Não
+- Datas dos comprovantes confirmadas: ✓ 02/04/2026 e 15/04/2026
+- Renda/saques extraídos: ✓ Parcial — R$ 1.620,00 e R$ 8,00
 - Adequação para operação validada: ✗ Não
 
 ### Riscos de Renda
 
-1. **Documento desatualizado:** Se comprovante tem competência anterior a 90 dias, pode ser exigido comprovante mais recente (depende da política do banco).
-2. **Renda insuficiente:** Se renda total de ambos não cobre prestações da operação (capacidade de pagamento negativa), operação é recusada ou redimensionada.
-3. **Alteração de renda:** Se entre emissão do comprovante e protocolo ao banco há aumento/redução significativa de renda, pode requerer novo comprovante.
-4. **Divergência de CPF:** Se CPFs no comprovante divergem de RG + CPF apresentados, impede operação.
-5. **Renda de apenas um:** Se comprovante está em nome de apenas uma pessoa, renda do cônjuge não pode ser considerada (exceto em regime de separação de bens).
+1. **Comprovante incompleto para banco:** O scan mostra saque de benefício, mas não mostra CPF dos titulares.
+2. **Valor de Maria de Lourdes:** O comprovante visualizado mostra saque de apenas R$ 8,00; isso não parece comprovar renda mensal normal dela.
+3. **Recência:** Comprovantes de abril/2026 estão dentro de 90 dias em 23/05/2026, mas podem ficar vencidos rapidamente.
+4. **Capacidade de pagamento:** Renda comprovada visualmente é parcial e insuficiente para concluir capacidade de pagamento.
 
 ### Próximas Ações Críticas
 
-1. **Extrair do PDF original**:
-   - **Competência** (mês/ano de emissão) — essencial para validar "recência"
-   - CPF de Sergio Jose Altoe
-   - CPF de Maria de Lourdes Bernabe Altoe
-   - Valor de renda mensal de Sergio
-   - Valor de renda mensal de Maria de Lourdes
-   - Renda total (soma)
-   - Tipo de benefício (aposentadoria, pensão, auxílio)
-
-2. **Validar recência**:
-   - Se comprovante foi emitido há mais de 90 dias, solicitar novo comprovante ao INSS
-
+1. Solicitar comprovante/extrato INSS completo e recente contendo CPF, espécie de benefício e valor mensal bruto/líquido.
+2. Confirmar se o valor de Maria de Lourdes é renda mensal efetiva ou apenas saldo/saque residual.
 3. **Calcular capacidade de pagamento**:
    - Renda total mensal de ambos vs. prestação da operação proposta
    - Aplicar coeficiente de endividamento do banco (geralmente máximo 30-40% da renda para crédito rural)
@@ -97,7 +90,7 @@ Localizado em: `Docs Pessoais/COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.p
    - Se é aposentadoria rural, pode ter tratamento diferenciado em banco agrícola
    - Se é aposentadoria urbana de pessoa que migrou para rural, pode ter restrições
 
-6. **Processar OCR** (futuro) se necessário para auditoria
+6. Processar OCR pesquisável apenas se o banco ou auditoria exigir cópia textual.
 
 ---
 
@@ -145,17 +138,11 @@ Este documento é **entrada primária para análise financeira** do caso. A rend
 
 ## Observações de Conferência
 
-**Data:** 2026-05-05  
+**Data:** 2026-05-23  
 **Conferido por:** Cacilda
 
-Conferência por índice — Comprovante de aposentadoria localizado, mas **status definido como `precisa_confirmar`** até:
-- Extração de dados (competência, CPFs, rendas de ambos)
-- Validação de recência (menos de 90 dias)
-- Conferência de CPFs contra RG + CPF de ambos os titulares
-- Cálculo de capacidade de pagamento para operação proposta
+Conferência visual realizada a partir de renderização PNG temporária do PDF original. O scan contém dois comprovantes Banco do Brasil/SISBB de "Saque de benefício — INSS pago benefício": Sergio Jose Altoe em 02/04/2026, benefício 548.408.852-2, saque R$ 1.620,00; Maria de Lourdes Bernabe em 15/04/2026, benefício 162.730.510-3, saque R$ 8,00.
 
-Checklist mestre já sinaliza: "Atualizar se o comprovante nao for de competencia recente" como ação obrigatória antes da submissão ao banco.
-
-**Ação crítica:** Validar competência do comprovante — se anterior a 90 dias, solicitar novo comprovante ao INSS. Renda desatualizada pode resultar em recusa do banco ou redimensionamento da operação.
+**Ação crítica:** solicitar extrato INSS/Meu INSS completo, pois o comprovante atual não traz CPF e o valor de Maria de Lourdes não comprova renda mensal usual.
 
 **Nota operacional futura:** Uma vez extraída a renda, integrar a `Analise Financeira - Sergio Jose Altoe.md` (ainda a criar) para cálculo de capacidade de pagamento e dimensionamento da operação.

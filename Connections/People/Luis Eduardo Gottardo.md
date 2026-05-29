@@ -11,7 +11,7 @@ cpf: 058.694.597-02
 nascimento: 27/07/1994
 estado-civil: Casado (Comunhão Parcial)
 endereço: Córrego Alegria, sn, Zona Rural, Marilândia-ES, CEP 29725-000
-updated: 2026-04-27
+updated: 2026-05-26
 ---
 
 ## Luis Eduardo Gottardo
@@ -40,6 +40,15 @@ Após Graziela também aceitar a proposta (dias depois), Luis Eduardo foi mantid
 3. **Graziela não pode entrar no contrato social** — trabalha no SENAR e teme conflito de interesse
 
 > [[Graziela]] atua como parceira técnica via contrato de prestação de serviços. Luis Eduardo consta como sócio (1%) para fins de credenciamento bancário.
+
+---
+
+## Compliance CREA
+
+- Registro profissional: CREA ES-0045577/D.
+- Status informado em 2026-05-26: registro pago para o exercício de 2026, com validade material até dezembro/2026.
+- Atenção operacional: o atestado/certidão emitido pelo CREA tem validade curta, de aproximadamente 2 a 3 meses. Por isso, mesmo com o registro anual pago, deve-se solicitar novo atestado sempre que banco, edital ou protocolo exigir documento recente.
+- Alerta de monitoramento: revalidar a situação do CREA de Luis Eduardo em dezembro/2026 e solicitar novo atestado antes de qualquer submissão que dependa dele.
 
 ---
 

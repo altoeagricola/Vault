@@ -1,23 +1,23 @@
 ---
 tipo_documento: CAR (Cadastro Ambiental Rural) + Recibo de entrega
 titular: Sergio Jose Altoe
-cpf_cnpj: "a confirmar"
-imovel: "Propriedade Rural - Marilândia/ES (a confirmar no PDF)"
-orgao_emissor: "SEMA-ES (Secretaria de Meio Ambiente) via Sistema SICAR"
-numero_documento: "a confirmar no PDF (Recibo CAR)"
-data_emissao: "a confirmar no PDF"
+cpf_cnpj: "579.448.737-20"
+imovel: "Sítio Marilândia — Marilândia/ES"
+orgao_emissor: "CAR/SICAR e IDAF-ES"
+numero_documento: "ES-3203353-7BFD.BADE.504C.479A.BFE7.1686.0CC7.747A"
+data_emissao: 2014-03-25
 data_validacao_sicar: "a confirmar no SICAR"
 status_documental: "existente"
-status_ambiental: "a confirmar"
-status_conferencia: "precisa_confirmar"
+status_ambiental: "recibo localizado; status online não validado"
+status_conferencia: "validado_visual_com_pendencia_sicar"
 fonte_arquivo: "Docs Propriedade/RECIBO DO CAR E CAR Sergio Altoe.pdf"
-fonte_ocr: "não processado"
+fonte_ocr: "PDF sem texto pesquisável; conferência visual em PNG temporário"
 fonte_sicar: "https://www.car.gov.br/ (verificar status online)"
-data_conferencia: 2026-05-05
+data_conferencia: 2026-05-23
 conferido_por: Cacilda
-confianca_extracao: "baixa - PDF sem OCR"
-divergencias: "nenhuma identificada até agora"
-pendencias: "confirmar status no SICAR; validar ausência de embargo/sobreposição; extrair recibo número; conferir área com CCIR"
+confianca_extracao: "alta - leitura visual direta do scan"
+divergencias: "área CAR 32,6400 ha diverge de CCIR 31,3677 ha, ITR 31,3 ha e CAF renovado 30,18 ha"
+pendencias: "confirmar status no SICAR/IDAF; validar ausência de embargo/sobreposição; justificar divergência de área"
 tags:
   - ambiental
   - car
@@ -44,13 +44,18 @@ Arquivo localizado em: `Docs Propriedade/RECIBO DO CAR E CAR Sergio Altoe.pdf`
 | Campo | Valor | Status |
 |-------|-------|--------|
 | **Tipo documento** | CAR (Cadastro Ambiental Rural) | Confirmado |
-| **Titular** | Sergio Jose Altoe | Presumido (confirmar no PDF) |
-| **Propriedade** | Rural — Marilândia/ES | Presumido (confirmar no PDF) |
-| **Órgão emissor** | SEMA-ES via SICAR | Confirmado |
-| **Nº recibo CAR** | *a confirmar no PDF* | **PENDENTE** |
-| **Data emissão/recibo** | *a confirmar no PDF* | **PENDENTE** |
+| **Titular** | Sergio Jose Altoe | Confirmado visualmente |
+| **CPF** | 579.448.737-20 | Confirmado visualmente |
+| **Propriedade** | Sítio Marilândia — Marilândia/ES | Confirmado visualmente |
+| **Órgão emissor** | CAR/SICAR e IDAF-ES | Confirmado visualmente |
+| **Registro no CAR** | ES-3203353-7BFD.BADE.504C.479A.BFE7.1686.0CC7.747A | Confirmado visualmente |
+| **Código protocolo** | ES-3203353-5557.E0D9.06B4.7E4C.A129.140D.9E84.C73F | Confirmado visualmente |
+| **Data cadastro CAR** | 25/03/2014 | Confirmado visualmente |
+| **CAR IDAF nº / processo / título** | 783 / 6069/2014 / 5539/2014 | Confirmado visualmente |
 | **Situação no SICAR** | *a verificar online* | **CRÍTICO — PENDENTE** |
-| **Área total (ha)** | *a confirmar no PDF* | **PENDENTE** |
+| **Área total (ha)** | 32,6400 ha no recibo; 32,6409 ha no documento IDAF | Confirmado visualmente |
+| **Módulos fiscais** | 1,8100 | Confirmado visualmente |
+| **Coordenadas centroide** | Lat. 19°24'03,53" S; Long. 40°32'58,01" O | Confirmado visualmente |
 | **Restrições/embargos** | *a verificar no SICAR* | **CRÍTICO — PENDENTE** |
 
 ---
@@ -64,40 +69,33 @@ Arquivo localizado em: `Docs Propriedade/RECIBO DO CAR E CAR Sergio Altoe.pdf`
 - Verificação SICAR realizada: ✗ Não
 - Status de embargo confirmado: ✗ Não
 - Sobreposição ambiental verificada: ✗ Não
-- Área conferida com CCIR: ✗ Não
+- Área conferida com CCIR: ⚠ Divergente — CAR 32,6400 ha vs. CCIR 31,3677 ha
 
 ### Riscos Ambientais Potenciais
 
-1. **Embargo ambiental:** Se propriedade tem embargo por desmatamento, queimada, invasão de terras indígenas ou unidades de conservação, banco não aprova operação.
-2. **Sobreposição:** CAR pode se sobrepor a:
+1. **Status online não validado:** O PDF comprova inscrição/cadastro, mas não comprova situação atual no SICAR/IDAF em 23/05/2026.
+2. **Embargo ambiental:** Se propriedade tem embargo por desmatamento, queimada, invasão de terras indígenas ou unidades de conservação, banco não aprova operação.
+3. **Sobreposição:** CAR pode se sobrepor a:
    - Terras Indígenas (TI)
    - Unidades de Conservação (UC)
    - Áreas de interesse militar ou segurança
    - Áreas de reforma agrária em disputa
-3. **CAR pendente:** Se recibo existe mas CAR ainda está em análise no SICAR (validação estadual), impede operação.
-4. **Divergência de área:** Área declarada no CAR pode ser diferente da CCIR ou escritura.
+4. **Divergência de área:** CAR 32,6400 ha diverge de CCIR 31,3677 ha, ITR 31,3 ha e CAF renovado 30,18 ha.
 5. **Documentação incompleta no CAR:** Se CAR declara áreas de reserva legal, preservação permanente incorretamente.
 
 ### Próximas Ações Críticas
 
-1. **Extrair do PDF original**:
-   - Número do recibo CAR
-   - Data de emissão
-   - Situação declarada ("recebido", "validado", "em análise")
-   - Área total do imóvel
-   - Observações quanto a restrições
-
-2. **Validar no SICAR online** (https://www.car.gov.br/):
+1. **Validar no SICAR/IDAF online**:
    - Acessar com CPF do titular
    - Verificar status atual ("registrado e validado", "em análise", "rejeitado", "cancelado")
    - Confirmar ausência de embargo
    - Validar ausência de sobreposição com TI, UC ou áreas restritas
 
-3. **Conferir coerência**:
-   - Área no CAR vs. CCIR (devem ser próximas)
-   - Área no CAR vs. ESCRITURA (devem ser próximas)
+2. **Conferir coerência**:
+   - Área no CAR vs. CCIR/ITR/CAF
+   - Área no CAR vs. ESCRITURA
 
-4. **Processar OCR** (futuro) se necessário para auditoria
+3. Processar OCR pesquisável apenas se o banco ou auditoria exigir cópia textual.
 
 ---
 
@@ -149,14 +147,9 @@ Para verificar status do CAR em tempo real:
 
 ## Observações de Conferência
 
-**Data:** 2026-05-05  
+**Data:** 2026-05-23  
 **Conferido por:** Cacilda
 
-Conferência por índice — Recibo CAR localizado, mas **status definido como `precisa_confirmar`** até:
-- Extração de dados do PDF (recibo nº, data, situação, área)
-- **Validação crítica** no SICAR online (verificar embargo, sobreposição, status de registro)
-- Conferência de coerência com CCIR e escritura
+Conferência visual realizada a partir de renderização PNG temporária do PDF original. Foram identificados o registro CAR ES-3203353-7BFD.BADE.504C.479A.BFE7.1686.0CC7.747A, protocolo ES-3203353-5557.E0D9.06B4.7E4C.A129.140D.9E84.C73F, cadastro em 25/03/2014, imóvel Sítio Marilândia, área 32,6400 ha e proprietário Sergio Jose Altoe.
 
-Checklist mestre já sinaliza: "Confirmar status no SICAR, area e ausencia de sobreposicao/embargo" como ação obrigatória antes da submissão ao banco.
-
-**Ação crítica:** Verificar status do CAR no SICAR **antes de protocolo**. Qualquer embargo ou sobreposição impede operação creditícia imediatamente.
+**Ação crítica:** verificar status atual no SICAR/IDAF antes de protocolo. O recibo não elimina risco de embargo, sobreposição ou pendência ambiental.

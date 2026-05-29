@@ -1,23 +1,24 @@
 ---
 tipo_documento: CCIR (Certificado de Cadastro de Imóvel Rural)
 titular: Sergio Jose Altoe
-cpf_cnpj: "a confirmar"
-imovel: "Propriedade Rural - Marilândia/ES (a confirmar no PDF)"
+cpf_cnpj: "579.448.737-20"
+imovel: "Sítio Marilândia — Marilândia/ES"
 orgao_emissor: INCRA (Instituto Nacional de Colonização e Reforma Agrária)
-numero_documento: "a confirmar no PDF"
-data_emissao: "a confirmar no PDF"
-data_vencimento: "a confirmar no PDF (CCIR anual)"
+numero_documento: "73218578259"
+codigo_imovel_rural: "502.090.006.165-9"
+data_emissao: 2025-09-10
+data_vencimento: "**/**/****"
 competencia: "2025 (conforme nome)"
 status_documental: "existente"
-status_quitacao: "a confirmar"
-status_conferencia: "precisa_confirmar"
+status_quitacao: "quitado no documento"
+status_conferencia: "validado_visual"
 fonte_arquivo: "Docs Propriedade/CCIR 2025 Sergio Altoe.pdf"
-fonte_ocr: "não processado"
-data_conferencia: 2026-05-05
+fonte_ocr: "PDF sem texto pesquisável; conferência visual em PNG temporário"
+data_conferencia: 2026-05-23
 conferido_por: Cacilda
-confianca_extracao: "baixa - PDF sem OCR"
-divergencias: "nenhuma identificada até agora"
-pendencias: "confirmar quitação; validar area declarada contra escritura e ITR; extrair número NIRF e dados do imóvel"
+confianca_extracao: "alta - leitura visual direta do scan"
+divergencias: "área CCIR 31,3677 ha é próxima do ITR 31,3 ha, mas diverge do CAF renovado 30,18 ha e do CAR 32,6400 ha; precisa avaliar tolerância bancária"
+pendencias: "conferir área e matrícula contra escritura; validar se área certificada 0,0000 e ausência de dados geográficos na base SIGEF/INCRA exigem regularização"
 tags:
   - propriedade-rural
   - ccir
@@ -44,14 +45,21 @@ Localizado em: `Docs Propriedade/CCIR 2025 Sergio Altoe.pdf`
 | Campo | Valor | Status |
 |-------|-------|--------|
 | **Tipo documento** | CCIR | Confirmado |
-| **Titular** | Sergio Jose Altoe | Presumido (confirmar no PDF) |
-| **Propriedade** | Rural — Marilândia/ES | Presumido (confirmar no PDF) |
+| **Titular** | Sergio Jose Altoe | Confirmado visualmente |
+| **CPF** | 579.448.737-20 | Confirmado visualmente |
+| **Propriedade** | Sítio Marilândia — Marilândia/ES | Confirmado visualmente |
 | **Órgão emissor** | INCRA | Confirmado |
-| **Nº NIRF** | *a confirmar no PDF* | **PENDENTE** |
-| **Data emissão** | *a confirmar no PDF* | **PENDENTE** |
-| **Data vencimento/validade** | *a confirmar no PDF* | **PENDENTE** |
-| **Situação de quitação** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
-| **Área total (ha)** | *a confirmar no PDF* | **PENDENTE** |
+| **Código do imóvel rural** | 502.090.006.165-9 | Confirmado visualmente |
+| **Nº CCIR** | 73218578259 | Confirmado visualmente |
+| **Data lançamento** | 16/06/2025 | Confirmado visualmente |
+| **Data geração do CCIR** | 10/09/2025 | Confirmado visualmente |
+| **Data vencimento/validade** | **/**/**** | Documento não informa data objetiva |
+| **Situação de quitação** | Quitado | Confirmado visualmente |
+| **Área total (ha)** | 31,3677 ha | Confirmado visualmente |
+| **Matrícula/transcrição** | 3274 | Confirmado visualmente |
+| **CNS/ofício** | 24141 | Confirmado visualmente |
+| **Data registro** | 21/05/2020 | Confirmado visualmente |
+| **Autenticidade** | 06830.16750.15048.02138 | Confirmado visualmente |
 
 ---
 
@@ -61,31 +69,25 @@ Localizado em: `Docs Propriedade/CCIR 2025 Sergio Altoe.pdf`
 
 - PDF localizado: ✓ `Docs Propriedade/CCIR 2025 Sergio Altoe.pdf`
 - OCR processado: ✗ Não (PDF sem texto pesquisável)
-- Quitação confirmada: ✗ Não
-- Área conferida com escritura: ✗ Não
-- Área conferida com ITR: ✗ Não
+- Quitação confirmada: ✓ Sim — documento marca "*** QUITADO ***"
+- Área conferida com ITR: ✓ Parcial — CCIR 31,3677 ha vs. ITR 31,3 ha
+- Área conferida com CAF: ⚠ Divergente — CCIR 31,3677 ha vs. CAF renovado 30,18 ha
+- Área conferida com CAR: ⚠ Divergente — CAR informa 32,6400 ha
+- Área conferida com escritura: ✗ Pendente
 
 ### Riscos e Divergências Potenciais
 
-1. **Não-quitação:** Se propriedade ou CCIR tem pendência fiscal ou ambiental, banco pode exigir regularização ou bloquear operação.
-2. **Divergência de área:** CCIR pode declarar área diferente da escritura ou ITR (comum em imóveis antigos sem demarcação recente). Divergências>10% geralmente geram exigências bancárias.
-3. **Divergência de titularidade:** Se CCIR consta nome de terceiro ou falecido, impede operação.
-4. **CCIR anual:** CCIR 2025 é válido enquanto dados do imóvel não mudarem. Se houve transferência de área ou alienação, pode estar desatualizado.
+1. **Área certificada 0,0000:** CCIR informa que o imóvel não possui dados geográficos cadastrados na base SIGEF/INCRA para croqui/planta.
+2. **Divergência de área CAR:** CAR 32,6400 ha é maior que CCIR 31,3677 ha; precisa justificar/validar com escritura e banco.
+3. **Titularidade:** Sergio consta como proprietário/posseiro individual com detenção 100,00%.
+4. **CCIR anual:** CCIR 2025 está quitado no documento; manter cópia atualizada se houver nova emissão.
 
 ### Próximas Ações Críticas
 
-1. **Extrair do PDF original**:
-   - Número NIRF
-   - Data de emissão e validade
-   - Situação de quitação/regularidade
-   - Área total declarada
-   - Proprietário(s)
-2. **Validar quitação** — verificar se há pendência fiscal, ambiental ou de crédito
-3. **Conferir coerência**:
-   - Área contra ESCRITURA (devem ser próximas)
-   - Área contra ITR 2025 (devem ser próximas)
-   - Titularidade contra ESCRITURA (devem ser idênticos)
-4. **Processar OCR** (futuro) se necessário para auditoria
+1. Conferir matrícula/transcrição 3274 e área 31,3677 ha contra a escritura.
+2. Justificar divergência entre CAR (32,6400 ha), CCIR (31,3677 ha), ITR (31,3 ha) e CAF renovado (30,18 ha) antes do envio ao banco.
+3. Avaliar se a ausência de área certificada/SIGEF exige regularização ou certidão complementar.
+4. Processar OCR pesquisável apenas se o banco ou auditoria exigir cópia textual.
 
 ---
 
@@ -122,14 +124,9 @@ Localizado em: `Docs Propriedade/CCIR 2025 Sergio Altoe.pdf`
 
 ## Observações de Conferência
 
-**Data:** 2026-05-05  
+**Data:** 2026-05-23  
 **Conferido por:** Cacilda
 
-Conferência por índice — CCIR 2025 localizado, mas **status definido como `precisa_confirmar`** até:
-- Extração de dados (NIRF, datas, quitação, área)
-- Validação de quitação fiscal/ambiental
-- Conferência de coerência com escritura e ITR
+Conferência visual realizada a partir de renderização PNG temporária do PDF original. CCIR 2025 localizado, número 73218578259, código do imóvel rural 502.090.006.165-9, Sítio Marilândia, área 31,3677 ha, titular Sergio Jose Altoe CPF 579.448.737-20, quitação marcada como "*** QUITADO ***".
 
-Checklist mestre já sinaliza: "Confirmar quitacao/regularidade e consistencia de area/titularidade" como ação obrigatória antes da submissão ao banco.
-
-**Risco:** Divergência de área entre CCIR, escritura e ITR é frequente em propriedades antigas sem revisão cadastral recente. Recomenda-se conferência cruzada antes de envio ao banco.
+Pendências remanescentes: conferir com escritura/matrícula e tratar divergência de área com o CAR.

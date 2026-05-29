@@ -2,7 +2,7 @@
 title: David Allen
 type: Figure
 sources:
-  - "[[PKM]]"
+  - "[[Products/PKM/PKM]]"
 related:
   - "[[Getting Things Done]]"
   - "[[Personal Knowledge Management]]"

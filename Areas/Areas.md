@@ -4,6 +4,13 @@ tags: Root
 ## Purpose
 - Defines what is essential in life and what all other efforts should aim in order to have meaning.
 
+## Areas
+
+- [[ALTOE Agricola/ALTOE Agricola|ALTOE Agricola]]
+- [[Casos/Casos|Casos]]
+- [[Finance/Finance|Finance]]
+- [[Processos/Aprendizados/Aprendizados_Operacionais_Piloto001|Processos]]
+
 ## Activity
 ```contributionGraph
 title: ""

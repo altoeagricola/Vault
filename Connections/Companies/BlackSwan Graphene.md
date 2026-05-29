@@ -34,3 +34,6 @@ Usar esta nota para `BlackSwan`, `Black Swan`, `BlackSwan Graphene` e `Black Swa
 - [[Ecossistema brasileiro de grafeno]]
 - [[NanoXplore]]
 - [[First Graphene]]
+- [[MGG3-FORN01_Fornecedores-grafeno]]
+- [[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]
+- [[Benchmark internacional - fornecedores de grafeno]]

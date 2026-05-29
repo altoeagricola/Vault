@@ -11,7 +11,6 @@ fontes:
   - "[[Custos de producao P100 P500]]"
 atualizado: 2026-05-07
 ---
-
 # Saneamento de custos P100 P500
 
 ## Resultado executivo

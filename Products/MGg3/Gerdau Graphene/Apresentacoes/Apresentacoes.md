@@ -1,11 +1,12 @@
 ---
-título: Apresentações Institucionais — Gerdau Graphene
+titulo: Apresentações Institucionais — Gerdau Graphene
 pasta: "[[Gerdau Graphene]]"
 tipo: Capa / Resumo Executivo
+produto: MGg3
 classificação: CONFIDENCIAL
 atualizado: 2026-04-27
+confidencialidade: interno
 ---
-
 # Apresentações Institucionais — Gerdau Graphene
 
 Pasta com apresentações institucionais da **Gerdau Graphene**, destinadas à apresentação do modelo de negócio, portfólio tecnológico e posicionamento estratégico para parceiros, clientes e investidores.

@@ -15,7 +15,21 @@ atualizado: 2026-05-08
 
 ## Síntese Executiva
 
-O mercado reportável de grafeno continua dividido entre **três perfis**: (1) produtores de pó/aditivo em escala comercial; (2) empresas de aplicação vertical que capturam valor no produto final ou IP; e (3) adjacentes de grafite/anodo relevantes para materiais carbonosos, mas não necessariamente comparáveis como fornecedores diretos de grafeno.
+O mercado reportável de grafeno atingiu **ponto crítico de inflexão comercial** em maio de 2026: transição de setor predominantemente P&D para indústria comercialmente viável com capacidades produtivas estabelecidas e portfólios de aplicação em expansão.
+
+**Dados de Mercado Global (Mai/2026):**
+- Tamanho mercado 2025: USD 598,29 milhões
+- Tamanho mercado 2026: USD 803,51 milhões (+34,3% YoY)
+- Projeção 2034: USD 6,979,95 milhões
+- CAGR 2025-2034: 31,70%
+- Custo bulk (grafeno volume): **sub-USD 50/kg** (viabiliza substituição commodities)
+- Qualidade técnica: NIST 2023 reporta 40%+ variação entre lotes (impedem standardização)
+
+**Governo & Fomento:**
+- Graphene Flagship (Europa): €1 bilhão
+- China: múltiplas iniciativas provinciais de hubs produtivos
+- EUA: DOE funding defesa/energia
+- Índia: India Innovation Center for Graphene (IICG) 2024
 
 O padrão competitivo mais aplicável para MGgrafeno não é "vender grafeno genérico", mas vender **formulação validada por aplicação**: masterbatch, concreto/cimento, elastômeros, coatings, adsorventes ambientais e térmicos. A vantagem defensável vem de **qualidade reprodutível + integração no processo do cliente + prova econômica por aplicação**.
 

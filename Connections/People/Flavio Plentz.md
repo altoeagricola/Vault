@@ -7,11 +7,12 @@ aliases:
 role:
   - Professor
   - Pesquisador
+  - Co-fundador potencial
 company: UFMG
 contexto:
   - MGgrafeno
   - MGg3
-updated: 2026-05-07
+updated: 2026-05-20
 ---
 
 ## Flavio Plentz
@@ -22,6 +23,7 @@ Professor e pesquisador do Departamento de Fisica da [[UFMG]], citado no catalog
 
 - Associado ao contexto historico do projeto MGgrafeno.
 - Referenciado como parceiro intelectual na construcao das propostas de negocio, licenciamento e retomada de operacao.
+- Registrado como co-fundador potencial e parceiro do [[MGgrafeno]] 3 na camada executiva do projeto.
 - Sua nota deve ser enriquecida posteriormente com dados oficiais de UFMG, Lattes, LinkedIn e ResearchGate.
 
 ## Links indicados no catalogo
@@ -36,4 +38,6 @@ Professor e pesquisador do Departamento de Fisica da [[UFMG]], citado no catalog
 - [[UFMG]] — instituicao academica
 - [[MGg2]] — camada historica do MGgrafeno no Vault
 - [[Licenciamento UFMG CDTN]] — contexto de transferencia tecnologica
+- [[MGgrafeno]] — projeto executivo de startup, licenciamento e captacao
+- [[Parceiros]] — camada de parceiros do projeto
 - [[Rodrigo Altoé]] — co-idealizador citado no documento

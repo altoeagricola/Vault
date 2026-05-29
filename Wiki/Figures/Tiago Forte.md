@@ -2,7 +2,7 @@
 title: Tiago Forte
 type: Figure
 sources:
-  - "[[PKM]]"
+  - "[[Products/PKM/PKM]]"
 related:
   - "[[PARA Method]]"
   - "[[Personal Knowledge Management]]"

@@ -1,0 +1,3 @@
+| Date | Agent | Action | Notes |
+|------|-------|--------|-------|
+| 2026-05-28 | Carmen | Ingestão + scaffold | Criada pasta da proposta `AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/` a partir de Anexo II e Anexo III recebidos via `/Users/okumaaltoe/Documents/ALTOÈ Agricola/05_PROJETOS/08-Projeto IFES Colatina Julio/`. Criados `index.md` e `log.md` desta pasta (conformidade com a Convenção de index/log do Vault), inventariando propostas existentes (Alchemco, Briquetagem, Centro Municipal MDS, Eco Café Circular, GERENCIAR IA, High-Efficiency Coffee Dryer, PKM, UNI, Unicórnio, Resumo Parceria ICT-IFES). |

@@ -7,7 +7,7 @@ related:
   - "[[Context Reset]]"
   - "[[Harness Simplification]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-18
 confidence: medium
 ---
 
@@ -28,3 +28,7 @@ The severity varies across model generations. Claude Sonnet 4.5 exhibited contex
 ## Implications for harness design
 
 Context anxiety is a key reason multi-session architectures with structured handoffs outperform single long sessions for complex tasks — at least on models that exhibit the behavior. As models improve and the behavior diminishes, the scaffolding built to address it becomes unnecessary overhead, illustrating the [[Harness Simplification]] principle.
+
+## Lint Review
+
+Reviewed during the 2026-05-18 wiki lint. Confidence remains medium because the page describes a behavior observed in agent workflows rather than a stable external standard.

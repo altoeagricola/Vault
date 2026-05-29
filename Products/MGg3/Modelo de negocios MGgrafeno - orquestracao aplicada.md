@@ -18,7 +18,6 @@ base_documental:
 confidencialidade: interno
 atualizado: 2026-05-08
 ---
-
 # Modelo de negocios MGgrafeno - orquestracao aplicada
 
 ## Tese executiva
@@ -29,7 +28,7 @@ O ineditismo proposto nao esta em "inventar outro grafeno". Esta em recombinar q
 
 1. memoria tecnica da [[Gerdau Graphene]], com evidencias em polimeros, tintas, concreto e lubrificantes;
 2. relacionamento local com possiveis herdeiros tecnologicos: [[Polystell]] e [[Colorfix]];
-3. inteligencia de mercado comparando modelos globais como [[NanoXplore]], [[First Graphene]], [[Universal Matter]], [[Directa Plus]], [[Haydale]] e [[BlackSwan Graphene]];
+3. inteligencia de mercado comparando modelos globais como [[NanoXplore]], [[First Graphene]], [[Universal Matter]], [[Directa Plus]], [[Inteligencia de Mercado/IDTechEx_USA2015/IT09_HaydaleLimited|Haydale]] e [[BlackSwan Graphene]];
 4. validacao aplicada por piloto, protocolo tecnico, cliente real e governanca documental no Vault.
 
 ## Separacao documental
@@ -74,7 +73,7 @@ O ineditismo proposto nao esta em "inventar outro grafeno". Esta em recombinar q
 
 - [[GG-CM018_Aditivo-Escoria]]: resultado em pasta com escoria e necessidade de validacao a 28 dias/concreto estrutural;
 - [[GG03_Aditivos-QuimicosT&R]]: portfolio G2D, funil comercial e dificuldade de adocao em aditivos quimicos;
-- [[Inteligencia de Mercado]] e [[Concretos]].
+- [[Inteligencia de Mercado - Gerdau Graphene]] e [[Concretos]].
 
 **Perguntas de validacao:**
 
@@ -174,7 +173,7 @@ O ineditismo proposto nao esta em "inventar outro grafeno". Esta em recombinar q
 - [[GG-POL01_BlackSwan-R&D]]
 - [[Concretos]]
 - [[Polimeros]]
-- [[Inteligencia de Mercado]]
+- [[Inteligencia de Mercado - Gerdau Graphene]]
 
 ## Proxima acao recomendada
 

@@ -34,6 +34,12 @@ A Polystell foi **co-maker** da [[Gerdau Graphene - Empresa]] no desenvolvimento
 
 Além do papel produtivo, a Polystell **participou ativamente do desenvolvimento e definição das formulações**, tendo conhecimento técnico profundo dos produtos desenvolvidos em conjunto com a Gerdau Graphene.
 
+### Captura de Know-How Técnico com IA Generativa (Maio 2026)
+
+A Polystell está utilizando **IA Generativa para digitalizar e "herdar" o know-how dos químicos veteranos da Gerdau Graphene**. Esta estratégia transforma memória técnica tácita (formulações, processos, troubleshooting, compatibilidades) em ativos digitais escaláveis. 
+
+**Implicação:** Valida fortemente a escolha de priorizar Polystell como parceira estratégica em MGgrafeno. A empresa não está apenas em posse de conhecimento histórico; está ativamente sistematizando-o para preservação, disseminação e uso operacional contínuo.
+
 ### Pós-fechamento da Gerdau Graphene
 
 Com o encerramento das operações da [[Gerdau Graphene - Empresa]], a Polystell:
@@ -128,3 +134,6 @@ Esta nota ja existia antes da internalizacao do catalogo MGg3.0 e foi preservada
 - [[Rodrigo Altoé]] — contato técnico na Gerdau Graphene durante o período de parceria
 - [[Colorfix]] — outro co-maker citado no ecossistema brasileiro de grafeno
 - [[Ecossistema brasileiro de grafeno]]
+- [[MGG3-FORN01_Fornecedores-grafeno]]
+- [[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]
+- [[Benchmark internacional - fornecedores de grafeno]]

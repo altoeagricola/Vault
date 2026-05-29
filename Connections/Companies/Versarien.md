@@ -26,5 +26,6 @@ Fornecedor internacional de grafeno citado no catalogo no contexto da parceria c
 
 - [[Montana Quimica]]
 - [[Ecossistema brasileiro de grafeno]]
+- [[Benchmark internacional - fornecedores de grafeno]]
 - [[MGG3-FORN01_Fornecedores-grafeno]]
 - [[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]

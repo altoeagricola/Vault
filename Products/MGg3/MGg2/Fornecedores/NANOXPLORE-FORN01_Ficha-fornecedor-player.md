@@ -1,6 +1,7 @@
 ---
 titulo: NanoXplore - ficha de fornecedor e player de grafeno
 tipo: ficha-fornecedor
+produto: MGg3
 codigo_fonte: NANOXPLORE-FORN01
 organizacao: NanoXplore
 connection: "[[NanoXplore]]"
@@ -32,7 +33,6 @@ links_relacionados:
   - "[[Mapa estrategico MGg3]]"
 atualizado: 2026-05-08
 ---
-
 # NANOXPLORE-FORN01: NanoXplore - ficha de fornecedor e player de grafeno
 
 ## Resumo executivo

@@ -2,7 +2,7 @@
 title: DNS-01 ACME Challenge
 type: Concept
 sources:
-  - "[[Products/InfraKeeper/InfraKeeper]]"
+  - "InfraKeeper"
 related:
   - "[[Caddy]]"
   - "[[Reverse Proxy]]"

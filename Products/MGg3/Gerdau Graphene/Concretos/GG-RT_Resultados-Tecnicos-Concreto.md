@@ -1,11 +1,13 @@
 ---
-fonte_arquivo: "Resultados Tecnicos Aditivos para Concreto - CM018-Atualização-dez2024.pdf"
-organizacao: "Gerdau Graphene"
-tipo_documento: "Relatório técnico — compilado (concreto + lubrificantes)"
-data_documento: "2024-12"
-confidencialidade: "RESTRITO"
-status_extracao: "completo"
-confianca_extracao: "alta"
+tipo: registro-documento
+produto: MGg3
+fonte_arquivo: Resultados Tecnicos Aditivos para Concreto - CM018-Atualização-dez2024.pdf
+organizacao: Gerdau Graphene
+tipo_documento: Relatório técnico — compilado (concreto + lubrificantes)
+data_documento: 2024-12
+confidencialidade: restrito
+status_extracao: completo
+confianca_extracao: alta
 temas:
   - concreto
   - lubrificantes
@@ -24,18 +26,17 @@ metricas_chave:
   - "Lubrificante VW: -2,6% consumo urbano (FTP-75), -1,9% combinado"
   - "Lubrificante: +40% redução de atrito em condições de teste"
 riscos_uso:
-  - "Documento compilado (CM018 + lubrificantes) — setores desconexos"
+  - Documento compilado (CM018 + lubrificantes) — setores desconexos
   - "Lubrificantes: estágio experimental com Idemitsu e VW"
-  - "Classificação RESTRITO para contextos internos"
+  - Classificação RESTRITO para contextos internos
 links_relacionados:
   - "[[Concretos]]"
-  - "[[Inteligencia de Mercado]]"
-  - "Idemitsu (parceiro lubrificantes)"
-  - "VW Way to Zero Center (testes veiculares)"
-  - "USP/FEI (ensaios tribológicos)"
-atualizado: "2026-05-07"
+  - "[[Inteligencia de Mercado - Gerdau Graphene]]"
+  - Idemitsu (parceiro lubrificantes)
+  - VW Way to Zero Center (testes veiculares)
+  - USP/FEI (ensaios tribológicos)
+atualizado: 2026-05-07
 ---
-
 # GG-RT: Resultados Técnicos — Concreto com Escória + Lubrificantes
 
 **Código:** GG-RT  
@@ -164,7 +165,7 @@ Relatório técnico compilado contendo (1) resultados de concreto com escória a
 ## Links Internos
 
 - **Tema correlato:** [[Concretos]]
-- **Inteligência comercial:** [[Inteligencia de Mercado]]
+- **Inteligência comercial:** [[Inteligencia de Mercado - Gerdau Graphene]]
 - **Nota técnica CM018:** [[GG-CM018_Aditivo-Escoria]]
 - **Parceiros:** Idemitsu, VW Way to Zero Center, USP/FEI
 

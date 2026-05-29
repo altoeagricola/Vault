@@ -1,5 +1,6 @@
 ---
 title: "Melhoramento Genético em Café"
+type: Concept
 description: "Processos de seleção e cruzamento para aprimorar características de plantas de café"
 sources:
   - "Sources/Transcripts/Culturas_Campo_Conilon_Socol.md"
@@ -10,6 +11,10 @@ tags:
   - agriculture
   - genetics
   - coffee
+related:
+  - "[[Conilon]]"
+  - "[[Incapé]]"
+  - "[[Marilândia]]"
 ---
 
 ## Definição

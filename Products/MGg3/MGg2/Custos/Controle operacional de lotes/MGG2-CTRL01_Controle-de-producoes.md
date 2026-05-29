@@ -41,7 +41,7 @@ Registro mestre de lotes produzidos na planta piloto, cobrindo 127 registros de 
 
 ## Lote 20210720Pa
 
-O lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] aparece como registro P100, 100 g/L, campanha Duda.
+O lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] aparece como registro P100, 100 g/L, campanha Duda.
 
 | Campo | Valor |
 |---|---|
@@ -58,7 +58,7 @@ O lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Cu
 | Lote | Piloto | Concentração | Condição operacional | Observação |
 |---|---|---|---|---|
 | 20210719Pa | P100 | 100 g/L | Konmix 3.550 rpm / NH4OH | 5 h; decanter em várias condições |
-| [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] | P100 | 100 g/L | Konmix 3.550 rpm / NH4OH | 5 h; decantação estática; discos 55 L/h |
+| [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] | P100 | 100 g/L | Konmix 3.550 rpm / NH4OH | 5 h; decantação estática; discos 55 L/h |
 | 20210729Pa | P100 | 100 g/L | Konmix 3.550 rpm / NH4OH | 5 h; decanter 100G, 50 L/h; discos 55 L/h |
 | 20210810Pa | P100 | 100 g/L | Konmix 3.550 rpm / NH4OH | 5 h; decanter 100G, 30 L/h; discos em várias vazões |
 | 20210816Pa | P100 | 100 g/L | Konmix 3.550 rpm / NH4OH | 5 h; decantação estática; discos 64,8 L/h; recuperação s02 |
@@ -67,7 +67,7 @@ O lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Cu
 
 - A planilha não traz custo monetário, preço de insumo ou custo/kg.
 - Métricas úteis para Mariano: volume nominal por piloto, concentração por lote, tempo/condição de processo por descrição, campanha e rastreio de formulário.
-- O lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] deve ser cruzado com `Balanço Global.xlsx`, `Balanço Global.pptx`, `Controle de Processos 03_03_2022.xlsx` e `Volumes e quantidade processadas.xlsx` antes de virar premissa financeira.
+- O lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] deve ser cruzado com `Balanço Global.xlsx`, `Balanço Global.pptx`, `Controle de Processos 03_03_2022.xlsx` e `Volumes e quantidade processadas.xlsx` antes de virar premissa financeira.
 
 ## Lacunas
 

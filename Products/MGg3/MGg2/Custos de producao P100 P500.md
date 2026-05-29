@@ -5,8 +5,8 @@ produto: MGg3
 fonte_base: "[[MGG2-BASE01_Catalogo-MGg3-contexto-historico]]"
 status: extraido_parcial
 atualizado: 2026-05-07
+confidencialidade: interno
 ---
-
 # Custos de producao P100 P500
 
 ## Sintese

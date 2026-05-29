@@ -33,5 +33,6 @@ O catalogo contem avaliacao critica sobre reputacao e estrategia da empresa. Man
 
 - [[Ecossistema brasileiro de grafeno]]
 - [[Gerdau Graphene - Empresa]]
+- [[Benchmark internacional - fornecedores de grafeno]]
 - [[MGG3-FORN01_Fornecedores-grafeno]]
 - [[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]

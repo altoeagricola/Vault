@@ -2,7 +2,7 @@
 title: Infrastructure as Code
 type: Concept
 sources:
-  - "[[Products/InfraKeeper/InfraKeeper]]"
+  - "InfraKeeper"
 related:
   - "[[Docker Compose]]"
   - "[[Docker]]"

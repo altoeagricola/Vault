@@ -2,7 +2,7 @@
 title: PARA Method
 type: Concept
 sources:
-  - "[[PKM]]"
+  - "[[Products/PKM/PKM]]"
 related:
   - "[[Personal Knowledge Management]]"
   - "[[Getting Things Done]]"

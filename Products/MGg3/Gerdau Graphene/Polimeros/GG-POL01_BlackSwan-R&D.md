@@ -1,11 +1,13 @@
 ---
-fonte_arquivo: "Resultados Tecnicos Polimeros - Apresentação BlackSwan_23_12_19.pdf"
-organizacao: "Gerdau Graphene + BlackSwan Graphene"
-tipo_documento: "Relatório técnico P&D — compósitos"
-data_documento: "2023-12"
-confidencialidade: "PÚBLICO"
-status_extracao: "completo"
-confianca_extracao: "alta"
+tipo: registro-documento
+produto: MGg3
+fonte_arquivo: Resultados Tecnicos Polimeros - Apresentação BlackSwan_23_12_19.pdf
+organizacao: Gerdau Graphene + BlackSwan Graphene
+tipo_documento: Relatório técnico P&D — compósitos
+data_documento: 2023-12
+confidencialidade: publico
+status_extracao: completo
+confianca_extracao: alta
 temas:
   - compósitos de polímeros
   - masterbatches
@@ -27,17 +29,16 @@ metricas_chave:
   - "Poly-G PE (1% adição, ago/2024): +75% módulo, +37% tração (valores otimizados)"
   - "Poly-G PP: masterbatch comercial (status ago/2024)"
 riscos_uso:
-  - "Documento de dez/2023 — informações podem ter evoluído em 2024"
-  - "Dados de P&D (0,3–0,5% adição) diferem de formulação comercial final (1% em GG03)"
-  - "Classificação PUBLIC — conteúdo pode ser compartilhado com parceiros"
+  - Documento de dez/2023 — informações podem ter evoluído em 2024
+  - Dados de P&D (0,3–0,5% adição) diferem de formulação comercial final (1% em GG03)
+  - Classificação PUBLIC — conteúdo pode ser compartilhado com parceiros
 links_relacionados:
   - "[[Polimeros]]"
-  - "[[Inteligencia de Mercado]]"
+  - "[[Inteligencia de Mercado - Gerdau Graphene]]"
   - "[[Apresentacoes]]"
-  - "BlackSwan Graphene (fornecedor estratégico)"
-atualizado: "2026-05-07"
+  - BlackSwan Graphene (fornecedor estratégico)
+atualizado: 2026-05-07
 ---
-
 # GG-POL01: BlackSwan R&D Update — Compósitos PE e PP
 
 **Código:** GG-POL01  
@@ -194,7 +195,7 @@ Relatório técnico de P&D em co-autoria com fornecedor estratégico BlackSwan G
 ## Links Internos
 
 - **Tema correlato:** [[Polimeros]]
-- **Inteligência correlata:** [[Inteligencia de Mercado]] (GG03 — dados comerciais)
+- **Inteligência correlata:** [[Inteligencia de Mercado - Gerdau Graphene]] (GG03 — dados comerciais)
 - **Relacionado:** [[Apresentacoes]] (Poly-G PE/PP em portfólio)
 - **Fornecedor referência:** BlackSwan Graphene (BS3, BS8, GCT0953)
 - **Clientes comerciais:** Bigfer, Ruplast, Packseven, Ambev (referenciados em GG03)

@@ -5,8 +5,8 @@ produto: MGg3
 fonte_base: "[[MGG2-BASE01_Catalogo-MGg3-contexto-historico]]"
 status: extraido_parcial
 atualizado: 2026-05-07
+confidencialidade: interno
 ---
-
 # Ecossistema brasileiro de grafeno
 
 ## Sintese
@@ -57,8 +57,53 @@ A planilha [[MGG3-FORN01_Fornecedores-grafeno]] e a fonte complementar [[MGG3-FO
 - O catalogo contem avaliacoes internas sobre estrategia, reputacao, know-how e continuidade de mercado. Essas avaliacoes devem ficar atribuidas ao documento ate haver validacao.
 - As fichas de `Connections` criadas nesta rodada sao registros iniciais para correspondencia e referencia; nao substituem due diligence comercial, tecnica ou juridica.
 
+## Maturidade e Movimentos do Mercado - Maio 2026
+
+**Status Global:** Mercado atingiu inflexão comercial; custo sub-USD 50/kg torna grafeno viável em concreto/polímeros sem subsídios.
+
+### Players Brasileiros Confirmados
+
+**1. Nanum Nanotecnologia**
+- Status: Ativa e em expansão (2026)
+- Iniciativa: MOU com Levidian para tecnologia LOOP (metano → grafeno + H₂)
+- Distribuição: Acordo com Brenntag Specialties
+- Aplicações: Energia, compósitos, coatings, infraestrutura, mobilidade
+- Relevância: **Parceria estratégica** - tecnologia complementar, integração vertical potencial
+
+**2. Montana Química**
+- Status: Ativa em comercialização (2026)
+- Parceria: Versarien (know-how license para Graphinks™ - dispersões de grafeno)
+- Modelo: Transformador regional de insumos em formulações comerciais
+- Relevância: **MODELO REPLICÁVEL** para MGgrafeno (formulação + distribuição regional)
+
+**3. HexoGraphene**
+- Status: P&D ativo (Minas Gerais)
+- Características: 20 anos em química verde; equipe pós-doutoral
+- Estágio: Transição P&D → comercialização
+- Relevância: Possível parceira para validação de rotas técnicas
+
+**4. CTNano UFMG (Belo Horizonte)**
+- Status: Centro de pesquisa ativo
+- Competências: CVD synthesis, nanotubo carbono, grafeno, uma de 4 principais instituições Brasil
+- Atividades IA+Grafeno: NENHUMA documentada especificamente; oportunidade não explorada
+- Contexto regional: BH hospeda AI World Show, AI Summit, Minas Summit (2025-2026)
+- Relevância: **Parceria académica para validação técnica**; brecha estratégica em IA+grafeno
+
+**5. Grapheteck Brasil**
+- Status: **NÃO CONFIRMADA** em buscas extensivas
+- Observação: Possível confusão com "Graphene Brazil Tech" (evento, não empresa)
+- Ação: Solicitar esclarecimento a Rodrigo sobre nome, localização, atividades exatas
+
+### Herdeiras Tecnológicas da Gerdau Graphene
+
+**Polystell** → Rota tintas/concreto (aditivos aquosos); tecnologia herdada confirmada  
+**Colorfix** → Rota masterbatch polimérico (Revora Poly-G lançada abril/2026)
+
+Ambas usando **IA Generativa** para capturar/digitalizar know-how de químicos veteranos Gerdau.
+
 ## Implicacoes para MGg3
 
 - O mercado brasileiro nao deve ser lido como vazio; ha players ocupando nichos, fornecedores e relacoes industriais.
 - A tese MGg3 precisa explicitar se competira por producao de grafeno, formulacao aplicada, licenciamento tecnologico, P&D para clientes ou combinacao desses eixos.
 - Co-makers e formuladores podem ser canais mais pragmaticos que venda direta de grafeno em po.
+- **Inflexão comercial maio/2026:** sub-USD 50/kg viabiliza concreto/polímeros. Urgência em validação local aumenta.

@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "1ae7fdcb3b2b3b96",
+            "id": "04e3e56641efdadd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
+                "file": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modelo de negocios MGgrafeno - orquestracao aplicada"
+              "title": "MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado"
             }
           }
         ],
@@ -54,7 +54,7 @@
       {
         "id": "4fb4e38769091eea",
         "type": "tabs",
-        "dimension": 78.79109225874868,
+        "dimension": 70.62566277836692,
         "children": [
           {
             "id": "a6970f043aaae8da",
@@ -111,7 +111,7 @@
       {
         "id": "eb74630b5e690463",
         "type": "tabs",
-        "dimension": 21.208907741251327,
+        "dimension": 29.374337221633084,
         "children": [
           {
             "id": "247236329a9d869d",
@@ -119,7 +119,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
+                "file": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -147,14 +147,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Modelo de negocios MGgrafeno - orquestracao aplicada"
+              "title": "Gráfico de MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 310.5024719238281
+    "width": 324.5024719238281
   },
   "right": {
     "id": "86fd2513b981393a",
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
+                "file": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Modelo de negocios MGgrafeno - orquestracao aplicada"
+              "title": "Links inversos para MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado"
             }
           },
           {
@@ -440,9 +440,19 @@
               "icon": "SpacedRepIcon",
               "title": "Fila de Notas para Revisar"
             }
+          },
+          {
+            "id": "ef9f092883bda50b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 25
       },
       {
         "id": "c853d59fd63acd97",
@@ -463,8 +473,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 663.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -498,57 +507,58 @@
       "homepage:Open homepage": false,
       "edge-tts:Read note aloud": false,
       "task-board:Open task board": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ae7fdcb3b2b3b96",
+  "active": "ef9f092883bda50b",
   "lastOpenFiles": [
-    "Products/MGg3/MGg2/Custos/Saneamento custos P100 P500.md",
-    "Connections/Companies/HydroGraph.md",
-    "Connections/Benchmarks/GG_Benchmark_Global_2026.md",
-    "Connections/Benchmarks",
-    "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md",
-    "Products/MGg3/MGg2/Fornecedores/Benchmark internacional - fornecedores de grafeno.md",
-    "Products/MGg3/MGg2/Fornecedores/NANOXPLORE-REL01_Relatorio-modelo-negocios-desempenho.md",
-    "Products/MGg3/MGg2/Fornecedores/NANOXPLORE-FORN01_Ficha-fornecedor-player.md",
-    "Connections/Companies/MstnLand.md",
-    "Connections/Companies/Carbon Rivers.md",
-    "Connections/Companies/Nacional de Grafite.md",
-    "Connections/Companies/Universal Matter.md",
-    "Connections/Companies/Thomas Swan.md",
-    "Products/MGg3/MGg2/Fornecedores/MGG3-FORN02_Fornecedores-insumos-grafeno-startup.md",
-    "Products/MGg3/MGg2/Fornecedores/Fornecedores de Grafeno - Startup Grafeno.xlsx",
-    "Products/MGg3/MGg3.md",
-    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/Checklist de Compliance — MDS SESAN 2-2026.md",
-    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026.md",
-    "Connections/Companies/Prefeitura Municipal de Marilândia.md",
-    "Products/Fomento/WikiF/_attachments/Playbook_Circular_Food_Systems.pdf",
-    "Products/Fomento/WikiF/_attachments",
-    "Products/Fomento/WikiF/Sistemas Alimentares Circulares — Playbook.md",
-    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/_attachments/Proposta_ALTOE_Prefeitura_Marilandia_Cultura_Alimentar_Circular.pdf",
-    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026/_attachments",
-    "Products/Fomento/Propostas/Centro Municipal de Cultura Alimentar Circular — MDS SESAN 2-2026",
-    "Products/Fomento/Editais/MDS SESAN 2-2026 Sistemas Alimentares Circulares Urbanos.md",
-    "Products/Fomento/Editais/_attachments/MDS-SESAN-2-2026/Circular_Food_Systems_Playbook.pdf",
-    "Products/Fomento/Editais/_attachments/MDS-SESAN-2-2026/Proposta_ALTOE_Prefeitura_Marilandia_Cultura_Alimentar_Circular.pdf",
-    "Products/Fomento/Editais/_attachments/MDS-SESAN-2-2026/Edital_MDS_SESAN_2_2026.pdf",
-    "Products/MGg3/MGg2/Fornecedores/MGG3-FORN01_Fornecedores-grafeno.md",
+    "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/Registro - Certidao Negativa RFB PGFN Sergio Jose Altoe.md",
+    "Products/PKM/ai/skills/template-issue-filha/SKILL.md",
+    "Products/PKM/ai/skills/template-issue-filha",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md",
+    "Products/Fomento/Propostas/Propostas.base",
+    "Areas/Casos/MGgrafeno/Nota-Mae_LEV-P100-v10.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-Nota-Mae-Caso-Atualizacao-v10.md",
+    "Products/Compliance/Monitoramento-Regulatorio/Monitoramento Regulatório - 2026-05-29.md",
+    "Products/Fomento/Propostas/log.md",
+    "Products/Fomento/Propostas/index.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/log.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/index.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Parceria — Amigos do Campo Fertilizantes Ltda.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Orcamento.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Equipe e Cronograma.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Escopo e Metodologia.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica.md",
+    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v7_Levantamento-Custos-Recomissionamento-Consolidado.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v8_Levantamento-Custos-Recomissionamento-Consolidado.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v6_Levantamento-Custos-Recomissionamento-Consolidado.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v5_Levantamento-Custos-Recomissionamento-Consolidado.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v4_Levantamento-Custos-Recomissionamento-Consolidado.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v3_Levantamento-Custos-Recomissionamento-Consolidado.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v3_Mapa-Diferencas-RevPlentz.md",
     "Products/MGg3/MGg2/Custos/MGG3-CUSTO-P500_Projecao-KonMix.md",
-    "Products/MGg3/MGg2/Custos/MGG2-CUSTO-P100_Modelo-custo-planta-piloto.md",
-    "Products/MGg3/MGg2/Editais/MGG2-LICINFO_Licenciamento-pacote-tecnologico.md",
-    "Products/MGg3/MGg2/Editais/MGG2-EDITAL1337-ALT01_Alteracao-data.md",
-    "Products/MGg3/MGg2/Editais/MGG2-EDITAL1337_Edital-transferencia-tecnologia.md",
-    "Products/MGg3/MGg2/Plano de incorporacao - Arquivar no Vault.md",
-    "Connections/Companies/_attachments/4a68dbf0f8219545f9b41c738390190f_MD5.webp",
-    "Connections/Companies/_attachments/eac6957e53f94f56e5bbc5816e651bc7_MD5.webp",
-    "Connections/Companies/_attachments/30f2744c1a8687929d6021fdff360f24_MD5.webp",
-    "Areas/ALTOE Agricola/Documents/Luis Eduardo Gottardo/Comprovante de Residência.jpeg",
-    "Connections/People/_attachments/0b77bcd26ae40c117bee73527600a124_MD5.jpg",
-    "Connections/Companies/_attachments/ae877b9b8ca10eeb0cab818fb66bfa9c_MD5.png",
-    "Connections/Companies/_attachments/2404698ad5e3e7efde7c28c66dbea1ab_MD5.png",
-    "Connections/Companies/_attachments/01be682a52b20c8d557fecab9e23e086_MD5.png",
-    "Connections/Companies/_attachments/305889398e6f71f116e1bb02df5b330f_MD5.png",
-    "Connections/Companies/_attachments/492ee2b64825c2f9ceb47e770c51d517_MD5.png",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/Piloto 3 — Alto Rendimento.md",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/Piloto 1 — Marilândia.md",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/relatorio_carga.json",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/piloto3_alto_rendimento.csv",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/piloto2_pos_colheita.csv",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/piloto1_marilândia.csv",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/excecoes.csv",
+    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/interacoes.csv",
+    "Connections/People/_attachments/7dbdeba387f8a315a1ae180fc69602d2_MD5.jpg",
+    "Connections/People/_attachments/e2799914c97f27d4af950e9d3ef4fd2e_MD5.jpg",
+    "Connections/People/_attachments/3bc9ef95b56559b3311bf04ce69367ae_MD5.jpg",
+    "Connections/People/_attachments/bc22bcfda630c4cdc293ced67000c44c_MD5.jpg",
+    "Connections/People/_attachments/e3f62e904978691062a0bba37354c6a3_MD5.jpg",
+    "Connections/People/_attachments/e6d1fd7342c3999e206c9e0574c2cce9_MD5.jpg",
+    "Connections/People/_attachments/0ffef5b1a4c2aad9aac61b7a766181ba_MD5.jpg",
+    "Connections/People/_attachments/30a3dfcb0ed413f8b2aa3fb0728fcf2d_MD5.jpg",
+    "Connections/People/_attachments/148231b2105ff041860c3d2bb79487bd_MD5.jpg",
+    "Connections/People/_attachments/f8f9de7b2474eacb7854da3e39fe4ae4_MD5.jpg",
     "Products/Fomento/Propostas/MGg-3.canvas",
     "Products/InfraKeeper/Untitled.canvas",
     "Untitled.canvas"

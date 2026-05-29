@@ -5,13 +5,15 @@ produto: MGg3
 fonte_base: "[[MGG2-BASE01_Catalogo-MGg3-contexto-historico]]"
 status: extraido_parcial
 atualizado: 2026-05-07
+confidencialidade: interno
 ---
-
 # MGgrafeno - Historico institucional
 
 ## Sintese
 
 O MGgrafeno aparece no catalogo como projeto historico de base tecnologica envolvendo [[UFMG]], [[CDTN]] e [[Codemge]], com objetivo de desenvolver tecnologia brasileira de producao de grafeno e estruturar uma planta piloto no CDTN. Para MGg3, essa historia funciona como lastro tecnico, institucional e narrativo da tese atual.
+
+Nota complementar: [[Historico MGgrafeno-Gerdau Graphene]] preserva o relato tacito de Rodrigo Altoé sobre o mesmo arco historico, incluindo bastidores, percepcoes pessoais e a transicao para Gerdau Graphene. Ela deve ser usada como memoria interna, nao como substituta desta sintese institucional.
 
 ## Atores institucionais
 

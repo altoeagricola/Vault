@@ -1,5 +1,6 @@
 ---
 title: "Conilon"
+type: Concept
 description: "Variedade de café (Coffea canephora) cultivada principalmente no Espírito Santo, Brasil"
 sources:
   - "Sources/Transcripts/Culturas_Campo_Conilon_Socol.md"
@@ -11,7 +12,7 @@ tags:
   - agriculture
   - espírito-santo
 related:
-  - "Melhoramento Genetico Café"
+  - "[[Melhoramento_Genetico|Melhoramento Genético em Café]]"
   - "Marilândia"
   - "Incapé"
 ---
@@ -62,7 +63,7 @@ Historicamente, conilon era associado a cafés "commodity" de baixa especializa�
 
 ## Melhoramento Genético
 
-O programa de [[Melhoramento Genetico Café|melhoramento genético]] do Incapé enfatiza:
+O programa de [[Melhoramento_Genetico|melhoramento genético]] do Incapé enfatiza:
 - **Autoincompatibilidade:** Diferente de arábica (que se autofecunda), conilon requer polinização cruzada, permitindo maior variabilidade genética
 - **Seleção clonal:** Identificação de clones com características desejáveis (tolerância, produtividade, qualidade sensorial)
 - **Cruzamentos direcionados:** Combinação de genes para eficiência produtiva
@@ -86,4 +87,4 @@ O conilon capixaba permitiu a mecanização parcial via peneira — os galhos ma
 
 ## Referências
 
-Ver também: [[Marilândia]], [[Incapé]], [[Melhoramento Genetico Café]], [[Espírito Santo]]
+Ver também: [[Marilândia]], [[Incapé]], [[Melhoramento_Genetico|Melhoramento Genético em Café]], [[Espírito_Santo|Espírito Santo]]

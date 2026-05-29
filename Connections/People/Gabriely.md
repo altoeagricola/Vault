@@ -1,16 +1,20 @@
 ---
 area: "[[People]]"
 role:
-  - Secretária
+  - Ex-secretária
 company: "[[ALTOE Agricola]]"
-updated: 2026-04-28
+status: ex-equipe
+data_desligamento: 2026-05-27
+updated: 2026-05-27
 ---
 
 ## Gabriely
 
-**Secretária · ALTOE Agricola**
+**Ex-secretária · ALTOE Agricola**
 
-Secretária da [[ALTOE Agricola]]. Possui 2 anos de experiência em consultoria de crédito rural, adquiridos na consultoria de [[Adriana Vermelho]] (empresa já encerrada).
+Gabriely integrou a equipe da [[ALTOE Agricola]] como secretária até **2026-05-27**, quando seu desligamento foi registrado no Vault. Seu histórico permanece preservado para rastreabilidade de atividades, relacionamentos e fontes de inteligência operacional anteriores.
+
+Possui 2 anos de experiência em consultoria de crédito rural, adquiridos na consultoria de [[Adriana Vermelho]] (empresa já encerrada).
 
 ---
 
@@ -22,6 +26,6 @@ Gabriely tem sólida base nos processos centrais de crédito rural, mas não tem
 
 ## Relações
 
-- [[ALTOE Agricola]] — empregadora atual
+- [[ALTOE Agricola]] — ex-empregadora; vínculo encerrado em 2026-05-27
 - [[Adriana Vermelho]] — ex-empregadora (consultoria de crédito rural encerrada)
 - [[Ronilson]] — parceiro de referência para serviços ambientais e licenciamentos

@@ -2,7 +2,7 @@
 title: Getting Things Done
 type: Concept
 sources:
-  - "[[PKM]]"
+  - "[[Products/PKM/PKM]]"
 related:
   - "[[Personal Knowledge Management]]"
   - "[[PARA Method]]"

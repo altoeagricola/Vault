@@ -1,10 +1,11 @@
 ---
-título: Polímeros — Gerdau Graphene
+titulo: Polímeros — Gerdau Graphene
 pasta: "[[Gerdau Graphene]]"
 tipo: Capa / Resumo Executivo
+produto: MGg3
 atualizado: 2026-04-26
+confidencialidade: interno
 ---
-
 # Polímeros — Gerdau Graphene
 
 Pasta de P&D sobre a linha de **masterbatches e compósitos de grafeno para polímeros** da Gerdau Graphene. O documento principal é um update de R&D de dezembro/2023 produzido em conjunto com a **BlackSwan Graphene**, cobrindo testes em PP e PE com grafenos BlackSwan.

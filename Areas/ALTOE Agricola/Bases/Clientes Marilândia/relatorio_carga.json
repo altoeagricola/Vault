@@ -1,0 +1,40 @@
+{
+  "data": "2026-05-27",
+  "total_registros": 2193,
+  "base_principal": 2172,
+  "novos_gabriely": 21,
+  "cobertura": {
+    "cpf_valido": "100% (2172/2172)",
+    "telefone": "88% (1921/2172)",
+    "cidade": "83% (1824/2172)",
+    "email": "20% (446/2172)",
+    "data_nascimento": "92% (2009/2172)"
+  },
+  "excecoes": 21,
+  "cidade_pendente": 348,
+  "tags_total": 41,
+  "interacoes_total": 19,
+  "top_cidades": {
+    "MARILÂNDIA": 869,
+    "COLATINA": 491,
+    "LINHARES": 404,
+    "(sem cidade)": 368,
+    "PANCAS": 20,
+    "ITAGUAÇU": 7,
+    "JAGUARÉ": 4,
+    "SOORETAMA": 4
+  },
+  "tags_dist": {
+    "mensagem_enviada_2026": 12,
+    "visitamos_2026": 6,
+    "produtor_grande": 5,
+    "usa_investimento": 4,
+    "usa_custeio_anual": 3,
+    "cafe_conilon": 3,
+    "responsavel_terceiro": 2,
+    "produtor_arrendatario": 2,
+    "produtor_proprietario": 2,
+    "morador_exterior": 1,
+    "tem_secador": 1
+  }
+}

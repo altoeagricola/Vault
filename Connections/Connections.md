@@ -19,7 +19,14 @@ tags:
 - [[Nacional de Grafite]] concentra `NG` e `Micrograf`.
 - [[Thomas Swan]] concentra `Elicarb` e `GraphCore`.
 - [[MstnLand]] concentra `MSTN`, `MSTN Land` e `MSTN Technologies`.
+- [[IFHAN Participacoes LTDA]] concentra a grafia canonica do grupo investidor IFHAN; `IFHAM` deve ser tratado como erro de grafia quando aparecer no contexto MGgrafeno.
+- [[CES Clean Energy Solutions LTDA]] concentra o registro cadastral da CES no ecossistema IFHAN.
 - `Graphene Production` segue pendente e nao deve virar Connection ate haver fonte primaria confiavel.
+
+## Registros de pessoas MGgrafeno
+
+- [[Flavio Plentz]] e [[Rodrigo Altoé]] seguem como registros canonicos para o contexto tecnico-historico MGgrafeno.
+- [[Iwan Sabatella Filho]], [[Pedro Henrique Fusco]] e [[Ricardo Hatschbach]] foram organizados como perfis de investidores identificados via LinkedIn. As fichas preservam essa classificacao como contexto de diligencia, sem afirmar vinculo societario ou aporte ate haver fonte primaria validada.
 
 
 

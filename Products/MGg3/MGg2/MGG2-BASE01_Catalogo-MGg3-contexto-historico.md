@@ -1,6 +1,7 @@
 ---
 titulo: Catalogo MGg3.0 - contexto historico MGgrafeno
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG2-BASE01
 fonte_arquivo: "MGG2-BASE01 - Catalogo MGg3.0.docx"
 caminho_fonte: "Products/MGg3/MGg2/MGG2-BASE01 - Catalogo MGg3.0.docx"
@@ -40,7 +41,6 @@ links_relacionados:
   - "[[Mapa estrategico MGg3]]"
 atualizado: 2026-05-07
 ---
-
 # MGG2-BASE01: Catalogo MGg3.0 - contexto historico MGgrafeno
 
 ## Identificacao

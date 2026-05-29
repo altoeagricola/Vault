@@ -1,11 +1,13 @@
 ---
-fonte_arquivo: "Grafeno- Nanomaterial de alta performanceV2.pdf"
-organizacao: "Gerdau Graphene"
-tipo_documento: "Apresentação institucional"
-data_documento: "2023-2024"
-confidencialidade: "CONFIDENCIAL"
-status_extracao: "completo"
-confianca_extracao: "alta"
+tipo: registro-documento
+produto: MGg3
+fonte_arquivo: Grafeno- Nanomaterial de alta performanceV2.pdf
+organizacao: Gerdau Graphene
+tipo_documento: Apresentação institucional
+data_documento: 2023-2024
+confidencialidade: confidencial
+status_extracao: completo
+confianca_extracao: alta
 temas:
   - grafeno
   - nanomateriais
@@ -30,16 +32,15 @@ metricas_chave:
   - "Poly-G PE: +75% módulo Young, +37% resistência à tração (1% adição)"
   - "Teste campo Pindamonhangaba: 6 meses durabilidade (vs 4 sem grafeno), 2 demãos (vs 3)"
 riscos_uso:
-  - "Classificação CONFIDENCIAL restringe compartilhamento sem NDA"
-  - "Conteúdo exclusivo para contextos de parceria formais"
+  - Classificação CONFIDENCIAL restringe compartilhamento sem NDA
+  - Conteúdo exclusivo para contextos de parceria formais
 links_relacionados:
   - "[[Apresentacoes]]"
   - "[[Concretos]]"
   - "[[Polimeros]]"
-  - "[[Inteligencia de Mercado]]"
-atualizado: "2026-05-07"
+  - "[[Inteligencia de Mercado - Gerdau Graphene]]"
+atualizado: 2026-05-07
 ---
-
 # GG-APRES01: Grafeno — Nanomaterial de Alta Performance
 
 **Código:** GG-APRES01  
@@ -191,7 +192,7 @@ Benefícios documentados em masterbatches com grafeno BlackSwan. Dados de proces
 - **Tema correlato:** [[Apresentacoes]]
 - **Plataforma concreto:** [[Concretos]]
 - **Plataforma polímeros:** [[Polimeros]]
-- **Inteligência comercial:** [[Inteligencia de Mercado]]
+- **Inteligência comercial:** [[Inteligencia de Mercado - Gerdau Graphene]]
 - **Fornecedor de referência:** BlackSwan Graphene (mencionado como estratégico)
 - **Parceiro Tier 1:** GEIC — University of Manchester
 

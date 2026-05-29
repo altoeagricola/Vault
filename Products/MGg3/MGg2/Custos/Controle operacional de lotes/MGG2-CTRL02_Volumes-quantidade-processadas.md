@@ -27,7 +27,7 @@ tags:
 
 ## Escopo e periodo coberto
 
-Consolida quantidade de lotes, volume processado e estimativas de grafeno produzido. A base cobre a produção histórica desde 2017 e traz recorte específico de 2021, ano da campanha Duda e do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
+Consolida quantidade de lotes, volume processado e estimativas de grafeno produzido. A base cobre a produção histórica desde 2017 e traz recorte específico de 2021, ano da campanha Duda e do lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
 
 ## Volumes por ano
 
@@ -62,14 +62,14 @@ Consolida quantidade de lotes, volume processado e estimativas de grafeno produz
 
 ## Lote 20210720Pa
 
-O lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] aparece nas abas `Mes` e `2021` como P100, 100 L, 100 g/L, campanha Duda, com Konmix 3.550 rpm em tanque inox e troca de base NH4OH.
+O lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] aparece nas abas `Mes` e `2021` como P100, 100 L, 100 g/L, campanha Duda, com Konmix 3.550 rpm em tanque inox e troca de base NH4OH.
 
 Na aba `Mes`, a descrição do lote aponta: teste de aumento de carga de grafite 100 g/L; 5 h; decanter em várias condições. Na aba `2021`, o mesmo registro aparece no recorte anual.
 
 ## Metricas economicas identificaveis
 
 - A planilha fornece denominadores para custo por lote, custo por litro processado e custo por kg estimado.
-- O fator de 100 L em 2021 indica 44 g de grafeno por lote na planilha de volume. Esse valor precisa ser reconciliado com o balanço de massa do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], que detalha grafeno A, grafeno B e nanoplaca.
+- O fator de 100 L em 2021 indica 44 g de grafeno por lote na planilha de volume. Esse valor precisa ser reconciliado com o balanço de massa do lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], que detalha grafeno A, grafeno B e nanoplaca.
 - O volume anual de 2021 (4.150 L) é o principal recorte para estimar escala piloto em ano com campanha Duda.
 
 ## Lacunas

@@ -54,7 +54,7 @@ Ontologias são o substrato formal dos **grafos de conhecimento** — estruturas
 
 A estrutura implícita do vault já é ontológica — `Concept`, `Entity`, `Figure`, `Summary` são classes; os wiki-links são relações; o frontmatter define propriedades. Formalizar essa taxonomia como uma ontologia OWL/RDF abriria possibilidades para:
 
-- **[[Products/AI-KB/AI-KB|AI-KB]]** — modelar formalmente `Skills`, `Commands`, `Agents`, `Prompts` e suas composições, permitindo que agentes raciocinem sobre capacidades disponíveis e as combinem automaticamente
+- **AI-KB** — modelar formalmente `Skills`, `Commands`, `Agents`, `Prompts` e suas composições, permitindo que agentes raciocinem sobre capacidades disponíveis e as combinem automaticamente
 - **[[Products/PKM/PKM|PKM]]** — tornar o grafo de conhecimento navegável por agentes de IA via SPARQL, em vez de depender de busca textual ou embeddings
 
 [[Julio C. Nardi]], Professor Titular no IFES Campus Colatina e especialista em Ontology Engineering, é um colaborador potencial para esta formalização.

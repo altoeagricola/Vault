@@ -6,7 +6,7 @@ checklist_ref: "[[Checklist Documental - Sergio Jose Altoe]]"
 produto: "Pronaf Habitacao Rural"
 banco_alvo: "[[Cresol]]"
 data_criacao: 2026-05-05
-data_atualizacao: 2026-05-05
+data_atualizacao: 2026-05-29
 responsavel_organizacao: "Cacilda"
 status_geral: "parcialmente-validado"
 tags:
@@ -50,9 +50,9 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
 | **PDF original** | `Docs Pessoais/CNH - SERGIO.pdf` | existente | Carteira Nacional de Habilitação |
-| **Registro markdown** | `[[Registro - CNH Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO:** Validar data de vencimento |
+| **Registro markdown** | `[[Registro - CNH Sergio Jose Altoe.md]]` | validado_visual | CNH válida até 04/08/2027 |
 
-**Riscos:** CNH expirada impede operação creditícia.
+**Riscos:** CNH saneada quanto à validade; conferir dados contra RG/CPF no cadastro final.
 
 ---
 
@@ -60,11 +60,12 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
-| **PDF original** | `Docs Pessoais/CAF. Sergio.pdf` | existente | Cadastro de Agricultores Familiares |
-| **Registro markdown** | `[[Registro - CAF Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO — MCR 10-2:** CAF válido é mandatório |
+| **PDF histórico no Vault** | `Docs Pessoais/CAF. Sergio.pdf` | existente | Cadastro de Agricultores Familiares anterior |
+| **PDFs novos consultados** | Downloads, sem cópia no Vault | consultado_sem_internalizar | Extrato completo e carteirinhas de CAF, por instrução do usuário |
+| **Registro markdown** | `[[Registro - CAF Sergio Jose Altoe.md]]` | renovado_vigente | CAF ativo, atualizado/emissão em 28/05/2026, validade 28/05/2029 |
 
-**Riscos:** CAF vencido ou sem enquadramento Pronaf Habitação Rural impede operação.  
-**Ação:** Validar validade e enquadramento antes de protocolo.
+**Riscos:** validade saneada, mas área UFPA 30,18 ha precisa ser conciliada com CCIR/ITR/CAR/escritura.  
+**Ação:** validar coerência territorial e confirmar se a Cresol exigirá anexar o PDF novo ao pacote.
 
 ---
 
@@ -73,13 +74,37 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
 | **PDF original** | `Docs Pessoais/COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.pdf` | existente | Comprovante de renda previdenciária |
-| **Nota operacional** | Ref. no dossie mestre | a_processar | Entrada para análise financeira |
+| **Nota operacional** | `[[Registro - Comprovante Aposentadoria]]` | validado_visual_parcial | Entrada para análise financeira; falta extrato INSS completo com CPF |
 
 **Observação:** Documento bifaria (ambos os cônjuges). Base para avaliação de capacidade de pagamento.
 
 ---
 
-### 1.5 Acessório — Documento de Patrimônio (Motocicleta)
+### 1.5 Renda Rural — NF-e Venda de Cafe Conilon
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | Não anexado ao Vault por instrução do usuário | nao_anexado | Fonte externa informada pelo usuário |
+| **Registro markdown** | `[[Registro - Nota Fiscal Rural 250520001 Sergio Jose Altoe]]` | conferencia_visual | NF-e nº 250520001, série 026, emitida em 25/05/2026; 112 sacas de café conilon; total R$ 100.800,00 |
+
+**Uso operacional:** evidência complementar de renda rural para renovação do CAF no Sindicato Rural de Marilândia, com atendimento informado por [[Higor Loss Altoé]].  
+**Ação:** validar chave de acesso no portal NF-e antes de uso formal.
+
+---
+
+### 1.6 Regularidade Fiscal Federal — CND RFB/PGFN
+
+| Artefato | Local | Status | Nota Operacional |
+|----------|-------|--------|------------------|
+| **PDF original** | Não anexado ao Vault por instrução do usuário | nao_anexado | Fonte consultada em Downloads |
+| **Registro markdown** | `[[Registro - Certidao Negativa RFB PGFN Sergio Jose Altoe]]` | vigente | CND RFB/PGFN emitida em 29/05/2026, válida até 25/11/2026, código 40BC.FBDD.5CC5.D80A |
+
+**Uso operacional:** evidencia regularidade fiscal federal do CPF perante RFB/PGFN na data de emissão.  
+**Ação:** validar autenticidade pelo código de controle antes de protocolo e manter o DARF ITR em trilha própria se a Cresol exigir comprovante específico.
+
+---
+
+### 1.7 Acessório — Documento de Patrimônio (Motocicleta)
 
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
@@ -104,7 +129,7 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
 | **PDF original** | `Docs Pessoais/CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf` | existente | Comprovante de união legal |
-| **Registro markdown** | `[[Registro - Certidao de Casamento Sergio e Lourdes.md]]` | precisa_confirmar | **CRÍTICO:** Regime de bens define se cônjuge assina |
+| **Registro markdown** | `[[Registro - Certidao de Casamento Sergio e Lourdes.md]]` | validado_visual | Regime de comunhão de bens; certidão emitida em 07/04/2026 |
 
 **Riscos:** Regime desconhecido pode exigir anuência de cônjuge não planejada. Averbação de divórcio anterior pode indicar situação não resolvida.
 
@@ -117,7 +142,7 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
 | **PDF original** | `Docs Propriedade/CCIR 2025 Sergio Altoe.pdf` | existente | Documento-chave de cadastro INCRA |
-| **Registro markdown** | `[[Registro - CCIR Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO:** Validar quitação e área |
+| **Registro markdown** | `[[Registro - CCIR Sergio Jose Altoe.md]]` | validado_visual_parcial | Quitado; área 31,3677 ha; conferir escritura e divergência com CAR |
 
 **Riscos:** Divergência de titularidade, área ou regularidade impede operação.
 
@@ -140,7 +165,7 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
 | **PDF original** | `Docs Propriedade/ITR 2025 Sergio Altoe.pdf` | existente | Regularidade fiscal rural |
-| **Registro markdown** | `[[Registro - ITR Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO:** Validar pagamento e recibo |
+| **Registro markdown** | `[[Registro - ITR Sergio Jose Altoe.md]]` | validado_visual_parcial | DARF/recibo DITR extraídos; falta comprovante de pagamento |
 
 **Riscos:** ITR não pago gera restrição Receita Federal. Divergência de área é comum.  
 **Ação:** Obter recibo de quitação; conferir coerência de área com CCIR e escritura.
@@ -152,7 +177,7 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 | Artefato | Local | Status | Nota Operacional |
 |----------|-------|--------|------------------|
 | **PDF original** | `Docs Propriedade/RECIBO DO CAR E CAR Sergio Altoe.pdf` | existente | Cadastro Ambiental Rural |
-| **Registro markdown** | `[[Registro - CAR Sergio Jose Altoe.md]]` | precisa_confirmar | **CRÍTICO — Lei 12.651:** Validar no SICAR |
+| **Registro markdown** | `[[Registro - CAR Sergio Jose Altoe.md]]` | validado_visual_parcial | Registro/protocolo/área extraídos; falta validar SICAR/IDAF |
 
 **Riscos:** Embargo ambiental, sobreposição a TI/UC ou status pendente impede operação.  
 **Ação:** Validar status no SICAR online antes de protocolo.
@@ -177,15 +202,21 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 
 ✓ **Outorga Sergio Jose Altoe** — Nota existente, boa estrutura, credenciais movidas para gerenciador seguro
 
-### Documentos Existentes mas Não Validados (precisa_confirmar)
+### Documentos Conferidos Visualmente em 2026-05-23
 
-⚠️ **CNH** — PDF existe, precisa validar vencimento  
-⚠️ **CAF** — PDF existe, precisa validar validade e enquadramento Pronaf  
-⚠️ **CCIR** — PDF existe, precisa validar quitação e área  
-⚠️ **ITR** — PDF existe, precisa validar pagamento e recibo  
-⚠️ **CAR** — PDF existe, precisa validar status no SICAR  
+✓ **CNH** — válida até 04/08/2027  
+✓ **CAF** — renovado/ativo em 28/05/2026, válido até 28/05/2029; PDFs novos consultados em Downloads, sem cópia no Vault  
+✓ **CCIR** — quitado no documento; área 31,3677 ha  
+⚠️ **ITR** — DARF e recibo DITR presentes; falta comprovante de pagamento  
+⚠️ **CAR** — recibo/cadastro extraídos; falta validação online SICAR/IDAF  
 ⚠️ **Escritura** — PDF existe, precisa validar matrícula, titularidade e onus  
-⚠️ **Certidão de Casamento** — PDF existe, precisa validar regime de bens  
+✓ **Certidão de Casamento** — comunhão de bens; emitida em 07/04/2026  
+✓ **CND RFB/PGFN** — emitida em 29/05/2026; válida até 25/11/2026; PDF consultado em Downloads, sem cópia no Vault  
+⚠️ **Comprovante de Aposentadoria** — valores visuais extraídos, mas falta extrato INSS completo com CPF
+
+### Documento Conferido Visualmente em 2026-05-27
+
+⚠️ **NF-e venda café conilon** — registro criado sem anexar PDF; 112 sacas, R$ 100.800,00, emissão 25/05/2026; validar chave de acesso antes de uso formal
 
 ### Documentos Ausentes ou Não Localizados
 
@@ -203,27 +234,28 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
 ### Prazo Imediato (antes de protocolo)
 
 1. **CNH:**  
-   - [ ] Visualizar PDF; extrair data de vencimento  
-   - [ ] Validar se ainda é válida  
-   - [ ] Se expirada, solicitar renovação  
+   - [x] Visualizar PDF; extrair data de vencimento  
+   - [x] Validar se ainda é válida — válida até 04/08/2027  
+   - [ ] Conferir dados contra RG/CPF no cadastro final  
 
 2. **CAF:**  
-   - [ ] Visualizar PDF; extrair número, datas, enquadramento  
-   - [ ] Validar se ainda é válido (BCR MCR 10-2: **obrigatório**)  
-   - [ ] Confirmar que enquadramento é Pronaf Habitação Rural (ou compatível)  
+   - [x] Visualizar PDF; extrair número, datas, enquadramento  
+   - [x] Validar se ainda é válido — novo CAF ativo, validade 28/05/2029  
+   - [ ] Cruzar área UFPA 30,18 ha contra CCIR/ITR/CAR/escritura  
+   - [ ] Confirmar se a Cresol exige PDF novo arquivado no pacote, já que o usuário pediu para não internalizar PDFs  
 
 3. **CCIR:**  
-   - [ ] Visualizar PDF; extrair NIRF, datas, quitação, área  
-   - [ ] Validar quitação (sem pendência fiscal/ambiental)  
-   - [ ] Conferir área contra ESCRITURA e ITR  
+   - [x] Visualizar PDF; extrair código, datas, quitação, área  
+   - [x] Validar quitação no documento — consta quitado  
+   - [ ] Conferir área contra ESCRITURA e divergência com CAR  
 
 4. **ITR:**  
-   - [ ] Visualizar PDF; extrair processo ITR, datas, valor  
+   - [x] Visualizar PDF; extrair DARF, datas, valor e recibo DITR  
    - [ ] **CRÍTICO:** Obter recibo de quitação (não apenas PDF bruto)  
    - [ ] Conferir coerência de área com CCIR e ESCRITURA  
 
 5. **CAR:**  
-   - [ ] Visualizar PDF; extrair recibo nº, data, situação  
+   - [x] Visualizar PDF; extrair registro, protocolo, data e área  
    - [ ] **CRÍTICO:** Validar status no SICAR (https://www.car.gov.br/)  
    - [ ] Confirmar ausência de embargo/sobreposição a TI, UC ou áreas restritas  
 
@@ -234,8 +266,8 @@ A estrutura segue a proposta de Carmen: **preservar PDFs originais + criar notas
    - [ ] Se banco exigir, solicitar certidão atualizada de matrícula  
 
 7. **Certidão de Casamento:**  
-   - [ ] Visualizar PDF; extrair datas, regime de bens, averbações  
-   - [ ] **CRÍTICO:** Determinar regime (comunhão/separação) — afeta se cônjuge assina  
+   - [x] Visualizar PDF; extrair datas, regime de bens, averbações  
+   - [x] **CRÍTICO:** Determinar regime — comunhão de bens  
    - [ ] Conferir nomes contra RG/CPF de ambos  
 
 ### Prazo Operacional (antes de submissão ao banco)
@@ -339,8 +371,8 @@ Para **próximas operações de crédito rural**, seguir esta estrutura já vali
 | Aspecto | Status | Observação |
 |--------|--------|-----------|
 | **Organização física** | ✓ Completa | Pastas bem estruturadas, PDFs preservados |
-| **Documentação operacional** | ⚠️ Parcial | Notas criadas, mas dados ainda não extraídos (OCR pendente) |
-| **Validação de dados** | ⚠️ Crítica | Nenhum documento foi conferido visualmente — status "precisa_confirmar" |
+| **Documentação operacional** | ⚠️ Parcial | Notas críticas preenchidas por conferência visual; OCR pesquisável segue pendente |
+| **Validação de dados** | ⚠️ Parcial | CNH, CCIR, ITR, CAR, certidão e aposentadoria conferidos em 2026-05-23; CAF renovado conferido em 2026-05-28 |
 | **Linkagem interna** | ✓ Completa | Todas as notas linkem a cliente, checklist, dossie |
 | **Padrão reutilizável** | ✓ Validado | Estrutura pronta para aplicação em próximos clientes |
 | **Segurança** | ⚠️ Atenção | Credenciais já foram movidas para gerenciador seguro (Outorga); sem achados novos |
@@ -362,4 +394,3 @@ Estrutura está pronta para:
 **Criado por:** Cacilda  
 **Data:** 2026-05-05  
 **Referência:** [[ALT-71]] (problema) | [[ALT-66]] (proposta) | [[ALT-69]] (origem)
-

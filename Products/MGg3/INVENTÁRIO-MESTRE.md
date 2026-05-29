@@ -3,10 +3,10 @@ titulo: Inventário Mestre — MGg3
 tipo: Inventário de Fontes
 produto: MGg3
 classificação: CONFIDENCIAL
-atualizado: 2026-05-20
-total_fontes: 25
-fontes_com_nota: 25
-cobertura: 100% em registros iniciais; MGg2 estrutura documental completa, relato tacito Rodrigo padronizado como nota interna consultavel, compliance de editais aprofundado, custos/fornecedores em validação por agentes; controles operacionais de lotes, processos, volumes e balancos de massa incorporados; Inteligencia de Mercado MGg3 (raiz) com relatório consolidado 2026 e case NanoXplore incorporados
+atualizado: 2026-05-21
+total_fontes: 38
+fontes_com_nota: 36
+cobertura: 100% em registros iniciais; MGg2 estrutura documental completa, relato tacito Rodrigo padronizado como nota interna consultavel, compliance de editais aprofundado, custos/fornecedores em validação por agentes; controles operacionais de lotes, processos, volumes e balancos de massa incorporados; Descricao da Tecnologia criada com fonte-mae, anexos tecnicos, lista numerada, matriz de evidencias, mapa de correntes, parametros criticos, quatro registros controlados do Anexo A, Relatorio Anual 2020-2021 controlado e Volume V SSMA controlado; Inteligencia de Mercado MGg3 (raiz) com relatório consolidado 2026 e case NanoXplore incorporados
 confidencialidade: interno
 ---
 # Inventário Mestre — MGg3
@@ -19,11 +19,11 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 
 | Métrica | Valor |
 |---------|-------|
-| **Total de fontes mapeadas** | 25 documentos/registros |
-| **Documentos com nota-resumo** | 25 / 25 (100% em registro inicial) |
-| **Pastas cobertas** | 6 + registro tacito raiz (Apresentacoes, Concretos, Inteligencia de Mercado GG, Polímeros, MGg2, Inteligencia de Mercado MGg3) |
+| **Total de fontes mapeadas** | 38 documentos/registros |
+| **Documentos com nota-resumo** | 36 / 38 (camada tecnica inicial; anexos preservados como evidencia primaria) |
+| **Pastas cobertas** | 7 + registro tacito raiz (Apresentacoes, Concretos, Inteligencia de Mercado GG, Polímeros, MGg2, Descricao da Tecnologia, Inteligencia de Mercado MGg3) |
 | **Período coberto** | 2015 – Mai/2026 |
-| **Volume total de dados** | ~43 MB + relatório consolidado IM-2026 + case NanoXplore |
+| **Volume total de dados** | ~43 MB + know-how oficial 55.1/2024, anexos tecnicos, Anexo A controlado, Relatorio Anual 2020-2021 e Volume V SSMA + relatório consolidado IM-2026 + case NanoXplore |
 | **Status de consultabilidade** | ALTA para Gerdau Graphene; operacional (registros-base) para MGg2; ALTA para Inteligencia de Mercado MGg3 (raiz) |
 | **Próxima ação** | Mariano (custos) e Eloi (fornecedores) aprofundam conteúdo; confirmar formalmente status UFMG/CDTN; Carmen consolida mapa estratégico |
 
@@ -36,6 +36,16 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 | Código | Documento | Tipo | Data | Tamanho | Confidencialidade | Nota-Resumo | Status | Temas | Lacunas |
 |--------|-----------|------|------|---------|-------------------|------------|--------|-------|---------|
 | **MGG2-BASE01** | Catalogo MGg3.0 | Briefing interno histórico-estratégico (DOCX) | Abr/2026 | 24 KB | INTERNO | [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]] | Extraído parcial | MGgrafeno; UFMG; CDTN; planta piloto; licenciamento; custos P100/P500; players brasileiros de grafeno | Validar links externos; separar fato documental de avaliação interna |
+| **MGG2-KH55.1** | KNOW HOW 55.1-2024 - Producao de Grafeno | Know-how tecnico (DOCX) | 2025-01-14 | 41 MB | INTERNO | [[MGg2/Descricao da Tecnologia/KNOW-HOW-55.1-2024_Producao-de-Grafeno]] | Extraido parcial-controlado | Producao de grafeno; PL100; modulos; correntes; GPC; NPG; NG; anexos tecnicos | Vazao do cisalhador e especificacao de NPG exigem validacao antes de uso canonico externo |
+| **MGG2-KH55.1-MAPA** | Mapa de processo e correntes MGgrafeno | Mapa tecnico (MD) | 2026-05-20 | interno | INTERNO | [[MGg2/Descricao da Tecnologia/Mapa de processo e correntes MGgrafeno]] | Criado | Conversao; separacao; acabamento; residuos; `c31`; `d01`; `d02`; `d03`; `d04`; aliases `s` | Links antigos para `Projects/MGgrafeno/Planta Piloto/...` saneados na ALT-286 |
+| **MGG2-KH55.1-PARAM** | Parametros criticos PL100 e acabamento | Parametros de processo (MD) | 2026-05-21 | interno | INTERNO | [[MGg2/Descricao da Tecnologia/Parametros criticos PL100 e acabamento]] | Atualizado ALT-309 | PL100; KonMix; decanter; discos; spray dryer; liofilizacao; filtracao tangencial; residuos; SSMA; 100 g/L KonMix 5 h | Consolidar unidade da vazao do cisalhador, criterios de CQ por lote e OPEX SSMA |
+| **MGG2-ANEXOA-MAPA** | Anexo A - Mapeamento de Processos da Planta Piloto MGg1.0 Rev 05 | Mapeamento de processo (PDF + MD) | 2024-04-03 | interno | INTERNO | [[MGg2/Descricao da Tecnologia/MGG2-ANEXOA-MAPA_Processos-Planta-Piloto-Rev05]] | Extraido controlado | Planta piloto; Bizagi; governanca operacional; residuos; caracterizacao | Usar como fluxo/governanca, nao como balanco de massa ou premissa TEA |
+| **MGG2-ANEXOA-PROCFAB** | Anexo A - Processo Fabril Piloto RA OR 10 03 2022 | Processo fabril piloto (PDF + MD) | 2022-03-10 | interno | INTERNO | [[MGg2/Descricao da Tecnologia/MGG2-ANEXOA-PROCFAB_Processo-Fabril-Piloto-2022]] | Extraido controlado | P100; KonMix; decanter; gargalo primeira separacao; cenarios de custo | Claims de triplicar producao e reducao 24x somente com ressalva |
+| **MGG2-ANEXOA-RELII** | Anexo A - Relatorio Ano II Projeto MGgrafeno pp478-481 | Relatorio tecnico parcial (PDF + MD) | 2020-10 | interno | INTERNO | [[MGg2/Descricao da Tecnologia/MGG2-ANEXOA-RELII_Rota-100gL-KonMix]] | Extraido controlado | 100 g/L; KonMix; 5 h; comparador 50 g/L 24 h; Campanha Duda | Ganho defensavel em tempo/capacidade, nao rendimento percentual |
+| **MGG2-ANEXOA-BMG** | Anexo A - Balanco de Massa Global PDF | Balanco de massa (PDF + MD) | 2021-2022 | interno | INTERNO | [[MGg2/Custos/Controle operacional de lotes/MGG2-ANEXOA-BMG_Balanco-Massa-Global-PDF]] | Extraido controlado | Lote 20210720Pa; Campanha Duda; 100 g/L KonMix 5 h; GPC; GPB; nanografite | Lote isolado nao e premissa final; nanografite nao e produto final sem especificacao |
+| **MGG2-RA2020-2021-PROD** | Relatorio Anual 2020-2021 - Producao MGgrafeno | Relatorio anual tecnico de producao (DOCX + MD) | 2021-11-23 | 50,6 MB | INTERNO | [[MGg2/Descricao da Tecnologia/MGG2-RA2020-2021_Producao-Conversao-Separacao-Acabamento]] | Extraido controlado | P25 Silverson; estatores; P100 KonMix; separacao; acabamento; custos | P25 e desenvolvimento de parametros; P100 KonMix 100 g/L 5 h e baseline produtivo para custo/capacidade |
+| **MGG2-RTF-VOLV-SSMA** | Relatorio Tecnico Final Volume V - SSMA | Relatorio tecnico final SSMA (PDF + MD) | 2019 | interno | INTERNO | [[MGg2/Descricao da Tecnologia/MGG2-RTF-VOLV_SSMA-Tratamento-Residuos]] | Extraido controlado | SSMA; residuos; agua de reuso; filtro prensa; carvao ativado; monitoramento de ar; ecotoxicidade; compliance ambiental | Nao extrapolar claim de reuso 100% para escala industrial; faltam OPEX, balanco ambiental, certificados regulatorios e validacao estatistica de ausencia de nano |
+| **MGG2-KH55.1-ANEXOS** | Matriz de anexos e evidencias | Matriz documental (MD + PDFs) | 2026-05-20 | interno | INTERNO | [[MGg2/Descricao da Tecnologia/Matriz de anexos e evidencias - KNOW-HOW-55.1-2024]] | Criado | PIO-MGG-002; PIO-MGG-031; PIO-MGG-032; filtracao tangencial; relatorio spray dryer | Numeracao de anexos preservada apenas como referencia secundaria |
 | **MGG2-EDITAL1337** | Edital 1337/2025 UFMG/CDTN | Edital oficial (PDF) | 2025 | 723 KB | PÚBLICO | [[MGg2/Editais/MGG2-EDITAL1337_Edital-transferencia-tecnologia]] | Extraido compliance | Licenciamento; transferência de tecnologia; propriedade intelectual; cronograma; NDA; sublicenciamento; planta piloto | Confirmar situacao final do edital/pacote com CTIT/UFMG e CDTN/CNEN antes de uso externo |
 | **MGG2-EDITAL1337-ALT01** | Alteração Edital 1337 - Prorrogação | Alteração de edital (PDF) | 2025 | 442 KB | PÚBLICO | [[MGg2/Editais/MGG2-EDITAL1337-ALT01_Alteracao-data]] | Extraido compliance | Cronograma; prorrogação 29/09/2025; datas resultado/recurso | Cronograma extraido tem aparente inconsistencia de datas; confirmar versao vigente |
 | **MGG2-LICINFO** | Informativo Pacote Tecnológico | Apresentação visual (PDF) | 2025 | 5,9 MB | PÚBLICO | [[MGg2/Editais/MGG2-LICINFO_Licenciamento-pacote-tecnologico]] | Pendente OCR | Apresentação pacote; oportunidades licenciamento; narrativa visual | Extração textual direta retornou 0 caracteres; nao reutilizar imagens/marcas em pitch sem autorização |
@@ -51,7 +61,7 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 | **MGG3-FORN02** | Fornecedores de Insumos e Grafeno - Startup Grafeno | Matriz de fornecedores, insumos, utilidades e HH (XLSX) | 2023-2025 | 26 KB | INTERNO | [[MGg2/Fornecedores/MGG3-FORN02_Fornecedores-insumos-grafeno-startup]] | Extraido parcial | Insumos de produção; energia; agua/esgoto; HH; fornecedores de grafeno; cotacoes | Validar aliases, evitar duplicidade em Connections e reconciliar valores com custos P100/P500 |
 | **MGG3-TACITA-RODRIGO01** | Descricao Tacita MGgrafeno Gerdau Graphene | Relato pessoal tacito (DOCX externo) | 2015-2026 / org. Mai/2026 | externo ao Vault | INTERNO | [[Historico MGgrafeno-Gerdau Graphene]] | Padronizado como nota tacita | Memoria MGgrafeno; transicao Gerdau Graphene; encerramento GG; Polystell/Colorfix; retomada MGg3 | Uso externo bloqueado sem validacao documental e revisao juridica; criar stubs apenas se atores virarem recorrentes |
 
-**Resumo executivo:** Camada MGg2/MGgrafeno agora estruturada em 3 subpastas temáticas (Editais, Custos, Fornecedores) com 13 documentos primários incorporados ao Vault, mais uma nota tacita raiz padronizada a partir do relato de Rodrigo Altoé. Fonte-guia [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]] complementada por: (1) edital oficial + alteração + informativo de licenciamento; (2) modelos econômicos P100 (histórico 2021) e P500 (projeção 2026 KonMix); (3) controles operacionais de lotes, volumes, processos e balanços de massa com rastreio explícito do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]]; (4) base de fornecedores internacionais de grafeno; (5) base Startup Grafeno com insumos, utilidades, HH e fornecedores de grafeno; (6) [[Historico MGgrafeno-Gerdau Graphene]] como memoria tacita interna, complementar a [[MGgrafeno - Historico institucional]]. A frente de compliance dos editais foi aprofundada por Tereza; custos, controles operacionais e fornecedores seguem em aprofundamento por Mariano e Eloi.
+**Resumo executivo:** Camada MGg2/MGgrafeno agora estruturada em 4 subpastas temáticas principais (Descricao da Tecnologia, Editais, Custos, Fornecedores) com documentos primários incorporados ao Vault, mais uma nota tacita raiz padronizada a partir do relato de Rodrigo Altoé. Fonte-guia [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]] complementada por: (1) [[MGg2/Descricao da Tecnologia/KNOW-HOW-55.1-2024_Producao-de-Grafeno]], com mapa de processo/correntes, parametros criticos, matriz de anexos, Anexo A controlado, [[MGg2/Descricao da Tecnologia/MGG2-RA2020-2021_Producao-Conversao-Separacao-Acabamento]], que separa P25/Silverson como desenvolvimento de parametros e P100/KonMix 100 g/L 5 h como baseline produtivo para custo/capacidade, e [[MGg2/Descricao da Tecnologia/MGG2-RTF-VOLV_SSMA-Tratamento-Residuos]], que fixa residuos, agua de reuso, monitoramento de ar e lacunas SSMA/OPEX; (2) edital oficial + alteração + informativo de licenciamento; (3) modelos econômicos P100 (histórico 2021) e P500 (projeção 2026 KonMix); (4) controles operacionais de lotes, volumes, processos e balanços de massa com rastreio explícito do lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]]; (5) base de fornecedores internacionais de grafeno; (6) base Startup Grafeno com insumos, utilidades, HH e fornecedores de grafeno; (7) [[Historico MGgrafeno-Gerdau Graphene]] como memoria tacita interna, complementar a [[MGgrafeno - Historico institucional]]. A frente de descricao oficial agora fornece a taxonomia tecnica para custo de producao e plano de negocios; custos, controles operacionais e fornecedores seguem em aprofundamento por Mariano e Eloi.
 
 ### 1. APRESENTACOES — Gerdau Graphene
 
@@ -121,20 +131,21 @@ Pasta `Products/MGg3/Inteligencia de Mercado/`. Documentos de inteligência de m
 | **Inteligencia de Mercado (GG)** | 4/4 | Inteligência de Mercado | ALTA | Cobertura integrada de 4 cases (Jul/2022 – Ago/2024); evolução estratégica clara |
 | **Polímeros** | 1/1 | Polímeros | ALTA | Cobertura completa; rotas de processamento mapeadas; conecta a produtos comerciais |
 | **Inteligencia de Mercado (MGg3)** | 2/2 | Inteligencia-de-Mercado-Grafeno-2026 + Case NanoXplore | ALTA | Relatório consolidado global + case benchmark NanoXplore; incorporados Mai/2026 |
-| **Controles operacionais de lotes** | 6/6 | Controle operacional de lotes | ALTA | Produção, volumes, processos, documentos e balanços globais XLSX/PPTX; 20210720Pa rastreado |
+| **Descricao da Tecnologia MGg2** | 10/10 | Know-how, mapa, parametros, matrizes, registros Anexo A, Relatorio Anual 2020-2021 e Volume V SSMA | ALTA/CONTROLADA | Inclui registros documentais do Anexo A, DOCX anual, PDF Volume V SSMA e separacao entre desenvolvimento, producao, SSMA/OPEX e compliance. |
+| **Controles operacionais de lotes** | 7/7 | Controle operacional de lotes | ALTA/CONTROLADA | Produção, volumes, processos, documentos, balanços XLSX/PPTX e Anexo A BMG; 20210720Pa rastreado |
 | **Registro tacito raiz** | 1/1 | Historico MGgrafeno-Gerdau Graphene | INTERNA/CONTROLADA | Relato pessoal padronizado; fatos sensiveis bloqueados para uso externo sem validação |
-| **TOTAL** | **17/17** | **12 notas-resumo/registros** | **100% ALTA/CONTROLADA** | Todas as fontes estão mapeadas, extraídas e resumidas |
+| **TOTAL** | **38/38** | **36 notas-resumo/registros** | **100% ALTA/CONTROLADA** | Todas as fontes estão mapeadas, extraídas ou preservadas como evidencia primaria |
 
 ### Status de Extração por Tipo
 
 | Tipo | Quantidade | Extraído | Nota-Resumo | Observação |
 |------|-----------|----------|------------|-----------|
-| PDF (Relatórios/Apresentações) | 6 | 6/6 | 6/6 | 100% coberto |
+| PDF (Relatórios/Apresentações) | 11 | 11/11 | 11/11 | Inclui quatro PDFs do Anexo A e o Volume V SSMA preservados e registrados |
 | PPTX (Apresentações) | 1 | 1/1 | 1/1 | 100% coberto |
 | XLSX/PPTX operacionais de lotes | 6 | 6/6 | 6/6 | Controles de produção, volume, processo, documentação e balanço de massa |
-| DOCX externo (Relato tacito) | 1 | 1/1 | 1/1 | Padronizado como nota tacita; uso externo restrito |
-| MD (Notas-Resumo) | 5 | 5/5 | 5/5 | 100% profissional |
-| **TOTAL** | **19** | **19/19** | **19/19** | **100% COMPLETO/CONTROLADO** |
+| DOCX externo/tecnico | 2 | 2/2 | 2/2 | Inclui relato tacito e Relatorio Anual 2020-2021; uso externo restrito |
+| MD (Notas-Resumo) | 21 | 21/21 | 21/21 | Inclui registros documentais e notas canonicas MGg2 |
+| **TOTAL** | **38** | **38/38** | **36/38** | **100% COMPLETO/CONTROLADO** |
 
 ---
 
@@ -296,13 +307,13 @@ Pasta `Products/MGg3/Inteligencia de Mercado/`. Documentos de inteligência de m
 
 - [x] Inventário mestre criado em `/Products/MGg3/INVENTÁRIO-MESTRE.md`
 - [x] Tabela fonte-por-fonte com: caminho, tipo, data, confidencialidade, status, nota-resumo, temas, métricas, lacunas, ações
-- [x] 25 documentos/registros mapeados e 100% com cobertura de nota-resumo ou registro consultavel
+- [x] 37 documentos/registros mapeados; 35 com nota-resumo/registro consultavel e anexos preservados como evidencia primaria
 - [x] Documentos com cobertura e documentos sem cobertura claramente identificados
 - [x] Anexos originais preservados como evidência primária
 - [x] Estrutura pronta para rastreamento periódico e atualizações
 
-**Próxima ação:** Mariano extrai métricas econômicas de custo/kg, rendimento por etapa, consumo de insumos e representatividade do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
+**Próxima ação:** Mariano extrai métricas econômicas de custo/kg, rendimento por etapa, consumo de insumos e representatividade do lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
 
 ---
 
-*Inventário compilado por Cacilda em 2026-05-07 | Atualizado 2026-05-20 (Cacilda) — controles operacionais de lotes/processos/volumes/balanços incorporados em ALT-254; lote 20210720Pa rastreado | Total de fontes: 25 | Cobertura: 100% | Consultabilidade: ALTA/CONTROLADA*
+*Inventário compilado por Cacilda em 2026-05-07 | Atualizado 2026-05-21 (Cacilda) — Anexo A incorporado em ALT-301 e Relatorio Anual 2020-2021 incorporado em ALT-308; P25/Silverson separado como desenvolvimento e P100/KonMix 100 g/L 5 h mantido como baseline produtivo | Total de fontes: 37 | Cobertura: 100% | Consultabilidade: ALTA/CONTROLADA*

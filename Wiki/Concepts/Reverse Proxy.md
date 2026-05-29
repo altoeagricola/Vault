@@ -2,7 +2,7 @@
 title: Reverse Proxy
 type: Concept
 sources:
-  - "[[Products/InfraKeeper/InfraKeeper]]"
+  - "InfraKeeper"
 related:
   - "[[Caddy]]"
   - "[[OPNsense]]"

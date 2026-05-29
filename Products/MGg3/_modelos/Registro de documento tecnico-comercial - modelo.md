@@ -1,11 +1,12 @@
 ---
 titulo:
 tipo: registro-documento
+produto: MGg3
 fonte_arquivo:
 organizacao:
 tipo_documento:
 data_documento:
-confidencialidade:
+confidencialidade: interno
 status_extracao: pendente
 confianca_extracao:
 temas: []
@@ -16,7 +17,6 @@ riscos_uso: []
 links_relacionados: []
 atualizado:
 ---
-
 # {{titulo}}
 
 ## Identificacao

@@ -31,7 +31,7 @@ confidence: high
 ## Fontes e Referências
 
 ### Fontes Primárias Internas
-- **[1]** Anotações da reunião de 15/05/2026 — Rodrigo Altoé e Flávio Plentz (*Reuniao Max Bath 15Maio2026.docx*, disponível no VAULT/Relatorios VAULT/)
+- **[1]** Anotações da reunião de 15/05/2026 — Rodrigo Altoé e Flávio Plentz (*Reuniao Max Barth 15Maio2026.docx*, disponível no VAULT/Relatorios VAULT/)
 - **[2]** Relatório Auditor — Inteligência Corporativa, Estrutura Societária e Ecossistema de Investimentos (*Gemini - Relatório Perfil de Investidores.docx*, disponível no VAULT/Relatorios VAULT/)
 - **[3]** [[2026-05-15_Perfis-Investidores-MGgrafeno]] — primeira análise de perfis (Eloi, 16/05/2026)
 - **[4]** Informação verbal da reunião de 15/05/2026, registrada por Rodrigo Altoé em [ALT-222](mention://issue/4456e6ed-f5c5-461b-9cc4-8e713f8d3fb1) (18/05/2026): Eduardo Drummond Naves em processo de aquisição da Megacabos; perguntas técnicas sobre recobrimento marítimo anticorrosivo e ligas cobre-grafeno
@@ -91,9 +91,9 @@ Para facilitar a leitura por parte de interlocutores fora do universo financeiro
 
 ## 1. Contexto da Aproximação
 
-A reunião de 15 de maio de 2026, que se estendeu por mais de três horas (18:00–21:21), foi viabilizada por Max Bath — amigo de infância de Adelina Pinheiro — que fez contato espontâneo manifestando interesse em compreender o estado e o potencial da tecnologia MGgrafeno [1]. A iniciativa partiu do lado dos investidores por via de relacionamento pessoal preexistente, o que confere à aproximação um caráter de interesse genuíno e estruturado — não de prospecção fria.
+A reunião de 15 de maio de 2026, que se estendeu por mais de três horas (18:00–21:21), foi viabilizada por Max Barth — amigo de infância de Adelina Pinheiro — que fez contato espontâneo manifestando interesse em compreender o estado e o potencial da tecnologia MGgrafeno [1]. A iniciativa partiu do lado dos investidores por via de relacionamento pessoal preexistente, o que confere à aproximação um caráter de interesse genuíno e estruturado — não de prospecção fria.
 
-Do lado do projeto, estiveram presentes Adelina Pinheiro, Flávio Plentz e Rodrigo Altoé. Pelo grupo investidor, compareceram Max Bath, Iwan Sabatella, Eduardo Drummond Naves e Pedro Henrique Fusco — representantes do consórcio **IFHAN** [3].
+Do lado do projeto, estiveram presentes Adelina Pinheiro, Flávio Plentz e Rodrigo Altoé. Pelo grupo investidor, compareceram Max Barth, Iwan Sabatella, Eduardo Drummond Naves e Pedro Henrique Fusco — representantes do consórcio **IFHAN** [3].
 
 A tecnologia apresentada centra-se na produção de grafeno em fase líquida a partir de planta piloto modular disponível no CDTN/UFMG — descomissionada desde fevereiro de 2022, com editais de licenciamento disponíveis e sem interessados até o momento [1].
 
@@ -147,6 +147,8 @@ Conselheiro estratégico sênior e principal articulador do grupo, com vínculos
 
 Holding central do grupo, com CNPJ 59.413.656/0001-89. Centraliza as participações de **Alexandre Carvalho Barth** e **Pedro Henrique Fusco** nas demais empresas do ecossistema — The Energy Brasil e CES Clean Energy Solutions. É a estrutura que consolida juridicamente o consórcio IFHAN como entidade legal reconhecida [5].
 
+Registro cadastral normalizado no Vault: [[IFHAN Participacoes LTDA]]. O acordo de confidencialidade assinado da frente MGgrafeno/IFHAN foi registrado em [[2026-05-26_Acordo-Confidencialidade-MGgrafeno-IFHAN]] sem arquivamento do PDF, conforme orientação do usuário.
+
 ### 3.2 The Energy Brasil LTDA
 
 Veículo operacional central do grupo, responsável pela concepção, engenharia, gestão e entrega de projetos de energia renovável. Com mais de 12 mil projetos instalados [5], atua tanto como franqueadora de sistemas de geração distribuída quanto em usinas de grande porte (*Utility Scale*). O **QSA** formal é composto por **Pedro Henrique Fusco** e **Alexandre Carvalho Barth**; Max Barth exerce governança técnica externa [2][5].
@@ -160,6 +162,8 @@ Empreendimento industrial controlado por **Pedro Henrique Fusco**, dedicado ao d
 ### 3.4 CES — Clean Energy Solutions LTDA
 
 **SPV** voltada ao mercado externo, coadministrada por **Pedro Henrique Fusco** e por **Ritchie Guder** — este co-fundador da Compass Energia (vendida à Cosan por R$ 95 milhões), com expertise no Mercado Livre de Energia [5]. A CES tem como missão a captação de aportes internacionais de **Private Equity** para portfólios greenfield, funcionando como a janela do grupo para fundos de infraestrutura globais.
+
+Registro cadastral normalizado no Vault: [[CES Clean Energy Solutions LTDA]].
 
 ### 3.5 Terrara Intermediação de Negócios e Serviços LTDA
 
@@ -350,7 +354,7 @@ Com base nas evidências coletadas, o grau de apetite do grupo IFHAN pelo MGgraf
 
 7. **Liquidez confirmada:** A aquisição da Megacabos com R$ 50M de investimento em modernização demonstra que o grupo possui liquidez real e disposição para M&A industrial neste momento [5].
 
-8. **Projeção para o segundo ano:** Max Bath mencionou R$ 10 milhões para o primeiro ano com ressalva de necessidade de plano para o segundo ano [1] — indicando comprometimento de longo prazo, não aporte pontual.
+8. **Projeção para o segundo ano:** Max Barth mencionou R$ 10 milhões para o primeiro ano com ressalva de necessidade de plano para o segundo ano [1] — indicando comprometimento de longo prazo, não aporte pontual.
 
 ---
 

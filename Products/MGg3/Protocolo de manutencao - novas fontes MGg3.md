@@ -3,7 +3,7 @@ titulo: Protocolo de manutencao - novas fontes MGg3
 tipo: protocolo-operacional
 produto: MGg3
 status: aprovado
-atualizado: 2026-05-07
+atualizado: 2026-05-20
 responsaveis:
   - Carmen
   - Cacilda
@@ -14,11 +14,42 @@ estados_controle:
   - precisa_confirmar
   - obsoleto
   - confidencial_restrito
+confidencialidade: interno
 ---
-
 # Protocolo de manutencao - novas fontes MGg3
 
 Objetivo: toda nova fonte adicionada a `Products/MGg3` deve virar registro operacional antes de ser usada como base de consulta, argumento comercial ou leitura estrategica. O anexo continua sendo evidencia primaria; a nota documental passa a ser a interface normal de trabalho.
+
+## Roteamento MGg3 x Projects/MGgrafeno
+
+Antes de arquivar qualquer documento novo de MGgrafeno, decidir se ele e **conhecimento tecnico-historico do produto** ou **execucao viva do projeto**.
+
+### Vai para `Products/MGg3/MGg2/`
+
+Use `Products/MGg3/MGg2/` quando a fonte documentar conhecimento tecnico, historico, institucional ou economico herdado da fase MGgrafeno/MGg2:
+
+- editais, anexos, alteracoes e informacoes de licenciamento UFMG/CDTN que sejam fonte primaria historica;
+- modelos de custo P100/P500, planilhas de CAPEX/OPEX, saneamentos de custo e premissas tecnicas;
+- historico institucional da tecnologia, planta CDTN, validacoes externas, fornecedores e players de mercado;
+- documentos que servem como evidencia, comparativo, baseline tecnico ou memoria de origem da tecnologia.
+
+Regra pratica: se o documento responde "de onde veio a tecnologia, quais evidencias existem, quais custos e premissas herdadas temos?", ele pertence a `Products/MGg3/MGg2/`.
+
+### Vai para `Projects/MGgrafeno/<subpasta>/`
+
+Use `Projects/MGgrafeno/` quando a fonte orientar execucao atual da startup MGgrafeno:
+
+- `Licenciamento/`: tratativas, checklist, pendencias, comunicacoes, cronogramas e decisoes atuais sobre licenciamento UFMG/CDTN;
+- `Planta Piloto/`: plano de recomissionamento, operacao, infraestrutura, seguranca, fornecedores de equipamento, capacidade e verificacoes fisicas atuais;
+- `Parceiros/`: relacionamento, alinhamentos, responsabilidades e proximos passos com UFMG, CDTN/CNEN, Flavio Plentz, Adelina Pinheiro e outros atores do projeto;
+- `Plano de Negocios/`: tese executiva, proposta a investidores, modelo financeiro, estrategia comercial, go-to-market e materiais de captacao;
+- `Investidores/`: perfis, relatorios, reunioes, perguntas, objeções e aderencia de investidores.
+
+Regra pratica: se o documento responde "o que vamos fazer agora, com quem, em que prazo e para qual decisao executiva?", ele pertence a `Projects/MGgrafeno/`.
+
+### Duplicidade controlada
+
+Nao duplicar anexo primario entre `Products` e `Projects`. Quando um documento tecnico-historico sustentar uma frente executiva, manter o anexo e o registro consultavel em `Products/MGg3/MGg2/` e criar no projeto apenas uma nota operacional com link para a fonte. Quando um documento de projeto gerar aprendizado tecnico reutilizavel, registrar a decisao em `Projects/MGgrafeno/` e criar ou atualizar a sintese correspondente em `Products/MGg3`.
 
 ## Checklist: entrada de nova fonte MGg3
 

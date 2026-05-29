@@ -1,6 +1,7 @@
 ---
 titulo: Informativo - Licenciamento de Pacote Tecnológico UFMG/CDTN
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG2-LICINFO
 fonte_arquivo: "UFMG e CDTN - Licenciamento de Pacote Tecnológico.pdf"
 caminho_fonte: "Products/MGg3/MGg2/Editais/UFMG e CDTN - Licenciamento de Pacote Tecnológico.pdf"
@@ -34,7 +35,6 @@ links_relacionados:
   - "[[CDTN]]"
 atualizado: 2026-05-07
 ---
-
 # MGG2-LICINFO: Informativo - Licenciamento de Pacote Tecnológico UFMG/CDTN
 
 ## Identificacao

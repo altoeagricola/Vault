@@ -9,7 +9,7 @@ fonte: Balanço Global.xlsx
 periodo_coberto: 2021-01 a 2022-02
 lote_referencia: 20210720Pa
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-21
 tags:
   - MGg3
   - MGg2
@@ -31,7 +31,7 @@ Planilha de balanço de massa por lote, cobrindo de `20210118Pa` a `20220221Pa`.
 
 ## Lote 20210720Pa
 
-A aba `20210720Pa` é a fonte estruturada do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], definido como referência de custos.
+A aba `20210720Pa` é a fonte estruturada do lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], definido como referência de custos.
 
 | Item | Valor |
 |---|---:|
@@ -66,10 +66,20 @@ A aba `20210720Pa` é a fonte estruturada do lote [[Projects/MGgrafeno/Planta Pi
 - Consumo de água, aditivo e grafite por lote.
 - Massa seca produzida por fração.
 - Rendimento por fração e perda de sólidos.
-- Base direta para custo/kg do lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], desde que Mariano aplique preços de insumos, energia, HH e descarte.
+- Base direta para custo/kg do lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], desde que Mariano aplique preços de insumos, energia, HH e descarte.
 
 ## Lacunas
 
 - Não há custo monetário, tempo de mão de obra, energia ou preço unitário.
 - O campo de concentração calculada (95,502 g/L) difere do rótulo operacional 100 g/L; tratar como diferença entre nominal e calculado.
 - A pasta externa citava `Balanco_Massa_Global.pdf`; nesta trilha foram ingeridos o XLSX/PPTX disponíveis em `Controle_de_lotes`.
+
+## Complemento Anexo A PDF - ALT-301
+
+| Categoria | Registro |
+|---|---|
+| Dado observado | [[MGG2-ANEXOA-BMG_Balanco-Massa-Global-PDF]] confirma o mesmo eixo do lote `20210720Pa` em fonte PDF auditavel: Campanha Duda, KonMix, 5 h, NH4OH, separacao estatica + discos. |
+| Premissa tecnica | O XLSX continua sendo a fonte preferida para calculos; o PDF e a fonte de apresentacao/rastreabilidade por pagina. |
+| Inferencia | O ganho defensavel da rota 100 g/L KonMix e capacidade temporal de conversao, mantendo cuidado com rendimento percentual. |
+| Lacuna | Ainda faltam energia, HH, agua de lavagem, descarte, CQ e acabamento por produto para TEA/OPEX. |
+| Conflito | Preservar `95,502 g/L` como concentracao calculada do XLSX e `100 g/L` como rotulo operacional nominal. |

@@ -4,8 +4,8 @@ tipo: padrao-operacional
 produto: MGg3
 status: aprovado
 atualizado: 2026-05-07
+confidencialidade: interno
 ---
-
 # Padrao operacional - registros consultaveis MGg3
 
 Objetivo: cada PDF, PPTX ou anexo deve funcionar como evidencia primaria. A interface normal de consulta deve ser a nota em Markdown, com dados, contexto, metricas, riscos e links suficientes para responder perguntas recorrentes sem abrir o arquivo original.
@@ -27,7 +27,13 @@ Objetivo: cada PDF, PPTX ou anexo deve funcionar como evidencia primaria. A inte
    - Exemplo: `Products/MGg3/Gerdau Graphene/Concretos/CM018-Atualização-dez2024.md`.
    - Funcao: transformar um anexo especifico em registro consultavel, incluindo metadados, resumo estruturado, metricas, evidencias, riscos e perguntas abertas.
 
-4. **Sintese por tema**
+4. **Nota tacita / perspectiva pessoal**
+   - Caminho recomendado: raiz do produto quando o relato cruza varias organizacoes, ou pasta tematica quando o relato se restringe a uma frente documental.
+   - Exemplo: `Products/MGg3/Historico MGgrafeno-Gerdau Graphene.md`.
+   - Funcao: preservar memoria tacita, contexto de bastidor, leitura pessoal de atores e hipoteses operacionais que nao aparecem integralmente em documentos institucionais.
+   - Regra de uso: nao tratar como fonte institucional nem como evidencia externa sem validacao documental. Juizos de valor, atribuicoes de motivacao, avaliacoes culturais e alegacoes sensiveis devem ficar marcados como perspectiva do autor.
+
+5. **Sintese por tema**
    - Caminhos atuais a manter e evoluir:
      - `Products/MGg3/Gerdau Graphene/Apresentacoes/Apresentacoes.md`;
      - `Products/MGg3/Gerdau Graphene/Concretos/Concretos.md`;
@@ -35,7 +41,7 @@ Objetivo: cada PDF, PPTX ou anexo deve funcionar como evidencia primaria. A inte
      - `Products/MGg3/Gerdau Graphene/Polimeros/Polimeros.md`.
    - Funcao: responder perguntas por dominio, comparar documentos do tema e apontar conclusoes para MGg3.
 
-5. **Mapa estrategico MGg3**
+6. **Mapa estrategico MGg3**
    - Caminho previsto: `Products/MGg3/Mapa estrategico MGg3.md`.
    - Funcao: sintetizar implicacoes para estrategia, priorizacao de aplicacoes, fornecedores, riscos de adoção, lacunas de validacao e proximos experimentos.
 
@@ -145,3 +151,36 @@ Opcionais ate haver acervo tecnico/comercial suficiente:
 - `riscos_uso`
 
 Regra de maturidade: assim que MGg2 tiver documento tecnico, proposta comercial, especificacao de produto ou evidencia quantitativa, os campos opcionais passam a ser obrigatorios naquele registro.
+
+### Notas tacitas
+
+Obrigatorios:
+
+- `fonte_arquivo`
+- `autor_relato`
+- `organizacao`
+- `tipo_documento`
+- `natureza`
+- `periodo_coberto`
+- `confidencialidade`
+- `status_extracao`
+- `confianca_extracao`
+- `temas`
+- `riscos_uso`
+- `links_relacionados`
+- `atualizado`
+
+Valores recomendados:
+
+- `tipo`: `nota-tacita`
+- `tipo_documento`: relato pessoal tacito, entrevista, memoria operacional, leitura de bastidor.
+- `natureza`: perspectiva pessoal, memoria tacita, hipotese operacional, relato interno.
+- `status_extracao`: completo, parcial, revisao-necessaria.
+- `confianca_extracao`: alta quando a transcricao/organizacao do relato estiver estabilizada; media quando houver fatos sensiveis sem validacao documental; baixa quando a nota depender de memoria nao corroborada.
+
+Regras adicionais:
+
+- separar fatos documentaveis, inferencias e opinioes do autor;
+- marcar explicitamente trechos sensiveis que nao podem sair em comunicacao externa;
+- preferir links para registros documentais ja existentes quando houver suporte cruzado;
+- quando a nota duplicar historico institucional, manter a nota tacita como complementar, nao como substituta da fonte documental.

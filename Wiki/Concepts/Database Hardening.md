@@ -2,7 +2,7 @@
 title: Database Hardening
 type: Concept
 sources:
-  - "[[Products/InfraKeeper/InfraKeeper]]"
+  - "InfraKeeper"
 related:
   - "[[PostgreSQL]]"
   - "[[Infrastructure as Code]]"

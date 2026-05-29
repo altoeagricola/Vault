@@ -13,5 +13,12 @@
   "strictLineBreaks": false,
   "propertiesInDocument": "visible",
   "showInlineTitle": true,
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 owner: Agent
-updated: 2026-05-21
+updated: 2026-05-27
 ---
 
 <!-- FORMAT: Each entry is a row. Agent queries this file with Grep to find relevant pages. -->
@@ -79,6 +79,12 @@ Root map: [[Wiki/Wiki.md|Wiki]]
 | Wiki/Concepts/Proagro.md | Concept | Proagro | credit, insurance, rural risk, MCR | MCR | medium | 2026-05-18 |
 | Wiki/Concepts/InvestAgro.md | Concept | InvestAgro | credit, rural investment, MCR | MCR | medium | 2026-05-18 |
 | Wiki/Concepts/LCA.md | Concept | LCA | agribusiness credit, funding source, MCR | MCR | medium | 2026-05-18 |
+| Wiki/Concepts/Pagamento por Serviços Ambientais.md | Concept | Pagamento por Serviços Ambientais | PSA, serviços ambientais, conservação, restauração, crédito rural verde | ALT-386, ALT-388, ALT-389 | low | 2026-05-27 |
+| Wiki/Concepts/Mata Atlântica.md | Concept | Mata Atlântica | bioma, biodiversidade, restauração, PSA, Espírito Santo | ALT-386, ALT-388, ALT-389 | low | 2026-05-27 |
+| Wiki/Concepts/Cadastro Ambiental Rural.md | Concept | Cadastro Ambiental Rural | CAR, SICAR, regularidade ambiental, crédito rural, PSA | ALT-386, ALT-388, ALT-389 | low | 2026-05-27 |
+| Wiki/Concepts/ICMBio-PAN.md | Concept | ICMBio-PAN | ICMBio, PAN, polinizadores, biodiversidade, camada espacial | ALT-386, ALT-388, ALT-389 | low | 2026-05-27 |
+| Wiki/Programas/Estaduais/ES/Programa Reflorestar (ES).md | Program | Programa Reflorestar (ES) | PSA, Reflorestar, Espírito Santo, programa estadual, restauração | ALT-386, ALT-388, ALT-389 | medium | 2026-05-27 |
+| Wiki/Programas/Estaduais/ES/Reflorestar — Bônus Polinizadores.md | ProgramBrief | Reflorestar — Bônus de 20% para Polinizadores | PSA, Reflorestar, polinizadores, bônus 20%, Espírito Santo, crédito rural verde, glossário, case Sergio Altoé | ALT-386, ALT-388, ALT-389, ALT-390, ALT-392 | high | 2026-05-27 |
 | Wiki/Entities/Baixo_Guandu.md | Entity | Baixo Guandu | Espírito Santo, Natcup, automation, agriculture | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
 | Wiki/Entities/Incapé.md | Entity | Incapé | research, conilon, coffee, Espírito Santo | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |
 | Wiki/Entities/Marilândia.md | Entity | Marilândia | conilon, coffee research, Espírito Santo | Culturas_Campo_Conilon_Socol | high | 2026-05-06 |

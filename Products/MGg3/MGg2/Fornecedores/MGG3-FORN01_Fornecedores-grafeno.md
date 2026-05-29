@@ -1,6 +1,7 @@
 ---
 titulo: Base de Fornecedores de Grafeno - MGg3
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG3-FORN01
 fonte_arquivo: "Fornecedores de Grafeno_Editado.xlsx"
 caminho_fonte: "Products/MGg3/MGg2/Fornecedores/Fornecedores de Grafeno_Editado.xlsx"
@@ -38,6 +39,10 @@ riscos_uso:
   - players podem ter mudado nomes, consolidacoes ou saidas de mercado
 links_relacionados:
   - "[[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]"
+  - "[[Benchmark internacional - fornecedores de grafeno]]"
+  - "[[Custos de producao P100 P500]]"
+  - "[[Saneamento custos P100 P500]]"
+  - "[[Modelo de negocios MGgrafeno - orquestracao aplicada]]"
   - "[[Ecossistema brasileiro de grafeno]]"
   - "[[Validacao externa - players de mercado MGg3.0]]"
   - "[[Gerdau Graphene - Empresa]]"
@@ -46,11 +51,15 @@ links_relacionados:
   - "[[First Graphene]]"
   - "[[Levidian]]"
   - "[[Versarien]]"
+  - "[[Thomas Swan]]"
+  - "[[Universal Matter]]"
+  - "[[Nacional de Grafite]]"
+  - "[[Carbon Rivers]]"
+  - "[[MstnLand]]"
   - "[[Polystell]]"
   - "[[Colorfix]]"
 atualizado: 2026-05-07
 ---
-
 # MGG3-FORN01: Base de Fornecedores de Grafeno - MGg3
 
 ## Identificacao

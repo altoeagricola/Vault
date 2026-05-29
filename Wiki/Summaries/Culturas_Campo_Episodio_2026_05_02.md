@@ -1,5 +1,6 @@
 ---
 title: "Culturas do Campo — Episódio de 02/05/2026"
+type: Summary
 description: "Episódio sobre pesquisa de café conilon, patrimônio cultural do Socol e automação agrícola no Espírito Santo"
 sources:
   - "Sources/Transcripts/Culturas_Campo_Conilon_Socol.md"
@@ -12,6 +13,12 @@ tags:
   - cultural-heritage
   - technology
   - espírito-santo
+related:
+  - "[[Conilon]]"
+  - "[[Socol]]"
+  - "[[Natcup]]"
+  - "[[Baixo_Guandu|Baixo Guandu]]"
+  - "[[Melhoramento_Genetico|Melhoramento Genético em Café]]"
 ---
 
 ## Resumo
@@ -29,7 +36,7 @@ Episódio da série "Culturas do Campo" (TVE Espírito Santo, 02/05/2026) que ex
 - 2026: >100 sacas/hectare
 - Taxa de evolução considerada inédita mundialmente
 
-O episódio detalha o processo de [[Melhoramento Genetico Café|melhoramento genético]], enfatizando:
+O episódio detalha o processo de [[Melhoramento_Genetico|melhoramento genético]], enfatizando:
 - Seleção clonal e cruzamentos direcionados
 - Identificação de características desejáveis (tolerância à seca, eficiência hídrica)
 - Testes multi-regionais antes de recomendação oficial

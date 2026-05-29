@@ -1,0 +1,191 @@
+(1) - Módulo de Conversão.
+(2) - Módulo de Separação.
+(3) - Módulo de Acabamento.
+(4) - Módulo de Tratamento de Resíduos.
+(5) - Suspensão de Partida.
+(6) - Suspensão Mãe "c31".
+(7) - Tanque de Conversão.
+(8) - Sistema de Agitação/Homogeneização Interna Giratório com Hélice Hydrofoil 1.
+(9) - Bomba Peristáltica 1.
+(10) - Bomba Peristáltica 2.
+(11) - Tanque Pulmão 1.
+(12) - Sistema de Agitação/Homogeneização Interna Giratório com Hélice Hydrofoil 2.
+(13) - Bomba Peristáltica 3.
+(14) - Centrífuga Decanter.
+(15) - Nanoplacas de Grafite (NG) d02.
+(16) - Suspensão Intermediária d01.
+(17) - Tanque Pulmão 2.
+(18) - Sistema de Agitação/Homogeneização Interna Giratório com Hélice Hydrofoil 3.
+(19) - Bomba Helicoildal 1.
+(20) - Centrífuga de Discos.
+(21) - Grafeno de poucas Camadas (GPC) d03.
+(22) - Nanoplacas de Grafeno (NPG) d04.
+(23) - Liofilizador.
+(24) - Nanoplacas de Grafeno (NPG) secas por liofilização.
+(25) - Tanque de armazenamento do GPC d03.
+(26) - Transferência para o módulo de acabamento spray dryer.
+(27) - Spay Dryer.
+(28) - Grafeno de Poucas Camadas (GPC) seco por spray dryer.
+(29) - Grafeno de Poucas Camadas (GPC) seco por Liofilização.
+(30) - Nanoplacas de Grafite (NG) secas por liofilização.
+(31) - Módulo de Filtração Tangencial.
+(32) - Grafeno de poucas camadas concentrado GPC-C.
+(33) - Grafeno de poucas camadas tratado por diafiltração GPC-BF.
+(34) - Resfriador/Chiller ou sistema de água gelada central.
+(35) - Mangueiras Plásticas Entrelaçadas da entrada de Refrigeração.
+(36) - Mangueiras Plásticas Entrelaçadas da saída de Refrigeração.
+(37) - Sensor de Temperatura da linha de refrigeração.
+(38a) - Válvula Esfera da saída da alimentação de água gelada.
+(38b) - Válvula Esfera do retorno de água gelada.
+(39) - Sensor de pH.
+(40) - Sensor de Condutividade.
+(41) - Sensor de Temperatura.
+(42) - Bomba Peristáltica de amostragem.
+(43) - Cisalhador.
+(44) - Mangueira entrelaçada de conexão do Cisalhador à entrada do tanque.
+(45) - Mangueira entrelaçada de conexão do Cisalhador à saída do tanque.
+(46) - Entrada do Cisalhador.
+(47) - Sensor de Pressão.
+(48) - Sensor de Temperatura.
+(49) - Saída do Cisalhador.
+(50) - Manifold de Instrumentação do Cisalhador.
+(51) - Sensor de Fluxo do Manifold do Cisalhador.
+(52) - Sensor de Pressão do Manifold do Cisalhador.
+(53) - Sensor de Temperatura do Manifold do Cisalhador.
+(54) - Saída Inferior do Tanque de Conversão.
+(55) - Válvula esfera da saída inferior do tanque de conversão.
+(56) - Válvula de 3 vias.
+(57) - Válvula esfera 1 da linha de descarte.
+(58) - Válvula de controle de fluxo.
+(59) - Válvula esfera na estrada de material do tanque de conversão.
+(60) - Funil de Introdução de Material.
+(61) - Válvula Esfera da entrada da Camisa de Circulação de Água.
+(62) - Portas Laterais de Conexão dos Sensores.
+(63) - Mangueiras do Sistema de Amostragem.
+(64) - Escotilha do tanque de conversão.
+(65) - Ponto de Conexão de Entrada de Material.
+(66) - Ponto de Conexão de Saída de Material.
+(67) - Hastes com as Pás Tipo Hidrofoil.
+(68a) - Flanges de entrada da Camisa de Refrigeração do Tanque de Conversão.
+(68b) - Flanges de saída da Camisa de Refrigeração do Tanque de Conversão.
+(69) - Conexões de Refrigeração do Cisalhador.
+(70) - Tanque intermediário de coleta da suspensão s01.
+(71) - Saída de Material do Tanque Pulmão 1.
+(72) - Saída de Material do Tanque intermediário de Coleta da suspensão s01.
+(73) - Sistema de agitação dos tanques pulmão 1/2.
+(74) - Câmara de centrifugação da centrífuga decanter.
+(75) - Alimentação da centrífuga decanter.
+(76) - Saída de líquido centrifugado da decanter.
+(77) - Refugo da decanter.
+(78) - Refugo da decanter.
+(79) - Saída de material sólido da decanter.
+(80) - Válvula esfera de saída de material do tanque pulmão 1.
+(81) - Mangueira de alimentação da bomba peristáltica.
+(82) - Mangueira de alimentação da decanter.
+(83) - Mangueira de coleta de material centrifugado.
+(84) - Recipiente para recolher o refugo.
+(85) - Recipiente para recolher o material sólido.
+(86) - Painel de controle da agitação do tanque pulmão 1.
+(87) - Entrada de material da centrífuga de discos.
+(88) - Saída de material centrifugado da centrífuga de discos.
+(89) - Conjunto de discos separadores.
+(90) - Tambor externo da centrífuga de discos.
+(91) - Prato separador.
+(92) - Anel de vedação do tambor.
+(93) - Manípulo 1.
+(94) - Chave de Corrente.
+(95) - Tampa da centrífuga.
+(96) - Parafusos para fixação da tampa da centrífuga.
+(97) - Manípulo 2.
+(98) - Bujão de escoamento.
+(99) - Entrada de material da centrifuga de discos com Válvula.
+(100) - Válvula de pressão da centrífuga de discos.
+(101) - Manômetro.
+(102) - Entrada de material da bomba helicoidal.
+(103) - Saída de material da bomba helicoidal.
+(104) - Painel elétrico do carrinho de centrifugação por discos.
+(105) - Tomadas de alimentação.
+(106) - Saída de material centrifugado.
+(107) - Conjunto de centrifugação por discos.
+(108) - Mangueira de transbordo.
+(109) - Recipiente para recolher o transbordo.
+(110) - Painel de controle do liofilizador.
+(111) - Campânula.
+(112) - Estante com bandejas.
+(113) - Dreno de água.
+(114) - Bomba de vácuo.
+(115) - Anel de Vedação.
+(116) - Topo da Campânula.
+(117) - Mangueira de vácuo.
+(118) - Freezer.
+(119) - Bandeja com suspensão a ser congelada.
+(120) - Chave Geral do spray dryer.
+(121) - Controle do aquecimento do spray dryer.
+(122) - Controle do bombeamento de spray dryer.
+(123) - Câmara de secagem do spray dryer.
+(124) - Ciclone.
+(125) - Rotâmetro.
+(126) - Controle da vazão do soprador.
+(127a) - Coleta de material seco da câmara de secagem.
+(127b) - Coleta de material seco do ciclone.
+(128) - Aspirador portátil.
+(129) - Braço articulado do aspirador portátil.
+(130) - Flange de acoplamento da câmara de secagem.
+(131) - Parafusos de fixação da câmara de secagem.
+(132) - Bocal de saída da câmara de secagem do spray dryer.
+(133) - Sensor de temperatura do spray dryer.
+(134) - Anel de aterramento do medidor de temperatura do spray dryer.
+(135) - Conjunto do bico atomizador.
+(136) - Acoplamento do ar comprimido no bico atomizador.
+(137) - Alimentação da suspensão a ser secada.
+(138) - Entrada de fluido de refrigeração/aquecimento.
+(139) - Saída de fluido de refrigeração/aquecimento.
+(140) - Bomba peristáltica do spray dryer.
+(141) - Seção da mangueira de silicone para alimentação da bomba peristáltica do spray dryer.
+(142) - Seção da mangueira de silicone para alimentação do atomizador.
+(143) - Saida de ar do ciclone.
+(144) - Mangueira metálica flexível a saída de ar do ciclone.
+(145) - Filtro de particulados.
+(146) - Módulos de Membrana Oca.
+(147) - Rotâmetro indicador e vazão de alimentação.
+(148) - Rotâmetro indicador de Recirculação Externa.
+(149) - Válvula de alimentação.
+(150) - Válvula de recirculação externa.
+(151) - Filtro Prensa.
+(152) - Tanque 1 de alimentação do filtro
+(153) - Tanque 2 de alimentação o filtro
+(154) - Tanque de coleta SMMA 1.
+(155) - Tanque de coleta SMMA 2.
+(156) - Tanque de coleta SMMA 3.
+(157) - Alimentação e ar comprimido do filtro prensa
+(158) - Placas com as lonas de filtração.
+(159) - Tanques móveis de recolhimento de resíduos líquidos.
+(160) - Pontos de amostragem do sistema de filtação.
+(161) - Cartuxo de filtragem 0,22micra.
+(162) - Cartuxo de filtragem 0,44micra.
+(163) - Cartuxo de leito fixo de 20" de altura.
+(164) - Cartuxo de Carvão Ativado-Celulose em cartuxo de 10".
+(165) - Filtro de 0,22micra em cartuxo de 10".
+(166) - Filtro de deionização com resina mista e capacidade de 500 l/h.
+(167) - Sistema de desinfecção UV.
+(168) - Câmara de controle de condutividade.
+(169) - Medidor de condutividade.
+(170) - Grafite Graflake 9980.
+(171) - Quarteador tipo Jones.
+(172) - Volume dividido no quarteador.
+(173) - Tanque de vidro com 100L.
+(174) - Tubo rígido para coleta do sobrenadante da decantação estática.
+(175) - Mangueira transparente de 3/4" para coleta do sobrenadante da decantação estática.
+(176) - Bomba peristáltica 4.
+(177) - Entrada da bomba peristáltica 4.
+(178) - Saída da bomba peristáltica 4.
+(179) - Tanque de vidro após remoção do sobrenadante.
+(180) - Válvula da Saída do Filtrado para o tanque de coleta SSMA 2 (155).
+(181) - Válvula da Saída do Filtrado para o tanque de coleta SSMA 1 (154).
+(182) - Válvula de entrada do resíduo.
+(183) - Válvula de ar.
+(184) - Bomba pneumática.
+(185) - Linha de entrada do filtro.
+
+
+

@@ -2,7 +2,7 @@
 title: DHCP Static Mapping
 type: Concept
 sources:
-  - "[[Products/InfraKeeper/InfraKeeper]]"
+  - "InfraKeeper"
 related:
   - "[[OPNsense]]"
   - "[[Split-Horizon DNS]]"

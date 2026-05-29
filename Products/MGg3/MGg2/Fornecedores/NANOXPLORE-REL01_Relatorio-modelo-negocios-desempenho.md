@@ -1,6 +1,7 @@
 ---
 titulo: Relatorio NanoXplore - modelo de negocios e desempenho
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: NANOXPLORE-REL01
 fonte_arquivo: "ALT-102 - Relatorio Nanoxplore"
 organizacao: NanoXplore
@@ -46,7 +47,6 @@ links_relacionados:
   - "[[Mapa estrategico MGg3]]"
 atualizado: 2026-05-08
 ---
-
 # NANOXPLORE-REL01: Relatorio NanoXplore - modelo de negocios e desempenho
 
 ## Identificacao

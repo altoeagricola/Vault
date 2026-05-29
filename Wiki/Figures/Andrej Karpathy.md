@@ -3,7 +3,7 @@ title: Andrej Karpathy
 type: Figure
 sources:
   - "[[Karpathy's LLM Wiki The Complete Guide to His Idea File]]"
-  - "[[PKM]]"
+  - "[[Products/PKM/PKM]]"
 related:
   - "[[Personal Knowledge Management]]"
 created: 2026-04-14

@@ -1,20 +1,20 @@
 ---
 tipo_documento: CNH (Carteira Nacional de Habilitação)
 titular: Sergio Jose Altoe
-cpf: "1" # extrair do RG+CPF documento
+cpf: "579.448.737-20"
 orgao_emissor: DETRAN/ES (Departamento de Trânsito - Espírito Santo)
-numero_documento: "a confirmar no PDF"
-data_emissao: "a confirmar no PDF"
-data_vencimento: "CRÍTICO - confirmar validade antes de submissão bancária"
+numero_documento: "00487953036"
+data_emissao: 2022-08-05
+data_vencimento: 2027-08-04
 status_documental: "existente"
-status_conferencia: "precisa_confirmar"
+status_conferencia: "validado_visual"
 fonte_arquivo: "Docs Pessoais/CNH - SERGIO.pdf"
-fonte_ocr: "não processado"
-data_conferencia: 2026-05-05
+fonte_ocr: "PDF sem texto pesquisável; conferência visual em PNG temporário"
+data_conferencia: 2026-05-23
 conferido_por: Cacilda
-confianca_extracao: "baixa - PDF sem OCR"
+confianca_extracao: "alta - leitura visual direta do scan"
 divergencias: "nenhuma identificada até agora"
-pendencias: "validar data de vencimento no original; confirmar se CNH ainda é válida para operação creditícia"
+pendencias: "confirmar aceitação bancária de CNH como documento secundário; conferir dados contra RG/CPF no cadastro final"
 tags:
   - identidade
   - validade-crítica
@@ -40,10 +40,13 @@ Carteira Nacional de Habilitação (CNH) de Sergio Jose Altoe, documento de iden
 | **Titular** | Sergio Jose Altoe | Confirmado |
 | **CPF** | — | Extrair de RG+CPF documento |
 | **Órgão emissor** | DETRAN/ES | Presumido |
-| **Nº documento** | *a confirmar no PDF* | **PENDENTE** |
-| **Data emissão** | *a confirmar no PDF* | **PENDENTE** |
-| **Data vencimento** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
-| **Categoria/classe** | *a confirmar no PDF* | Presumido: AB ou B |
+| **Nº registro** | 00487953036 | Confirmado visualmente |
+| **Documento identidade / emissor** | 283222 SSP ES | Confirmado visualmente |
+| **Data emissão** | 05/08/2022 | Confirmado visualmente |
+| **Data vencimento** | 04/08/2027 | **VÁLIDA em 23/05/2026** |
+| **Categoria/classe** | AB | Confirmado visualmente |
+| **1ª habilitação** | 30/08/1975 | Confirmado visualmente |
+| **Nascimento** | 27/10/1954 — Colatina/ES | Confirmado visualmente |
 
 ---
 
@@ -53,23 +56,19 @@ Carteira Nacional de Habilitação (CNH) de Sergio Jose Altoe, documento de iden
 
 - PDF localizado: ✓ `Docs Pessoais/CNH - SERGIO.pdf`
 - OCR processado: ✗ Não (PDF com scan sem texto pesquisável)
-- Validade confirmada: ✗ Não (exigido antes de submissão)
+- Validade confirmada: ✓ Sim — vence em 04/08/2027
+- Status em 23/05/2026: ✓ Vigente
 
 ### Riscos Identificados
 
-1. **Validade expirada:** Se a CNH venceu, pode impedir operação creditícia ou exigir renovação. MCR e bancos exigem documentação atual.
-2. **Dados ilegíveis:** PDF sem OCR torna impossível confirmar dados sem visualização manual.
-3. **Inconsistência de nome:** Checklist indica "padronizar nome em rodada futura" — nome deve ser conferido contra RG + CPF.
+1. **Validade:** Não há vencimento imediato; CNH válida até 04/08/2027.
+2. **PDF sem OCR:** A conferência foi visual; o arquivo segue sem texto pesquisável.
+3. **Inconsistência de nome:** Nome deve ser conferido contra RG + CPF e cadastro bancário final.
 
 ### Próximas Ações
 
-1. **Visualizar PDF original** e extrair:
-   - Data de vencimento
-   - Número da CNH
-   - Data de emissão
-2. **Validar validade** — se expirada, solicitar renovação
-3. **Conferir nome completo** contra `RG + CPF - SERGIO.pdf` para evitar divergência cadastral
-4. **Processar OCR** (futuro): se necessário para auditoria, gerar texto pesquisável e armazenar em `_registros/`
+1. Conferir CPF e RG contra `RG + CPF - SERGIO.pdf` no fechamento cadastral.
+2. Processar OCR pesquisável apenas se o banco ou auditoria exigir cópia textual.
 
 ---
 
@@ -94,9 +93,9 @@ Carteira Nacional de Habilitação (CNH) de Sergio Jose Altoe, documento de iden
 
 ## Observações de Conferência
 
-**Data:** 2026-05-05  
+**Data:** 2026-05-23  
 **Conferido por:** Cacilda
 
-Conferência inicial por índice de arquivo — não foi possível validar dados do PDF nesta etapa por falta de OCR processado. **Status definido como `precisa_confirmar`** até validação visual de data de vencimento e comparação com RG + CPF para confirmação de titularidade e coerência de nome.
+Conferência visual realizada a partir de renderização PNG temporária do PDF original. CNH em nome de Sergio Jose Altoe, CPF 579.448.737-20, registro 00487953036, categoria AB, emitida em 05/08/2022 e válida até 04/08/2027.
 
-Recomendação: Priorizar validação de validade da CNH antes de protocolo ao banco.
+Recomendação: documento apto quanto à validade em 23/05/2026; manter conferência cruzada com RG/CPF no cadastro bancário.

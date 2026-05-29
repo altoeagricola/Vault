@@ -26,6 +26,12 @@ updated: 2026-05-08
 
 Empresa brasileira fundada em 1990 especializada em masterbatches, concentrados de cor/aditivos e formulações para termoplásticos. Opera sob marca Revora para soluções sustentáveis. Exporta para América Latina, Índia, África do Sul.
 
+### Atualizacao Eloi - 2026-05-08: Revora Poly-G e IA Generativa
+
+- **Revora Poly-G (Abril 2026):** Colorfix lançou comercialmente a linha **Revora Poly-G** com foco em Shrink/Stretch Film. Ganhos de resistência à perfuração são o "argumento matador" para embalagens industriais, validando a rota masterbatch polimérico com grafeno. Este lançamento confirma operacionalidade técnica e disposição comercial.
+- **IA Generativa para Captura de Know-How:** Descoberto que a Polystell está usando IA Generativa para digitalizar e "herdar" conhecimento técnico dos químicos veteranos da [[Gerdau Graphene - Empresa]]. Colorfix, como parceira desta rota, provavelmente está usando abordagem similar para capturar e preservar memória técnica em masterbatch. Isso transforma memória tácita em ativos digitais escaláveis.
+- **Implicação estratégica:** A abordagem de Colorfix de usar IA para captura/preservação de know-how oferece modelo replicável para MGgrafeno em parceria: tecnologia propria herdada pode ser sistematizada digitalmente antes de sofrer degradação ou perda de pessoal.
+
 ---
 
 ## Herança Técnica da Gerdau Graphene - Status INCERTO
@@ -127,3 +133,6 @@ As afirmações sobre transferência técnica/comercial **devem permanecer como 
 - [[Gerdau Graphene - Empresa]]
 - [[Polystell]]
 - [[Ecossistema brasileiro de grafeno]]
+- [[MGG3-FORN01_Fornecedores-grafeno]]
+- [[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]
+- [[Benchmark internacional - fornecedores de grafeno]]

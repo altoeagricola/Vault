@@ -2,7 +2,7 @@
 title: Personal Knowledge Management
 type: Concept
 sources:
-  - "[[PKM]]"
+  - "[[Products/PKM/PKM]]"
 related:
   - "[[Getting Things Done]]"
   - "[[PARA Method]]"

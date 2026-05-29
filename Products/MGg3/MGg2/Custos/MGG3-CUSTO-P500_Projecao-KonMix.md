@@ -1,6 +1,7 @@
 ---
 titulo: Projeção de Custo P500 - KonMix / MGg 3.0
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG3-CUSTO-P500
 fonte_arquivo: "P500_Custo de Produção - 1 turno - KonMix - MGg 3.0.xlsx"
 caminho_fonte: "Products/MGg3/MGg2/Custos/P500_Custo de Produção - 1 turno - KonMix - MGg 3.0.xlsx"
@@ -37,13 +38,15 @@ riscos_uso:
   - riscos de operacao em escala maior nao captados em modelo P100
 links_relacionados:
   - "[[Custos de producao P100 P500]]"
+  - "[[MGG3-FORN01_Fornecedores-grafeno]]"
+  - "[[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]"
+  - "[[Benchmark internacional - fornecedores de grafeno]]"
   - "[[Planta piloto CDTN]]"
   - "[[MGG2-CUSTO-P100_Modelo-custo-planta-piloto]]"
   - "[[Saneamento custos P100 P500]]"
   - "[[MGg2]]"
 atualizado: 2026-05-07
 ---
-
 # MGG3-CUSTO-P500: Projeção de Custo P500 - KonMix / MGg 3.0
 
 ## Identificacao

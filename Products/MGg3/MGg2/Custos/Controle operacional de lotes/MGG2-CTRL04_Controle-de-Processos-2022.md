@@ -39,7 +39,7 @@ Controle técnico de processo da planta piloto. A aba `Planilha2` traz 100 regis
 
 ## Lote 20210720Pa
 
-O lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] aparece no banco de dados, na aba `Planilha2`, nas abas de água/pH/condutividade e em `Rendimentos -P100`.
+O lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] aparece no banco de dados, na aba `Planilha2`, nas abas de água/pH/condutividade e em `Rendimentos -P100`.
 
 | Campo | Valor |
 |---|---|
@@ -76,7 +76,7 @@ O lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Cu
 ## Metricas economicas identificaveis
 
 - Rendimento por fração e capacidade anual indicada são as métricas mais próximas de premissas econômicas.
-- Consumo de grafite, aditivo e base por lote aparece de forma estruturada para o lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
+- Consumo de grafite, aditivo e base por lote aparece de forma estruturada para o lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
 - Vazão de separação e tempo de conversão permitem estimar gargalo operacional, mas ainda faltam consumo energético e HH.
 
 ## Lacunas

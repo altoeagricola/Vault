@@ -26,7 +26,7 @@ tags:
 
 ## Escopo e periodo coberto
 
-Controle documental da fase de processo contínuo, cobrindo lotes `20211025Pa` a `20220221Pa`. Esta fonte não cobre o lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], mas ajuda a separar a campanha Duda da etapa posterior de produção contínua.
+Controle documental da fase de processo contínuo, cobrindo lotes `20211025Pa` a `20220221Pa`. Esta fonte não cobre o lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], mas ajuda a separar a campanha Duda da etapa posterior de produção contínua.
 
 ## Status por lote
 
@@ -54,5 +54,5 @@ Controle documental da fase de processo contínuo, cobrindo lotes `20211025Pa` a
 ## Lacunas
 
 - Não traz volume, concentração, equipamento, tempo de processo, insumos ou rendimento.
-- Não há vínculo direto com o lote [[Projects/MGgrafeno/Planta Piloto/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
+- Não há vínculo direto com o lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]].
 - Precisa ser usado como filtro documental, não como fonte primária de processo.

@@ -4,8 +4,8 @@ tipo: indice-organizacao
 organizacao: Gerdau Graphene
 produto: MGg3
 atualizado: 2026-05-07
+confidencialidade: interno
 ---
-
 # Gerdau Graphene
 
 Indice executivo da fonte Gerdau Graphene dentro do acervo MGg3. A função desta nota é conectar as sínteses temáticas, o inventário e o mapa estratégico sem exigir abertura dos PDFs/PPTX.
@@ -20,7 +20,7 @@ A Gerdau Graphene opera como empresa de aditivos industriais à base de grafeno:
 |---|---|---|
 | O que existe no acervo? | [[INVENTÁRIO-MESTRE]] | Lista 8 fontes e lacunas |
 | Qual é o posicionamento institucional? | [[Apresentacoes]] | [[GG-APRES01_Grafeno-Nanomaterial]] |
-| O que a GG validou em mercado? | [[Inteligencia de Mercado]] | Portfólio, clientes, métricas e gap comercial |
+| O que a GG validou em mercado? | [[Inteligencia de Mercado - Gerdau Graphene]] | Portfólio, clientes, métricas e gap comercial |
 | O que há em concreto e lubrificantes? | [[Concretos]] | CM018, BS3, escória, VW/Idemitsu |
 | O que há em polímeros? | [[Polimeros]] | PE/PP, BlackSwan, rotas de processamento |
 | O que isso muda para MGg3? | [[Mapa estrategico MGg3]] | Segmentos, hipóteses e prioridades |
@@ -29,7 +29,7 @@ A Gerdau Graphene opera como empresa de aditivos industriais à base de grafeno:
 
 - [[Apresentacoes]]
 - [[Concretos]]
-- [[Inteligencia de Mercado]]
+- [[Inteligencia de Mercado - Gerdau Graphene]]
 - [[Polimeros]]
 
 ## Principais fatos extraídos

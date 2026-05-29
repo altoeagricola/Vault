@@ -5,7 +5,7 @@ role:
 company: "[[SENAR]]"
 localização: Nova Venécia, Espírito Santo, Brasil
 linkedin: https://www.linkedin.com/in/graziela-evencio-de-oliveira-a06414163/
-updated: 2026-04-29
+updated: 2026-05-27
 ---
 
 ## Graziela Evencio de Oliveira
@@ -64,4 +64,4 @@ Bia, funcionária da [[Amigos do Campo]], está saindo. Há especulação de que
 - [[Leonardo Altoé]] — quem a indicou ao fundador da ALTOÈ; possível futuro empregador
 - [[SENAR]] — empregadora atual
 - **Gustavo Altoé** — marido (primo de Rodrigo, irmão de [[Higor Loss Altoé]])
-- [[Gabriely]] — contato próximo atual; movimentos coordenados identificados
+- [[Gabriely]] — contato próximo identificado em 2026-04; movimentos coordenados registrados historicamente

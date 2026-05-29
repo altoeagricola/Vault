@@ -31,6 +31,7 @@ Preco interno pode estar defasado e depende de especificacao, volume, frete, inc
 
 ## Relações
 
+- [[Benchmark internacional - fornecedores de grafeno]]
 - [[MGG3-FORN01_Fornecedores-grafeno]]
 - [[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]
 - [[Ecossistema brasileiro de grafeno]]

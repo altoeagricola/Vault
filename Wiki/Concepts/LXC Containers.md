@@ -2,7 +2,7 @@
 title: LXC Containers
 type: Concept
 sources:
-  - "[[Products/InfraKeeper/InfraKeeper]]"
+  - "InfraKeeper"
 related:
   - "[[Proxmox VE]]"
   - "[[Docker]]"

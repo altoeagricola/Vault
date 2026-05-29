@@ -2,24 +2,24 @@
 tipo_documento: Certidão de Casamento
 titular_primario: Sergio Jose Altoe
 titular_secundario: Maria de Lourdes Bernabe Altoe
-cpf_primario: "a confirmar"
-cpf_secundario: "a confirmar"
-orgao_emissor: Cartório de Registro Civil competente
-numero_cartorio: "a confirmar no PDF"
-numero_registro: "a confirmar no PDF"
-data_casamento: "a confirmar no PDF"
-data_emissao_certidao: "a confirmar no PDF"
-regime_bens: "a confirmar no PDF (presumido: comunhão de bens)"
-averbacoes: "a verificar"
+cpf_primario: "579.448.737-20"
+cpf_secundario: "073.908.107-18"
+orgao_emissor: Cartório do Registro Civil das Pessoas Naturais e Tabelionato de Notas da Sede da Comarca de Marilândia/ES
+numero_cartorio: "CNS 024158"
+numero_registro: "Matrícula 024158 01 55 1977 3 00001 078 0000155 68"
+data_casamento: 1977-12-30
+data_emissao_certidao: 2026-04-07
+regime_bens: "Comunhão de bens"
+averbacoes: "campo de averbações/anotações sem conteúdo visível"
 status_documental: "existente"
-status_conferencia: "precisa_confirmar"
+status_conferencia: "validado_visual"
 fonte_arquivo: "Docs Pessoais/CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf"
-fonte_ocr: "não processado"
-data_conferencia: 2026-05-05
+fonte_ocr: "PDF sem texto pesquisável; conferência visual em PNG temporário"
+data_conferencia: 2026-05-23
 conferido_por: Cacilda
-confianca_extracao: "baixa - PDF sem OCR"
+confianca_extracao: "alta - leitura visual direta do scan"
 divergencias: "nenhuma identificada até agora"
-pendencias: "confirmar regime de bens; validar averbacoes se houver divorcio/separacao anterior; confirmar ambos os nomes conforme documentos de identidade"
+pendencias: "conferir aceitação bancária; validar autenticidade pelo selo digital se exigido"
 tags:
   - estado-civil
   - nucleo-familiar
@@ -45,15 +45,17 @@ Localizado em: `Docs Pessoais/CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf`
 | Campo | Valor | Status |
 |-------|-------|--------|
 | **Tipo documento** | Certidão de Casamento | Confirmado |
-| **Nubente 1** | Sergio Jose Altoe | Presumido (confirmar no PDF) |
-| **Nubente 2** | Maria de Lourdes Bernabe Altoe | Presumido (confirmar no PDF) |
-| **Cartório** | *a confirmar no PDF* | **PENDENTE** |
-| **Nº cartório** | *a confirmar no PDF* | **PENDENTE** |
-| **Nº registro** | *a confirmar no PDF* | **PENDENTE** |
-| **Data do casamento** | *a confirmar no PDF* | **PENDENTE** |
-| **Data emissão certidão** | *a confirmar no PDF* | **PENDENTE** |
-| **Regime de bens** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
-| **Averbações** | *a verificar (divórcio/separação anterior)* | **PENDENTE** |
+| **Nubente 1** | Sergio Jose Altoe | Confirmado visualmente |
+| **CPF nubente 1** | 579.448.737-20 | Confirmado visualmente |
+| **Nubente 2** | Maria de Lourdes Bernabe Altoe | Confirmado visualmente |
+| **CPF nubente 2** | 073.908.107-18 | Confirmado visualmente |
+| **Cartório** | Registro Civil e Tabelionato de Notas da sede da Comarca de Marilândia/ES | Confirmado visualmente |
+| **CNS** | 024158 | Confirmado visualmente |
+| **Matrícula** | 024158 01 55 1977 3 00001 078 0000155 68 | Confirmado visualmente |
+| **Data do casamento** | 30/12/1977 | Confirmado visualmente |
+| **Data emissão certidão** | 07/04/2026 | Confirmado visualmente |
+| **Regime de bens** | Comunhão de bens | **Confirmado visualmente** |
+| **Averbações** | Campo sem conteúdo visível | Confirmado visualmente |
 
 ---
 
@@ -63,44 +65,25 @@ Localizado em: `Docs Pessoais/CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf`
 
 - PDF localizado: ✓ `Docs Pessoais/CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf`
 - OCR processado: ✗ Não (PDF sem texto pesquisável)
-- Regime de bens confirmado: ✗ Não
-- Averbações verificadas: ✗ Não
-- Nomes conferidos com RG/CPF: ✗ Não
+- Regime de bens confirmado: ✓ Sim — comunhão de bens
+- Averbações verificadas: ✓ Campo sem conteúdo visível
+- Nomes/CPFs extraídos: ✓ Sim
 
 ### Riscos de Estado Civil
 
-1. **Regime de bens desconhecido:** Se regime é separação de bens, pode afetar se cônjuge precisa assinar/anuir a operação.
-2. **Averbação de divórcio/separação anterior:** Se há averbação de rompimento anterior, pode gerar dúvida sobre vínculo ou obrigações pendentes.
-3. **Divergência de nome:** Nomes na certidão podem ser diferentes dos RG/CPF, especialmente se houve mudança de nome ou apelido legal.
-4. **Cônjuge com restrição:** Se cônjuge (Maria de Lourdes) tem limitação legal, incapacidade ou restrição de crédito, pode afetar operação.
+1. **Comunhão de bens:** Cônjuge deve ser tratada como participante/anuente provável na operação, conforme exigência bancária.
+2. **Autenticidade:** Certidão emitida em 07/04/2026; validar selo digital se o banco exigir.
+3. **Cônjuge com restrição:** Eventuais restrições cadastrais de Maria de Lourdes podem afetar operação.
 
 ### Próximas Ações Críticas
 
-1. **Extrair do PDF original**:
-   - Nome completo de ambos nubentes
-   - Cartório (localização e número)
-   - Número de registro do casamento
-   - Data do casamento
-   - Data de emissão da certidão
-   - **Regime de bens** (importante para composição patrimonial)
-   - Qualquer averbação (divórcio, separação, reanulação)
-
-2. **Validar regime de bens**:
-   - Se comunhão de bens: cônjuge é co-proprietária de bens adquiridos na constância do casamento
-   - Se separação de bens: bens são independentes
-   - Se participação final de aquestos: regime específico, menos comum
-   - **Impacto:** Regime de bens pode exigir anuência/assinatura de cônjuge em operação
-
-3. **Verificar averbações**:
-   - Se há registro de divórcio/separação anterior (indica estado civil modificado)
-   - Se há observações especiais no registro
-
-4. **Conferir consistência de nomes**:
+1. **Conferir consistência de nomes**:
    - Nome em certidão vs. RG de Sergio
    - Nome em certidão vs. RG de Maria de Lourdes
    - Validar se há apelidos, variações de sobrenome ou mudança de nome legal
 
-5. **Processso OCR** (futuro) se necessário para auditoria
+2. Validar selo digital/autenticidade se banco exigir.
+3. Processar OCR pesquisável apenas se o banco ou auditoria exigir cópia textual.
 
 ---
 
@@ -149,15 +132,9 @@ Localizado em: `Docs Pessoais/CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf`
 
 ## Observações de Conferência
 
-**Data:** 2026-05-05  
+**Data:** 2026-05-23  
 **Conferido por:** Cacilda
 
-Conferência por índice — Certidão de casamento localizada, mas **status definido como `precisa_confirmar`** até:
-- Extração de dados (nomes completos, datas, regime de bens, averbações)
-- Validação de regime de bens (essencial para saber se cônjuge precisa anuir)
-- Verificação de averbações (divórcio/separação anterior)
-- Conferência de nomes contra RG/CPF de ambos
+Conferência visual realizada a partir de renderização PNG temporária do PDF original. Certidão emitida em 07/04/2026, casamento em 30/12/1977, regime de comunhão de bens, sem averbação/anotação visível no campo próprio.
 
-Checklist mestre já sinaliza: "Confirmar regime/averbacoes se o banco exigir composicao patrimonial" como ação condicional antes da submissão ao banco.
-
-**Observação:** Em operações de habitação rural, se imóvel será adquirido na constância do casamento com regime de comunhão, cônjuge é automaticamente co-proprietária e pode ser exigida sua assinatura na escritura e na operação creditícia. Regime de bens afeta também a análise de capacidade de pagamento (renda conjunta ou separada).
+**Observação operacional:** por comunhão de bens, Maria de Lourdes deve ser tratada como anuente/participante provável no cadastro e nos instrumentos bancários, salvo orientação expressa do banco.

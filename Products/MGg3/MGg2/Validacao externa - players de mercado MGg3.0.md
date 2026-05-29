@@ -7,8 +7,8 @@ status: validacao_externa_inicial
 responsavel: Eloi
 data_validacao: 2026-05-07
 atualizado: 2026-05-08
+confidencialidade: interno
 ---
-
 # Validacao externa - players de mercado MGg3.0
 
 ## Objetivo

@@ -1,11 +1,13 @@
 ---
-fonte_arquivo: "CM018-Atualização-dez2024.pdf"
-organizacao: "Gerdau Graphene"
-tipo_documento: "Relatório técnico P&D"
-data_documento: "2024-12"
-confidencialidade: "RESTRITO"
-status_extracao: "completo"
-confianca_extracao: "alta"
+tipo: registro-documento
+produto: MGg3
+fonte_arquivo: CM018-Atualização-dez2024.pdf
+organizacao: Gerdau Graphene
+tipo_documento: Relatório técnico P&D
+data_documento: 2024-12
+confidencialidade: restrito
+status_extracao: completo
+confianca_extracao: alta
 temas:
   - concreto
   - aditivo químico
@@ -25,17 +27,16 @@ metricas_chave:
   - "Dosagem ótima: 0,010–0,015% para BS3"
   - "Gap: resultados aos 28 dias ainda ausentes"
 riscos_uso:
-  - "Projeto ainda em fase P&D (pasta de cimento)"
-  - "Sem validação em concreto estrutural completo (traço 1:1)"
-  - "Resultados a 28 dias necessários para validação comercial"
-  - "Classificação RESTRITO para contextos internos"
+  - Projeto ainda em fase P&D (pasta de cimento)
+  - Sem validação em concreto estrutural completo (traço 1:1)
+  - Resultados a 28 dias necessários para validação comercial
+  - Classificação RESTRITO para contextos internos
 links_relacionados:
   - "[[Concretos]]"
-  - "[[Inteligencia de Mercado]]"
-  - "BlackSwan Graphene (fornecedor BS3)"
-atualizado: "2026-05-07"
+  - "[[Inteligencia de Mercado - Gerdau Graphene]]"
+  - BlackSwan Graphene (fornecedor BS3)
+atualizado: 2026-05-07
 ---
-
 # GG-CM018: Aditivo Grafeno para Concreto com Escória (P&D)
 
 **Código:** GG-CM018  
@@ -205,7 +206,7 @@ Projeto de desenvolvimento de aditivo químico base água com grafeno funcionali
 ## Links Internos
 
 - **Tema correlato:** [[Concretos]]
-- **Inteligência correlata:** [[Inteligencia de Mercado]] (GG03 — aditivos comerciais)
+- **Inteligência correlata:** [[Inteligencia de Mercado - Gerdau Graphene]] (GG03 — aditivos comerciais)
 - **Fornecedor de referência:** BlackSwan Graphene
 - **Resultado comercial equivalente:** NanoCons W104 (em piloto, previsão 2024)
 

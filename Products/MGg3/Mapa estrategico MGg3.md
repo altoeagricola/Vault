@@ -9,12 +9,16 @@ base_documental:
   - "[[MGG2-BASE01_Catalogo-MGg3-contexto-historico]]"
   - "[[Apresentacoes]]"
   - "[[Concretos]]"
-  - "[[Inteligencia de Mercado]]"
+  - "[[Inteligencia de Mercado - Gerdau Graphene]]"
   - "[[Polimeros]]"
   - "[[Modelo de negocios MGgrafeno - orquestracao aplicada]]"
+  - "[[Benchmark internacional - fornecedores de grafeno]]"
+  - "[[MGG3-FORN01_Fornecedores-grafeno]]"
+  - "[[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]"
+  - "[[Custos de producao P100 P500]]"
 atualizado: 2026-05-08
+confidencialidade: interno
 ---
-
 # Mapa estrategico MGg3
 
 Síntese executiva para transformar a documentação da Gerdau Graphene e a camada historica MGgrafeno/MGg2 em decisões de navegação para MGg3. Separar fato, inferência e hipótese evita que aprendizado competitivo vire decisão prematura.
@@ -29,29 +33,29 @@ Uso desta nota: manter a priorizacao estrategica geral. Uso da nota de modelo: c
 
 ## Fatos extraídos das fontes
 
-| Tema | Fato documental | Fonte consultável |
-|---|---|---|
-| Modelo de negócio | A Gerdau Graphene atua como integradora de aditivos: seleção de grafeno, dispersão, blending e formulação para aplicação industrial. | [[Apresentacoes]], [[Inteligencia de Mercado]], [[GG-APRES01_Grafeno-Nanomaterial]] |
-| Gargalo técnico | Dispersão/incorporação aparece como competência central e como objeto de parceria com Indorama. | [[Inteligencia de Mercado]] |
-| Concretos | CM018 reporta BS3/BlackSwan com 128% da referência aos 7 dias em sistema cimento/escória, dosagem 0,01%, ainda sem validação a 28 dias em concreto estrutural. | [[Concretos]], [[GG-CM018_Aditivo-Escoria]] |
-| Polímeros | Em PE e PP, desempenho depende do grade e da rota de processamento; há casos de ganho e de degradação com grafenos diferentes. | [[Polimeros]], [[GG-POL01_BlackSwan-R&D]], [[Inteligencia de Mercado]] |
-| Coatings | NanoDur/NanoTOC trazem métricas de durabilidade, salt spray, menor consumo e menor massa aplicada. | [[Apresentacoes]], [[Inteligencia de Mercado]] |
-| Lubrificantes | GNP 0,1% em óleo SAE 5W-20 reporta -1,9% de consumo combinado em teste VW, com Idemitsu, USP e FEI. | [[Concretos]] |
-| Adoção comercial | Aditivos químicos tinham 625 kg / R$ 140.288 realizados até jul/2024 contra meta de 26.762 kg / R$ 3,96 Mi. | [[Inteligencia de Mercado]], [[GG03_Aditivos-QuimicosT&R]] |
-| Ecossistema | GG combina GEIC Manchester, universidades brasileiras, centros técnicos, fornecedores globais e clientes industriais. | [[Apresentacoes]], [[Inteligencia de Mercado]] |
-| MGgrafeno/MGg2 | O catalogo MGg3.0 conecta UFMG, CDTN, Codemge/Codemig, planta piloto e edital de licenciamento como base historica para a tese MGg3. | [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]], [[MGgrafeno - Historico institucional]], [[Licenciamento UFMG CDTN]] |
+| Tema              | Fato documental                                                                                                                                                | Fonte consultável                                                                                                      |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Modelo de negócio | A Gerdau Graphene atua como integradora de aditivos: seleção de grafeno, dispersão, blending e formulação para aplicação industrial.                           | [[Apresentacoes]], [[Inteligencia de Mercado - Gerdau Graphene]], [[GG-APRES01_Grafeno-Nanomaterial]]                                    |
+| Gargalo técnico   | Dispersão/incorporação aparece como competência central e como objeto de parceria com Indorama.                                                                | [[Inteligencia de Mercado - Gerdau Graphene]]                                                                                            |
+| Concretos         | CM018 reporta BS3/BlackSwan com 128% da referência aos 7 dias em sistema cimento/escória, dosagem 0,01%, ainda sem validação a 28 dias em concreto estrutural. | [[Concretos]], [[GG-CM018_Aditivo-Escoria]]                                                                            |
+| Polímeros         | Em PE e PP, desempenho depende do grade e da rota de processamento; há casos de ganho e de degradação com grafenos diferentes.                                 | [[Polimeros]], [[GG-POL01_BlackSwan-R&D]], [[Inteligencia de Mercado - Gerdau Graphene]]                                                 |
+| Coatings          | NanoDur/NanoTOC trazem métricas de durabilidade, salt spray, menor consumo e menor massa aplicada.                                                             | [[Apresentacoes]], [[Inteligencia de Mercado - Gerdau Graphene]]                                                                         |
+| Lubrificantes     | GNP 0,1% em óleo SAE 5W-20 reporta -1,9% de consumo combinado em teste VW, com Idemitsu, USP e FEI.                                                            | [[Concretos]]                                                                                                          |
+| Adoção comercial  | Aditivos químicos tinham 625 kg / R$ 140.288 realizados até jul/2024 contra meta de 26.762 kg / R$ 3,96 Mi.                                                    | [[Inteligencia de Mercado - Gerdau Graphene]], [[GG03_Aditivos-QuimicosT&R]]                                                             |
+| Ecossistema       | GG combina GEIC Manchester, universidades brasileiras, centros técnicos, fornecedores globais e clientes industriais.                                          | [[Apresentacoes]], [[Inteligencia de Mercado - Gerdau Graphene]]                                                                         |
+| MGgrafeno/MGg2    | O catalogo MGg3.0 conecta UFMG, CDTN, Codemge/Codemig, planta piloto e edital de licenciamento como base historica para a tese MGg3.                           | [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]], [[MGgrafeno - Historico institucional]], [[Licenciamento UFMG CDTN]] |
 
 ## Inferências para MGg3
 
-| Inferência | Implicação operacional |
-|---|---|
-| MGg3 deve evitar posicionamento como fornecedora de grafeno genérico. | O discurso comercial precisa vender solução aplicada e mensurável por segmento. |
-| A competência crítica é formular e dispersar, não apenas adquirir nanomaterial. | Priorizar parceiro técnico ou capacidade própria em dispersão, reologia e compatibilidade de matriz. |
-| Construção civil pode ser porta de entrada mais pragmática que tintas decorativas. | Ganhos de resistência e redução de clínquer são mais fáceis de traduzir em ROI técnico. |
-| Polímeros exigem co-desenvolvimento industrial cuidadoso. | Sem controle de grade/processo, o mesmo grafeno pode melhorar ou piorar propriedades. |
-| Coatings têm boa narrativa técnica, mas adoção comercial pode ser lenta. | Entrar por nichos com dor clara: anticorrosivo, piso industrial, impermeabilizante, manutenção pesada. |
-| Lubrificantes são oportunidade de credibilidade, mas dependem de parceiro forte. | Buscar alianças com formulador de óleo, laboratório tribológico e frota-teste antes de oferta comercial. |
-| A marca "graphene inside" pode ajudar, mas só depois de validação. | Primeiro provar desempenho; depois criar selo/branding para gerar pull no cliente final. |
+| Inferência                                                                         | Implicação operacional                                                                                   |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| MGg3 deve evitar posicionamento como fornecedora de grafeno genérico.              | O discurso comercial precisa vender solução aplicada e mensurável por segmento.                          |
+| A competência crítica é formular e dispersar, não apenas adquirir nanomaterial.    | Priorizar parceiro técnico ou capacidade própria em dispersão, reologia e compatibilidade de matriz.     |
+| Construção civil pode ser porta de entrada mais pragmática que tintas decorativas. | Ganhos de resistência e redução de clínquer são mais fáceis de traduzir em ROI técnico.                  |
+| Polímeros exigem co-desenvolvimento industrial cuidadoso.                          | Sem controle de grade/processo, o mesmo grafeno pode melhorar ou piorar propriedades.                    |
+| Coatings têm boa narrativa técnica, mas adoção comercial pode ser lenta.           | Entrar por nichos com dor clara: anticorrosivo, piso industrial, impermeabilizante, manutenção pesada.   |
+| Lubrificantes são oportunidade de credibilidade, mas dependem de parceiro forte.   | Buscar alianças com formulador de óleo, laboratório tribológico e frota-teste antes de oferta comercial. |
+| A marca "graphene inside" pode ajudar, mas só depois de validação.                 | Primeiro provar desempenho; depois criar selo/branding para gerar pull no cliente final.                 |
 
 ## Hipóteses que precisam de validação
 
@@ -80,10 +84,10 @@ Uso desta nota: manter a priorizacao estrategica geral. Uso da nota de modelo: c
 
 Com o fechamento das operações da Gerdau Graphene no final de 2025, a **transferência de tecnologia, know-how e mercados** ocorreu para dois eixos principais:
 
-| Eixo | Herdeira | Tecnologias Transferidas | Mercados Prioritários | Status 2026 |
-|---|---|---|---|---|
-| **Aditivos Aquosos** | [[Polystell]] | Aditivos com grafeno para tintas (NanoDUR, NanoTOC, NanoLAV) + concreto (CM018) | Tintas aquosas + concreto/argamassa | Operacional (confirmado ALT-107) |
-| **Masterbatch Seco** | [[Colorfix]] | Masterbatch polímero com grafeno (Poly-G PE/PP) + concentrados | Transformadores plástico (PE, PP, PA) | Incerto (necessita confirmação direta) |
+| Eixo                 | Herdeira      | Tecnologias Transferidas                                                        | Mercados Prioritários                 | Status 2026                            |
+| -------------------- | ------------- | ------------------------------------------------------------------------------- | ------------------------------------- | -------------------------------------- |
+| **Aditivos Aquosos** | [[Polystell]] | Aditivos com grafeno para tintas (NanoDUR, NanoTOC, NanoLAV) + concreto (CM018) | Tintas aquosas + concreto/argamassa   | Operacional (confirmado ALT-107)       |
+| **Masterbatch Seco** | [[Colorfix]]  | Masterbatch polímero com grafeno (Poly-G PE/PP) + concentrados                  | Transformadores plástico (PE, PP, PA) | Incerto (necessita confirmação direta) |
 
 ### Polystell: Rota Tintas + Concreto (Aditivos Aquosos)
 
@@ -98,10 +102,16 @@ Com o fechamento das operações da Gerdau Graphene no final de 2025, a **transf
 - Incorporação em linha de tinta industrial
 - Contatos com fabricantes de tinta (Eucatex, Qualyvinil, Brasilux, Anjo Tintas)
 
+**Inovação em Preservação Técnica (Maio 2026):**
+- Polystell está usando **IA Generativa** para capturar e digitalizar o know-how dos químicos veteranos de Gerdau Graphene
+- Isso transforma memória técnica em ativos digitais escaláveis e preserva formulações, processos e experiência histórica
+- Demonstra comprometimento com continuidade operacional e inovação metodológica
+
 **Oportunidade para MGgrafeno:**
 - Potencial parceira de codesenvolvimento para GO/grafeno em aplicações tintas
 - Rota técnica validada (histórico de produtos comerciais)
 - Proximidade geográfica (São Bernardo, SP)
+- Acesso a conhecimento sistematizado via IA (diferencial competitivo)
 - **Ação prioritária (Rodrigo):** confirmar status de produtos, capacidade de fornecimento e abertura para parceria técnica
 
 **Referência:** [[Universal Matter]] (modelo análogo: herdou AGM; oferece dispersões prontas para cliente)
@@ -109,7 +119,7 @@ Com o fechamento das operações da Gerdau Graphene no final de 2025, a **transf
 ### Colorfix: Rota Polímeros (Masterbatch Seco)
 
 **Herança identificada (status incerto):**
-- Identificada em [[ALT-107]] como "co-maker" da herança técnico-comercial
+- Identificada em ALT-107 como "co-maker" da herança técnico-comercial
 - Potencial herdeira de Poly-G PE/PP (masterbatch polimérico com grafeno)
 - Sem confirmação pública de transferência formal
 
@@ -119,13 +129,24 @@ Com o fechamento das operações da Gerdau Graphene no final de 2025, a **transf
 - Distribuição para transformadores de plástico
 - Marca Revora (sustainability)
 
+**Lançamento Comercial Confirmado (Abril 2026):**
+- **Revora Poly-G:** Colorfix lançou comercialmente a linha Revora Poly-G com foco em Shrink/Stretch Film
+- Ganhos principais: resistência à perfuração é o "argumento matador" para embalagens industriais
+- Este lançamento **confirma operacionalidade técnica** da rota masterbatch com grafeno
+- Também indica **disposição comercial e prontidão para mercado**
+
+**Preservação de Know-How Técnico (Maio 2026):**
+- Como parceira de Polystell na rota Gerdau Graphene, Colorfix está provavelmente usando metodologia similar de IA Generativa para capturar know-how de químicos veteranos
+- Isso sistematiza memória técnica em formulação, dispersão e compatibilidade de matrizes
+
 **Oportunidade para MGgrafeno:**
 - Potencial parceira de codesenvolvimento para masterbatch polímero
 - Acesso a transformadores de filme, peças injetadas, tubos
 - Distribuição/comercialização via rede existente
-- **Ação prioritária (Rodrigo):** confirmar transferência técnica, produtos ativos e abertura para codesenvolvimento
+- Evidência de mercado real (Revora Poly-G já comercial)
+- **Ação prioritária (Rodrigo):** confirmar transferência técnica, produtos ativos, capacidade Revora Poly-G e abertura para codesenvolvimento
 
-**Referência:** [[Avanzare]] (Espanha) - modelo comparável de masterbatch alto teor grafeno (MasterGraphene)
+**Referência:** Avanzare (Espanha) - modelo comparável de masterbatch alto teor grafeno (MasterGraphene)
 
 ### Implicação Estratégica para MGgrafeno
 
@@ -227,3 +248,32 @@ Inferencia para MGg3:
 - Ao falar com parceiros, evitar "grafeno em po" como narrativa central. A mensagem deve ser desempenho em matriz especifica, validado por ensaio e com unidade economica clara.
 - A matriz de fornecedores precisa comparar familia de material e aplicacao, nao apenas preco/kg.
 - Para baterias, tratar VoltaXplore como frente de aprendizado/monitoramento ate haver contrato firme, capacidade comercial demonstrada e economia validada.
+
+## Ponto de Inflexao Comercial do Grafeno - Maio 2026
+
+Fonte: Pesquisa Eloi ALT-103 (atualização 2026-05-08) + Pesquisa de Mercado Brasil Global (ALT-103.2)
+
+**Tese Central:** O mercado de grafeno atingiu o "ponto de inflexão comercial" em maio de 2026. Transição de setor P&D-driven para indústria comercialmente viável.
+
+**Fatos Econômicos Críticos:**
+- **Mercado Global:** USD 598,29M (2025) → USD 803,51M (2026) → USD 6,98B (2034); CAGR 31,70%
+- **Custo bulk:** Sub-USD 50/kg para volume (viabiliza substituição commodities)
+- **Qualidade:** NIST 2023 reporta 40%+ variação entre lotes (risco standardização)
+- **Iniciativas Governo:** Graphene Flagship €1B (EU), múltiplas hubs China, DOE funding (EUA), IICG (Índia)
+
+**Brasil - Segmento Crescimento Acelerado:**
+- Mercado projetado: USD 27,1M (2030) em contexto global
+- CAGR Brasil 32,8% (acima média global 31,7% = **oportunidade diferencial**)
+- Players em movimento: Nanum/Levidian (LOOP), Montana/Versarien (formulação), HexoGraphene (P&D), CTNano (validação), Polystell/Colorfix (operacional)
+
+**Implicação para matriz de fornecedores MGgrafeno:**
+- **Global:** First Graphene (Ionic/Imagine em geotêxteis/água), NanoXplore (Volvo + substituição carbon blacks), Levidian (LOOP), Universal Matter (dispersões Genable)
+- **Brasil:** Polystell (IA para know-how, modelo aditivos aquosos validado), Colorfix (Revora Poly-G comercial, shrink/stretch film market real)
+- **Acadêmico:** CTNano + universidades federais (UFMG, CDTN) como validadores técnicos
+
+**Interpretação para MGgrafeno:**
+- Tese de "concretos e polímeros com grafeno por custo-benefício" **não é narrativa de futuro; é realidade maio/2026**
+- Brasil está 3 anos de defasagem, mas CAGR 32,8% abre janela: atraso em validação = perda de oportunidade
+- **Herdeiras Polystell/Colorfix já operacionais:** janela de colaboração está quente, com know-how preservado via IA
+- Sub-USD 50/kg viabiliza modelo regional sem dependência de subsídios ou narrativa "premium verde"
+- **Urgência:** Validação local em concretos/polímeros deve começar Q2/Q3 2026 para competir na janela comercial aberta

@@ -1,5 +1,6 @@
 ---
 title: "Indicação Geográfica"
+type: Concept
 description: "Proteção legal de produtos com origem geográfica específica e qualidade associada ao local de produção"
 sources:
   - "Sources/Transcripts/Culturas_Campo_Conilon_Socol.md"
@@ -72,4 +73,4 @@ Exemplo: [[Socol]] é modelo que pode ser replicado para outros produtos capixab
 
 ## Referências
 
-Ver também: [[Socol]], [[Venda Nova do Imigrante]]
+Ver também: [[Socol]], [[Venda_Nova_do_Imigrante|Venda Nova do Imigrante]]

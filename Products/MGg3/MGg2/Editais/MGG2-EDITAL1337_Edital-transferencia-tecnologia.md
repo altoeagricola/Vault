@@ -1,6 +1,7 @@
 ---
 titulo: Edital 1337/2025 - Transferência de Tecnologia UFMG/CDTN
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG2-EDITAL1337
 fonte_arquivo: "SEI-4216192-Edital-1337-pdf-D4Sign.pdf"
 caminho_fonte: "Products/MGg3/MGg2/Editais/SEI-4216192-Edital-1337-pdf-D4Sign.pdf"
@@ -42,7 +43,6 @@ links_relacionados:
   - "[[CDTN]]"
 atualizado: 2026-05-07
 ---
-
 # MGG2-EDITAL1337: Edital 1337/2025 - Transferência de Tecnologia UFMG/CDTN
 
 ## Identificacao

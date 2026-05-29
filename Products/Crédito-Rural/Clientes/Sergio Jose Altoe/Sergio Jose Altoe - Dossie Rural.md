@@ -8,7 +8,7 @@ valor_solicitado: "R$ 100.000,00"
 status: piloto_em_analise
 issue_origem: "ALT-69"
 created: 2026-05-04
-updated: 2026-05-04
+updated: 2026-05-29
 tags:
   - cliente-rural
   - dossie
@@ -55,10 +55,12 @@ Regra: documento bruto fica na pasta do cliente; analise fica em nota markdown; 
 
 | Arquivo | Tipo | Observacao organizacional |
 | --- | --- | --- |
-| `CAF. Sergio.pdf` | CAF | conferir validade, enquadramento e nome oficial |
+| [[Registro - CAF Sergio Jose Altoe]] | CAF | CAF renovado em 28/05/2026: situação ATIVA, validade 28/05/2029, enquadramento V; PDFs novos consultados em Downloads, sem cópia no Vault |
+| [[Registro - Certidao Negativa RFB PGFN Sergio Jose Altoe]] | regularidade fiscal federal / CND | CND RFB/PGFN emitida em 29/05/2026, válida até 25/11/2026; PDF consultado em Downloads, sem cópia no Vault |
 | `CERTIDAO DE CASAMENTO Sergio e Lourdes.pdf` | estado civil | importante para habitacao rural e composicao familiar |
 | `CNH - SERGIO.pdf` | identificacao | padronizar nome em rodada futura |
 | `COMP. DE APOSENTADORIA Maria de Lourdes e Sergio.pdf` | renda | entrada para analise financeira |
+| [[Registro - Nota Fiscal Rural 250520001 Sergio Jose Altoe]] | renda rural / NF-e | NF-e de venda de 112 sacas de cafe conilon, total R$ 100.800,00; PDF nao anexado por instrucao do usuario; evidencia para renovacao do CAF no Sindicato Rural de Marilandia |
 | `DOC - MOTO.pdf` | bem/veiculo | classificar se entra em patrimonio ou garantia |
 | `RG + CPF - SERGIO.pdf` | identificacao | conferir CPF e validade/cadastro |
 | `RG E CPF - MARIA DE LOURDES BERNABE ALTOE.pdf` | conjuge | vincular ao nucleo familiar |

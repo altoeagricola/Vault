@@ -5,8 +5,8 @@ produto: MGg3
 origem: "/Users/okumaaltoe/Documents/MGgrafeno 3.0/Arquivar no Vault"
 status: planejado-agentes-acionados
 atualizado: 2026-05-07
+confidencialidade: interno
 ---
-
 # Plano de incorporacao - Arquivar no Vault
 
 ## Escopo verificado

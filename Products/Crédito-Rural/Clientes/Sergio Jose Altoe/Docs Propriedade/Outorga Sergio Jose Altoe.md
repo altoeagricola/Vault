@@ -8,8 +8,10 @@ url-sistema: https://servicos.agerh.es.gov.br/sistema_agerh/inicial.php
 login: email institucional da [[ALTOE Agricola]]
 credenciais-local: 1Password / Vault corporativo (não armazenar em Git)
 data-servico: 2026-04-28
-validade: verificar no documento PDF
-updated: 2026-04-28
+data_emissao_declaracao: 2026-04-10
+validade_declaracao: 2029-04-10
+status_validade: vigente
+updated: 2026-05-16
 ---
 
 # Outorga de Direito de Uso de Recursos Hídricos — Sergio Jose Altoe
@@ -64,12 +66,14 @@ Para uso em **irrigação agrícola**, o requerimento é feito 100% online no si
 
 | Item | Regra |
 |------|-------|
-| **Validade** | Até **10 anos** (ampliado de 6 para 10 anos pela IN AGERH nº 002/2023) |
+| **Documento atual** | Declaração de uso de recursos hídricos superficiais, emitida pela AGERH em **10/04/2026** |
+| **Validade da declaração atual** | Até **10/04/2029** (3 anos a contar da emissão), salvo publicação da Portaria de Outorga ou indeferimento do processo |
+| **Validade da portaria definitiva** | Até **10 anos** (ampliado de 6 para 10 anos pela IN AGERH nº 002/2023), quando publicada |
 | **Prazo para renovação** | Mínimo **90 dias antes** do vencimento |
 | **Consequência de atraso** | Portaria cancelada — necessário abrir novo processo do zero |
 | **Renovação** | Requerimento II no mesmo sistema AGERH Online |
 
-> **Atenção:** verificar a data de vencimento no documento `Outorga-Sergio-Jose-Altoe.pdf` e agendar lembrete com 4–5 meses de antecedência.
+> **Atenção:** a declaração atual não vence na janela de 60 dias do monitoramento de 2026-05-16. Agendar revisão operacional entre novembro/2028 e janeiro/2029 se a portaria definitiva ainda não tiver sido publicada.
 
 ---
 

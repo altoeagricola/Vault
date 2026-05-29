@@ -1,6 +1,7 @@
 ---
 titulo: Modelo de Custo P100 - Planta Piloto CDTN
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG2-CUSTO-P100
 fonte_arquivo: "P100_Custo de Produção - CLT_2021 - 9 de agosto de 2021 (CERES).xlsx"
 caminho_fonte: "Products/MGg3/MGg2/Custos/P100_Custo de Produção - CLT_2021 - 9 de agosto de 2021 (CERES).xlsx"
@@ -40,7 +41,6 @@ links_relacionados:
   - "[[Saneamento custos P100 P500]]"
 atualizado: 2026-05-07
 ---
-
 # MGG2-CUSTO-P100: Modelo de Custo P100 - Planta Piloto CDTN
 
 ## Identificacao

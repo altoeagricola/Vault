@@ -1,23 +1,23 @@
 ---
 tipo_documento: ITR (Imposto Territorial Rural)
 titular: Sergio Jose Altoe
-cpf_cnpj: "a confirmar"
-imovel: "Propriedade Rural - Marilândia/ES (a confirmar no PDF)"
+cpf_cnpj: "579.448.737-20"
+imovel: "Sítio Marilândia — Marilândia/ES"
 orgao_emissor: Receita Federal do Brasil (SRRF-ES)
-numero_documento: "a confirmar no PDF"
+numero_documento: "07.01.25253.1907525-9"
 exercicio: "2025 (conforme nome)"
 competencia: "2025"
-data_emissao: "a confirmar no PDF"
-data_vencimento: "a confirmar no PDF (DARF)"
-status_pagamento: "a confirmar"
-status_documentacao: "existente / precisa_confirmar"
+data_emissao: 2025-09-10
+data_vencimento: 2025-09-30
+status_pagamento: "DARF emitido; comprovante de pagamento não localizado no PDF"
+status_documentacao: "existente / validado_visual_com_pendencia_pagamento"
 fonte_arquivo: "Docs Propriedade/ITR 2025 Sergio Altoe.pdf"
-fonte_ocr: "não processado"
-data_conferencia: 2026-05-05
+fonte_ocr: "PDF sem texto pesquisável; conferência visual em PNG temporário"
+data_conferencia: 2026-05-23
 conferido_por: Cacilda
-confianca_extracao: "baixa - PDF sem OCR"
-divergencias: "nenhuma identificada até agora"
-pendencias: "confirmar recibo/entrega; validar ausência de pendência fiscal; extrair valor do ITR; conferir área com CCIR e escritura"
+confianca_extracao: "alta - leitura visual direta do scan"
+divergencias: "área ITR 31,3 ha próxima de CCIR 31,3677 ha, mas divergente do CAF renovado 30,18 ha e do CAR 32,6400 ha"
+pendencias: "obter comprovante de pagamento/quitação bancária do DARF; conferir área contra escritura; validar ausência de pendência fiscal"
 tags:
   - propriedade-rural
   - itr
@@ -44,15 +44,19 @@ Localizado em: `Docs Propriedade/ITR 2025 Sergio Altoe.pdf`
 | Campo | Valor | Status |
 |-------|-------|--------|
 | **Tipo documento** | ITR | Confirmado |
-| **Titular** | Sergio Jose Altoe | Presumido (confirmar no PDF) |
+| **Titular** | Sergio Jose Altoe | Confirmado visualmente |
+| **CPF** | 579.448.737-20 | Confirmado visualmente |
 | **Órgão emissor** | Receita Federal do Brasil | Confirmado |
 | **Exercício/ano** | 2025 | Confirmado (por nome do arquivo) |
-| **Nº processo ITR** | *a confirmar no PDF* | **PENDENTE** |
-| **Data emissão** | *a confirmar no PDF* | **PENDENTE** |
-| **Data vencimento (DARF)** | *a confirmar no PDF* | **PENDENTE** |
-| **Valor do ITR** | *a confirmar no PDF* | **PENDENTE** |
-| **Situação de pagamento** | *a confirmar no PDF* | **CRÍTICO — PENDENTE** |
-| **Área tributária (ha)** | *a confirmar no PDF* | **PENDENTE** |
+| **Nº documento DARF** | 07.01.25253.1907525-9 | Confirmado visualmente |
+| **Data emissão/geração** | 10/09/2025 09:29 | Confirmado visualmente |
+| **Data vencimento (DARF)** | 30/09/2025 | Confirmado visualmente |
+| **Valor do ITR** | R$ 30,65 | Confirmado visualmente |
+| **Situação de pagamento** | Comprovante de pagamento não localizado | **CRÍTICO — PENDENTE** |
+| **Área tributária (ha)** | 31,3 ha | Confirmado visualmente |
+| **CIB** | 1.177.537-8 | Confirmado visualmente |
+| **Recibo DITR 2025** | 08.22.52.24.50.77 | Confirmado visualmente |
+| **Recepção declaração** | 10/09/2025 09:28:27 | Confirmado visualmente |
 
 ---
 
@@ -62,32 +66,24 @@ Localizado em: `Docs Propriedade/ITR 2025 Sergio Altoe.pdf`
 
 - PDF localizado: ✓ `Docs Propriedade/ITR 2025 Sergio Altoe.pdf`
 - OCR processado: ✗ Não (PDF sem texto pesquisável)
-- Pagamento confirmado: ✗ Não
-- Recibo de entrega verificado: ✗ Não
-- Área conferida com CCIR: ✗ Não
+- Pagamento confirmado: ✗ Não — há DARF, mas não há autenticação/comprovante de pagamento
+- Recibo de entrega verificado: ✓ Sim — recibo DITR 2025 nº 08.22.52.24.50.77
+- Área conferida com CCIR: ✓ Parcial — ITR 31,3 ha vs. CCIR 31,3677 ha
 - Ausência de pendência confirmada: ✗ Não
 
 ### Riscos de Regularidade Fiscal
 
-1. **ITR não pago:** Se houver débito em aberto de 2025 ou anos anteriores, impede operação creditícia (restrição Receita Federal).
-2. **Divergência de área:** Área no ITR pode ser diferente da CCIR ou escritura, indicando problemas cadastrais.
-3. **Falta de recibo:** Conforme checklist, "confirmar recibo/entrega" — sem recibo de quitação, não há prova do pagamento.
-4. **Imóvel em suspeita:** Pendência de ITR pode estar associada a restrições ambientais, embargo ou litígio.
+1. **Comprovante de pagamento ausente:** O PDF contém DARF e recibo de entrega da declaração, mas não prova pagamento.
+2. **Vencimento já passado:** DARF vencia em 30/09/2025; em 23/05/2026 é obrigatório confirmar quitação.
+3. **Divergência de área:** ITR 31,3 ha é próximo do CCIR 31,3677 ha, mas diverge do CAF renovado 30,18 ha e do CAR 32,6400 ha.
+4. **Ausência de pendência fiscal:** Ainda precisa ser validada em consulta fiscal ou comprovante oficial.
 
 ### Próximas Ações Críticas
 
-1. **Extrair do PDF original**:
-   - Número do processo ITR
-   - Data de emissão e vencimento do DARF
-   - Valor total cobrado
-   - Situação de pagamento (pago/pendente/adiado)
-   - Área declarada para tributação
-2. **Validar pagamento** — se há recibo de quitação ou se débito existe
-3. **Conferir coerência**:
-   - Área contra CCIR (devem ser próximas)
-   - Área contra ESCRITURA (devem ser próximas)
-   - Ausência de restrições/embargos na propriedade
-4. **Processar OCR** (futuro) se necessário para auditoria
+1. Obter comprovante de pagamento/autenticação bancária do DARF 07.01.25253.1907525-9.
+2. Confirmar ausência de pendência fiscal rural na Receita Federal.
+3. Conferir área contra escritura e justificar diferença com CAR.
+4. Processar OCR pesquisável apenas se o banco ou auditoria exigir cópia textual.
 
 ---
 
@@ -125,14 +121,9 @@ Localizado em: `Docs Propriedade/ITR 2025 Sergio Altoe.pdf`
 
 ## Observações de Conferência
 
-**Data:** 2026-05-05  
+**Data:** 2026-05-23  
 **Conferido por:** Cacilda
 
-Conferência por índice — ITR 2025 localizado, mas **status definido como `precisa_confirmar`** até:
-- Extração de dados (processo ITR, datas, valor, situação de pagamento)
-- Validação de quitação (recibo de pagamento)
-- Conferência de coerência com CCIR e escritura
+Conferência visual realizada a partir de renderização PNG temporária do PDF original. O PDF contém DARF de ITR 2025 no valor de R$ 30,65, vencimento 30/09/2025, documento 07.01.25253.1907525-9, CIB 1.177.537-8, área 31,3 ha e recibo de entrega DITR 2025 nº 08.22.52.24.50.77.
 
-Checklist mestre já sinaliza: "Confirmar recibo/entrega e ausencia de pendencia fiscal rural" como ação obrigatória antes da submissão ao banco.
-
-**Ação crítica:** Obter recibo de quitação do ITR 2025 antes de protocolo. Sem recibo, há risco de rejeição automática pelo banco por falta de prova de regularidade fiscal.
+**Ação crítica:** obter comprovante de pagamento/quitação. Recibo de entrega da declaração não substitui comprovação de pagamento do DARF.

@@ -1,6 +1,7 @@
 ---
 titulo: Fornecedores de Insumos e Grafeno - Startup Grafeno
 tipo: registro-documento
+produto: MGg3
 codigo_fonte: MGG3-FORN02
 fonte_arquivo: "Fornecedores de Grafeno - Startup Grafeno.xlsx"
 caminho_fonte: "Products/MGg3/MGg2/Fornecedores/Fornecedores de Grafeno - Startup Grafeno.xlsx"
@@ -33,9 +34,11 @@ riscos_uso:
   - precos podem estar defasados e dependem de volume, incoterm, frete, impostos e especificacao tecnica
 links_relacionados:
   - "[[MGG3-FORN01_Fornecedores-grafeno]]"
-  - "[[Ecossistema brasileiro de grafeno]]"
+  - "[[Benchmark internacional - fornecedores de grafeno]]"
   - "[[Custos de producao P100 P500]]"
   - "[[Saneamento custos P100 P500]]"
+  - "[[Modelo de negocios MGgrafeno - orquestracao aplicada]]"
+  - "[[Ecossistema brasileiro de grafeno]]"
   - "[[NanoXplore]]"
   - "[[Levidian]]"
   - "[[First Graphene]]"
@@ -49,7 +52,6 @@ links_relacionados:
   - "[[MstnLand]]"
 atualizado: 2026-05-07
 ---
-
 # MGG3-FORN02: Fornecedores de Insumos e Grafeno - Startup Grafeno
 
 ## Identificacao

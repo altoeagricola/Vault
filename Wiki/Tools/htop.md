@@ -2,6 +2,8 @@
 title: htop
 type: Tool
 cover: "[[Wiki/Tools/_covers/htop.png]]"
+sources:
+  - "InfraKeeper"
 related:
   - "[[btop]]"
 created: 2026-04-13

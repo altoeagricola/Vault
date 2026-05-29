@@ -19,7 +19,7 @@ tags:
   - prefeitura
   - Marilândia
   - fomento
-updated: 2026-05-07
+updated: 2026-05-27
 ---
 
 # Prefeitura Municipal de Marilândia
@@ -124,12 +124,12 @@ A ALTOE Agricola já dispõe de uma proposta executiva preliminar que reposicion
 - `Seguir com condicionantes`: interesse existe, mas depende de até 3 confirmações críticas com prazo máximo até 15/05/2026.
 - `Não seguir`: ausência de equipamento de SAN, incapacidade gerencial evidente ou inviabilidade orçamentária/documental no prazo.
 
-## 7. Responsáveis humanos a confirmar com Rodrigo/Gabriely
+## 7. Responsáveis humanos a confirmar com Rodrigo
 
 | Frente | Nome sugerido | Papel a confirmar | Observação |
 | --- | --- | --- | --- |
 | Dono da relação institucional | [[Rodrigo Altoé]] | Condução estratégica e reunião inicial | Já aparece como responsável interno natural |
-| Coordenação administrativa interna | [[Gabriely]] | Organização de agenda, follow-up e checklist documental | Faz sentido como apoio de bastidor |
+| Curadoria operacional / coordenação administrativa interna | [[Rodrigo Altoé]] | Organização de agenda, follow-up, checklist documental e curadoria da base Marilândia | Reatribuído a Rodrigo após desligamento de [[Gabriely]] em 2026-05-27 |
 | Ponto focal político da Prefeitura | A confirmar | Abertura institucional e validação de interesse | Não presumir nome sem confirmação |
 | Ponto focal técnico da Prefeitura | A confirmar | Documentos, Transferegov e cronograma | Crítico para execução |
 | Responsável financeiro/orçamentário municipal | A confirmar | Contrapartida, QDD e viabilidade | Necessário para decisão de seguir |
@@ -137,7 +137,7 @@ A ALTOE Agricola já dispõe de uma proposta executiva preliminar que reposicion
 
 ## 8. Próximo passo recomendado
 
-- Até **12/05/2026**: Rodrigo ou Gabriely devem conseguir uma reunião inicial com a Prefeitura e enviar previamente uma pauta curta com pedido de preparação documental.
+- Até **12/05/2026**: Rodrigo deve conseguir uma reunião inicial com a Prefeitura e enviar previamente uma pauta curta com pedido de preparação documental.
 - Até **15/05/2026**: consolidar decisão interna `seguir / seguir com condicionantes / não seguir`, para preservar tempo hábil de modelagem, coleta documental e submissão até **31/05/2026**.
 - Se a reunião confirmar aderência, abrir checklist operacional único da proposta com responsáveis por documento, aprovação política, Transferegov e parceiros.
 
@@ -149,4 +149,3 @@ A ALTOE Agricola já dispõe de uma proposta executiva preliminar que reposicion
 - [[Sustentabilidade e Conformidade Ambiental]]
 - [[Plano de Trabalho — Estruturas Reutilizaveis]]
 - [[Inovacao e Diferenciais — ALTOE Agricola]]
-
