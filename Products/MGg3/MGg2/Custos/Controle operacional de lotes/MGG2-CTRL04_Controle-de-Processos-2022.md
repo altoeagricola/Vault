@@ -9,7 +9,7 @@ fonte: Controle de Processos 03_03_2022.xlsx
 periodo_coberto: 2017-10 a 2022-03
 lote_referencia: 20210720Pa
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-31
 tags:
   - MGg3
   - MGg2
@@ -40,6 +40,31 @@ Controle técnico de processo da planta piloto. A aba `Planilha2` traz 100 regis
 ## Lote 20210720Pa
 
 O lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]] aparece no banco de dados, na aba `Planilha2`, nas abas de água/pH/condutividade e em `Rendimentos -P100`.
+
+> [!warning] Dado legado em conferência
+> A tabela Markdown abaixo fica preservada para comparação. Campos já cobertos pelo modelo devem ser lidos do banco `mg-grafeno`; campos sem modelagem explícita devem virar proposta de expansão, não nova duplicação em Markdown.
+
+### Consulta viva no banco mg-grafeno
+
+```mg-grafeno-sql
+select
+  l.codigo,
+  l.data_producao,
+  l.piloto,
+  e.nome as equipamento,
+  c.nome as campanha,
+  l.concentracao_nominal_g_l,
+  l.tempo_conversao_h,
+  l.base_quimica,
+  l.rotacao_rpm,
+  l.rota_primeira_separacao,
+  l.rota_segunda_separacao,
+  l.status_dado
+from operacao.lote l
+left join tecnologia.equipamento e on e.id = l.equipamento_id
+left join operacao.campanha c on c.id = l.campanha_id
+where l.codigo = '20210720Pa';
+```
 
 | Campo | Valor |
 |---|---|

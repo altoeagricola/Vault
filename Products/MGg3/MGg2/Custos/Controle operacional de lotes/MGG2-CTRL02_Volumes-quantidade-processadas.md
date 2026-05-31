@@ -9,7 +9,7 @@ fonte: Volumes e quantidade processadas.xlsx
 periodo_coberto: 2017-10 a 2022-02
 lote_referencia: 20210720Pa
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-31
 tags:
   - MGg3
   - MGg2
@@ -31,6 +31,22 @@ Consolida quantidade de lotes, volume processado e estimativas de grafeno produz
 
 ## Volumes por ano
 
+> [!warning] Dado legado em conferência
+> A tabela Markdown foi mantida para comparação com o dado original. A partir de 2026-05-31, a consulta abaixo é a referência operacional para volumes/lotes por ano no banco `mg-grafeno`.
+
+### Consulta viva no banco mg-grafeno
+
+```mg-grafeno-sql
+select
+  ano,
+  lotes_qtd,
+  seed_reasoning as observacao_fonte,
+  status_dado
+from operacao.volume_processado_periodo
+where mes is null and piloto is null
+order by ano;
+```
+
 | Ano | Qtd. lotes | Volume processado |
 |---|---:|---:|
 | 2017 | 10 | 475 L |
@@ -41,6 +57,9 @@ Consolida quantidade de lotes, volume processado e estimativas de grafeno produz
 
 ## Configuração de linha
 
+> [!warning] Dado legado ainda nao modelado integralmente
+> Esta agregação por configuração/volume ainda precisa de colunas explícitas no modelo ou de nova tabela de capacidade por escala. Não promover estes totais sem sugerir a expansão do modelo.
+
 | Configuração | Quantidade | Volume |
 |---|---:|---:|
 | P5 | 2 | 10 L |
@@ -49,6 +68,9 @@ Consolida quantidade de lotes, volume processado e estimativas de grafeno produz
 | P100 | 38 | 3.800 L |
 
 ## Fatores de produção indicativos
+
+> [!warning] Dado legado ainda nao modelado integralmente
+> Estes fatores por escala ainda não têm tabela própria no banco. Quando usados por agentes, devem virar sugestão de novo registro/modelo, não fato solto em Markdown.
 
 | Escala | Massa estimada de grafeno por lote |
 |---|---:|

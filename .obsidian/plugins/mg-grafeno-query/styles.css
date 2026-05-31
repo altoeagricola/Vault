@@ -1,0 +1,36 @@
+.mg-grafeno-query {
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.mg-grafeno-query__status,
+.mg-grafeno-query__empty,
+.mg-grafeno-query__error {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 0.75rem;
+  font-size: 0.9em;
+}
+
+.mg-grafeno-query__error {
+  color: var(--text-error);
+}
+
+.mg-grafeno-query__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.mg-grafeno-query__table th,
+.mg-grafeno-query__table td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 0.4rem 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.mg-grafeno-query__table th {
+  background: var(--background-secondary);
+  font-weight: 600;
+}

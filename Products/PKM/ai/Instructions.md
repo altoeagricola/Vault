@@ -223,6 +223,20 @@ Key plugins affecting vault behavior:
 - **Smart Connections**: Semantic search using TaylorAI/bge-micro-v2 embeddings
 - **Auto-Note-Mover**: Automatic file organization
 - **Periodic-Notes**: Daily/Weekly/Monthly note generation
+- **MG Grafeno Query**: Local desktop plugin for read-only `mg-grafeno-sql` code blocks that render live SELECT/WITH queries from the Docker database `mg-grafeno`.
+
+
+## Structured Data Source of Truth
+
+The Docker database `mg-grafeno` is the source of truth for structured MGgrafeno/MGg3 data already covered by its schema. Markdown files may preserve historical extracts for audit, but those tables must be treated as deprecated comparison material once an equivalent database query exists.
+
+**Mandatory for all agents working with new files or MGg3/MGgrafeno notes:**
+
+- Before adding or trusting tabular/factual operational data in Markdown, check whether the data belongs in one of the existing schemas: `documental`, `tecnologia`, `operacao`, `custo`, `suprimentos`, `aplicacao`, or `ssma`.
+- If the model already covers the data, present suggested new database records or updates instead of duplicating the data as canonical Markdown.
+- If the model is insufficient, present a concrete schema expansion proposal: table/schema, key columns, relationships, and why the existing tables are not enough.
+- When preserving old Markdown tables for validation, mark them as deprecated/legacy and place the nearest possible `mg-grafeno-sql` query beside or immediately above/below them.
+- Use only read-only queries in Obsidian blocks: `SELECT` or `WITH`. Mutating SQL belongs in a separate reviewed database task, not in notes.
 
 
 

@@ -2,6 +2,7 @@
 tipo: Referência Interna
 contexto: "[[ALTOE Agricola]]"
 atualizado: 2026-05-09
+ultima_revisao_dados_estruturados: 2026-05-31
 ---
 
 # Regras de Organização do Vault
@@ -59,3 +60,5 @@ Regras específicas da ALTOE Agricola para organização do Vault. Para instruç
 - Informações que já existem no Vault devem ser respeitadas e complementadas, não duplicadas.
 - Usar `[[wikilinks]]` para conectar notas entre pastas.
 - Conteúdo gerado por agentes vai para `Wiki/` (conhecimento geral) ou `Wiki-Comercial/` (domínio do negócio) — nunca diretamente em `Areas/` ou `Products/` sem solicitação explícita.
+- Dados estruturados do produto MGgrafeno/MGg3 que já cabem no modelo do banco `mg-grafeno` devem ter o banco como fonte de verdade. Arquivos Markdown podem manter extrações antigas para conferência, mas precisam estar marcados como dados legados/deprecados e acompanhados por consultas `mg-grafeno-sql` sempre que possível.
+- Ao analisar novos arquivos, agentes devem sugerir novos registros para tabelas existentes quando o modelo cobrir os dados; se o modelo não cobrir, devem propor expansão de schema antes de criar novas tabelas canônicas em Markdown.

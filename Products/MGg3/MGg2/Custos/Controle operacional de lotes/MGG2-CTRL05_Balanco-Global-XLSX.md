@@ -9,7 +9,7 @@ fonte: Balanço Global.xlsx
 periodo_coberto: 2021-01 a 2022-02
 lote_referencia: 20210720Pa
 created: 2026-05-20
-updated: 2026-05-21
+updated: 2026-05-31
 tags:
   - MGg3
   - MGg2
@@ -33,6 +33,27 @@ Planilha de balanço de massa por lote, cobrindo de `20210118Pa` a `20220221Pa`.
 
 A aba `20210720Pa` é a fonte estruturada do lote [[Products/MGg3/MGg2/Custos/Controle operacional de lotes/Processo-Referencia-Levantamento-de-Custos|20210720Pa]], definido como referência de custos.
 
+> [!warning] Dado legado em conferência
+> A tabela abaixo foi preservada para auditoria do Markdown antigo. A fonte de verdade operacional, a partir de 2026-05-31, é o banco `mg-grafeno`; conferir a consulta ao lado/abaixo antes de reutilizar qualquer número.
+
+### Consulta viva no banco mg-grafeno
+
+```mg-grafeno-sql
+select
+  l.codigo,
+  l.data_producao,
+  l.piloto,
+  l.concentracao_nominal_g_l as conc_nominal_g_l,
+  l.concentracao_calculada_g_l as conc_calculada_g_l,
+  l.tempo_conversao_h,
+  l.rotacao_rpm,
+  l.rota_primeira_separacao,
+  l.rota_segunda_separacao,
+  l.status_dado
+from operacao.lote l
+where l.codigo = '20210720Pa';
+```
+
 | Item | Valor |
 |---|---:|
 | H2O | 100,000 kg; 100,220 L |
@@ -46,6 +67,26 @@ A aba `20210720Pa` é a fonte estruturada do lote [[Products/MGg3/MGg2/Custos/Co
 | Grafite após correção | 9,89677 kg |
 
 ## Saídas e rendimentos do 20210720Pa
+
+> [!warning] Dado legado em conferência
+> A tabela Markdown continua aqui para comparação. Para novo uso analítico, consultar `operacao.lote_saida` via bloco `mg-grafeno-sql`.
+
+### Consulta viva no banco mg-grafeno
+
+```mg-grafeno-sql
+select
+  coalesce(pc.sigla, c.codigo, case when ls.eh_perda then 'perda' else 'total_sem_perda' end) as fracao,
+  ls.massa_kg,
+  ls.rendimento_pct,
+  ls.eh_perda,
+  ls.status_dado
+from operacao.lote_saida ls
+join operacao.lote l on l.id = ls.lote_id
+left join tecnologia.produto_canonico pc on pc.id = ls.produto_id
+left join tecnologia.corrente c on c.id = ls.corrente_id
+where l.codigo = '20210720Pa'
+order by ls.eh_perda, fracao;
+```
 
 | Fração | Sólidos | Rendimento |
 |---|---:|---:|
