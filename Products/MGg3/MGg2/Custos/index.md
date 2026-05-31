@@ -1,8 +1,8 @@
 ---
 titulo: Custos MGg2 - Index
 tipo: index
-atualizado: 2026-05-28
-atualizado_por: Carmen (ALT-450)
+atualizado: 2026-05-30
+atualizado_por: Cacilda (ALT-479)
 ---
 
 # Custos MGg2 - Index
@@ -19,7 +19,8 @@ atualizado_por: Carmen (ALT-450)
 | `MGG3-LEV-P100-v7_Levantamento-Custos-Recomissionamento-Consolidado.md` | Levantamento consolidado | Levantamento de Custos P100 v7 | Versão histórica preservada. | 2026-05-27 |
 | `MGG3-LEV-P100-v8_Levantamento-Custos-Recomissionamento-Consolidado.md` | Levantamento consolidado | Levantamento de Custos P100 v8 | Versão histórica preservada. | 2026-05-27 |
 | `MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado.md` | Levantamento consolidado | Levantamento de Custos P100 v9 | Base histórica imediata da v10; intocada. Revisão Plentz consolidada. | 2026-05-28 |
-| `MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md` | Levantamento consolidado | Levantamento de Custos P100 v10 | **Versão corrente.** Remodelagem em dois cenários (Desenvolvimento e Produção) com três condições de rendimento em Produção. Saída da issue-mãe ALT-440, Fase G consolidada em ALT-450. | 2026-05-28 |
+| `MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md` | Levantamento consolidado | Levantamento de Custos P100 v10 | **Versão corrente.** Revisão Plentz-06: sucessor cumulativo da v9, com blocos analíticos reincorporados e cenários Desenvolvimento/Produção consolidados. | 2026-05-30 |
+| `MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado_PLENTZ05-ARQUIVADO.md` | Levantamento arquivado | Levantamento de Custos P100 v10 Plentz05 | Versão anterior arquivada antes da gravação da Revisão Plentz-06. | 2026-05-30 |
 | `Controle operacional de lotes/` | Folder | Controle operacional de lotes | Fontes e notas de controle de lotes, processos, volumes e balanços de massa. | 2026-05-20 |
 | `P100_Custo de Produção - CLT_2021  - 9 de agosto de 2021 (CERES).xlsx` | Planilha-fonte | Planilha P100 CERES 2021 | Planilha fonte histórica P100 (CLT) preservada como fonte primária. | 2026-05-07 |
 | `P500_Custo de Produção - 1 turno - KonMix - MGg 3.0.xlsx` | Planilha-fonte | Planilha P500 KonMix | Planilha fonte da P500 (1 turno, KonMix). | 2026-05-07 |
@@ -27,6 +28,6 @@ atualizado_por: Carmen (ALT-450)
 ## Notas
 
 - v1 e v2 não estão presentes neste diretório; foram registradas em índices anteriores mas não residem no Vault sob `Products/MGg3/MGg2/Custos/`. Caso necessário, recuperar do histórico ou consolidar como registro documental separado.
-- A v10 é a versão corrente para apresentação a investidor. A v9 permanece intocada como base de rastreabilidade.
+- A v10 Revisão Plentz-06 é a versão corrente para apresentação técnico-financeira. A v9 permanece intocada como base de rastreabilidade, e a Plentz05 foi preservada com sufixo `_PLENTZ05-ARQUIVADO`.
 - A nota-mãe do caso fica no padrão de casos em `Areas/Casos/MGgrafeno/Nota-Mae_LEV-P100-v10.md`; a pasta `Custos/` mantém apenas relatórios, fontes e anexos de custo.
 - Fontes externas referenciadas pela série LEV-P100 (`Levantamento de custos de Producao P100x2.xlsx`, `PIO-MGG-019`, `PIO-MGG-039`) estão fora do Vault; pendência de ingestão registrada em ALT-443 (B2) e nas pendências da v10.
