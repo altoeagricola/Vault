@@ -1,16 +1,18 @@
 ---
 codigo_fonte: MGG3-LEV-P100-v10
-titulo: Levantamento de custos da P100 — Cenários Desenvolvimento e Produção (Revisão Plentz-06)
+titulo: Levantamento de custos da P100 — Cenários Desenvolvimento e Produção (Revisão Plentz-06.a)
 produto: MGgrafeno / MGG3
 escala: P100 — 2 módulos KonMix de cisalhamento em tanques de 100 L (200 L nominais por lote combinado)
 versao: 10
-data: 2026-05-30
+revisao: Plentz-06.a
+data: 2026-05-31
 status: consolidado_cenarios_desenvolvimento_producao
 base_anterior: MGG3-LEV-P100-v9
 issue_revisao_6: [ALT-464](mention://issue/e3b93760-b3d1-4468-ab0e-544991700023)
 issue_revisao_final: ALT-464
+issue_revisao_6a: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377)
 subfrentes_rev06: [ALT-465](mention://issue/447ac547-6079-4350-92e6-441c91a0e503), [ALT-466](mention://issue/f0520698-b1e9-40a7-85e1-254350010c51), [ALT-467](mention://issue/7e482ee8-564d-4242-8836-2c47d4016c16), [ALT-468](mention://issue/432a64f1-7aa8-40fa-b385-50527c13c985), [ALT-469](mention://issue/98da17bf-f801-43ab-b31f-e3cef93f46af), [ALT-470](mention://issue/44323d04-01c4-476e-848b-b239cc4af1e8), [ALT-471](mention://issue/c4709a22-065d-473c-a080-4447e227c8dd), [ALT-472](mention://issue/cb0eba0b-a456-4a20-af8b-950dd5076d79), [ALT-473](mention://issue/27df4ad9-137a-4121-8d70-09bdee0b4007), [ALT-474](mention://issue/6067b916-e710-41ac-bebe-7ba29472a28b)
-audiencia: técnico-financeira (rigor v9 + leitura de cenários para investidor)
+audiencia: técnico-acadêmico-financeira (rigor v9 + leitura de cenários para investidor e pesquisador)
 ---
 
 # Levantamento de custos da P100 — Cenários Desenvolvimento e Produção (Revisão Plentz-06)
@@ -34,22 +36,34 @@ Esta v10 organiza a leitura econômica em **dois cenários operacionais distinto
 
 Nenhum dos dois cenários invalida o outro. São leituras de finalidades distintas; a confusão entre elas produz análise econômica equivocada.
 
+### §1.1 Guia de leitura por audiência
+
+Este relatório atende simultaneamente a duas audiências com necessidades distintas. Use a tabela abaixo para localizar rapidamente as seções de maior relevância para seu perfil.
+
+| Perfil | Seções de entrada | Aprofundamento |
+|---|---|---|
+| **Investidores e parceiros financeiros (IFHAN)** | §2 (indicadores consolidados), §7 (referências de preço de mercado), §13 (sensibilidades) | §5 (CAPEX detalhado), §8 (Cenário Desenvolvimento: OPEX, custo por campanha), §9 (Cenário Produção: custo por produto), §10 (reconciliação v9↔v10), §22 (pendências antes de orçamento executivo) |
+| **Pesquisadores e parceiros técnicos (UFMG, CDTN)** | §3 (glossário de 26 termos), §4 (base operacional, ciclo, rendimentos, parâmetros por módulo), §11 (gates SSMA e compliance) | §6.1–§6.6 (composição detalhada de custos), §12 (rastreabilidade de valores críticos com fonte documental), §14 (próximos passos técnicos), §22 (pendências técnicas abertas) |
+| **Ambas as audiências** | §1 (finalidade e posicionamento da P100), §2 (indicadores-chave) | §10 (reconciliação dos dois cenários com base v9), §14 (próximos passos), §15–§21 (changelogs da v3 à v10) |
+
+Os indicadores-chave em §2 são a porta de entrada comum. Investidores seguem para §7–§9; pesquisadores seguem para §4 e §11. A rastreabilidade de cada valor crítico está em §12.
+
 ---
 
 ## §2. Resultado consolidado em linguagem direta
 
 A estimativa atual separa dois tipos de número que não devem ser confundidos: o dinheiro novo estimado para recolocar a planta existente em operação e o custo recorrente de operar.
 
-| Indicador | Valor consolidado | Como interpretar |
-|---|---:|---|
-| CAPEX incremental para recomissionamento | R$ 610.000 | Estimativa gerencial preliminar AACE Classe 4/5; faixa indicativa R$ 430–915k; requer vistoria, RFQ e gates documentais |
-| Base bruta histórica dos equipamentos da P100 | R$ 1.680.560 | Planilha P100 2021: R$ 1.615.200 (produção) + R$ 65.360 (SSMA); sem depreciação acumulada |
-| OPEX caixa recorrente (base v9) | R$ 2.396.908/ano | Gastos operacionais anuais sem depreciação; equipe 8 pessoas, CQ US$5k/mês, matérias-primas, utilidades, manutenção |
-| OPEX técnico completo (base v9) | R$ 2.563.484/ano | OPEX caixa + depreciação gerencial R$ 166.576 |
-| Produção técnica de referência | 10.315 kg/ano | Capacidade calculada com 20 kg/lote, 522 lotes/ano; não é garantia de venda integral |
-| Custo técnico completo médio (base v9) | R$ 249/kg | OPEX completo / produção técnica; base comparativa com preços de mercado |
-| **Cenário Desenvolvimento — OPEX caso-base** | **R$ 4.094.400/ano** | Equipe v9 8 pessoas + frentes técnicas; faixa R$ 3,65–4,84 MM/ano por cadência de campanhas |
-| **Cenário Produção — OPEX caso-base** | **R$ 2.481.000/ano** | Equipe enxuta 5 pessoas + indiretos de mercado; custo por produto: GPC R$ 895/kg, NPG R$ 448/kg, Nanografite R$ 224/kg |
+| Indicador                                     |    Valor consolidado | Como interpretar                                                                                                        |
+| --------------------------------------------- | -------------------: | ----------------------------------------------------------------------------------------------------------------------- |
+| CAPEX incremental para recomissionamento      |           R$ 610.000 | Estimativa gerencial preliminar AACE Classe 4/5; faixa indicativa R$ 430–915k; requer vistoria, RFQ e gates documentais |
+| Base bruta histórica dos equipamentos da P100 |         R$ 1.680.560 | Planilha P100 2021: R$ 1.615.200 (produção) + R$ 65.360 (SSMA); sem depreciação acumulada                               |
+| OPEX caixa recorrente (base v9)               |     R$ 2.396.908/ano | Gastos operacionais anuais sem depreciação; equipe 8 pessoas, CQ US$5k/mês, matérias-primas, utilidades, manutenção     |
+| OPEX técnico completo (base v9)               |     R$ 2.563.484/ano | OPEX caixa + depreciação gerencial R$ 166.576                                                                           |
+| Produção técnica de referência                |        10.315 kg/ano | Capacidade calculada com 20 kg/lote, 522 lotes/ano; não é garantia de venda integral                                    |
+| Custo técnico completo médio (base v9)        |            R$ 249/kg | OPEX completo / produção técnica; base comparativa com preços de mercado                                                |
+| **Cenário Desenvolvimento — OPEX caso-base**  | **R$ 4.094.400/ano** | Equipe v9 8 pessoas + frentes técnicas; faixa R$ 3,65–4,84 MM/ano por cadência de campanhas. Detalhamento: §8                     |
+| **Cenário Produção — OPEX caso-base**         | **R$ 2.481.000/ano** | Equipe enxuta 5 pessoas + indiretos de mercado; custo por produto: GPC R$ 895/kg, NPG R$ 448/kg, Nanografite R$ 224/kg. Detalhamento: §9; reconciliação v9↔v10: §10 |
 
 Os dois cenários respondem a perguntas distintas. Desenvolvimento informa o volume de recursos para sustentar a tese tecnológica. Produção informa a viabilidade econômica como linha dedicada. A diferença de ~R$ 1,6 MM/ano entre os cenários reflete a estrutura técnica de desenvolvimento (equipe v9 de 8 pessoas, CQ por aplicação, campanhas variáveis) que não está presente em Produção. Ver reconciliação completa em §10.
 
@@ -338,9 +352,11 @@ A faixa de **US$ 50–200/kg** (câmbio R$ 5,00) para NPG/GNP técnico é restau
 
 Confirmação de cobertura econômica: na P100 com produção de **10.315 kg/ano**, a receita no piso de **US$ 50/kg** gera **R$ 2.578.750/ano**, cobrindo **~101% do OPEX Técnico Completo** de R$ 2.563.484/ano, antes de impostos, mix comercial e preço validado. Essa cobertura mínima só é possível com a carga correta de **20 kg/lote** — na v8 e versões anteriores com 10 kg/lote combinado, a cobertura ficava em ~52%.
 
-**Evolução histórica da cobertura no piso US$ 50/kg:**
+**Evolução histórica da cobertura no piso US$ 50/kg (base: OPEX Técnico Completo v9 — R$ 2.563.484/ano):**
 - v8 (10 kg/lote combinado): ~52% do OPEX técnico completo
 - v9+ (20 kg/lote correto): **~101%** do OPEX Técnico Completo v9 — cruza a linha de equilíbrio econômico
+
+A mesma receita de R$ 2.578.750/ano cobre **~104% do OPEX Produção v10** (R$ 2.481.000/ano — Cenário Produção com equipe enxuta de 5 pessoas e indiretos de mercado, sem depreciação gerencial). Os dois percentuais são denominadores distintos e complementares: ~101% reflete o custo técnico completo incluindo depreciação da v9; ~104% reflete o custo caixa operacional do Cenário Produção dedicado com pool de equipe distinto. Ver reconciliação em §10.
 
 ### §7.2 Benchmark de indiretos de mercado (Cenário Produção como EPP independente)
 
@@ -428,6 +444,8 @@ A métrica relevante para Desenvolvimento **não é R$/kg nem OPEX/522 lotes**. 
 
 Risco econômico relevante: **subutilização da capacidade técnica**. Poucos lotes não reduzem a maior parte do OPEX; apenas reduzem a absorção do custo fixo.
 
+> **Conexão com outros cenários e seções:** para comparar com o Cenário Produção (custo por kg de produto em regime dedicado), ver §9. Para reconciliação dos dois cenários com a base v9, ver §10. Para benchmark de preço e cobertura econômica, ver §7.
+
 ---
 
 ## §9. Cenário (2) — P100 Produção
@@ -448,8 +466,8 @@ A P100 opera como **operação dedicada de produção em 1 turno**, com a mesma 
 
 | Bloco | R$/mês |
 |---|---:|
-| Equipe fixa de produção | 59.400 |
-| Insumos de produção | 30.950 |
+| Equipe fixa de produção (²) | 59.400 |
+| Insumos de produção (³) | 30.950 |
 | Utilidades produtivas | 8.000 |
 | Manutenção preventiva/corretiva | 18.000 |
 | CQ externo rotineiro | 25.000 |
@@ -460,6 +478,10 @@ A P100 opera como **operação dedicada de produção em 1 turno**, com a mesma 
 | **Total anual caso-base** | **2.481.000** |
 
 Decomposição: 71,3% direto / 28,7% indireto; 86,1% fixo / 13,9% variável.
+
+> **(²) Derivação da equipe D2:** 5 pessoas (1 supervisor + 3 técnicos de produção + 1 técnico de CQ), salário médio bruto estimado ~R$ 6.800–7.000/mês por pessoa e encargos efetivos ~78–80% (SINAPI 2025 + VT, VA, plano de saúde) → total ~R$ 59.400/mês. Perfil de equipe enxuta de produção, distinto da equipe D1 com 8 pessoas a salário médio R$ 12.728/mês 2026-ajustado (ver §8.2 nota ¹). Não somar as duas equipes.*
+
+> **(³) Insumos de produção D2 vs matérias-primas v9:** o valor de R$ 30.950/mês (R$ 371.400/ano) é superior ao item correspondente da v9 (R$ 192.177/ano = R$ 16.015/mês). A diferença reflete as exigências adicionais do Cenário Produção dedicado em relação ao modelo v9: embalagens específicas por produto (GPC, NPG e Nanografite exigem acondicionamento e rotulagem separados), reagentes de limpeza entre bateladas de produtos distintos, materiais de amostragem por lote para CQ de liberação, e consumíveis de processo com especificação de produção. A faixa de incerteza de ±30% aplicada às matérias-primas da v9 (§6.3) é igualmente válida aqui até cotações formais.*
 
 ### §9.3 Custo unitário por produto — três condições
 
@@ -477,21 +499,29 @@ O OPEX total não muda entre as condições — o que muda é a massa produzida 
 
 Sensibilidade de indiretos (mercado): R$ 2,18–2,97 MM/ano. Ponto de equilíbrio operacional pleno não fecha sem preço de venda validado, mix comercial por produto e impostos.
 
+> **Conexão com outros cenários e seções:** para comparar com o Cenário Desenvolvimento (custo por campanha e capacidade técnica), ver §8. Para reconciliação dos dois cenários com a base v9, ver §10. Para benchmark de preço e cobertura econômica do piso US$ 50/kg sobre o OPEX D2, ver §7.1.
+
 ---
 
 ## §10. Reconciliação custo/kg v9↔v10
 
 A diferença entre v9 R$ 249/kg e v10 Produção R$ 895/R$ 448/R$ 224 não é contradição — é mudança de pool e método de alocação.
 
-| Dimensão | v9 | v10 Produção |
+| Dimensão | v9 (referência histórica) | v10 Produção (Cenário D2) |
 |---|---|---|
 | Equipe | 8 pessoas (equipe técnica completa) | 5 pessoas (equipe enxuta de produção) |
-| OPEX anual | R$ 2.563.484 (técnico completo) | R$ 2.481.000 (caso-base) |
-| Residual de diferença | — | R$ 82.484/ano por mudança de pool |
-| Custo médio ponderado | R$ 249/kg (massa total 10.315 kg) | R$ 241/kg físico D2 (média histórica) |
-| Produto individual | Custo médio unificado (não por produto) | GPC R$ 895, NPG R$ 448, Nanografite R$ 224 (alocação 4:2:1) |
+| OPEX caixa | R$ 2.396.908/ano (sem depreciação) | R$ 2.481.000/ano (caso-base, inclui indiretos de mercado) |
+| OPEX técnico completo | R$ 2.563.484/ano (caixa + depreciação R$ 166.576) | — (depreciação não incluída no caso-base D2) |
+| Residual D2 vs v9 caixa | — | +R$ 84.092/ano (D2 é *mais caro* que v9 caixa; equipe menor mas indiretos empresariais adicionados) |
+| Residual D2 vs v9 técnico completo | — | −R$ 82.484/ano (D2 é *mais barato* que v9 com depreciação; mudança de pool compensa) |
+| Custo médio ponderado | R$ 249/kg (OPEX técnico completo / 10.315 kg) | R$ 241/kg físico (OPEX D2 / 10.315 kg — média sem alocação por produto) |
+| Produto individual | Custo médio unificado (não desagregado por produto) | GPC R$ 895, NPG R$ 448, Nanografite R$ 224 (alocação 4:2:1 por complexidade técnica — ver §9.3) |
 
-**Leitura para o investidor:** as duas leituras coexistem e respondem a perguntas diferentes. v9 R$ 249/kg é o custo técnico completo médio para fins de planejamento e cobertura econômica. v10 Produção R$ 895/R$ 448/R$ 224 é o custo por produto em regime dedicado com equipe enxuta. Comparar diretamente os dois sem declarar a diferença de pool gera equívoco.
+**Nota de leitura crítica:** o D2 caso-base (R$ 2.481.000/ano) é levemente *mais caro* que o v9 OPEX caixa (R$ 2.396.908/ano), não mais barato. A equipe menor (5 vs 8 pessoas) gera economia de ~R$ 967.200/ano, mas os indiretos empresariais de mercado adicionados (R$ 712.800/ano — benchmark §7.2) e a maior estrutura de insumos de produção e manutenção absorvem parte dessa economia. O D2 é mais barato apenas quando comparado ao v9 OPEX *técnico completo* (que inclui R$ 166.576/ano de depreciação gerencial não presente no D2 caso-base).
+
+**Leitura para o investidor:** as duas leituras coexistem e respondem a perguntas diferentes. v9 R$ 249/kg é o custo técnico completo médio — base de planejamento e cobertura econômica histórica. v10 Produção R$ 895/R$ 448/R$ 224 é o custo por produto em regime dedicado com equipe enxuta e indiretos de mercado de EPP. Comparar diretamente os dois sem declarar a diferença de pool e método de alocação gera equívoco analítico.
+
+**Leitura para pesquisadores:** a alocação 4:2:1 (GPC:NPG:Nanografite) não é divisão por massa — é ponderação por esforço técnico relativo. GPC concentra maior CQ analítico, maior separação e maior especificação; Nanografite concentra maior volume físico mas menor valor técnico unitário. O custo unitário por produto só faz sentido no Cenário Produção dedicado; no Cenário Desenvolvimento o custo por campanha (R$ 80.000 base de 5 lotes — ver §8.3) é a métrica correta.
 
 ---
 
@@ -555,7 +585,7 @@ A revisão desta nota separa valores extraídos de fonte documental, valores inf
 | Manutenção anual | R$ 81.510/ano | Premissa v9: ~5% da base histórica produção + SSMA | Planejamento. Separar preventiva/corretiva; falhas pré-partida pertencem ao CAPEX |
 | Controle de qualidade terceirizado | US$ 5.000/mês; câmbio R$ 5/US$; R$ 300.000/ano | Premissa v9 preservada | Envelope recorrente para Raman, AFM/MEV/MET, TG/TGA, relatórios e cadeia de custódia |
 | Equipe operacional, CQ e aplicações | 8 pessoas; salário médio R$ 10.000/mês; encargos 75%; R$ 1.680.000/ano | Premissa v9 preservada | Estrutura do Cenário Desenvolvimento. Não somar com equipe enxuta de Produção |
-| Faixa externa de preço de referência | US$ 50–200/kg para NPG/GNP técnico | Benchmark externo v9; revalidado em §7 | Régua de mercado. A US$ 50/kg e câmbio R$ 5/US$, receita no piso cobre ~104% do OPEX Produção v10 |
+| Faixa externa de preço de referência | US$ 50–200/kg para NPG/GNP técnico | Benchmark externo v9; revalidado em §7 | Régua de mercado. A US$ 50/kg e câmbio R$ 5/US$, receita no piso (R$ 2.578.750/ano) cobre: ~101% do OPEX Técnico Completo v9 (R$ 2.563.484 — base §7.1) e ~104% do OPEX Produção v10 (R$ 2.481.000 — base §9.2). Os percentuais referem-se a denominadores distintos; ver reconciliação em §10. |
 | Tempo de ciclo nominal | 10,75 h/lote | Planilha CERES / P100x2 | Capacidade nominal econômica, não cronoanálise garantida |
 | Faixa defensável de ciclo com limpeza | 10,75–13,25 h/lote | Inferência técnica: ciclo nominal + limpeza MS 2,50 h | Usar em sensibilidade até cronoanálise SAT |
 | Rotação KonMix | 3.468–3.550 rpm | PIO-MGG-019 + lote 20210720Pa | Parâmetro interno forte. Confirmar por inversor/tacômetro no SAT |
@@ -785,3 +815,21 @@ As pendências abaixo não impedem o uso desta v10 como relatório de planejamen
 | Enquadramento inflamáveis/NR-20 e FISPQs do processo | Verificar solventes, auxiliares de formulação e reagentes quanto à NR-20; FISPQ atualizada para grafite, NH4OH, Triton X-100. Se não aplicável, registrar dispensa técnica. | Média |
 | Reconciliação final com a planilha-fonte P100/CERES 2021 | Planilha `P100_Custo de Produção - CLT_2021 - 9 de agosto de 2021 (CERES).xlsx` e `Levantamento de custos de Producao P100x2.xlsx` devem ser conferidas contra os valores desta v10. | Média |
 | Ingestão no Vault das fontes externas | `Levantamento de custos de Producao P100x2.xlsx`, `PIO-MGG-019` e `PIO-MGG-039`, hoje fora da pasta `Custos/`. | Baixa |
+
+---
+
+## §23. Changelog da Revisão Plentz-06 para a Revisão Plentz-06.a
+
+Esta revisão (06.a) é uma revisão editorial e de coerência analítica sobre a v10 Plentz-06 ([ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377)). **Não há alteração nos números financeiros centrais.** As mudanças são de clareza analítica, rastreabilidade e acessibilidade para as audiências técnico-acadêmica e financeira.
+
+| Bloco | Mudança incorporada |
+|---|---|
+| Frontmatter | Adicionado campo `revisao: Plentz-06.a`, `issue_revisao_6a: ALT-487`, atualização de `data` para 2026-05-31 e atualização do campo `audiencia` para técnico-acadêmico-financeira |
+| §1.1 — Guia de leitura por audiência (novo) | Tabela de navegação por perfil: Investidores/IFHAN (entrada por §2, §7–§9), Pesquisadores UFMG/CDTN (entrada por §3, §4, §11) e ambas as audiências (§1, §2, §10, §14). Reduz o tempo de localização para leitores com diferentes formações |
+| §2 — Resultado consolidado | Adicionadas referências cruzadas nas linhas dos Cenários Desenvolvimento e Produção: "Detalhamento: §8" e "Detalhamento: §9; reconciliação §10", permitindo navegação direta para os leitores orientados pelos indicadores-chave |
+| §7.1 — Cobertura econômica | Clarificada a ambiguidade entre os percentuais ~101% e ~104%: o ~101% refere-se ao OPEX Técnico Completo v9 (R$ 2.563.484, inclui depreciação); o ~104% refere-se ao OPEX Produção v10 (R$ 2.481.000, pool distinto sem depreciação). Os dois são complementares, não contraditórios. Adicionada referência a §10 |
+| §8 — Cenário Desenvolvimento (fim de seção) | Adicionada nota de conexão explicitando relação com §9, §10 e §7 |
+| §9.2 — Estrutura de custos D2 | Adicionada nota (²) derivando o custo de equipe D2: 5 pessoas, salário médio bruto ~R$ 6.800–7.000/mês, encargos ~78–80%. Adicionada nota (³) explicando por que os Insumos D2 (R$ 30.950/mês) são superiores às matérias-primas v9 (R$ 16.015/mês): embalagens por produto, reagentes de limpeza entre bateladas de produtos distintos, materiais de amostragem e consumíveis de CQ de liberação |
+| §9 — Cenário Produção (fim de seção) | Adicionada nota de conexão explicitando relação com §8, §10 e §7.1 |
+| §10 — Reconciliação v9↔v10 | Tabela expandida com coluna OPEX caixa v9 separada de OPEX técnico completo v9; adicionada linha "Residual D2 vs v9 caixa" explicando que D2 é levemente mais caro que v9 caixa (+R$ 84.092/ano) apesar da equipe menor, por causa dos indiretos empresariais adicionados. Adicionadas notas de leitura para investidor e para pesquisador |
+| §12 — Rastreabilidade | Entrada "Faixa externa de preço" atualizada: explicitados os dois denominadores de cobertura (~101% sobre OPEX Técnico Completo v9, ~104% sobre OPEX Produção v10) com referência cruzada a §7.1, §9.2 e §10 |
