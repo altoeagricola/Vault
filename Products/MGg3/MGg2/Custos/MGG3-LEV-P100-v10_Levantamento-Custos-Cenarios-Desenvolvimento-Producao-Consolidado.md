@@ -1,16 +1,17 @@
 ---
 codigo_fonte: MGG3-LEV-P100-v10
-titulo: Levantamento de custos da P100 — Cenários Desenvolvimento e Produção (Revisão Plentz-06.a)
+titulo: Levantamento de custos da P100 — Cenários Desenvolvimento e Produção (Revisão Plentz-06.b)
 produto: MGgrafeno / MGG3
 escala: P100 — 2 módulos KonMix de cisalhamento em tanques de 100 L (200 L nominais por lote combinado)
 versao: 10
-revisao: Plentz-06.a
+revisao: Plentz-06.b
 data: 2026-05-31
 status: consolidado_cenarios_desenvolvimento_producao
 base_anterior: MGG3-LEV-P100-v9
 issue_revisao_6: [ALT-464](mention://issue/e3b93760-b3d1-4468-ab0e-544991700023)
 issue_revisao_final: ALT-464
 issue_revisao_6a: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377)
+issue_revisao_6b: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377)
 subfrentes_rev06: [ALT-465](mention://issue/447ac547-6079-4350-92e6-441c91a0e503), [ALT-466](mention://issue/f0520698-b1e9-40a7-85e1-254350010c51), [ALT-467](mention://issue/7e482ee8-564d-4242-8836-2c47d4016c16), [ALT-468](mention://issue/432a64f1-7aa8-40fa-b385-50527c13c985), [ALT-469](mention://issue/98da17bf-f801-43ab-b31f-e3cef93f46af), [ALT-470](mention://issue/44323d04-01c4-476e-848b-b239cc4af1e8), [ALT-471](mention://issue/c4709a22-065d-473c-a080-4447e227c8dd), [ALT-472](mention://issue/cb0eba0b-a456-4a20-af8b-950dd5076d79), [ALT-473](mention://issue/27df4ad9-137a-4121-8d70-09bdee0b4007), [ALT-474](mention://issue/6067b916-e710-41ac-bebe-7ba29472a28b)
 audiencia: técnico-acadêmico-financeira (rigor v9 + leitura de cenários para investidor e pesquisador)
 ---
@@ -444,6 +445,124 @@ A métrica relevante para Desenvolvimento **não é R$/kg nem OPEX/522 lotes**. 
 
 Risco econômico relevante: **subutilização da capacidade técnica**. Poucos lotes não reduzem a maior parte do OPEX; apenas reduzem a absorção do custo fixo.
 
+---
+
+### §8.5 Sub-cenário D1.b — 3 Lotes Testes/Semana (Módulo Único, 100L)
+
+Este sub-cenário modela a P100 em regime de **testes contínuos semanais**: 3 lotes por semana, cada lote usando um único módulo de conversão (100 L nominal, 10 kg de grafite por lote), sem a estrutura de campanhas formais do D1 caso-base. Briefing: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377), 2026-05-31.
+
+A qualificação "100 litros" descreve o uso de um único módulo KonMix (100 L nominal), diferenciando-o do lote padrão de 200 L (dois módulos em paralelo) que fundamenta o D1 base e o D2.
+
+#### §8.5.1 Parâmetros técnicos e produção anual
+
+| Parâmetro | D1.b — 3 testes/semana (100L) | D1 base — 12 campanhas (200L) | Observação |
+|---|---|---|---|
+| Lotes por semana | 3 | ~1,15 | 2,6× mais lotes/semana |
+| Volume por lote | 100 L (1 módulo) | 200 L (2 módulos paralelos) | 2º módulo disponível para prep paralela |
+| Grafite por lote | 10 kg | 20 kg | Concentração 100 g/L mantida por módulo |
+| Lotes por ano | **156** | 60 | 29,9% da capacidade nominal (522 lotes/ano) |
+| Volume total anual | 15.600 L | 12.000 L | 30% mais volume que D1 base |
+| Grafite anual | **1.560 kg** | 1.200 kg | 30% a mais em carga de processo |
+| Uso capacidade nominal | 29,9% | 11,5% | 2,6× mais uso da infraestrutura |
+| Ciclo por lote 100L | ~8,75–9,25 h | ~10,75–13,25 h (200L) | Separação 100L mais rápida (~1,5–2,0 h vs ~3,5 h nominal 200L) |
+| Regime de trabalho | 3 dias/semana (~27 h planta/semana) | Por campanha (~2–3 dias/campanha) | Operação cadenciada, sustentável sem hora extra |
+
+**Produção técnica anual (yields caso-base §4.2):**
+
+| Fração | % rendimento | kg/lote (10 kg grafite) | kg/ano (156 lotes) | Comparativo D1 base |
+|---|---:|---:|---:|---:|
+| GPC/FLG | 0,80% | 0,080 | **12,5** | 9,6 kg |
+| NPG/GNP | 5,00% | 0,500 | **78,0** | 60,0 kg |
+| Nanografite | 93,00% | 9,300 | **1.450,8** | 1.116,0 kg |
+| Residual | 1,20% | 0,120 | 18,7 | 14,4 kg |
+| **Total** | **100%** | **10,000** | **1.560,0** | **1.200,0 kg** |
+
+O D1.b produz **30% mais material** que o D1 base por processar mais lotes (156 vs 60), apesar do volume menor por lote. O segundo módulo KonMix permanece ocioso durante a operação D1.b — pode ser dedicado a prep de formulações, testes paralelos de reagentes ou atividades de desenvolvimento de aplicação.
+
+#### §8.5.2 Estrutura de custos variáveis por lote 100L
+
+Os custos fixos do D1 caso-base (R$ 3.134.400/ano) permanecem integralmente. Os custos variáveis são recalculados para lotes de 100L em regime de testes contínuos, referenciados nos componentes do §8.3.
+
+| Item variável | R$/lote (100L, D1.b) | Base de cálculo | Comparativo lote 200L §8.3 |
+|---|---:|---|---:|
+| Insumos (grafite 10 kg + Triton X-100, NH4OH, água, embalagem) | R$ 1.750 | 50% do lote 200L R$ 3.500 — volume e carga proporcionais | R$ 3.500 |
+| Utilidades (1 KonMix 5h + separação 100L ~1,75h) | R$ 450 | 50% do lote 200L R$ 900 — 1 cisalhador + separação mais curta | R$ 900 |
+| CQ incremental por lote teste (Raman + gravimetria) | R$ 2.500 | Raman externo (R$ 500–800/análise) + gravimetria interna; a cada lote-teste com objetivo técnico definido | R$ 4.500 |
+| MO incremental de operação | R$ 1.800 | 60% do lote 200L R$ 3.000 — 1 módulo, ciclo mais curto | R$ 3.000 |
+| Limpeza, setup e documentação por lote | R$ 2.500 | 50% do lote 200L R$ 5.000 — 1 módulo, limpeza mais rápida | R$ 5.000 |
+| Resíduo e descarte | R$ 550 | 50% do lote 200L R$ 1.100 — metade da massa de processo | R$ 1.100 |
+| **Total variável por lote 100L (caso-base)** | **R$ 9.550** | | **R$ 18.000** |
+
+> **Nota sobre CQ do D1.b:** O CQ de R$ 2.500/lote-teste é adequado para testes com objetivo técnico por lote — Raman para confirmar GPC/NPG, gravimetria de yield, análise de dispersão quando relevante. É inferior ao CQ de campanha D1 base (R$ 7.000/lote médio para campanhas de desenvolvimento de aplicação com Raman, AFM, TGA e ensaios de cliente). Se o D1.b for usado exclusivamente como monitoramento de processo sem caracterização por lote, o CQ cai para R$ 700–800/lote (Raman bimestral + gravimetria interna). Ver sensibilidade §8.5.4.
+
+#### §8.5.3 OPEX total D1.b
+
+| Bloco | Natureza | Custo anual | % do total |
+|---|---|---:|---:|
+| Custos fixos — idênticos ao D1 caso-base (§8.2) | Fixo | R$ 3.134.400 | 67,8% |
+| Insumos (156 lotes × R$ 1.750) | Direto variável | R$ 273.000 | 5,9% |
+| Utilidades (156 lotes × R$ 450) | Direto variável | R$ 70.200 | 1,5% |
+| CQ incremental (156 lotes × R$ 2.500) | Direto variável | R$ 390.000 | 8,4% |
+| MO incremental (156 lotes × R$ 1.800) | Direto variável | R$ 280.800 | 6,1% |
+| Limpeza, setup e documentação (156 lotes × R$ 2.500) | Direto variável | R$ 390.000 | 8,4% |
+| Resíduo (156 lotes × R$ 550) | Direto variável | R$ 85.800 | 1,9% |
+| **Total variável** | | **R$ 1.489.800** | **32,2%** |
+| **OPEX total D1.b caso-base** | | **R$ 4.624.200** | **100,0%** |
+
+Decomposição: 90,4% direto / 9,6% indireto; 67,8% fixo / 32,2% variável.
+
+#### §8.5.4 Comparação com D1 base e sensibilidade de CQ
+
+**Comparação do D1.b com os demais cenários D1:**
+
+| Cenário | Lotes/ano | Vol/lote | OPEX anual | OPEX/lote | OPEX/kg grafite | Grafite/ano |
+|---|---:|---|---:|---:|---:|---:|
+| D1 conservador (8 campanhas × ~4 lotes, 200L) | 32 | 200 L | R$ 3.654.400 | R$ 114.200 | R$ 4.568 | 640 kg |
+| D1 base (12 campanhas × 5 lotes, 200L) | 60 | 200 L | R$ 4.094.400 | R$ 68.240 | R$ 3.412 | 1.200 kg |
+| **D1.b — 3 testes/semana (100L, este sub-cenário)** | **156** | **100 L** | **R$ 4.624.200** | **R$ 29.642** | **R$ 2.964** | **1.560 kg** |
+| D1 intensivo (18 campanhas + à la carte, 200L) | 108 | 200 L | R$ 4.844.400 | R$ 44.856 | R$ 2.243 | 2.160 kg |
+
+O D1.b tem o **menor custo por lote** (R$ 29.642 — melhor diluição do fixo sobre 156 lotes), o **maior número de lotes por ano** e o **maior volume de grafite processado** entre os cenários D1, mas o **maior custo anual** do grupo D1. O custo por kg de grafite processado (R$ 2.964) é levemente superior ao D1 intensivo, mas inferior ao D1 base e conservador.
+
+**Sensibilidade por intensidade de CQ:**
+
+| Premissa CQ/lote | Custo variável total | OPEX total | Leitura operacional |
+|---|---:|---:|---|
+| Básico — gravimetria interna + Raman bimestral (R$ 800/lote) | R$ 1.021.800 | **R$ 4.156.200** | Monitoramento de processo sem caracterização por lote |
+| **Moderado — Raman + gravimetria por lote (R$ 2.500/lote)** | **R$ 1.489.800** | **R$ 4.624.200** | Testes com objetivo técnico por lote (caso-base) |
+| Intensivo — caracterização completa por lote-teste (R$ 4.500/lote) | R$ 1.927.800 | **R$ 5.062.200** | Desenvolvimento de aplicação por lote, equivalente a D1 campanha |
+
+**Faixa D1.b: R$ 4.156.000–5.062.000/ano** dependendo da intensidade analítica por lote-teste.
+
+#### §8.5.5 Métricas e leitura econômica
+
+| Indicador | D1.b (3 testes/semana, 100L) | D1 base (12 campanhas, 200L) |
+|---|---:|---:|
+| OPEX total anual | **R$ 4.624.200** | R$ 4.094.400 |
+| Incremento vs D1 base | **+R$ 529.800 (+13%)** | — |
+| Lotes por ano | 156 | 60 |
+| Grafite processado | 1.560 kg | 1.200 kg |
+| GPC produzido | 12,5 kg | 9,6 kg |
+| NPG produzido | 78,0 kg | 60,0 kg |
+| Nanografite produzida | 1.450,8 kg | 1.116,0 kg |
+| Custo por lote (amortizado) | R$ 29.642 | R$ 68.240 |
+| Custo por kg grafite | R$ 2.964 | R$ 3.412 |
+| Custo por litro processado | R$ 296 | R$ 341 |
+| Uso da capacidade nominal (522 lotes/ano) | 29,9% | 11,5% |
+| OPEX mensal de referência | R$ 385.350 | R$ 341.200 |
+
+**Pontos de atenção específicos do D1.b:**
+
+1. **Segundo módulo ocioso:** Durante os 3 lotes/semana de 100L, o segundo KonMix fica disponível. Isso é um recurso — pode ser usado para prep de formulações distintas, testes de condições diferentes de pH ou concentração, ou lotes de outra aplicação em paralelo, sem aumentar o OPEX.
+
+2. **Capacidade de separação favorável:** 100L é metade do volume que impõe o gargalo de separação documentado em §4.5 e §4.3 (7,6–10,3h para 200L). Para 100L, as estimativas de separação caem para ~1,5–3,3h, tornando o ciclo de 100L mais confiável que o de 200L.
+
+3. **Custo por campanha-equivalente:** Se as 3 sessões semanais forem agrupadas em ciclos mensais (13 lotes/mês), o custo por mês de operação é R$ 385.350 — maior que o D1 base (R$ 341.200/mês) mas com 2,6× mais lotes/mês e 30% mais material processado.
+
+4. **Produção superior em volume absoluto:** O D1.b produz mais GPC (12,5 vs 9,6 kg/ano), mais NPG (78,0 vs 60,0 kg/ano) e mais Nanografite (1.450,8 vs 1.116,0 kg/ano) que o D1 base. Para fins de geração de amostras para parceiros UFMG/CDTN ou para qualificação comercial, isso é vantajoso.
+
+5. **Risco econômico:** Igual ao D1 base — a maior parte do OPEX (67,8%) é fixo e não cai com redução de lotes. Se por qualquer motivo a cadência cair de 3 para 1 lote/semana, o OPEX cai apenas ~22% (de R$ 4.624.200 para ~R$ 3.621.400).
+
 > **Conexão com outros cenários e seções:** para comparar com o Cenário Produção (custo por kg de produto em regime dedicado), ver §9. Para reconciliação dos dois cenários com a base v9, ver §10. Para benchmark de preço e cobertura econômica, ver §7.
 
 ---
@@ -833,3 +952,14 @@ Esta revisão (06.a) é uma revisão editorial e de coerência analítica sobre 
 | §9 — Cenário Produção (fim de seção) | Adicionada nota de conexão explicitando relação com §8, §10 e §7.1 |
 | §10 — Reconciliação v9↔v10 | Tabela expandida com coluna OPEX caixa v9 separada de OPEX técnico completo v9; adicionada linha "Residual D2 vs v9 caixa" explicando que D2 é levemente mais caro que v9 caixa (+R$ 84.092/ano) apesar da equipe menor, por causa dos indiretos empresariais adicionados. Adicionadas notas de leitura para investidor e para pesquisador |
 | §12 — Rastreabilidade | Entrada "Faixa externa de preço" atualizada: explicitados os dois denominadores de cobertura (~101% sobre OPEX Técnico Completo v9, ~104% sobre OPEX Produção v10) com referência cruzada a §7.1, §9.2 e §10 |
+
+---
+
+## §24. Changelog da Revisão Plentz-06.a para a Revisão Plentz-06.b
+
+Esta revisão (06.b) acrescenta o Sub-cenário D1.b ao Cenário Desenvolvimento ([ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377), briefing 2026-05-31). **Nenhum número existente foi alterado.** O acréscimo é exclusivamente um novo bloco analítico dentro do §8.
+
+| Bloco | Mudança incorporada |
+|---|---|
+| Frontmatter | `revisao: Plentz-06.b`, `issue_revisao_6b: ALT-487` |
+| **§8.5 — Sub-cenário D1.b (novo)** | Modelagem completa do regime de 3 lotes testes/semana a 100L (módulo único): §8.5.1 parâmetros técnicos e produção anual (156 lotes, 1.560 kg grafite, GPC 12,5 kg / NPG 78,0 kg / Nanografite 1.450,8 kg); §8.5.2 estrutura de custos variáveis por lote 100L (R$ 9.550/lote caso-base); §8.5.3 OPEX total D1.b caso-base R$ 4.624.200/ano; §8.5.4 comparação com D1 base e sensibilidade de CQ (faixa R$ 4.156.000–5.062.000/ano); §8.5.5 métricas derivadas e pontos de atenção operacionais |
