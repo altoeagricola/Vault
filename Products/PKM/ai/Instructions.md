@@ -230,6 +230,25 @@ Key plugins affecting vault behavior:
 
 The Docker database `mg-grafeno` is the source of truth for structured MGgrafeno/MGg3 data already covered by its schema. Markdown files may preserve historical extracts for audit, but those tables must be treated as deprecated comparison material once an equivalent database query exists.
 
+### MG Grafeno Application
+
+There is also a dedicated application at `~/Base/Products/MG-Grafeno` that gives visibility and controlled manipulation surfaces for the `mg-grafeno` database. Agents working on MGg3 data must know this app exists before proposing new Markdown-only workflows.
+
+Current structure:
+
+- Stack: Next.js 16 App Router, React 19, TypeScript, Tailwind CSS v4, Shadcn/Radix UI, NextAuth/GitHub, `pg`, Recharts, OpenTelemetry.
+- Local service: `mggrafeno-app`, normally exposed at `http://localhost:3200`; database service: `mggrafeno-postgres`.
+- Generic data manipulation: `src/app/app/r/[resource]/` renders CRUD screens for resources registered in `src/lib/crud/registry.ts` and `src/lib/crud/resources/*`.
+- Charts and database visibility: `src/app/app/reports/*` renders chart-driven reports, with SQL/query code in `src/lib/reports/queries.ts` and report metadata in `src/lib/reports/registry.ts`.
+- Database model and migrations: `db/schema.sql` and `db/migrations/`; migrations must preserve the database as the canonical structured-data layer.
+- App-specific agent guidance lives in `~/Base/Products/MG-Grafeno/ai/instructions.md` through the repo-root `AGENTS.md`/`CLAUDE.md` symlinks.
+
+Boundary:
+
+- Use the app for structured data entry, corrections, CRUD review, dashboards, charts, and operational visibility over the database.
+- Keep discursive analysis, interpretation, synthesis, decision memos, historical narrative, and argumentation in Obsidian notes.
+- When a new MGg3 need appears, decide explicitly: data/table/chart/workflow belongs in the app; narrative/analysis belongs in Obsidian; schema gaps should be proposed before either surface invents parallel data.
+
 **Mandatory for all agents working with new files or MGg3/MGgrafeno notes:**
 
 - Before adding or trusting tabular/factual operational data in Markdown, check whether the data belongs in one of the existing schemas: `documental`, `tecnologia`, `operacao`, `custo`, `suprimentos`, `aplicacao`, or `ssma`.
