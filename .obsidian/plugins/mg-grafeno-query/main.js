@@ -1,12 +1,21 @@
 const { Plugin, Notice } = require("obsidian");
 const { execFile } = require("child_process");
+const { existsSync } = require("fs");
 
 const DEFAULT_SETTINGS = {
   dockerContainer: "mggrafeno-postgres",
   database: "MG-Grafeno-Local",
   user: "postgres",
+  dockerPath: "",
   timeoutMs: 15000,
 };
+
+const DOCKER_PATHS = [
+  "/opt/homebrew/bin/docker",
+  "/usr/local/bin/docker",
+  "/Applications/Docker.app/Contents/Resources/bin/docker",
+  "docker",
+];
 
 module.exports = class MgGrafenoQueryPlugin extends Plugin {
   async onload() {
@@ -78,6 +87,7 @@ module.exports = class MgGrafenoQueryPlugin extends Plugin {
 
   runSql(sql) {
     return new Promise((resolve, reject) => {
+      const dockerPath = this.resolveDockerPath();
       const args = [
         "exec",
         this.settings.dockerContainer,
@@ -92,16 +102,42 @@ module.exports = class MgGrafenoQueryPlugin extends Plugin {
         "-c",
         sql,
       ];
+      const env = Object.assign({}, process.env, {
+        PATH: [
+          "/opt/homebrew/bin",
+          "/usr/local/bin",
+          "/usr/bin",
+          "/bin",
+          "/usr/sbin",
+          "/sbin",
+          process.env.PATH || "",
+        ].join(":"),
+      });
 
-      execFile("docker", args, { timeout: this.settings.timeoutMs }, (error, stdout, stderr) => {
+      execFile(dockerPath, args, { timeout: this.settings.timeoutMs, env }, (error, stdout, stderr) => {
         if (error) {
           const detail = (stderr || error.message || "Falha ao executar consulta.").trim();
+          if (error.code === "ENOENT") {
+            reject(new Error(`Docker nao encontrado em ${dockerPath}. Configure dockerPath no plugin ou confirme se Docker Desktop/CLI esta instalado.`));
+            return;
+          }
           reject(new Error(detail));
           return;
         }
         resolve(stdout.trim());
       });
     });
+  }
+
+  resolveDockerPath() {
+    const configuredPath = (this.settings.dockerPath || "").trim();
+    if (configuredPath) return configuredPath;
+
+    for (const candidate of DOCKER_PATHS) {
+      if (candidate === "docker" || existsSync(candidate)) return candidate;
+    }
+
+    return "docker";
   }
 
   renderCsv(csv, el) {

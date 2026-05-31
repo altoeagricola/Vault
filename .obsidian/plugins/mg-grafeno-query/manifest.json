@@ -1,7 +1,7 @@
 {
   "id": "mg-grafeno-query",
   "name": "MG Grafeno Query",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "1.5.0",
   "description": "Renderiza consultas SQL somente-leitura do banco Docker mg-grafeno dentro de notas Markdown.",
   "author": "ALTOE Agricola",
