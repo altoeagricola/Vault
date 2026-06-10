@@ -5,7 +5,7 @@ produto: MGg3
 subproduto: MGg2
 status: operacional
 confidencialidade: interno
-atualizado: 2026-05-22
+atualizado: 2026-06-10
 ---
 # Evidencias de preco de grafeno - Index
 
@@ -28,3 +28,5 @@ Regra de uso: nenhum preco entra em comparacao ou recomendacao sem registro indi
 | [[MGG3-PRECO-20260522-04_nanoxplore-tribograf-og\|MGG3-PRECO-20260522-04]] | NanoXplore / CPChem | Tribograf (NanoSlide) | aditivo formulado | 2025-09-18 | medio | interno |
 | [[MGG3-PRECO-20260522-05_graphenest-emi\|MGG3-PRECO-20260522-05]] | Graphenest | EMI Shielding Coating | aditivo formulado | 2026-05-13 | medio | interno |
 | [[MGG3-PRECO-GLOBAL-20260522-matriz_precos_grafeno_2026\|MGG3-PRECO-GLOBAL-20260522]] | Multiplos fornecedores globais | Matriz auditavel de precos globais | matriz comparativa | 2026-05-22 | medio | interno |
+| [[MGG3-PRECO-20250423-01_blackswan-bs8-1518-flg\|MGG3-PRECO-20250423-01]] | Black Swan Graphene | BS8 1518 | GNP | 2025-04-23 | fraco | interno |
+| [[MGG3-PRECO-20250724-01_avangrp-conductive-gnp\|MGG3-PRECO-20250724-01]] | AvanGRP (a confirmar) | AvanGRP Conductive | GNP | 2025-07-24 | medio | interno |

@@ -3,7 +3,7 @@ titulo: Inteligencia de Mercado - Indice de Relatorios
 tipo: indice-pasta
 produto: MGg3
 confidencialidade: interno
-atualizado: 2026-05-22
+atualizado: 2026-06-10
 ---
 # Inteligencia de Mercado - Indice de Relatorios
 
@@ -21,6 +21,7 @@ Este indice organiza os relatorios de inteligencia de mercado do MGg3 para consu
 | Quanto custa grafite de referencia para cadeia de grafeno? | [[Grafite_Graflake9880_Cotacoes_Maio2026]]   | Referencia datada de commodity mineral; usar para comparacao preliminar, nao como cotacao contratual.                   |
 | Qual régua de preço usar para MGgrafeno P100/P500?         | [[MGG3-MEMO-20260522-01_Regua-preco-premio-grafeno-ALT339]] | Síntese executiva da ALT-339; separa piso NanoXplore, base técnica/formulada e upside premium condicionado.             |
 | Onde ver referencias historicas de players e aplicacoes?   | [[IDTechEx_USA2015]]                         | Colecao historica de 21 apresentacoes IDTechEx USA 2015; util para calibrar hype, preco, escala e rotas tecnicas.       |
+| Como Flavio Plentz lia grafite, carbon black e a tese NanoXplore? | [[MGG3-MEMO-20260114-01_Flavio-grafite-carbon-black-nanoxplore]] | Memo de e-mail (jan/2026) com cotacoes de grafite/CB e critica ao plano de carbon black da NanoXplore; usar como leitura de especialista, nao como cotacao contratual. |
 
 ## Relatorios principais
 
@@ -30,6 +31,7 @@ Este indice organiza os relatorios de inteligencia de mercado do MGg3 para consu
 | [[CAGR Mercado Grafeno]] | Consolida fontes externas e internas de CAGR, normalizando escopos entre mercado amplo de grafeno, segmentos downstream e materiais 2D adjacentes. Referencia central atualizada: ~26,9% a.a. ate 2030 para mercado amplo; base historica: 29,84% a.a. | Usar em propostas, planejamento comercial, avaliacao de mercado e defesa quantitativa. | Nao misturar grafeno-material com eletronicos, baterias, coatings, sensores ou agro sem marcar escopo. |
 | [[Mercado NanoTech Agro]] | Relatorio executivo da 3a onda sobre grafeno/nanotecnologia no agro. Conclui que o mercado agro e tecnicamente mais raso do que o ruido comercial sugere; poucas fichas sustentam classificacao grafenica robusta. | Usar para temas agro, MAPA, Embrapa, GO em embalagens, nanosseguranca, produtos comerciais e claims de grafeno agricola. | Nao aplicar CAGR amplo de grafeno ao agro. Usar 15-22% a.a. como faixa base ate 2030. |
 | [[MGG3-MEMO-20260522-01_Regua-preco-premio-grafeno-ALT339]] | Memo executivo da régua de preço e prêmio do grafeno para MGgrafeno, consolidando ALT-339/340/341/342/343/344/346. | Usar para decisão interna P100/P500, atualização do levantamento de custos e separação entre fato, inferência e recomendação. | Prêmios O&G e EMI são upside inferido, não premissa base sem RFQ formal. |
+| [[MGG3-MEMO-20260114-01_Flavio-grafite-carbon-black-nanoxplore]] | Memo de e-mail de Flavio Plentz (jan/2026, epoca Gerdau Graphene): cotacao Nacional de Grafite 9980 (~US$2.700/T), precos de carbon black condutivo, critica ao plano de CB da NanoXplore e tese de produto do Flavio. | Usar como leitura de especialista sobre grafite, carbon black e posicionamento NanoXplore; cruzar com [[Case NanoXplore]] e [[Grafite_Graflake9880_Cotacoes_Maio2026]]. | Cotacoes datadas e de e-mail, nao contratuais. Reconciliar grade 9980 (memo) vs 9880 (cotacoes maio/2026) antes de usar como mesma referencia. |
 
 ## Cases e benchmarks
 

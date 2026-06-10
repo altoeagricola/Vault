@@ -3,7 +3,7 @@ titulo: Gerdau Graphene
 tipo: indice-organizacao
 organizacao: Gerdau Graphene
 produto: MGg3
-atualizado: 2026-05-07
+atualizado: 2026-06-10
 confidencialidade: interno
 ---
 # Gerdau Graphene
@@ -52,6 +52,7 @@ A Gerdau Graphene opera como empresa de aditivos industriais à base de grafeno:
 | GG03 | Criado | [[GG03_Aditivos-QuimicosT&R]] |
 | GG04 | Criado | [[GG04_Case-Indorama]] |
 | GG-POL01 | Criado | [[GG-POL01_BlackSwan-R&D]] |
+| GG-W104 | Criado (nota tácita) | [[GG-W104_Case-Cassol-Comercial]] |
 
 > Nota: o inventário e os registros individuais tornam os 8 anexos consultáveis sem abertura normal dos PDFs/PPTX. As notas temáticas continuam sendo a melhor interface para leitura rápida por segmento.
 

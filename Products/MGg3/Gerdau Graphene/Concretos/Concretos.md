@@ -3,7 +3,7 @@ titulo: Concretos & Lubrificantes — Gerdau Graphene
 pasta: "[[Gerdau Graphene]]"
 tipo: Capa / Resumo Executivo
 produto: MGg3
-atualizado: 2026-04-26
+atualizado: 2026-06-10
 confidencialidade: interno
 ---
 # Concretos & Lubrificantes — Gerdau Graphene
@@ -18,8 +18,9 @@ Pasta com documentos de P&D da **Gerdau Graphene** sobre duas plataformas tecnol
 |--------|-----------|------|------|
 | GG-CM018 | CM018 — Atualização dez/2024 | Concreto / Construção Civil | Dez/2024 |
 | GG-RT | Resultados Técnicos Aditivos para Concreto — CM018 | Concreto / Resultados | Dez/2024 |
+| [[GG-W104_Case-Cassol-Comercial]] | W104 (NanoCons) — Case Cassol e PayBack | Concreto / Comercial (nota tácita, confidencial) | Jun/2025 |
 
-> Os dois arquivos compartilham conteúdo parcial (deck de lubrificantes nas primeiras páginas + CM018 nas subsequentes). O conteúdo relevante está integralmente capturado nesta nota.
+> Os dois arquivos GG-CM018/GG-RT compartilham conteúdo parcial (deck de lubrificantes nas primeiras páginas + CM018 nas subsequentes). O conteúdo relevante está integralmente capturado nesta nota. A nota **GG-W104** é uma memória comercial tácita (formulação 10% grafeno em meio aquoso, produção Polystell, case Cassol/Monte Mor, dosagem, vendas e margem GM), com dados estruturados candidatos ao banco mg-grafeno.
 
 ---
 
