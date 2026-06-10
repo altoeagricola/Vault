@@ -32,11 +32,10 @@ metricas_chave:
   - "Cassol: GM = R$14,26/kg de W104"
   - "Dosagem Cassol: 253 mL por lote de 1,4 m3 = 180,7 mL/m3"
   - "Cassol: reducao de ate 30% de cimento em concreto classe 2; cimento a R$0,61/kg (26/07/2025)"
-  - "Vendas W104: MaxMor 51 kg a R$146,61/kg; Prevale 102 kg a R$142,75/kg; Cassol 51 kg a R$114,00/kg"
+  - "Vendas W104: MaxMor 51 kg a R$146,61/kg; Prevale 102 kg a R$142,75/kg; Cassol 360 kg a R$114,00/kg"
 riscos_uso:
   - relato pessoal interno; nao usar como fonte institucional sem validacao documental (NF, planilha de custo)
   - valores comerciais (precos, NF, margem) sao sensiveis; nao expor fora do circulo interno
-  - ha inconsistencias internas na propria memoria (quantidade e NF da Cassol) que precisam de reconciliacao com a NF original
   - dados estruturados de venda/custo/dosagem sao candidatos ao banco mg-grafeno; tabela Markdown aqui e memoria/legado para auditoria
 links_relacionados:
   - "[[Concretos]]"
@@ -91,32 +90,21 @@ A **Cassol** e uma concreteira em **Monte Mor / SP**, da area de **pre-moldados*
 | Dosagem de W104 | **253 mL por lote** = **180,7 mL/m3** de concreto |
 | Custo de cimento (Cassol, 26/07/2025) | **R$0,61/kg** |
 
-### Economia comercial do W104 na Cassol (memoria — auditar contra NF)
+### Economia comercial do W104 na Cassol
 
-> [!caution] Inconsistencias na memoria — reconciliar com a NF original
-> O relato apresenta **dois conjuntos de numeros divergentes** para a venda Cassol. Ambos sao preservados abaixo como memoria; **nenhum deve ser tratado como fato comercial** ate conferencia com a nota fiscal e a planilha de custo.
-
-**Versao A — secao "Case Cassol W104":**
+> [!note] Quantidade confirmada por Rodrigo Altoé (ALT-565, 2026-06-10): **360 kg**
+> A memoria original trazia dois numeros divergentes de quantidade (360 kg na secao "Case Cassol W104" e 51 kg na secao "Calculo PayBack W104"). Rodrigo confirmou que **foram 360 kg**. Com a quantidade fechada, os demais numeros reconciliam: **360 kg × R$114,00/kg = R$41.040,00 de NF**, **R$30.540,00 liquido** (≈ R$84,8/kg apos impostos) e **GM = R$14,26/kg**. Os "51 kg" e a NF de "R$40.040" da secao PayBack ficam como erro de digitacao da memoria.
 
 | Campo | Valor |
 |-------|-------|
-| Quantidade | **360 kg** de aditivo W104 (10% de grafeno) |
-| NF (valor total) | **R$41.040,00** |
-| Liquido (apos impostos) | **R$30.540,00** |
-| Preco recebido | **R$84,14/kg** de W104 |
+| Quantidade | **360 kg** de aditivo W104 (10% de grafeno) — confirmado por Rodrigo |
+| Preco bruto | **R$114,00/kg** de W104 |
+| NF (valor total) | **R$41.040,00** (= 360 × R$114,00) |
+| Liquido (apos impostos) | **R$30.540,00** (≈ R$84,8/kg) |
 | Margem (GM) | **R$14,26/kg** |
 
-**Versao B — secao "Calculo PayBack W104":**
-
-| Campo | Valor |
-|-------|-------|
-| Quantidade | **51 kg** vendidos |
-| Preco | **R$114,00/kg** |
-| NF (valor total) | **R$40.040,00** |
-| Liquido (apos impostos) | **R$30.540,00** |
-| Margem (GM) | **R$14,26/kg** |
-
-**Divergencias a reconciliar:** quantidade (360 kg vs 51 kg), NF total (R$41.040 vs R$40.040) e preco/kg (R$84,14 vs R$114,00). Os valores **consistentes** entre as duas versoes sao o **liquido R$30.540,00** e a **margem GM = R$14,26/kg**.
+> [!caution] Continua sendo memoria interna confidencial
+> Quantidade confirmada verbalmente por Rodrigo; NF, liquido e custo de producao ainda devem ser conferidos contra a nota fiscal e a planilha de custo antes de uso institucional.
 
 ## PayBack W104 — vendas realizadas (memoria)
 
@@ -124,7 +112,7 @@ A **Cassol** e uma concreteira em **Monte Mor / SP**, da area de **pre-moldados*
 |---------|-----------:|------:|------------|
 | MaxMor | 51 kg | R$146,61/kg | — |
 | Prevale | 102 kg | R$142,75/kg | — |
-| Cassol | 51 kg | R$114,00/kg | ver divergencia acima (Versao A indica 360 kg) |
+| Cassol | 360 kg | R$114,00/kg | quantidade confirmada por Rodrigo (ALT-565, 2026-06-10) |
 
 > Margem liquida final calculada (apos impostos e custos de producao): **GM = R$14,26/kg** de W104.
 
@@ -133,7 +121,7 @@ A **Cassol** e uma concreteira em **Monte Mor / SP**, da area de **pre-moldados*
 > [!info] Dados estruturados — fonte de verdade deve ser o banco, nao esta nota
 > Conforme [[Instructions]] e [[Padrao operacional - registros consultaveis MGg3]], dados tabulares de venda, custo, dosagem e aplicacao do W104 devem ser canonizados no banco `mg-grafeno` (app `~/Base/Products/MG-Grafeno`), nao em Markdown. As tabelas acima sao **memoria/legado para auditoria**. Registros sugeridos:
 
-- **`operacao` / vendas:** transacoes W104 — MaxMor (51 kg, R$146,61/kg), Prevale (102 kg, R$142,75/kg), Cassol (qtd a reconciliar, R$114,00/kg). Campos: cliente, produto, qtd_kg, preco_unit, nf_total, liquido, data.
+- **`operacao` / vendas:** transacoes W104 — MaxMor (51 kg, R$146,61/kg), Prevale (102 kg, R$142,75/kg), Cassol (360 kg, R$114,00/kg, NF R$41.040, liquido R$30.540). Campos: cliente, produto, qtd_kg, preco_unit, nf_total, liquido, data.
 - **`custo` / margem:** GM = R$14,26/kg do W104 (apos impostos e custos de producao).
 - **`aplicacao` / dosagem:** W104 em concreto classe 2 — 180,7 mL/m3 (253 mL / 1,4 m3); reducao de ate 30% de cimento; ganho de resistencia aos 7 dias.
 - **Verificar primeiro** se ja existe registro do W104/NanoCons nos schemas `tecnologia`/`aplicacao` antes de criar novo; se o modelo nao cobrir vendas reais, propor expansao de schema antes de duplicar em Markdown.
@@ -152,7 +140,7 @@ A **Cassol** e uma concreteira em **Monte Mor / SP**, da area de **pre-moldados*
 
 ## Perguntas abertas
 
-- Reconciliar a venda Cassol: foram 360 kg ou 51 kg? NF de R$41.040 ou R$40.040? Preco de R$84,14/kg ou R$114,00/kg? (conferir NF original)
+- ~~Reconciliar a venda Cassol: 360 kg ou 51 kg?~~ **Resolvido (2026-06-10): 360 kg**, confirmado por Rodrigo; NF R$41.040 = 360 × R$114,00/kg. Resta confirmar a NF/planilha de custo fisica.
 - Os clientes MaxMor e Prevale ja possuem ficha/registro no Vault ou no banco mg-grafeno?
 - Qual o custo de producao do W104 que sustenta a margem GM=R$14,26/kg? (planilha de custo)
 - O sistema de dosagem montado na Cassol (253 mL/lote) e replicavel/documentado para outras concreteiras?
