@@ -3,12 +3,12 @@ titulo: Concretos & Lubrificantes — Gerdau Graphene
 pasta: "[[Gerdau Graphene]]"
 tipo: Capa / Resumo Executivo
 produto: MGg3
-atualizado: 2026-06-10
+atualizado: 2026-06-12
 confidencialidade: interno
 ---
 # Concretos & Lubrificantes — Gerdau Graphene
 
-Pasta com documentos de P&D da **Gerdau Graphene** sobre duas plataformas tecnológicas: o projeto **CM018** (aditivo grafeno para concreto com escória de alto forno) e resultados de **lubrificantes** com GNP em testes veiculares na VW. Ambos datam de dezembro de 2024.
+Pasta com documentos de P&D da **Gerdau Graphene** sobre duas plataformas tecnológicas: o projeto **CM018** (aditivo grafeno para concreto com escória de alto forno) e resultados de **lubrificantes** com GNP em testes veiculares na VW. Também inclui fonte externa complementar de 2026 sobre teste de durabilidade 200h com GNP em motor diesel. O PDF externo foi usado apenas para extração e não foi armazenado no Vault.
 
 ---
 
@@ -19,8 +19,10 @@ Pasta com documentos de P&D da **Gerdau Graphene** sobre duas plataformas tecnol
 | GG-CM018 | CM018 — Atualização dez/2024 | Concreto / Construção Civil | Dez/2024 |
 | GG-RT | Resultados Técnicos Aditivos para Concreto — CM018 | Concreto / Resultados | Dez/2024 |
 | [[GG-W104_Case-Cassol-Comercial]] | W104 (NanoCons) — Case Cassol e PayBack | Concreto / Comercial (nota tácita, confidencial) | Jun/2025 |
+| [[MGG3-LUB01_GNP-200h-Shanghai-2026]] | GNP em lubrificante diesel — teste de motor 200h Shanghai 2026 | Lubrificantes / Durabilidade | Jun/2026 |
 
 > Os dois arquivos GG-CM018/GG-RT compartilham conteúdo parcial (deck de lubrificantes nas primeiras páginas + CM018 nas subsequentes). O conteúdo relevante está integralmente capturado nesta nota. A nota **GG-W104** é uma memória comercial tácita (formulação 10% grafeno em meio aquoso, produção Polystell, case Cassol/Monte Mor, dosagem, vendas e margem GM), com dados estruturados candidatos ao banco mg-grafeno.
+> A nota **MGG3-LUB01** registra apenas as informações extraídas do PDF externo; o arquivo original não foi alocado no Vault.
 
 ---
 
@@ -168,6 +170,25 @@ Apresentação de tribologia da GG (dez/2024) reportando resultado de testes vei
 
 ---
 
+## Parte 3: Lubrificantes — Durabilidade 200h em Motor Diesel
+
+Fonte consultável: [[MGG3-LUB01_GNP-200h-Shanghai-2026]].
+
+Apresentação técnica de Eduardo Tomanik e coautores (UFABC, UFMG e IPT), apresentada em Shanghai em 10/06/2026, sobre GNP funcionalizado como aditivo de lubrificante para motor diesel. A formulação selecionada foi **CO_L_11 a 0,1% em massa de GNP no óleo**, testada por **200h sob ciclo de durabilidade OEM**, sem troca de óleo e com amostras coletadas a cada 50h.
+
+| Métrica | Resultado |
+|---------|-----------|
+| Economia de combustível | **1,1% em média**, com tendência de aumento do benefício ao longo do teste |
+| Emissões | Sem impacto significativo observado |
+| Degradação do óleo | Sem impacto observado nos parâmetros reportados |
+| TBN | 10,2→9,4 mgKOH/g entre 0h e 200h |
+| TAN | 3,6→3,6 mgKOH/g entre 0h e 200h |
+| Inspeção visual | Depósitos no pistão e filtro de óleo considerados normais para teste de 200h |
+
+**Leitura para MGg3:** a fonte reforça lubrificantes como trilha de P&D/parceria. O resultado é promissor para credibilidade técnica, mas ainda exige replicatas, estatística, comparador completo e parceiro formulador antes de qualquer claim comercial.
+
+---
+
 ## Observações estratégicas para MGg3
 
 - **CM018 é a fronteira mais avançada de grafeno em cimentícios** — supera os números de pasta pura documentados em GG02/GG03 (onde se reportava +13–14% aos 28 dias); aqui BS3 entrega +28% já aos 7 dias em sistema com escória.
@@ -175,4 +196,5 @@ Apresentação de tribologia da GG (dez/2024) reportando resultado de testes vei
 - **A faixa de dosagem efetiva é extremamente baixa** (0,01–0,015%) — implicação direta na precificação e na relação custo/benefício do aditivo final.
 - **O projeto CM018 ainda não tem resultados a 28 dias nem em concreto estrutural** — a GG está 6–12 meses à frente da validação comercial completa neste segmento.
 - **Lubrificantes + VW** revelam que a GG está diversificando suas plataformas além de construção, polímeros e tintas. O co-desenvolvimento com Idemitsu e publicação em periódico indexado é um diferencial de credibilidade técnica relevante para parceiros e financiadores.
+- **Lubrificantes + teste 200h** reforçam a leitura de durabilidade: GNP CO_L_11 a 0,1% reporta 1,1% de economia média sem impacto observado na degradação do óleo, mas ainda com lacunas de replicação e estatística.
 - **Para MGg3:** o segmento de construção civil (concreto + escória) pode ser um vetor de entrada com menor barreira de adoção do que tintas decorativas, dado que os clientes finais (concreteiras, construtoras) têm maior disposição para pagar por ganho de resistência mensurável.

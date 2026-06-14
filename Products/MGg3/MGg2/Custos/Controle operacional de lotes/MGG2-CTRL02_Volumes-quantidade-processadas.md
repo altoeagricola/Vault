@@ -47,25 +47,25 @@ where mes is null and piloto is null
 order by ano;
 ```
 
-| Ano | Qtd. lotes | Volume processado |
-|---|---:|---:|
-| 2017 | 10 | 475 L |
-| 2018 | 29 | 2.335 L |
-| 2019 | 12 | 1.100 L |
-| 2020 | 8 | 700 L |
-| 2021 | 49 | 4.150 L |
+| Ano  | Qtd. lotes | Volume processado |
+| ---- | ---------: | ----------------: |
+| 2017 |         10 |             475 L |
+| 2018 |         29 |           2.335 L |
+| 2019 |         12 |           1.100 L |
+| 2020 |          8 |             700 L |
+| 2021 |         49 |           4.150 L |
 
 ## Configuração de linha
 
 > [!warning] Dado legado ainda nao modelado integralmente
 > Esta agregação por configuração/volume ainda precisa de colunas explícitas no modelo ou de nova tabela de capacidade por escala. Não promover estes totais sem sugerir a expansão do modelo.
 
-| Configuração | Quantidade | Volume |
-|---|---:|---:|
-| P5 | 2 | 10 L |
-| P25 | 22 | 550 L |
-| P50 | 17 | 850 L |
-| P100 | 38 | 3.800 L |
+| Configuração | Quantidade |  Volume |
+| ------------ | ---------: | ------: |
+| P5           |          2 |    10 L |
+| P25          |         22 |   550 L |
+| P50          |         17 |   850 L |
+| P100         |         38 | 3.800 L |
 
 ## Fatores de produção indicativos
 

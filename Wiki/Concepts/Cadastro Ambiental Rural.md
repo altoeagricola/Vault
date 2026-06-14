@@ -2,8 +2,12 @@
 title: "Cadastro Ambiental Rural"
 type: Concept
 description: "Registro público eletrônico obrigatório para imóveis rurais, usado para controle, monitoramento e regularização ambiental."
+sources:
+  - "ALT-386"
+  - "ALT-388"
+  - "ALT-389"
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 status: stub
 confidence: low
 tags:

@@ -1,12 +1,172 @@
 {
   "recentFiles": [
     {
-      "basename": "MGG3-MODELO-DADOS_proposta-v1",
-      "path": "Products/MGg3/_modelos/MGG3-MODELO-DADOS_proposta-v1.md"
+      "basename": "MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento",
+      "path": "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento.md"
+    },
+    {
+      "basename": "MGG3-MEMO-IFHAN-v0.5_Data-Room-Indice",
+      "path": "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Data-Room-Indice.md"
+    },
+    {
+      "basename": "A4-Fomento-Parcerias",
+      "path": "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/A4-Fomento-Parcerias.md"
+    },
+    {
+      "basename": "Investidores",
+      "path": "Projects/MGgrafeno/Investidores/Investidores.md"
+    },
+    {
+      "basename": "2026-06-08_Estrategia-Construcao-Plano-de-Negocios-Grafex",
+      "path": "Projects/MGgrafeno/Plano de Negocios/2026-06-08_Estrategia-Construcao-Plano-de-Negocios-Grafex.md"
+    },
+    {
+      "basename": "2026-06-08_Draft-Plano-de-Negocios-Grafex_v0",
+      "path": "Projects/MGgrafeno/Plano de Negocios/2026-06-08_Draft-Plano-de-Negocios-Grafex_v0.md"
+    },
+    {
+      "basename": "Briefing — Área de Cimentícios (Plano de Negócios IFHAN)",
+      "path": "Projects/MGgrafeno/Plano de Negocios/Briefing — Área de Cimentícios (Plano de Negócios IFHAN).md"
+    },
+    {
+      "basename": "Plano de Negocios",
+      "path": "Projects/MGgrafeno/Plano de Negocios/Plano de Negocios.md"
+    },
+    {
+      "basename": "2026-05-21_Relatorio-Cobre-Grafeno-Eduardo-Megatron",
+      "path": "Projects/MGgrafeno/Investidores/2026-05-21_Relatorio-Cobre-Grafeno-Eduardo-Megatron.md"
+    },
+    {
+      "basename": "CAGR Mercado Grafeno",
+      "path": "Products/MGg3/Inteligencia de Mercado/CAGR Mercado Grafeno.md"
+    },
+    {
+      "basename": "MGG2-PI01_Notificacoes-Invencao-2021",
+      "path": "Products/MGg3/MGg2/Diagnostico e Due Diligence/MGG2-PI01_Notificacoes-Invencao-2021.md"
+    },
+    {
+      "basename": "MGG2-FTO01_Revisao-Patentes-2019-Ceres",
+      "path": "Products/MGg3/MGg2/Diagnostico e Due Diligence/MGG2-FTO01_Revisao-Patentes-2019-Ceres.md"
+    },
+    {
+      "basename": "MGG2-DD05_Inventario-Equipamentos-MGg1.0",
+      "path": "Products/MGg3/MGg2/Diagnostico e Due Diligence/MGG2-DD05_Inventario-Equipamentos-MGg1.0.md"
+    },
+    {
+      "basename": "MGG2-DD04_Mercado-Grafeno-2021",
+      "path": "Products/MGg3/MGg2/Diagnostico e Due Diligence/MGG2-DD04_Mercado-Grafeno-2021.md"
+    },
+    {
+      "basename": "MGG3-RES-IFHAN-v1_Resumo-Executivo-Reuniao-Investimento",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-RES-IFHAN-v1_Resumo-Executivo-Reuniao-Investimento.md"
+    },
+    {
+      "basename": "MGG3-LEV-P100-v12_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Investidor-Consolidado",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v12_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Investidor-Consolidado.md"
+    },
+    {
+      "basename": "2026-06-04_Editais-Potenciais-MGgrafeno",
+      "path": "Projects/MGgrafeno/Investidores/Reuniao-IFHAN-2026-06-05/2026-06-04_Editais-Potenciais-MGgrafeno.md"
+    },
+    {
+      "basename": "Fluxo-Financeiro-Licenciamento-Edital-1337",
+      "path": "Projects/MGgrafeno/Investidores/Reuniao-IFHAN-2026-06-05/Fluxo-Financeiro-Licenciamento-Edital-1337.md"
+    },
+    {
+      "basename": "2026-05-18_Relatorio-Investidores-MGgrafeno",
+      "path": "Projects/MGgrafeno/Investidores/2026-05-18_Relatorio-Investidores-MGgrafeno.md"
+    },
+    {
+      "basename": "Conilon Trace — FAPES 06-2026",
+      "path": "Products/Fomento/Projetos/Conilon Trace — FAPES 06-2026/Conilon Trace — FAPES 06-2026.md"
+    },
+    {
+      "basename": "IFES Santa Teresa",
+      "path": "Connections/Institutes/IFES Santa Teresa.md"
+    },
+    {
+      "basename": "Products",
+      "path": "Products/Products.md"
+    },
+    {
+      "basename": "MGG3-LEV-P100-v11_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Investidor-Consolidado",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v11_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Investidor-Consolidado.md"
+    },
+    {
+      "basename": "MCR",
+      "path": "Wiki-Comercial/MCR.md"
+    },
+    {
+      "basename": "Registro - Nota Fiscal Rural 250520001 Sergio Jose Altoe",
+      "path": "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/Registro - Nota Fiscal Rural 250520001 Sergio Jose Altoe.md"
+    },
+    {
+      "basename": "Registro - Comprovante Aposentadoria",
+      "path": "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/Registro - Comprovante Aposentadoria.md"
+    },
+    {
+      "basename": "Registro - CNH Sergio Jose Altoe",
+      "path": "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/Registro - CNH Sergio Jose Altoe.md"
+    },
+    {
+      "basename": "Registro - CAF Sergio Jose Altoe",
+      "path": "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/Registro - CAF Sergio Jose Altoe.md"
+    },
+    {
+      "basename": "CAF. Sergio",
+      "path": "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/CAF. Sergio.pdf"
+    },
+    {
+      "basename": "MGG2-CTRL02_Volumes-quantidade-processadas",
+      "path": "Products/MGg3/MGg2/Custos/Controle operacional de lotes/MGG2-CTRL02_Volumes-quantidade-processadas.md"
+    },
+    {
+      "basename": "MGG2-CTRL01_Controle-de-producoes",
+      "path": "Products/MGg3/MGg2/Custos/Controle operacional de lotes/MGG2-CTRL01_Controle-de-producoes.md"
+    },
+    {
+      "basename": "index",
+      "path": "Products/MGg3/MGg2/Custos/Controle operacional de lotes/index.md"
+    },
+    {
+      "basename": "INVENTÁRIO-MESTRE",
+      "path": "Products/MGg3/INVENTÁRIO-MESTRE.md"
+    },
+    {
+      "basename": "MGG2-CTRL05_Balanco-Global-XLSX",
+      "path": "Products/MGg3/MGg2/Custos/Controle operacional de lotes/MGG2-CTRL05_Balanco-Global-XLSX.md"
+    },
+    {
+      "basename": "MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md"
     },
     {
       "basename": "MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado",
       "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado.md"
+    },
+    {
+      "basename": "MGG3-LEV-P100-v8_Levantamento-Custos-Recomissionamento-Consolidado",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v8_Levantamento-Custos-Recomissionamento-Consolidado.md"
+    },
+    {
+      "basename": "MGG3-LEV-P100-v4_Levantamento-Custos-Recomissionamento-Consolidado",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v4_Levantamento-Custos-Recomissionamento-Consolidado.md"
+    },
+    {
+      "basename": "MGG3-LEV-P100-v3_Levantamento-Custos-Recomissionamento-Consolidado",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v3_Levantamento-Custos-Recomissionamento-Consolidado.md"
+    },
+    {
+      "basename": "MGG3-CUSTO-P500_Projecao-KonMix",
+      "path": "Products/MGg3/MGg2/Custos/MGG3-CUSTO-P500_Projecao-KonMix.md"
+    },
+    {
+      "basename": "MGG2-CUSTO-P100_Modelo-custo-planta-piloto",
+      "path": "Products/MGg3/MGg2/Custos/MGG2-CUSTO-P100_Modelo-custo-planta-piloto.md"
+    },
+    {
+      "basename": "MGG3-MODELO-DADOS_proposta-v1",
+      "path": "Products/MGg3/_modelos/MGG3-MODELO-DADOS_proposta-v1.md"
     },
     {
       "basename": "index",
@@ -25,10 +185,6 @@
       "path": "Journal/Daily/2026-04-16.md"
     },
     {
-      "basename": "MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado",
-      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md"
-    },
-    {
       "basename": "Propostas",
       "path": "Products/Fomento/Propostas/Propostas.base"
     },
@@ -43,162 +199,6 @@
     {
       "basename": "MGG3-LEV-P100-v5_Levantamento-Custos-Recomissionamento-Consolidado",
       "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v5_Levantamento-Custos-Recomissionamento-Consolidado.md"
-    },
-    {
-      "basename": "MGG3-LEV-P100-v4_Levantamento-Custos-Recomissionamento-Consolidado",
-      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v4_Levantamento-Custos-Recomissionamento-Consolidado.md"
-    },
-    {
-      "basename": "MGG3-LEV-P100-v3_Levantamento-Custos-Recomissionamento-Consolidado",
-      "path": "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v3_Levantamento-Custos-Recomissionamento-Consolidado.md"
-    },
-    {
-      "basename": "MGG3-CUSTO-P500_Projecao-KonMix",
-      "path": "Products/MGg3/MGg2/Custos/MGG3-CUSTO-P500_Projecao-KonMix.md"
-    },
-    {
-      "basename": "Piloto 3 — Alto Rendimento",
-      "path": "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/Piloto 3 — Alto Rendimento.md"
-    },
-    {
-      "basename": "Piloto 1 — Marilândia",
-      "path": "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/Piloto 1 — Marilândia.md"
-    },
-    {
-      "basename": "Piloto 2 — Pós-Colheita Conilon",
-      "path": "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/Piloto 2 — Pós-Colheita Conilon.md"
-    },
-    {
-      "basename": "relatorio_carga",
-      "path": "Areas/ALTOE Agricola/Bases/Clientes Marilândia/relatorio_carga.json"
-    },
-    {
-      "basename": "index",
-      "path": "Areas/ALTOE Agricola/Bases/Clientes Marilândia/index.md"
-    },
-    {
-      "basename": "Cronograma - Campanha Katrina",
-      "path": "Areas/ALTOE Agricola/Campanhas/Campanha Katrina/Cronograma - Campanha Katrina.md"
-    },
-    {
-      "basename": "Agenda Humana - Campanha Katrina",
-      "path": "Areas/ALTOE Agricola/Campanhas/Campanha Katrina/Agenda Humana - Campanha Katrina.md"
-    },
-    {
-      "basename": "Backlog - Campanha Katrina",
-      "path": "Areas/ALTOE Agricola/Campanhas/Campanha Katrina/Backlog - Campanha Katrina.md"
-    },
-    {
-      "basename": "Reflorestar — Bônus Polinizadores",
-      "path": "Wiki/Programas/Estaduais/ES/Reflorestar — Bônus Polinizadores.md"
-    },
-    {
-      "basename": "Programa Reflorestar (ES)",
-      "path": "Wiki/Programas/Estaduais/ES/Programa Reflorestar (ES).md"
-    },
-    {
-      "basename": "Wiki",
-      "path": "Wiki/Wiki.md"
-    },
-    {
-      "basename": "Plano de Negocios",
-      "path": "Products/MGg3/Plano de Negocios.md"
-    },
-    {
-      "basename": "Plano de Negocios",
-      "path": "Projects/MGgrafeno/Plano de Negocios/Plano de Negocios.md"
-    },
-    {
-      "basename": "Projects",
-      "path": "Projects/Projects.md"
-    },
-    {
-      "basename": "2026-05-21_Relatorio-Cobre-Grafeno-Eduardo-Megatron",
-      "path": "Projects/MGgrafeno/Investidores/2026-05-21_Relatorio-Cobre-Grafeno-Eduardo-Megatron.md"
-    },
-    {
-      "basename": "2026-05-15_Perfis-Investidores-MGgrafeno",
-      "path": "Projects/MGgrafeno/Investidores/2026-05-15_Perfis-Investidores-MGgrafeno.md"
-    },
-    {
-      "basename": "2026-05-18_Relatorio-Investidores-MGgrafeno",
-      "path": "Projects/MGgrafeno/Investidores/2026-05-18_Relatorio-Investidores-MGgrafeno.md"
-    },
-    {
-      "basename": "Saneamento custos P100 P500",
-      "path": "Products/MGg3/MGg2/Custos/Saneamento custos P100 P500.md"
-    },
-    {
-      "basename": "MGG2-CUSTO-P100_Modelo-custo-planta-piloto",
-      "path": "Products/MGg3/MGg2/Custos/MGG2-CUSTO-P100_Modelo-custo-planta-piloto.md"
-    },
-    {
-      "basename": "MGG3-MEMO-20260522-01_Regua-preco-premio-grafeno-ALT339",
-      "path": "Products/MGg3/Inteligencia de Mercado/MGG3-MEMO-20260522-01_Regua-preco-premio-grafeno-ALT339.md"
-    },
-    {
-      "basename": "Ecossistema brasileiro de grafeno",
-      "path": "Products/MGg3/MGg2/Ecossistema brasileiro de grafeno.md"
-    },
-    {
-      "basename": "Benchmark internacional - fornecedores de grafeno",
-      "path": "Products/MGg3/MGg2/Fornecedores/Benchmark internacional - fornecedores de grafeno.md"
-    },
-    {
-      "basename": "Investidores",
-      "path": "Projects/MGgrafeno/Investidores/Investidores.md"
-    },
-    {
-      "basename": "MGG2-FTO01_Revisao-Patentes-2019-Ceres",
-      "path": "Products/MGg3/MGg2/Diagnostico e Due Diligence/MGG2-FTO01_Revisao-Patentes-2019-Ceres.md"
-    },
-    {
-      "basename": "MGg3",
-      "path": "Products/MGg3/MGg3.md"
-    },
-    {
-      "basename": "index",
-      "path": "Products/MGg3/Inteligencia de Mercado/index.md"
-    },
-    {
-      "basename": "MGgrafeno",
-      "path": "Projects/MGgrafeno/MGgrafeno.md"
-    },
-    {
-      "basename": "Parametros criticos PL100 e acabamento",
-      "path": "Products/MGg3/MGg2/Descricao da Tecnologia/Parametros criticos PL100 e acabamento.md"
-    },
-    {
-      "basename": "Matriz_Rastreabilidade_Anexos",
-      "path": "Products/MGg3/MGg2/Descricao da Tecnologia/Matriz_Rastreabilidade_Anexos.md"
-    },
-    {
-      "basename": "Matriz de anexos e evidencias - KNOW-HOW-55.1-2024",
-      "path": "Products/MGg3/MGg2/Descricao da Tecnologia/Matriz de anexos e evidencias - KNOW-HOW-55.1-2024.md"
-    },
-    {
-      "basename": "Mapa de processo e correntes MGgrafeno",
-      "path": "Products/MGg3/MGg2/Descricao da Tecnologia/Mapa de processo e correntes MGgrafeno.md"
-    },
-    {
-      "basename": "Lista_Numerada",
-      "path": "Products/MGg3/MGg2/Descricao da Tecnologia/Lista_Numerada.txt"
-    },
-    {
-      "basename": "Descricao da Tecnologia",
-      "path": "Products/MGg3/MGg2/Descricao da Tecnologia/Descricao da Tecnologia.md"
-    },
-    {
-      "basename": "FAPES 12-2026 Extensao Tecnologica",
-      "path": "Products/Fomento/Editais/FAPES 12-2026 Extensao Tecnologica/FAPES 12-2026 Extensao Tecnologica.md"
-    },
-    {
-      "basename": "Modelo de negocios MGgrafeno - orquestracao aplicada",
-      "path": "Products/MGg3/Modelo de negocios MGgrafeno - orquestracao aplicada.md"
-    },
-    {
-      "basename": "Conilon Trace — FAPES 06-2026",
-      "path": "Products/Fomento/Projetos/Conilon Trace — FAPES 06-2026/Conilon Trace — FAPES 06-2026.md"
     }
   ],
   "omittedPaths": [],

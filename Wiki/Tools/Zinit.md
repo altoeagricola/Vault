@@ -3,12 +3,13 @@ title: Zinit
 type: Tool
 cover: "[[Wiki/Tools/_covers/zinit.png]]"
 sources:
+  - InfraKeeper
 related:
   - "[[Starship]]"
   - "[[fzf]]"
   - "[[Atuin]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
 ---
 

@@ -1,72 +1,78 @@
 ---
 codigo_fonte: MGG3-LEV-P100-v10
-titulo: Levantamento de custos da P100 — Cenários Desenvolvimento e Produção (Revisão Plentz-06.b)
+titulo: Levantamento de custos da P100 — Cenário real de Desenvolvimento (base) e projeção de Produção em capacidade nominal (Anexo A) — Revisão Plentz-07
 produto: MGgrafeno / MGG3
 escala: P100 — 2 módulos KonMix de cisalhamento em tanques de 100 L (200 L nominais por lote combinado)
 versao: 10
-revisao: Plentz-06.b
+revisao: Plentz-07
 data: 2026-05-31
-status: consolidado_cenarios_desenvolvimento_producao
+status: consolidado_cenario_real_desenvolvimento_com_producao_anexa
 base_anterior: MGG3-LEV-P100-v9
+clientes_destinatarios: Flávio Plentz e Adelina Pinheiro (sócios); IFHAN (grupo investidor, modelo 49/51) como leitor secundário
 issue_revisao_6: [ALT-464](mention://issue/e3b93760-b3d1-4468-ab0e-544991700023)
 issue_revisao_final: ALT-464
 issue_revisao_6a: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377)
 issue_revisao_6b: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377)
+issue_revisao_7: [ALT-488](mention://issue/514e7501-890e-4c1b-864a-11bdecd136bb)
 subfrentes_rev06: [ALT-465](mention://issue/447ac547-6079-4350-92e6-441c91a0e503), [ALT-466](mention://issue/f0520698-b1e9-40a7-85e1-254350010c51), [ALT-467](mention://issue/7e482ee8-564d-4242-8836-2c47d4016c16), [ALT-468](mention://issue/432a64f1-7aa8-40fa-b385-50527c13c985), [ALT-469](mention://issue/98da17bf-f801-43ab-b31f-e3cef93f46af), [ALT-470](mention://issue/44323d04-01c4-476e-848b-b239cc4af1e8), [ALT-471](mention://issue/c4709a22-065d-473c-a080-4447e227c8dd), [ALT-472](mention://issue/cb0eba0b-a456-4a20-af8b-950dd5076d79), [ALT-473](mention://issue/27df4ad9-137a-4121-8d70-09bdee0b4007), [ALT-474](mention://issue/6067b916-e710-41ac-bebe-7ba29472a28b)
-audiencia: técnico-acadêmico-financeira (rigor v9 + leitura de cenários para investidor e pesquisador)
+audiencia: sócios fundadores (Flávio Plentz, Adelina Pinheiro) e grupo investidor IFHAN — leitura técnico-honesta para avaliação societária e posterior negociação de investimento
 ---
 
-# Levantamento de custos da P100 — Cenários Desenvolvimento e Produção (Revisão Plentz-06)
+# Levantamento de custos da P100 — Custo operacional real do Desenvolvimento (base) e projeção de Produção em capacidade nominal (Anexo A)
 
-> Esta é a v10 do levantamento consolidado. A [[MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado|v9]] permanece intocada como base histórica imediata. A v10 é **sucessora sequencial da v9**: reincorpora todos os blocos analíticos da v9 (§4.1–§4.5, §6.1–§6.6, CAPEX por pacotes, glossário 26 termos, rastreabilidade §12, gates SSMA §11, pendências §22) e acrescenta a estrutura de dois cenários operacionais distintos (Desenvolvimento e Produção) conforme briefing [ALT-464](mention://issue/e3b93760-b3d1-4468-ab0e-544991700023) Revisão Plentz-06.
+> **Para quem lê este relatório.** Este documento é dirigido, em primeiro lugar, a Flávio Plentz e Adelina Pinheiro, que serão sócios fundadores da empresa a ser criada e investida pelo grupo IFHAN (modelo societário 49/51, controle do IFHAN). Em segundo plano, serve de base técnica para a negociação de investimento com o IFHAN, que pagará o licenciamento da tecnologia MGgrafeno junto ao CDTN e à UFMG. O conteúdo é, por exigência, **técnico e honesto**: nenhum número aqui é promessa comercial, e cada premissa traz a sua fonte e o seu grau de validação.
+
+> **O que mudou nesta revisão (Plentz-07).** Esta é a v10 do levantamento consolidado, construída sobre a [[MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado|v9]] (que permanece intocada como base histórica) e sobre a estrutura de cenários da revisão Plentz-06.b. A Plentz-07 faz três movimentos: (1) **incorpora as revisões conceituais de Flávio Plentz** à fase inicial do relatório — finalidade (§1) e glossário (§3); (2) **adota o Cenário (1) — Desenvolvimento como o cenário real e base desta versão**, na premissa de atividades piloto de **3 lotes-teste de 100 L por semana** (§8), por ser a projeção realista da operação da empresa logo após o investimento; e (3) **reposiciona o Cenário (2) — Produção em capacidade nominal como Anexo A** (§9), tratando-o explicitamente como projeção auxiliar (ferramenta para entender o custo de produção em regime nominal), e **não** como a realidade do Ano 1. Todos os blocos técnico-analíticos da v9 (§4.1–§4.5, §6.1–§6.6, CAPEX por pacotes, glossário, rastreabilidade §12, gates SSMA §11, pendências §22) permanecem reincorporados. Briefing: [ALT-488](mention://issue/514e7501-890e-4c1b-864a-11bdecd136bb).
 
 ---
 
 ## §1. Finalidade e leitura correta deste relatório
 
-Este relatório apresenta uma estimativa consolidada dos custos para recomissionar e operar a P100, a planta piloto do MGgrafeno composta por sistemas KonMix de cisalhamento em tanques de 100 L. A nomenclatura histórica "reatores KonMix" é preservada como referência documental, mas a leitura técnica desta versão adota a formulação mais precisa de sistemas de cisalhamento. O objetivo não é tratar a P100 como uma fábrica comercial madura, nem como uma bancada de pesquisa pura. A P100 deve ser entendida como uma infraestrutura piloto escalável de uma startup de alta tecnologia que está passando da tecnologia para o mercado.
+Este relatório apresenta uma estimativa consolidada dos custos para recomissionar e operar a P100, a planta piloto do MGgrafeno composta por sistemas KonMix de cisalhamento em tanques de 100 L. A nomenclatura histórica "reatores KonMix" é preservada como referência documental, mas a leitura técnica desta versão adota a formulação mais precisa de sistemas de cisalhamento. O objetivo não é tratar a P100 como uma fábrica comercial madura, nem como uma bancada de pesquisa pura. A P100 deve ser entendida como uma infraestrutura piloto escalável de uma startup de alta tecnologia que está **buscando investidores para passar a tecnologia a um estágio no qual possa entrar no mercado de grafeno, competitivamente em produtos, processos, serviços e soluções**. Isso significa que a planta precisa produzir uma sequência significativa de lotes de validação, gerar histórico de processo e qualificação do material, apoiar o desenvolvimento de formulações, atender projetos piloto com clientes visando o desenvolvimento de produtos à base de grafeno, e criar evidência técnica para entrar de forma robusta e qualificada nos mercados de tecnologias e produtos à base de grafeno.
 
-Por essa razão, os números deste documento devem ser lidos como projeções técnico-econômicas de uma operação em desenvolvimento. Eles são suficientemente estruturados para orientar decisão, orçamento, priorização e negociação, mas ainda não substituem cotações formais de fornecedores, contratos definitivos de controle de qualidade, validação de desempenho por aplicação e definição completa do regime de uso da planta.
+Por essa razão, os números deste documento devem ser lidos como projeções técnico-econômicas de uma operação em desenvolvimento. Eles são suficientemente estruturados para orientar decisão, orçamento, priorização e negociação, mas ainda não substituem cotações formais de fornecedores, contratos definitivos de controle de qualidade, validação de desempenho por aplicação e definição completa do regime ideal de uso da planta.
 
-A P100 pode produzir material, mas seu papel mais importante no primeiro ciclo não é vender grafeno em pó como commodity. O plano de negócios do MGgrafeno deve buscar valor por solução, formulação, desempenho aplicado e relacionamento técnico com clientes. Isso inclui três frentes: entrega de grafeno como insumo de alto valor agregado em relação ao grafite natural, desenvolvimento de grafenos modificados ou personalizados, e prestação de serviços técnicos por demanda ("Grafeno como Serviço").
+A interpretação central é simples: a P100 é uma **plataforma de validação técnico-comercial com tecnologia de produção já claramente demonstrada em TRL7 e migrando para TRL8**. Seu papel mais importante não é vender grafeno em larga escala, mas fornecer material em uma escala que permita o desenvolvimento de soluções industriais, o desenvolvimento de novos materiais — como, por exemplo, grafenos funcionalizados e em diferentes formulações de entrega —, a validação do material produzido no mercado e a criação de demanda para o escalonamento da produção.
 
-Esta v10 organiza a leitura econômica em **dois cenários operacionais distintos e não-misturáveis** conforme o propósito predominante da planta:
+O plano de negócios do MGgrafeno deve buscar valor por solução, formulação, desempenho aplicado e relacionamento técnico com clientes. Ou seja, o modelo de negócios engloba: **(1)** produção e entrega do grafeno como insumo de alto valor agregado em relação ao insumo base, que é o grafite natural; **(2)** produção e entrega de grafenos modificados e personalizados; **(3)** "Grafeno como um Serviço", que se configura como entrega de soluções à base de grafeno por demanda de clientes, por exemplo através de projetos direcionados à introdução de grafeno em linhas de produtos e no portfólio de produtos e serviços de clientes.
 
-- **Cenário Desenvolvimento:** P100 como piloto técnico. Métrica correta: custo anual de capacidade técnica, custo por campanha, custo marginal por lote à la carte.
-- **Cenário Produção:** P100 como linha dedicada em 1 turno. Métrica correta: custo unitário por produto (GPC, NPG, Nanografite) em três condições de rendimento.
+**Como esta versão organiza a leitura econômica.** A v10 apresenta dois cenários operacionais distintos e não-misturáveis, mas com pesos deliberadamente diferentes:
 
-Nenhum dos dois cenários invalida o outro. São leituras de finalidades distintas; a confusão entre elas produz análise econômica equivocada.
+- **Cenário (1) — Desenvolvimento (cenário REAL e base desta versão, corpo principal — §8):** é a projeção da realidade que esperamos ter assim que a empresa for investida pelo grupo IFHAN. Modela a P100 operando em atividades piloto de **3 lotes-teste de 100 L por semana** (156 lotes/ano). Os lotes desse cenário são testes de produção ou produções orientadas, sob medida, cujo objetivo é desenvolver tecnologias de processo de produção de grafeno e atender demandas de material (grafenos) para testes de aplicações — isto é, dar suporte ao desenvolvimento de novos produtos. A métrica correta é o custo operacional anual de sustentar essa capacidade técnica.
+- **Cenário (2) — Produção em capacidade nominal (projeção auxiliar, Anexo A — §9):** modela a P100 como linha dedicada em 1 turno, operando em máxima capacidade exclusivamente para produzir grafeno (522 lotes/ano). É um cenário **ferramental**, útil para entender o custo de produção em regime nominal, mas que **não** será a realidade do Ano 1 da empresa: a planta não iniciará suas atividades produzindo em capacidade nominal. Por isso este cenário é tratado como anexo e projeção auxiliar, e não como base de planejamento.
+
+Nenhum dos dois cenários invalida o outro. Eles respondem a perguntas diferentes: o Cenário (1) informa quanto custa sustentar a operação real de desenvolvimento; o Cenário (2) informa, como ferramenta de projeção, qual seria o custo unitário de produção caso a planta fosse dedicada à capacidade nominal. Confundi-los produz análise econômica equivocada.
 
 ### §1.1 Guia de leitura por audiência
 
-Este relatório atende simultaneamente a duas audiências com necessidades distintas. Use a tabela abaixo para localizar rapidamente as seções de maior relevância para seu perfil.
+Este relatório tem destinatários definidos e em dois momentos. O **destinatário primário** são os sócios fundadores — **Flávio Plentz e Adelina Pinheiro** — que avaliarão e aprimorarão o documento junto a Rodrigo antes de qualquer passo externo. O **destinatário secundário** é o **grupo investidor IFHAN**, para o qual o relatório servirá, depois, como base sólida de negociação técnico-financeira do investimento (licenciamento da tecnologia junto a CDTN/UFMG e abertura da empresa em modelo 49/51). Use a tabela abaixo para localizar rapidamente as seções de maior relevância.
 
 | Perfil | Seções de entrada | Aprofundamento |
 |---|---|---|
-| **Investidores e parceiros financeiros (IFHAN)** | §2 (indicadores consolidados), §7 (referências de preço de mercado), §13 (sensibilidades) | §5 (CAPEX detalhado), §8 (Cenário Desenvolvimento: OPEX, custo por campanha), §9 (Cenário Produção: custo por produto), §10 (reconciliação v9↔v10), §22 (pendências antes de orçamento executivo) |
-| **Pesquisadores e parceiros técnicos (UFMG, CDTN)** | §3 (glossário de 26 termos), §4 (base operacional, ciclo, rendimentos, parâmetros por módulo), §11 (gates SSMA e compliance) | §6.1–§6.6 (composição detalhada de custos), §12 (rastreabilidade de valores críticos com fonte documental), §14 (próximos passos técnicos), §22 (pendências técnicas abertas) |
-| **Ambas as audiências** | §1 (finalidade e posicionamento da P100), §2 (indicadores-chave) | §10 (reconciliação dos dois cenários com base v9), §14 (próximos passos), §15–§21 (changelogs da v3 à v10) |
+| **Sócios fundadores (Flávio Plentz, Adelina Pinheiro)** | §1 (finalidade e posicionamento), §2 (indicadores consolidados), §8 (Cenário real de Desenvolvimento: custo operacional do Ano 1) | §5 (CAPEX de recomissionamento), §7 (referências de preço de mercado), §10 (reconciliação v9↔v10), §13 (sensibilidades), §22 (pendências antes de orçamento executivo) |
+| **Grupo investidor (IFHAN)** | §2 (indicadores consolidados), §8 (custo operacional real), §7 (referências de preço de mercado) | §5 (CAPEX detalhado), §9/Anexo A (projeção de produção em capacidade nominal), §10 (reconciliação), §13 (sensibilidades), §22 (pendências) |
+| **Parceiros técnicos (UFMG, CDTN)** | §3 (glossário), §4 (base operacional, ciclo, rendimentos, parâmetros por módulo), §11 (gates SSMA e compliance) | §6.1–§6.6 (composição detalhada de custos), §12 (rastreabilidade com fonte documental), §14 (próximos passos técnicos), §22 (pendências técnicas abertas) |
 
-Os indicadores-chave em §2 são a porta de entrada comum. Investidores seguem para §7–§9; pesquisadores seguem para §4 e §11. A rastreabilidade de cada valor crítico está em §12.
+Os indicadores-chave em §2 são a porta de entrada comum. O cenário operacional real (Cenário 1, Desenvolvimento) está em §8; a projeção auxiliar de produção em capacidade nominal está no Anexo A (§9). A rastreabilidade de cada valor crítico está em §12.
 
 ---
 
 ## §2. Resultado consolidado em linguagem direta
 
-A estimativa atual separa dois tipos de número que não devem ser confundidos: o dinheiro novo estimado para recolocar a planta existente em operação e o custo recorrente de operar.
+A estimativa separa dois tipos de número que não devem ser confundidos: o dinheiro novo estimado para recolocar a planta existente em operação (CAPEX de recomissionamento) e o custo recorrente de operar (OPEX). O **indicador central desta versão é o OPEX do Cenário (1) — Desenvolvimento**, que é o custo operacional real esperado para a empresa logo após o investimento. A linha do Cenário (2) — Produção é a projeção auxiliar de capacidade nominal (Anexo A).
 
 | Indicador                                     |    Valor consolidado | Como interpretar                                                                                                        |
 | --------------------------------------------- | -------------------: | ----------------------------------------------------------------------------------------------------------------------- |
+| **★ Cenário (1) — Desenvolvimento (REAL, base): OPEX caso-base** | **R$ 4.624.200/ano** | **Custo operacional real do Ano 1.** Premissa: 3 lotes-teste de 100 L/semana (156 lotes/ano); equipe de 8 pessoas; CQ por lote-teste. Faixa R$ 4,16–5,06 MM/ano conforme intensidade analítica. Detalhamento: §8 |
 | CAPEX incremental para recomissionamento      |           R$ 610.000 | Estimativa gerencial preliminar AACE Classe 4/5; faixa indicativa R$ 430–915k; requer vistoria, RFQ e gates documentais |
 | Base bruta histórica dos equipamentos da P100 |         R$ 1.680.560 | Planilha P100 2021: R$ 1.615.200 (produção) + R$ 65.360 (SSMA); sem depreciação acumulada                               |
-| OPEX caixa recorrente (base v9)               |     R$ 2.396.908/ano | Gastos operacionais anuais sem depreciação; equipe 8 pessoas, CQ US$5k/mês, matérias-primas, utilidades, manutenção     |
-| OPEX técnico completo (base v9)               |     R$ 2.563.484/ano | OPEX caixa + depreciação gerencial R$ 166.576                                                                           |
-| Produção técnica de referência                |        10.315 kg/ano | Capacidade calculada com 20 kg/lote, 522 lotes/ano; não é garantia de venda integral                                    |
-| Custo técnico completo médio (base v9)        |            R$ 249/kg | OPEX completo / produção técnica; base comparativa com preços de mercado                                                |
-| **Cenário Desenvolvimento — OPEX caso-base**  | **R$ 4.094.400/ano** | Equipe v9 8 pessoas + frentes técnicas; faixa R$ 3,65–4,84 MM/ano por cadência de campanhas. Detalhamento: §8                     |
-| **Cenário Produção — OPEX caso-base**         | **R$ 2.481.000/ano** | Equipe enxuta 5 pessoas + indiretos de mercado; custo por produto: GPC R$ 895/kg, NPG R$ 448/kg, Nanografite R$ 224/kg. Detalhamento: §9; reconciliação v9↔v10: §10 |
+| OPEX de referência v9 (caixa)                 |     R$ 2.396.908/ano | Base histórica de referência (522 lotes/ano, 20 kg/lote, equipe 8 pessoas, CQ US$5k/mês); sem depreciação              |
+| OPEX de referência v9 (técnico completo)      |     R$ 2.563.484/ano | OPEX caixa + depreciação gerencial R$ 166.576                                                                           |
+| Produção técnica de referência (v9)           |        10.315 kg/ano | Capacidade calculada com 20 kg/lote, 522 lotes/ano; referência técnica, não garantia de venda                          |
+| Cadências alternativas do Cenário (1) por campanhas | R$ 3,65–4,84 MM/ano | Leituras complementares do mesmo piloto, organizadas por campanhas (8/12/18 campanhas/ano de lotes de 200 L). Detalhamento: §8.2–§8.4 |
+| **Anexo A — Cenário (2) Produção em capacidade nominal (projeção auxiliar): OPEX caso-base** | **R$ 2.481.000/ano** | **Projeção, não realidade do Ano 1.** Linha dedicada em 1 turno, 522 lotes/ano, equipe enxuta de 5 pessoas + indiretos de mercado; custo por produto: GPC R$ 895/kg, NPG R$ 448/kg, Nanografite R$ 224/kg. Detalhamento: §9/Anexo A; reconciliação: §10 |
 
-Os dois cenários respondem a perguntas distintas. Desenvolvimento informa o volume de recursos para sustentar a tese tecnológica. Produção informa a viabilidade econômica como linha dedicada. A diferença de ~R$ 1,6 MM/ano entre os cenários reflete a estrutura técnica de desenvolvimento (equipe v9 de 8 pessoas, CQ por aplicação, campanhas variáveis) que não está presente em Produção. Ver reconciliação completa em §10.
+A leitura executiva é direta. Para decidir, planejar e negociar o investimento, o número que importa é o **OPEX do Cenário (1) Desenvolvimento (R$ 4,62 MM/ano, faixa R$ 4,16–5,06 MM)** — o custo real de operar a planta como infraestrutura de desenvolvimento de tecnologia e de produtos. O Cenário (2) Produção (R$ 2,48 MM/ano) é uma ferramenta de projeção: mostra qual seria o custo unitário por produto se a planta fosse dedicada à capacidade nominal, mas esse não é o regime do primeiro ano. A diferença entre os dois reflete a estrutura técnica de desenvolvimento (equipe maior, CQ por lote-teste, cadência semanal de testes) que existe no cenário real e não na projeção de produção dedicada. Ver reconciliação completa em §10.
 
 ---
 
@@ -78,8 +84,8 @@ Para facilitar a leitura técnica, financeira e editorial do novo v10, os princi
 - **Alocação por complexidade técnica (4:2:1)**: critério econômico da v10 para distribuir o OPEX do Cenário Produção entre os produtos conforme esforço técnico relativo, e não apenas por massa física. Neste relatório, GPC absorve peso 4, NPG peso 2 e Nanografite peso 1. O residual físico não recebe receita nem margem no caso-base.
 - **Campanha**: sequência planejada de lotes contíguos dedicada a um objetivo técnico-comercial específico, como desenvolvimento de aplicação, validação de processo, atendimento a parceiro ou produção sob encomenda. No Cenário Desenvolvimento, campanha é unidade de absorção de capacidade técnica; não deve ser confundida com operação contínua de fábrica plena.
 - **CAPEX**: investimento de capital. Neste relatório, há duas leituras distintas: o CAPEX incremental de recomissionamento, isto é, dinheiro novo estimado para preparar a planta existente para voltar a operar; e a base bruta histórica dos equipamentos, correspondente aos valores registrados na planilha P100 de 2021 para produção e SSMA, sem depreciação acumulada.
-- **Cenário Desenvolvimento**: leitura operacional em que a P100 funciona como planta piloto de desenvolvimento tecnológico, formulações, melhoria de processo, suporte a aplicações e produção sob encomenda. A métrica correta é custo anual de capacidade técnica, custo por campanha e custo marginal de lote à la carte; não é R$/kg por ocupação plena.
-- **Cenário Produção**: leitura operacional em que a P100 funciona como linha dedicada em 1 turno, com equipe fixa enxuta, mix produtivo GPC/NPG/Nanografite e custo unitário por produto. A métrica correta é R$/kg por produto, calculado por rendimento e alocação por complexidade técnica.
+- **Cenário (1) — Desenvolvimento (cenário real e base desta versão)**: leitura operacional em que a P100 funciona como planta piloto de desenvolvimento de tecnologia de produção de grafeno e de novos produtos/aplicações, com formulações, melhoria de processo, suporte a aplicações e produção orientada sob medida. É a projeção da realidade esperada para a empresa após o investimento do IFHAN. O caso-base desta v10 adota o regime de 3 lotes-teste de 100 L por semana (156 lotes/ano). A métrica correta é o custo anual de capacidade técnica; não é R$/kg por ocupação plena.
+- **Cenário (2) — Produção em capacidade nominal (projeção auxiliar, Anexo A)**: leitura **ferramental** em que a P100 é hipoteticamente operada como linha dedicada em 1 turno, em máxima capacidade exclusivamente para produzir grafeno (522 lotes/ano), com equipe fixa enxuta, mix produtivo GPC/NPG/Nanografite e custo unitário por produto. Serve para entender o custo de produção em regime nominal; **não** representa a realidade do Ano 1 e por isso é apresentado como anexo. A métrica é R$/kg por produto, por rendimento e alocação por complexidade técnica.
 - **Comissionamento frio**: etapa de verificação e teste da planta sem carga real de processo e, quando aplicável, sem produto químico ou grafite. Serve para confirmar montagem, intertravamentos, sentido de rotação, instrumentação, comandos, estanqueidade, utilidades, alarmes, segurança e sequência operacional antes de expor a planta às condições reais de produção.
 - **Comissionamento quente**: etapa de teste da planta em condições próximas ou equivalentes à operação real, com água ou meio de processo e, quando previsto no protocolo, carga de grafite ou lote teste. Serve para validar estabilidade operacional, temperatura, vazão, rotação, separação, balanço de massa, qualidade das frações e critérios de aceite antes de tratar a P100 como apta a campanhas regulares.
 - **CQ**: controle de qualidade. Na leitura de recomissionamento da v9, CQ é tratado como serviço terceirizado junto à UFMG/CDTN, com orçamento de US$5.000/mês para análises como Raman, AFM, TG, gravimetria e outras. No novo v10, deve ficar separado entre CQ de caracterização por campanha/aplicação no Desenvolvimento e CQ rotineiro por especificação na Produção.
@@ -94,7 +100,7 @@ Para facilitar a leitura técnica, financeira e editorial do novo v10, os princi
 - **Lote à la carte**: lote sob especificação técnica do parceiro, com formulação e CQ sob medida. O custo inclui abertura de campanha, insumos, ensaios específicos e documentação técnica; não deve ser precificado como pó simples.
 - **MC**: módulo de conversão. Cada MC corresponde ao conjunto formado por tanque de 100 L nominal e cisalhador KonMix.
 - **MS**: módulo de separação. Corresponde ao conjunto de etapas e equipamentos usados após o cisalhamento para separar frações, incluindo decantação, decanter e/ou centrífuga de discos conforme a rota operacional.
-- **Nanografite / NG**: grafite em escala nanométrica (n-graphite), fração de maior volume e menor valor técnico relativo; não é automaticamente GPC nem NPG. Deve ser precificado separadamente; reprocesso é sensibilidade, não caso-base.
+- **Nanografite / NG**: nanoplaca de grafite, correspondente ao grafite finamente esfoliado, que é o produto da conversão **incompleta** de grafite em grafeno (revisão Plentz). Este produto **não pode ser classificado como grafeno**, embora o mercado, de forma frequente, se refira a este tipo de produto como grafeno. É o produto que, de fato, compõe a **maior parte do mercado de grafeno**. No modelo de custos da P100, é a fração de maior volume e menor valor técnico relativo; não é automaticamente GPC nem NPG, deve ser precificado separadamente, e reprocesso é tratado como sensibilidade, não caso-base.
 - **NPG / GNP**: nanoplaquetas de grafeno, equivalente operacional ao termo internacional graphene nanoplatelets.
 - **OPEX**: despesa operacional total (diretos + indiretos). Leituras distintas por cenário: em Desenvolvimento mede capacidade técnica anual; em Produção mede custo fabril dedicado por produto.
 - **OPEX caixa**: parcela do OPEX que representa desembolso operacional recorrente. Inclui equipe, CQ terceirizado, materiais, utilidades, manutenção e consumíveis de SSMA.
@@ -115,21 +121,21 @@ A estimativa parte da planta P100, composta por dois módulos de conversão — 
 
 Para garantia de leitura técnica inequívoca: a P100 possui dois módulos de conversão, cada um constituído por um tanque de 100 L (volume nominal) e um cisalhador KonMix, operando em paralelo. A carga de grafite de cada tanque de 100 L é de 10 kg, resultando em concentração nominal de 100 g/L por tanque. Com dois módulos combinados, a carga total por lote é de **20 kg de grafite (10 kg + 10 kg)** e o volume nominal total é de **200 L**. A unidade de referência do modelo é o quilograma (kg): 20,0 kg de entrada, ~19,76 kg de produção técnica por lote.
 
-| Parâmetro operacional | Valor usado | Leitura no modelo |
-|---|---:|---|
-| Módulos de conversão | 2 unidades (tanque 100 L nominal + cisalhador KonMix) | Configuração P100 |
-| Volume nominal total por lote | 200 L | Operação paralela dos dois tanques de 100 L |
-| Regime operacional | 1 turno | Base de planejamento |
-| Lotes por mês | 43,5 | Capacidade nominal econômica |
-| Lotes por ano | 522 | Teto nominal — ver §4.3 |
-| Grafite por lote | 20,0 kg | 10 kg por tanque × 2 tanques; concentração 100 g/L por tanque |
-| Tempo técnico de ciclo | 10,75 h/lote | Ciclo otimista do modelo — ver §4.1 |
-| Rendimento GPC/FLG | 0,80% | 0,160 kg/lote |
-| Rendimento NPG/GNP | 5,00% | 1,000 kg/lote |
-| Rendimento Nanografite | 93,00% | 18,600 kg/lote |
-| Perdas de processo | 1,20% | 0,240 kg/lote |
-| Produção técnica calculada | 19,760 kg/lote | |
-| Produção técnica anual | 10.314,72 kg/ano | 19,760 × 522 |
+| Parâmetro operacional         |                                           Valor usado | Leitura no modelo                                             |
+| ----------------------------- | ----------------------------------------------------: | ------------------------------------------------------------- |
+| Módulos de conversão          | 2 unidades (tanque 100 L nominal + cisalhador KonMix) | Configuração P100                                             |
+| Volume nominal total por lote |                                                 200 L | Operação paralela dos dois tanques de 100 L                   |
+| Regime operacional            |                                               1 turno | Base de planejamento                                          |
+| Lotes por mês                 |                                                  43,5 | Capacidade nominal econômica                                  |
+| Lotes por ano                 |                                                   522 | Teto nominal — ver §4.3                                       |
+| Grafite por lote              |                                               20,0 kg | 10 kg por tanque × 2 tanques; concentração 100 g/L por tanque |
+| Tempo técnico de ciclo        |                                          10,75 h/lote | Ciclo otimista do modelo — ver §4.1                           |
+| Rendimento GPC/FLG            |                                                 0,80% | 0,160 kg/lote                                                 |
+| Rendimento NPG/GNP            |                                                 5,00% | 1,000 kg/lote                                                 |
+| Rendimento Nanografite        |                                                93,00% | 18,600 kg/lote                                                |
+| Perdas de processo            |                                                 1,20% | 0,240 kg/lote                                                 |
+| Produção técnica calculada    |                                        19,760 kg/lote |                                                               |
+| Produção técnica anual        |                                      10.314,72 kg/ano | 19,760 × 522                                                  |
 
 A composição estimada preserva os rendimentos de caso-base da v9. A regra de convenção é invariável: **todos os percentuais de rendimento são em massa, relativos à massa inicial de grafite seco alimentado na corrente de entrada do módulo de conversão** — não sobre a formulação líquida, água, surfactante, NH4OH ou massa úmida.
 
@@ -392,11 +398,21 @@ Esta seção fundamenta os custos indiretos e as referências de preço de merca
 
 ---
 
-## §8. Cenário (1) — P100 Desenvolvimento
+## §8. Cenário (1) — P100 Desenvolvimento (cenário REAL e base desta versão)
+
+> **Este é o cenário real e a base desta v10.** Ele projeta o custo operacional da empresa a ser investida pelo grupo IFHAN, no regime que de fato esperamos no Ano 1: a P100 operando como infraestrutura de **desenvolvimento de tecnologia de produção de grafeno e de novos produtos**. O **caso-base** adotado é o regime de **3 lotes-teste de 100 L por semana (156 lotes/ano)** — lotes que são testes de produção ou produções orientadas, sob medida, para desenvolver processos e atender demandas de material para testes de aplicações. A modelagem completa desse caso-base está em **§8.5**, que passa a ser o coração deste cenário. As leituras por campanhas (§8.2–§8.4) são mantidas como **organizações alternativas e complementares** da mesma capacidade técnica de desenvolvimento — úteis para enxergar o custo quando a operação se agrupa em campanhas de 200 L em vez de testes semanais de 100 L —, não como cenários concorrentes.
+
+| Indicador-âncora do cenário real (caso-base §8.5) | Valor |
+|---|---:|
+| Regime | 3 lotes-teste de 100 L por semana |
+| Lotes por ano | 156 |
+| Grafite processado | 1.560 kg/ano |
+| OPEX caso-base | **R$ 4.624.200/ano** (faixa R$ 4,16–5,06 MM conforme intensidade de CQ) |
+| Produção técnica | GPC 12,5 kg · NPG 78,0 kg · Nanografite 1.450,8 kg / ano |
 
 ### §8.1 Premissas técnicas
 
-A P100 opera como **planta piloto de desenvolvimento tecnológico**, suporte a aplicações finais, melhoria de processos de produção de grafeno e produção sob encomenda para parceiros (lotes à la carte). Operação por campanhas, não por ocupação contínua. A ociosidade planejada faz parte do custo de P&D.
+A P100 opera como **planta piloto de desenvolvimento tecnológico**, suporte a aplicações finais, melhoria de processos de produção de grafeno e produção orientada/sob encomenda para parceiros (lotes à la carte). No caso-base real desta versão (§8.5), essa operação assume a forma de **3 lotes-teste de 100 L por semana**; as leituras por campanhas abaixo (§8.2–§8.4) descrevem a mesma planta quando os lotes são agrupados em campanhas de 200 L. Em qualquer das leituras, a operação é por demanda técnica, não por ocupação contínua, e a ociosidade planejada faz parte do custo de P&D.
 
 | Bloco | Premissa |
 |---|---|
@@ -407,7 +423,9 @@ A P100 opera como **planta piloto de desenvolvimento tecnológico**, suporte a a
 | Lotes à la carte | Variabilidade deliberada de processo; custo marginal inclui preparação, formulação, setup, retrabalho analítico, amostras e documentação técnica. **Não precificar só por kg** |
 | Risco técnico | Separação de 200 L e ciclo real ainda são incertezas de escala |
 
-### §8.2 Estrutura de custos (caso-base 12 campanhas/ano)
+### §8.2 Leitura alternativa por campanhas — estrutura de custos (12 campanhas/ano, lotes de 200 L)
+
+> *Leitura complementar, não o caso-base.* As tabelas de §8.2 a §8.4 descrevem a mesma capacidade técnica de desenvolvimento organizada em campanhas de lotes de 200 L (dois módulos), em vez do regime semanal de testes de 100 L que é o caso-base real (§8.5). Servem para comparar custo por campanha e custo marginal de lote à la carte.
 
 | Bloco | Natureza | Custo anual | % do total |
 |---|---|---:|---:|
@@ -447,9 +465,11 @@ Risco econômico relevante: **subutilização da capacidade técnica**. Poucos l
 
 ---
 
-### §8.5 Sub-cenário D1.b — 3 Lotes Testes/Semana (Módulo Único, 100L)
+### §8.5 Caso-base do cenário real — 3 lotes-teste/semana (módulo único, 100 L)
 
-Este sub-cenário modela a P100 em regime de **testes contínuos semanais**: 3 lotes por semana, cada lote usando um único módulo de conversão (100 L nominal, 10 kg de grafite por lote), sem a estrutura de campanhas formais do D1 caso-base. Briefing: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377), 2026-05-31.
+> **Este é o caso-base do Cenário (1) e o cenário operacional real desta v10** (briefing [ALT-488](mention://issue/514e7501-890e-4c1b-864a-11bdecd136bb)). É a projeção da operação que esperamos no Ano 1 da empresa investida pelo IFHAN. Os indicadores desta seção são os números de referência do relatório; as leituras por campanhas (§8.2–§8.4) são complementares.
+
+Este caso-base modela a P100 em regime de **testes contínuos semanais**: 3 lotes por semana, cada lote usando um único módulo de conversão (100 L nominal, 10 kg de grafite por lote). Os lotes têm por objetivo desenvolver tecnologias de processo de produção de grafeno e atender demandas de material (grafenos) para testes de aplicações — ou seja, são testes de produção ou produções orientadas, sob medida, que dão suporte ao desenvolvimento de novos produtos. Briefing original do regime: [ALT-487](mention://issue/6760ed5e-5d9b-4b1b-9c5e-e448f3b85377), 2026-05-31.
 
 A qualificação "100 litros" descreve o uso de um único módulo KonMix (100 L nominal), diferenciando-o do lote padrão de 200 L (dois módulos em paralelo) que fundamenta o D1 base e o D2.
 
@@ -563,15 +583,17 @@ O D1.b tem o **menor custo por lote** (R$ 29.642 — melhor diluição do fixo s
 
 5. **Risco econômico:** Igual ao D1 base — a maior parte do OPEX (67,8%) é fixo e não cai com redução de lotes. Se por qualquer motivo a cadência cair de 3 para 1 lote/semana, o OPEX cai apenas ~22% (de R$ 4.624.200 para ~R$ 3.621.400).
 
-> **Conexão com outros cenários e seções:** para comparar com o Cenário Produção (custo por kg de produto em regime dedicado), ver §9. Para reconciliação dos dois cenários com a base v9, ver §10. Para benchmark de preço e cobertura econômica, ver §7.
+> **Conexão com outros cenários e seções:** para comparar com a projeção auxiliar de produção em capacidade nominal (custo por kg de produto em regime dedicado), ver o **Anexo A (§9)**. Para reconciliação dos dois cenários com a base v9, ver §10. Para benchmark de preço e cobertura econômica, ver §7.
 
 ---
 
-## §9. Cenário (2) — P100 Produção
+## §9. Anexo A — Cenário (2): P100 Produção em capacidade nominal (projeção auxiliar)
+
+> **Leia este bloco como anexo e projeção auxiliar, não como o cenário real.** O Cenário (2) é uma **ferramenta** para entender qual seria o custo de produção da P100 caso ela operasse em **regime de capacidade nominal** — 1 turno dedicado exclusivamente a produzir grafeno, 522 lotes/ano. **A planta não iniciará suas atividades produzindo em capacidade nominal**; portanto este cenário **não** é a realidade do Ano 1 da empresa. Ele é útil para projetar o custo unitário por produto em operação nominal e para a negociação futura de escalonamento, mas o cenário operacional real, base de planejamento, é o Cenário (1) — Desenvolvimento (§8). As premissas de equipe seguem o que foi definido na P100 v10 para cada cenário (ver §6.1 e nota ² em §9.2).
 
 ### §9.1 Premissas técnicas
 
-A P100 opera como **operação dedicada de produção em 1 turno**, com a mesma base física da v9 e três condições de rendimento aplicadas sobre o mesmo OPEX.
+A P100 é hipoteticamente operada como **operação dedicada de produção em 1 turno**, com a mesma base física da v9 e três condições de rendimento aplicadas sobre o mesmo OPEX. Trata-se de uma projeção de capacidade nominal, não da operação real do primeiro ano.
 
 | Bloco | Premissa |
 |---|---|
@@ -624,7 +646,9 @@ Sensibilidade de indiretos (mercado): R$ 2,18–2,97 MM/ano. Ponto de equilíbri
 
 ## §10. Reconciliação custo/kg v9↔v10
 
-A diferença entre v9 R$ 249/kg e v10 Produção R$ 895/R$ 448/R$ 224 não é contradição — é mudança de pool e método de alocação.
+> Esta reconciliação trata dos custos unitários por produto, que pertencem à **projeção auxiliar de Produção em capacidade nominal (Anexo A, §9)**. O custo operacional do cenário real (Cenário 1 — Desenvolvimento) é o OPEX anual de capacidade técnica de §8 (R$ 4,62 MM/ano caso-base), não um R$/kg por ocupação plena.
+
+A diferença entre v9 R$ 249/kg e a projeção de Produção R$ 895/R$ 448/R$ 224 não é contradição — é mudança de pool e método de alocação.
 
 | Dimensão | v9 (referência histórica) | v10 Produção (Cenário D2) |
 |---|---|---|
@@ -963,3 +987,22 @@ Esta revisão (06.b) acrescenta o Sub-cenário D1.b ao Cenário Desenvolvimento 
 |---|---|
 | Frontmatter | `revisao: Plentz-06.b`, `issue_revisao_6b: ALT-487` |
 | **§8.5 — Sub-cenário D1.b (novo)** | Modelagem completa do regime de 3 lotes testes/semana a 100L (módulo único): §8.5.1 parâmetros técnicos e produção anual (156 lotes, 1.560 kg grafite, GPC 12,5 kg / NPG 78,0 kg / Nanografite 1.450,8 kg); §8.5.2 estrutura de custos variáveis por lote 100L (R$ 9.550/lote caso-base); §8.5.3 OPEX total D1.b caso-base R$ 4.624.200/ano; §8.5.4 comparação com D1 base e sensibilidade de CQ (faixa R$ 4.156.000–5.062.000/ano); §8.5.5 métricas derivadas e pontos de atenção operacionais |
+
+---
+
+## §25. Changelog da Revisão Plentz-06.b para a Revisão Plentz-07
+
+Esta revisão (Plentz-07) incorpora as **revisões conceituais de Flávio Plentz** à fase inicial do relatório e **reestrutura a hierarquia dos cenários** conforme briefing de Rodrigo ([ALT-488](mention://issue/514e7501-890e-4c1b-864a-11bdecd136bb), 2026-05-31). **Nenhum número financeiro existente foi recalculado.** A mudança é de posicionamento, finalidade conceitual e leitura por audiência. Contexto societário registrado: o IFHAN, com outros investidores, pagará o licenciamento da tecnologia MGgrafeno junto a CDTN/UFMG e abrirá a empresa em modelo 49/51 (controle do IFHAN); os destinatários primários do relatório são os sócios Flávio Plentz e Adelina Pinheiro.
+
+| Bloco | Mudança incorporada |
+|---|---|
+| Frontmatter | `revisao: Plentz-07`; título e `status` reescritos para refletir Desenvolvimento como cenário real e Produção como Anexo A; adicionado `clientes_destinatarios` (Flávio Plentz, Adelina Pinheiro; IFHAN secundário); `audiencia` atualizada; `issue_revisao_7: ALT-488` |
+| Cabeçalho do documento | Reescrito o bloco de abertura: novo título, nota "Para quem lê este relatório" (sócios + IFHAN, exigência de conteúdo técnico e honesto) e nota "O que mudou nesta revisão" (três movimentos da Plentz-07) |
+| §1 — Finalidade (revisão conceitual Plentz) | Posicionamento atualizado para "startup buscando investidores para passar a tecnologia a um estágio no qual possa entrar no mercado de grafeno, competitivamente em produtos, processos, serviços e soluções"; TRL reescrito para "tecnologia de produção já claramente demonstrada em TRL7 e migrando para TRL8"; modelo de negócios numerado (1) insumo de alto valor, (2) grafenos modificados/personalizados, (3) Grafeno como um Serviço; repositionamento explícito do Cenário (1) Desenvolvimento como real/base e Cenário (2) Produção como projeção auxiliar/anexo |
+| §1.1 — Guia de leitura | Reescrito para os destinatários reais: primário sócios fundadores (Flávio Plentz, Adelina Pinheiro), secundário IFHAN; parceiros técnicos UFMG/CDTN mantidos |
+| §2 — Resultado consolidado | Tabela reordenada: Cenário (1) Desenvolvimento (R$ 4.624.200/ano, 156 lotes/ano, 3 lotes-teste de 100 L/semana) promovido a indicador central marcado com ★; Cenário (2) Produção rebaixado a Anexo A (projeção auxiliar); leitura executiva reescrita |
+| §3 — Glossário (revisão conceitual Plentz) | Verbete **NG/Nanografite** reescrito conforme Plentz: "produto da conversão incompleta de grafite em grafeno, que não pode ser classificado como grafeno embora o mercado frequentemente assim o trate, e que compõe a maior parte do mercado de grafeno"; verbetes de Cenário (1) e Cenário (2) atualizados com a nova hierarquia |
+| §8 — Cenário (1) Desenvolvimento | Promovido a cenário real e base da versão; banner de abertura e tabela-âncora; §8.5 (3 lotes-teste/semana, 100 L) reposicionado como **caso-base** (não mais "sub-cenário"); §8.2–§8.4 (campanhas de 200 L) reclassificados como leituras alternativas/complementares da mesma capacidade técnica |
+| §9 — Cenário (2) Produção → Anexo A | Retitulado "Anexo A — Cenário (2): P100 Produção em capacidade nominal (projeção auxiliar)"; banner explicitando que é ferramenta de projeção de regime nominal e **não** a realidade do Ano 1; premissas de equipe da v10 preservadas |
+| §10 — Reconciliação | Nota de cabeçalho esclarecendo que os custos unitários por produto pertencem à projeção auxiliar (Anexo A); custo do cenário real é o OPEX anual de §8 |
+| Premissas de equipe | Preservadas integralmente para ambos os cenários (8 pessoas no Desenvolvimento real; 5 pessoas na projeção de Produção nominal), conforme nota técnica do briefing |

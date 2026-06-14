@@ -3,11 +3,12 @@ title: fd
 type: Tool
 cover: "[[Wiki/Tools/_covers/fd.png]]"
 sources:
+  - InfraKeeper
 related:
   - "[[ripgrep]]"
   - "[[fzf]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
 ---
 

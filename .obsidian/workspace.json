@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "91f20512131f8416",
+        "id": "c529c930d2d3d2c9",
         "type": "tabs",
         "children": [
           {
-            "id": "1e31427d7962a9cc",
+            "id": "6d6ab878bbfb5011",
             "type": "leaf",
             "state": {
-              "type": "task-board-view",
-              "state": {},
-              "icon": "brick-wall",
-              "title": "Task Board"
-            }
-          },
-          {
-            "id": "04e3e56641efdadd",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".claude/worktrees/laughing-roentgen-7d852a",
-                "bFile": ".claude/worktrees/laughing-roentgen-7d852a",
-                "aRef": ""
+                "file": "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": true,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: laughing-roentgen-7d852a  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,7 +43,7 @@
       {
         "id": "4fb4e38769091eea",
         "type": "tabs",
-        "dimension": 70.62566277836692,
+        "dimension": 74.66281310211946,
         "children": [
           {
             "id": "a6970f043aaae8da",
@@ -53,7 +52,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -66,7 +65,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -83,7 +82,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           },
           {
@@ -101,7 +100,7 @@
       {
         "id": "eb74630b5e690463",
         "type": "tabs",
-        "dimension": 29.374337221633084,
+        "dimension": 25.337186897880535,
         "children": [
           {
             "id": "247236329a9d869d",
@@ -109,6 +108,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,14 +136,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "title": "Gráfico de MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 458.50312423706055
   },
   "right": {
     "id": "86fd2513b981393a",
@@ -160,6 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos"
+              "title": "Links inversos para MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento"
             }
           },
           {
@@ -255,7 +256,7 @@
             "state": {
               "type": "Strange New Worlds",
               "state": {},
-              "icon": "lucide-ghost",
+              "icon": "file-digit",
               "title": "Strange New Worlds"
             }
           },
@@ -461,7 +462,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 592.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -494,49 +495,49 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "homepage:Open homepage": false,
       "edge-tts:Read note aloud": false,
+      "obsidian-git:Open Git source control": false,
       "task-board:Open task board": false,
-      "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "04e3e56641efdadd",
+  "active": "a6970f043aaae8da",
   "lastOpenFiles": [
-    "Products/MGg3/_modelos/MGG3-MODELO-DADOS_proposta-v1.md",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado.md",
-    "Products/MGg3/index.md",
-    "Products/MGg3/Historico MGgrafeno-Gerdau Graphene.md",
-    "Journal/Daily/2026-05-29.md",
-    "Journal/Daily/2026-04-16.md",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado.md",
-    "Products/Crédito-Rural/Clientes/Sergio Jose Altoe/Docs Pessoais/Registro - Certidao Negativa RFB PGFN Sergio Jose Altoe.md",
-    "Products/PKM/ai/skills/template-issue-filha/SKILL.md",
-    "Products/PKM/ai/skills/template-issue-filha",
-    "Products/Fomento/Propostas/Propostas.base",
-    "Areas/Casos/MGgrafeno/Nota-Mae_LEV-P100-v10.md",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-Nota-Mae-Caso-Atualizacao-v10.md",
-    "Products/Compliance/Monitoramento-Regulatorio/Monitoramento Regulatório - 2026-05-29.md",
-    "Products/Fomento/Propostas/log.md",
-    "Products/Fomento/Propostas/index.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/log.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/index.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Parceria — Amigos do Campo Fertilizantes Ltda.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Orcamento.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Equipe e Cronograma.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/Escopo e Metodologia.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica.md",
-    "Products/Fomento/Propostas/AiRA - Plataforma Inteligente de Apoio à Recomendação Agronômica",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v7_Levantamento-Custos-Recomissionamento-Consolidado.md",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v8_Levantamento-Custos-Recomissionamento-Consolidado.md",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v6_Levantamento-Custos-Recomissionamento-Consolidado.md",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v5_Levantamento-Custos-Recomissionamento-Consolidado.md",
-    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-v4_Levantamento-Custos-Recomissionamento-Consolidado.md",
-    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/relatorio_carga.json",
-    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/piloto3_alto_rendimento.csv",
-    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/piloto2_pos_colheita.csv",
-    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas/piloto1_marilândia.csv",
-    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/campanhas",
-    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/excecoes.csv",
-    "Areas/ALTOE Agricola/Bases/Clientes Marilândia/interacoes.csv",
+    "Products/Compliance/Monitoramento-Regulatorio/Monitoramento Regulatório - 2026-06-13.md",
+    "Products/MGg3/Gerdau Graphene/Concretos/MGG3-LUB01_GNP-200h-Shanghai-2026.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Roteiro-Reuniao-Flavio-Adelina.docx",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/_roteiro_tmp.html",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Guia-Leitura-Revisao.csv",
+    "Products/MGg3/MGg2/Custos/MGG3-FIN-IFHAN-v0.6_Projecao-Conservadora-5anos-Breakeven.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v1.0/Anexos/A-RFQ-P500/RFQ-SAT-Centrifugacao-P500-v1.0.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v1.0/Anexos/A-RFQ-P500",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v1.0/Anexos",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v1.0",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/A6-Inteligencia-Mercado-Benchmark.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Data-Room-Indice.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v1.0_A7-Equity-Story-Narrativa.md",
+    "Products/MGg3/MGg2/Custos/MGG3-FIN-IFHAN-v0.6_Modelo-Financeiro-IFHAN-Cronograma-Capital.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/A4-Fomento-Parcerias.md",
+    "Projects/MGgrafeno/Investidores/Investidores.md",
+    "Products/MGg3/MGg2/Fornecedores/KONMIX-FORN01_Ficha-fornecedor-equipamentos.md",
+    "Products/MGg3/MGg2/Fornecedores/CotacoesEquipamentos/MGG3-COT-20260506-01_konmix-inline-homogenizer-krb75-3.md",
+    "Products/MGg3/MGg2/Fornecedores/CotacoesEquipamentos/MGG3-COT-20260505-01_konmix-inline-homogenizer-krb15-3.md",
+    "Products/MGg3/MGg2/Fornecedores/CotacoesEquipamentos/log.md",
+    "Products/MGg3/MGg2/Fornecedores/CotacoesEquipamentos/index.md",
+    "Products/MGg3/MGg2/Fornecedores/MGG3-PAD-FORN03_Padrao-registro-cotacoes-equipamentos.md",
+    "Products/MGg3/MGg2/Fornecedores/CotacoesEquipamentos",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Slides-Executivos.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5/MGG3-MEMO-IFHAN-v0.5_Memorando-Investimento.md",
+    "Projects/MGgrafeno/Investidores/Memorando-IFHAN-v0.5",
+    "Products/Compliance/Monitoramento-Regulatorio/Monitoramento Regulatório - 2026-06-11.md",
+    "Products/MGg3/MGg2/Custos/MGG3-CUSTO-P500-v2_Escalonamento-Engenharia-P100-P500.md",
+    "Projects/MGgrafeno/Plano de Negocios/2026-06-08_Estrategia-Construcao-Plano-de-Negocios-Grafex.md",
+    "Products/MGg3/Inteligencia de Mercado/MGG3-MEMO-20260114-01_Flavio-grafite-carbon-black-nanoxplore.md",
+    "Products/MGg3/MGg2/Fornecedores/Precos/MGG3-PRECO-20250724-01_avangrp-conductive-gnp.md",
+    "Products/MGg3/MGg2/Fornecedores/Precos/MGG3-PRECO-20250423-01_blackswan-bs8-1518-flg.md",
+    "Products/MGg3/Gerdau Graphene/Concretos/GG-W104_Case-Cassol-Comercial.md",
+    "Projects/MGgrafeno/Plano de Negocios/2026-06-08_Draft-Plano-de-Negocios-Grafex_v0.md",
+    "Products/MGg3/MGg2/Custos/MGG3-LEV-P100-FINAL",
+    "Projects/MGgrafeno/Investidores/Reuniao-IFHAN-2026-06-05",
     "Connections/People/_attachments/7dbdeba387f8a315a1ae180fc69602d2_MD5.jpg",
     "Connections/People/_attachments/e2799914c97f27d4af950e9d3ef4fd2e_MD5.jpg",
     "Connections/People/_attachments/3bc9ef95b56559b3311bf04ce69367ae_MD5.jpg",

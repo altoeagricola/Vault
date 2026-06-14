@@ -27,8 +27,17 @@ rastreabilidade_interna:
   - "ALT-392 — c7945e3b-5005-45ab-b3b9-a23343f6e7f1"
   - "ALT-393 — 7f24b4a5-1a75-45fd-a4b8-2f64c245bb89"
   - "ALT-398 — fc1cd405-f790-40df-9b02-dc2361a5df42"
+sources:
+  - "Lei Estadual ES nº 9.864/2012"
+  - "Portaria SEAMA 009-R/2025"
+  - "Portaria SEAMA 042-S/2026"
+  - "ALT-386"
+  - "ALT-388"
+  - "ALT-389"
+  - "ALT-390"
+  - "ALT-392"
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 confidence: high
 tags:
   - psa

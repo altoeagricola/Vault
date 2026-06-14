@@ -3,12 +3,13 @@ title: OPNsense
 type: Tool
 cover: "[[Wiki/Tools/_covers/opnsense.png]]"
 sources:
+  - InfraKeeper
 related:
   - "[[AdGuard Home]]"
   - "[[Caddy]]"
   - "[[Proxmox VE]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
 ---
 

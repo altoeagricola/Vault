@@ -3,10 +3,11 @@ title: tmux
 type: Tool
 cover: "[[Wiki/Tools/_covers/tmux.png]]"
 sources:
+  - InfraKeeper
 related:
   - "[[neovim]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
 ---
 

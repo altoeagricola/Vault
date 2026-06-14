@@ -34,9 +34,9 @@ A vantagem competitiva migrou da síntese para a **incorporabilidade**.
     *   *Viabilidade p/ Polímeros:* US$ 10–30/kg.
     *   *Viabilidade p/ Tintas/Energia:* US$ 20–120/kg.
 
-## 3. Análise por Frente e Aderência ao Ecossistema IFHAN
+## 3. Análise por Vertical e Aderência ao Ecossistema IFHAN
 
-| Frente | CAGR Est. | Maturidade | Aderência IFHAN | Gancho Estratégico |
+| Vertical | CAGR Est. | Maturidade | Aderência IFHAN | Gancho Estratégico |
 | :--- | :---: | :---: | :---: | :--- |
 | **Cobre-Grafeno** | 28,5% | Média/Baixa | **Altíssima** | **Megacabos (Naves):** Aumento de condutividade e resistência mecânica em cabos de cobre. |
 | **Supercapacitores / Baterias** | 20,6% | Média | **Altíssima** | **The Energy / Enercell (Fusco):** Anodos de alta performance e armazenamento de energia. |
@@ -48,8 +48,8 @@ A vantagem competitiva migrou da síntese para a **incorporabilidade**.
 
 Minha sugestão é **estratificar a narrativa** para o IFHAN em duas camadas de valor:
 
-1.  **Prioridade 1: O "Gancho Industrial" (Cobre-Grafeno, Baterias e Cimento):** Liderar with estas frentes por serem extensões diretas dos ativos atuais do grupo. O investidor não está comprando um novo negócio, mas o "upgrade tecnológico" da sua própria cadeia. O risco técnico elevado em Cobre e Baterias deve ser mitigado via parcerias acadêmicas e editais (playbook do Alberico).
-2.  **Prioridade 2: A "Eficiência de Volume" (Tintas e Polímeros):** Tratar como as frentes de geração de caixa e validação rápida, usando a herança técnica da Gerdau Graphene e os parceiros Polystell/Colorfix para entrega imediata (low-hanging fruits).
+1.  **Prioridade 1: O "Gancho Industrial" (Cobre-Grafeno, Baterias e Cimento):** Liderar com estas Verticais por serem extensões diretas dos ativos atuais do grupo. O investidor não está comprando um novo negócio, mas o "upgrade tecnológico" da sua própria cadeia. O risco técnico elevado em Cobre e Baterias deve ser mitigado via parcerias acadêmicas e editais (playbook do Alberico).
+2.  **Prioridade 2: A "Eficiência de Volume" (Tintas e Polímeros):** Tratar como as Verticais de geração de caixa e validação rápida, usando a herança técnica da Gerdau Graphene e os parceiros Polystell/Colorfix para entrega imediata (low-hanging fruits).
 
 **Sinal Acionável:** O memorando deve vender o MGgrafeno como o braço de R&D/Inovação que "desrisca" e "premiumiza" o portfólio industrial do IFHAN. A "banana" (interesse) está na integração vertical copper-to-cable e energy-to-storage.
 

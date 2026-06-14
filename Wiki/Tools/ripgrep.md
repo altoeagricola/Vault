@@ -3,11 +3,12 @@ title: ripgrep
 type: Tool
 cover: "[[Wiki/Tools/_covers/ripgrep.png]]"
 sources:
+  - InfraKeeper
 related:
   - "[[fd]]"
   - "[[fzf]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
 ---
 

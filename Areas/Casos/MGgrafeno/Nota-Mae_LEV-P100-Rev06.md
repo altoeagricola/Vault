@@ -8,7 +8,7 @@ status: concluido
 root:
   - "[[MGgrafeno]]"
 documento_final: "[[MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado]]"
-documento_arquivado: "[[MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado_PLENTZ05-ARQUIVADO]]"
+documento_arquivado: "[[Products/MGg3/MGg2/Custos/Repositorio de versoes/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado_PLENTZ05-ARQUIVADO|MGG3-LEV-P100-v10 Plentz05 arquivado]]"
 issue_mae: ALT-464
 issue_revisao_anterior: ALT-440
 tags:
@@ -42,7 +42,7 @@ Esta revisão **restaurou todos esses blocos** e tornou a v10 uma sucessora cumu
 - **Demanda original:** "quero que o relatório v10 seja versão sequencial do v9, e não um relatório irmão" — Rodrigo, 2026-05-30.
 - **Período de execução:** 2026-05-30 a 2026-05-31 (16 sub-issues, 1 dia).
 - **Documento final:** [[MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado]] (787 linhas, commit `c294a1a`).
-- **Documento arquivado:** [[MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado_PLENTZ05-ARQUIVADO]] — preservado como leitura alternativa focada no investidor, sem as bases técnicas reincorporadas.
+- **Documento arquivado:** [[Products/MGg3/MGg2/Custos/Repositorio de versoes/MGG3-LEV-P100-v10_Levantamento-Custos-Cenarios-Desenvolvimento-Producao-Consolidado_PLENTZ05-ARQUIVADO|MGG3-LEV-P100-v10 Plentz05 arquivado]] — preservado como leitura alternativa focada no investidor, sem as bases técnicas reincorporadas.
 - **Bases:** [[MGG3-LEV-P100-v9_Levantamento-Custos-Recomissionamento-Consolidado]] (intocada como referência histórica); Nota-Mãe Plentz-05 em [[Nota-Mae_LEV-P100-v10]].
 
 ---

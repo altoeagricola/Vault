@@ -9,7 +9,7 @@ fontes:
   - "[[MGG3-CUSTO-P500_Projecao-KonMix]]"
   - "[[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]"
   - "[[Custos de producao P100 P500]]"
-atualizado: 2026-05-07
+atualizado: 2026-06-11
 ---
 # Saneamento de custos P100 P500
 
@@ -135,3 +135,9 @@ A planilha [[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]] deve alimentar p
 A proposta de saneamento deve começar pela criação de uma matriz única P100/P500 com os valores originais e uma coluna `status_comparabilidade`. O primeiro ajuste obrigatório é separar o que é ganho de escala real do que é efeito de premissa: rendimento P500 mais agressivo, overhead zerado, depreciação predial zerada e CQ modelado em base diferente.
 
 Até essa reconciliação, a melhor mensagem executiva é: P500 indica potencial de redução de custo por escala, mas a projeção atual não deve ser usada como custo unitário final sem harmonização de rendimento, overhead, depreciação e CQ.
+
+## Atualizacao Konmix 2026
+
+Para a selecao do cisalhador P500 e o CAPEX reconciliado, a referencia canonica passa a ser [[MGG3-CUSTO-P500-v2_Escalonamento-Engenharia-P100-P500]]. As evidencias de cotacao ficam em [[MGG3-COT-20260506-01_konmix-inline-homogenizer-krb75-3]] e [[MGG3-COT-20260505-01_konmix-inline-homogenizer-krb15-3]], com ficha do fornecedor em [[KONMIX-FORN01_Ficha-fornecedor-equipamentos]].
+
+A estimativa antiga de cisalhador por escalonamento deve ser lida apenas como sanity check historico. A ancora de CAPEX do cisalhador P500 e a cotacao formal do KRB 75/3 registrada no documento v2; o KRB 15/3 permanece evidenciado como descarte tecnico por vazao insuficiente.

@@ -3,12 +3,13 @@ title: Caddy
 type: Tool
 cover: "[[Wiki/Tools/_covers/caddy.png]]"
 sources:
+  - InfraKeeper
 related:
   - "[[AdGuard Home]]"
   - "[[OPNsense]]"
   - "[[Docker Compose]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
 ---
 

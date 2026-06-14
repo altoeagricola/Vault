@@ -1,7 +1,7 @@
 ---
 titulo: Fornecedores MGg2 - Index
 tipo: index
-atualizado: 2026-05-20
+atualizado: 2026-06-11
 ---
 
 # Fornecedores MGg2 - Index
@@ -12,6 +12,9 @@ atualizado: 2026-05-20
 | `MGG3-FORN02_Fornecedores-insumos-grafeno-startup.md` | Registro documental | Fornecedores insumos startup | Base de fornecedores, insumos, utilidades e HH. | 2026-05-20 |
 | `Benchmark internacional - fornecedores de grafeno.md` | Benchmark | Fornecedores grafeno | Benchmark internacional de fornecedores. | 2026-05-20 |
 | `MGG3-PAD-FORN02_Padrao-registro-precos-grafeno.md` | Padrao operacional | Registro de precos | Regra minima para evidencias, confiabilidade, confidencialidade e comparabilidade de precos de grafeno. | 2026-05-22 |
+| `MGG3-PAD-FORN03_Padrao-registro-cotacoes-equipamentos.md` | Padrao operacional | Cotacoes de equipamentos | Regra minima para evidencias de cotacao de bens de capital e CAPEX. | 2026-06-11 |
 | `Precos/` | Pasta operacional | Evidencias de preco | Local recomendado para registros individuais `MGG3-PRECO-*`. | 2026-05-22 |
+| `CotacoesEquipamentos/` | Pasta operacional | Evidencias de cotacao de equipamentos | Local canonico para registros individuais `MGG3-COT-*`. | 2026-06-11 |
+| `KONMIX-FORN01_Ficha-fornecedor-equipamentos.md` | Ficha | Shanghai Konmix Mechanical & Elec. Equipment Co. | Fornecedor Konmix consultado para cisalhadores do scale-up MGg3/P500. | 2026-06-11 |
 | `NANOXPLORE-FORN01_Ficha-fornecedor-player.md` | Ficha | NanoXplore | Ficha de fornecedor/player. | 2026-05-20 |
 | `NANOXPLORE-REL01_Relatorio-modelo-negocios-desempenho.md` | Relatorio | NanoXplore | Relatorio de modelo de negocios e desempenho. | 2026-05-20 |

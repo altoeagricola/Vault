@@ -9,6 +9,7 @@ base_documental:
   - "[[MGG2-BASE01_Catalogo-MGg3-contexto-historico]]"
   - "[[Apresentacoes]]"
   - "[[Concretos]]"
+  - "[[MGG3-LUB01_GNP-200h-Shanghai-2026]]"
   - "[[Inteligencia de Mercado - Gerdau Graphene]]"
   - "[[Polimeros]]"
   - "[[Modelo de negocios MGgrafeno - orquestracao aplicada]]"
@@ -16,7 +17,7 @@ base_documental:
   - "[[MGG3-FORN01_Fornecedores-grafeno]]"
   - "[[MGG3-FORN02_Fornecedores-insumos-grafeno-startup]]"
   - "[[Custos de producao P100 P500]]"
-atualizado: 2026-05-08
+atualizado: 2026-06-12
 confidencialidade: interno
 ---
 # Mapa estrategico MGg3
@@ -40,7 +41,7 @@ Uso desta nota: manter a priorizacao estrategica geral. Uso da nota de modelo: c
 | Concretos         | CM018 reporta BS3/BlackSwan com 128% da referência aos 7 dias em sistema cimento/escória, dosagem 0,01%, ainda sem validação a 28 dias em concreto estrutural. | [[Concretos]], [[GG-CM018_Aditivo-Escoria]]                                                                            |
 | Polímeros         | Em PE e PP, desempenho depende do grade e da rota de processamento; há casos de ganho e de degradação com grafenos diferentes.                                 | [[Polimeros]], [[GG-POL01_BlackSwan-R&D]], [[Inteligencia de Mercado - Gerdau Graphene]]                                                 |
 | Coatings          | NanoDur/NanoTOC trazem métricas de durabilidade, salt spray, menor consumo e menor massa aplicada.                                                             | [[Apresentacoes]], [[Inteligencia de Mercado - Gerdau Graphene]]                                                                         |
-| Lubrificantes     | GNP 0,1% em óleo SAE 5W-20 reporta -1,9% de consumo combinado em teste VW, com Idemitsu, USP e FEI.                                                            | [[Concretos]]                                                                                                          |
+| Lubrificantes     | GNP 0,1% em óleo SAE 5W-20 reporta -1,9% de consumo combinado em teste VW, com Idemitsu, USP e FEI; fonte Shanghai 2026 reporta teste 200h com CO_L_11 a 0,1%, 1,1% de economia média e sem impacto observado na degradação do óleo. | [[Concretos]], [[MGG3-LUB01_GNP-200h-Shanghai-2026]]                                                                                                          |
 | Adoção comercial  | Aditivos químicos tinham 625 kg / R$ 140.288 realizados até jul/2024 contra meta de 26.762 kg / R$ 3,96 Mi.                                                    | [[Inteligencia de Mercado - Gerdau Graphene]], [[GG03_Aditivos-QuimicosT&R]]                                                             |
 | Ecossistema       | GG combina GEIC Manchester, universidades brasileiras, centros técnicos, fornecedores globais e clientes industriais.                                          | [[Apresentacoes]], [[Inteligencia de Mercado - Gerdau Graphene]]                                                                         |
 | MGgrafeno/MGg2    | O catalogo MGg3.0 conecta UFMG, CDTN, Codemge/Codemig, planta piloto e edital de licenciamento como base historica para a tese MGg3.                           | [[MGG2-BASE01_Catalogo-MGg3-contexto-historico]], [[MGgrafeno - Historico institucional]], [[Licenciamento UFMG CDTN]] |
@@ -65,7 +66,7 @@ Uso desta nota: manter a priorizacao estrategica geral. Uso da nota de modelo: c
 | Aditivo para concreto com baixa dosagem pode ter melhor custo-benefício que coatings. | Modelo econômico por m³ de concreto, custo de grafeno, dispersante, processo e ganho de resistência. | Alta |
 | Segmentos de piso industrial/anticorrosivo aceitam pagar por vida útil maior. | Entrevistas com aplicadores, fabricantes de tinta e clientes industriais; teste de campo controlado. | Média |
 | Filmes PE com grafeno têm oportunidade em embalagens agrícolas/industriais. | Testes com transformadores locais, propriedades mecânicas, espessura e processabilidade. | Média |
-| Lubrificantes com GNP podem ser argumento de fomento e parceria técnica. | Ensaios independentes de tribologia e consumo, parceiro formulador e análise regulatória/comercial. | Média |
+| Lubrificantes com GNP podem ser argumento de fomento e parceria técnica. | Ensaios independentes de tribologia e consumo, replicatas em motor/frota, parceiro formulador e análise regulatória/comercial. | Média |
 | Parceria com ICT brasileira substitui parte da credibilidade do GEIC Manchester. | Mapear UFES, UFMG, IPT, SENAI, IFES e laboratórios com capacidade real em nanomateriais. | Alta |
 | Retomada da planta piloto pode reduzir tempo de validacao MGg3. | Due diligence operacional no CDTN: ativos, permissao de uso, manutencao, equipe, CQ e capacidade real. | Alta |
 
@@ -200,9 +201,9 @@ Com o fechamento das operações da Gerdau Graphene no final de 2025, a **transf
 **Tese:** segmento de alto prestígio técnico, útil para parceria e fomento, menos imediato para venda direta.
 
 - Dor clara: redução de consumo, atrito e temperatura operacional.
-- Evidência forte: -1,9% consumo combinado em teste com VW.
+- Evidência forte: -1,9% consumo combinado em teste com VW; fonte Shanghai 2026 adiciona 200h de durabilidade com 1,1% de economia média, sem impacto observado na degradação do óleo.
 - Risco: validação automotiva é exigente, regulada e dependente de players consolidados.
-- Próximo movimento: tratar como projeto de P&D com formulador e laboratório, não como produto inicial isolado.
+- Próximo movimento: tratar como projeto de P&D com formulador, laboratório e protocolo de replicação, não como produto inicial isolado.
 
 ### Parcerias
 

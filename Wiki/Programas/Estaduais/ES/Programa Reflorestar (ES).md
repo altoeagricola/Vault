@@ -8,8 +8,14 @@ orgao_executor: "SEAMA-ES — Secretaria de Estado de Meio Ambiente e Recursos H
 base_legal:
   - "Lei Estadual ES nº 9.864/2012"
 status: vigente
+sources:
+  - "SEAMA-ES — Programa Reflorestar: https://seama.es.gov.br/Contents/Item/Display/6141"
+  - "Lei Estadual ES nº 9.864/2012: https://www3.al.es.gov.br/Arquivo/Documents/legislacao/html/lei98642012.html"
+  - "ALT-386"
+  - "ALT-388"
+  - "ALT-389"
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 confidence: medium
 tags:
   - psa

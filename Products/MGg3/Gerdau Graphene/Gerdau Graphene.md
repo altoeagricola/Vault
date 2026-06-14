@@ -3,7 +3,7 @@ titulo: Gerdau Graphene
 tipo: indice-organizacao
 organizacao: Gerdau Graphene
 produto: MGg3
-atualizado: 2026-06-10
+atualizado: 2026-06-12
 confidencialidade: interno
 ---
 # Gerdau Graphene
@@ -21,7 +21,7 @@ A Gerdau Graphene opera como empresa de aditivos industriais à base de grafeno:
 | O que existe no acervo? | [[INVENTÁRIO-MESTRE]] | Lista 8 fontes e lacunas |
 | Qual é o posicionamento institucional? | [[Apresentacoes]] | [[GG-APRES01_Grafeno-Nanomaterial]] |
 | O que a GG validou em mercado? | [[Inteligencia de Mercado - Gerdau Graphene]] | Portfólio, clientes, métricas e gap comercial |
-| O que há em concreto e lubrificantes? | [[Concretos]] | CM018, BS3, escória, VW/Idemitsu |
+| O que há em concreto e lubrificantes? | [[Concretos]] | CM018, BS3, escória, VW/Idemitsu, teste 200h |
 | O que há em polímeros? | [[Polimeros]] | PE/PP, BlackSwan, rotas de processamento |
 | O que isso muda para MGg3? | [[Mapa estrategico MGg3]] | Segmentos, hipóteses e prioridades |
 
@@ -38,7 +38,7 @@ A Gerdau Graphene opera como empresa de aditivos industriais à base de grafeno:
 - **Concretos:** CM018 usa grafeno funcionalizado em meio aquoso para ativar escória em baixas idades; BS3/BlackSwan aparece como melhor balanço mecânico e reológico, com +28% de resistência aos 7 dias em pasta.
 - **Polímeros:** resultados dependem fortemente do grade e da rota de processamento; em PE, um grade BlackSwan elevou elongação total em +50%, enquanto outro degradou propriedades.
 - **Tintas/revestimentos:** NanoDur e NanoTOC trazem evidências de durabilidade, menor consumo e resistência à corrosão; porém o funil comercial de aditivos químicos mostra adoção difícil.
-- **Lubrificantes:** teste com GNP 0,1% em óleo SAE 5W-20 reporta -1,9% de consumo combinado, com parceiros VW, Idemitsu, USP e FEI.
+- **Lubrificantes:** teste com GNP 0,1% em óleo SAE 5W-20 reporta -1,9% de consumo combinado, com parceiros VW, Idemitsu, USP e FEI; fonte externa Shanghai 2026 registra teste 200h com CO_L_11 a 0,1% e 1,1% de economia média, sem impacto observado na degradação do óleo.
 
 ## Registros documentais
 
@@ -53,8 +53,9 @@ A Gerdau Graphene opera como empresa de aditivos industriais à base de grafeno:
 | GG04 | Criado | [[GG04_Case-Indorama]] |
 | GG-POL01 | Criado | [[GG-POL01_BlackSwan-R&D]] |
 | GG-W104 | Criado (nota tácita) | [[GG-W104_Case-Cassol-Comercial]] |
+| MGG3-LUB01 | Criado (fonte externa; PDF não armazenado) | [[MGG3-LUB01_GNP-200h-Shanghai-2026]] |
 
-> Nota: o inventário e os registros individuais tornam os 8 anexos consultáveis sem abertura normal dos PDFs/PPTX. As notas temáticas continuam sendo a melhor interface para leitura rápida por segmento.
+> Nota: o inventário e os registros individuais tornam os anexos e fontes externas consultáveis sem abertura normal dos PDFs/PPTX. As notas temáticas continuam sendo a melhor interface para leitura rápida por segmento. O PDF de MGG3-LUB01 foi mantido fora do Vault por restrição explícita.
 
 ## Regras especificas desta fonte
 

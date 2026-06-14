@@ -2,7 +2,7 @@
 titulo: MGg3
 tipo: indice-raiz
 produto: MGg3
-atualizado: 2026-05-14
+atualizado: 2026-06-12
 confidencialidade: interno
 ---
 # MGg3
@@ -47,7 +47,7 @@ Ler [[Mapa estrategico MGg3]], depois aprofundar em:
 - [[Concretos]] para CM018, escória, dosagem baixa e ganho de resistência aos 7 dias;
 - [[Polimeros]] para masterbatches PE/PP, seleção de grade e rotas de processamento;
 - [[Apresentacoes]] e [[Inteligencia de Mercado - Gerdau Graphene]] para coatings, tintas e posicionamento comercial;
-- [[Concretos]] para lubrificantes, incluindo testes VW/Idemitsu/USP-FEI.
+- [[Concretos]] para lubrificantes, incluindo testes VW/Idemitsu/USP-FEI e teste diesel 200h Shanghai 2026.
 
 ### Quais evidencias podem ser usadas sem abrir anexos?
 

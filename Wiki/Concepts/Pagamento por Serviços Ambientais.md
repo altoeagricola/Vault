@@ -2,8 +2,12 @@
 title: "Pagamento por Serviços Ambientais"
 type: Concept
 description: "Instrumento econômico que remunera produtores ou proprietários por conservação, restauração ou melhoria de serviços ecossistêmicos."
+sources:
+  - "ALT-386"
+  - "ALT-388"
+  - "ALT-389"
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 status: stub
 confidence: low
 tags:

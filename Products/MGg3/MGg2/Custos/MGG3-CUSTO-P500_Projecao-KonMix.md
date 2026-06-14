@@ -45,7 +45,7 @@ links_relacionados:
   - "[[MGG2-CUSTO-P100_Modelo-custo-planta-piloto]]"
   - "[[Saneamento custos P100 P500]]"
   - "[[MGg2]]"
-atualizado: 2026-05-07
+atualizado: 2026-06-11
 ---
 # MGG3-CUSTO-P500: Projeção de Custo P500 - KonMix / MGg 3.0
 
@@ -89,9 +89,11 @@ Fonte primária para:
 - Confidencialidade do modelo; nao compartilhar com parceiros sem aprovacao KonMix/MGg3.
 - Premissas sobre preço de insumos, energia e mao-de-obra podem divergir de realidade operacional.
 - Riscos de escalonamento (controle de qualidade, downtime, variabilidade de processo) podem impactar custos reais.
+- Atualizacao Konmix 2026: usar [[MGG3-CUSTO-P500-v2_Escalonamento-Engenharia-P100-P500]] como leitura canonica de CAPEX/OPEX reconciliado. As evidencias de cotacao de cisalhador ficam em [[MGG3-COT-20260506-01_konmix-inline-homogenizer-krb75-3]] e [[MGG3-COT-20260505-01_konmix-inline-homogenizer-krb15-3]]; esta nota permanece como registro da planilha/projecao original.
 
 ## Proximas acoes
 
 - Usar [[Saneamento custos P100 P500]] como leitura preliminar de equipamentos, rendimento, ponte de custos e comparabilidade com P100.
+- Para cisalhador P500, usar a v2 como fonte de CAPEX; nao reutilizar estimativas antigas da planilha/projecao sem a ressalva de sanity check.
 - Validar premissas com equipe operacional de KonMix antes de apresentacao a investidores.
 - Incluir análise de risco e cenários de downside em sumário executivo para captacao.

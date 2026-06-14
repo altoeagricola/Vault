@@ -3,9 +3,9 @@ titulo: Inventário Mestre — MGg3
 tipo: Inventário de Fontes
 produto: MGg3
 classificação: CONFIDENCIAL
-atualizado: 2026-05-21
-total_fontes: 38
-fontes_com_nota: 36
+atualizado: 2026-06-12
+total_fontes: 39
+fontes_com_nota: 37
 cobertura: 100% em registros iniciais; MGg2 estrutura documental completa, relato tacito Rodrigo padronizado como nota interna consultavel, compliance de editais aprofundado, custos/fornecedores em validação por agentes; controles operacionais de lotes, processos, volumes e balancos de massa incorporados; Descricao da Tecnologia criada com fonte-mae, anexos tecnicos, lista numerada, matriz de evidencias, mapa de correntes, parametros criticos, quatro registros controlados do Anexo A, Relatorio Anual 2020-2021 controlado e Volume V SSMA controlado; Inteligencia de Mercado MGg3 (raiz) com relatório consolidado 2026 e case NanoXplore incorporados
 confidencialidade: interno
 ---
@@ -79,8 +79,9 @@ Compilação estruturada de fontes primárias e notas-resumo existentes na pasta
 |--------|-----------|------|------|---------|-------------------|------------|--------|-------|---------|
 | **GG-CM018** | CM018 — Atualização dez/2024 | Relatório técnico (PDF) | Dez/2024 | 2,7 MB | CONFIDENCIAL | [[Gerdau Graphene/Concretos/Concretos|Concretos & Lubrificantes]] | ✅ Extraído | Aditivo grafeno para concreto com escória; 8 grafenos avaliados (BlackSwan BS3 melhor resultado); dosagem 0,01–0,015%; +28% resistência aos 7 dias; testes com VW em lubrificantes (redução -2,6% consumo urbano); parceiros: Idemitsu, VW Way to Zero, USP/FEI | Resultados a 28 dias em concreto estrutural; testes em escala piloto |
 | **GG-RT** | Resultados Técnicos Aditivos para Concreto — CM018 | Relatório técnico (PDF) | Dez/2024 | 2,7 MB | CONFIDENCIAL | [[Gerdau Graphene/Concretos/Concretos|Concretos & Lubrificantes]] | ✅ Extraído | Sobreposição parcial com GG-CM018; conteúdo relevante integralmente capturado em nota-resumo | Conteúdo duplicado com GG-CM018 |
+| **MGG3-LUB01** | GNP em lubrificante diesel — teste de motor 200h Shanghai 2026 | Apresentação técnica (PDF externo, não armazenado) | Jun/2026 | externo | INTERNO | [[Gerdau Graphene/Concretos/MGG3-LUB01_GNP-200h-Shanghai-2026|MGG3-LUB01_GNP-200h-Shanghai-2026]] | ✅ Extraído | GNP funcionalizado em óleo de motor diesel; CO_L_11 a 0,1%; teste 200h sem troca de óleo; 1,1% economia média; sem impacto significativo em emissões; sem impacto observado na degradação do óleo | Replicatas, estatística, comparador completo e validação independente antes de claim comercial |
 
-**Resumo executivo:** Documentos de P&D de dez/2024 cobrindo o projeto CM018 (aditivo grafeno para concreto com escória) e lubrificantes com testes veiculares VW. CM018 é a fronteira mais avançada da GG em cimentícios — BS3 (BlackSwan) entrega +28% resistência aos 7 dias em sistema com escória, superando resultados anteriores de pasta pura. Dosagem extremamente baixa (0,01–0,015%) com implicações diretas em custo/benefício. Lubrificantes: co-desenvolvimento com Idemitsu + VW, resultado -1,9% consumo combinado. Nota-resumo completa.
+**Resumo executivo:** Documentos de P&D de dez/2024 cobrindo o projeto CM018 (aditivo grafeno para concreto com escória) e lubrificantes com testes veiculares VW, agora complementados por apresentação Shanghai 2026 sobre teste de motor diesel de 200h. CM018 é a fronteira mais avançada da GG em cimentícios — BS3 (BlackSwan) entrega +28% resistência aos 7 dias em sistema com escória, superando resultados anteriores de pasta pura. Dosagem extremamente baixa (0,01–0,015%) com implicações diretas em custo/benefício. Lubrificantes: co-desenvolvimento com Idemitsu + VW, resultado -1,9% consumo combinado; fonte 200h reporta 1,1% economia média com CO_L_11 a 0,1%, sem impacto observado na degradação do óleo. Nota-resumo completa; PDF externo Shanghai 2026 não armazenado no Vault.
 
 ---
 
@@ -169,7 +170,7 @@ Pasta `Products/MGg3/Inteligencia de Mercado/`. Documentos de inteligência de m
 | **Tintas/Coatings** | G2D NanoLAV W107, NanoDur W102, NanoCORR W108, NanoCORR Shield | G2D NanoDur Next Gen (funcionalizado) | Comercial |
 | **Polímeros** | Poly-G PE, Poly-G PP | PE/PA/EVA em dev. | Comercial |
 | **Concreto/Cimento** | NanoCons W104 (piloto) | **CM018** (+28% aos 7d com BS3) | P&D avançado |
-| **Lubrificantes** | — | **Testes VW** (-1,9% consumo) | Parceria/Publication |
+| **Lubrificantes** | — | **Testes VW** (-1,9% consumo) + **teste 200h diesel** (1,1% economia média) | Parceria/Publication/P&D |
 
 ---
 
@@ -234,6 +235,7 @@ Pasta `Products/MGg3/Inteligencia de Mercado/`. Documentos de inteligência de m
 | **L66_2 (0,1% GNP)** | Consumo urbano (FTP-75) | -2,6% | Ciclo urbano |
 | **L66_2 (0,1% GNP)** | Consumo rodovia | -0,8% | Highway |
 | **L66_2 (0,1% GNP)** | Consumo combinado | -1,9% | Média ponderada |
+| **CO_L_11 (0,1% GNP)** | Consumo médio em durabilidade | -1,1% | Teste motor diesel 200h, sem troca de óleo |
 
 ---
 
@@ -247,7 +249,7 @@ Pasta `Products/MGg3/Inteligencia de Mercado/`. Documentos de inteligência de m
 | **Concreto (CM018)** | Testes em concreto estrutural (escala piloto) | ALTA | Ainda em pasta de cimento |
 | **Coatings** | NanoDur Next Gen funcionalizado (roadmap) | MÉDIA | Desenvolvimento 2024 |
 | **Polímeros** | PA e EVA — desenvolvimento incompleto | BAIXA | Em pipeline |
-| **Lubrificantes** | Escala comercial e aplicações além automotiva | MÉDIA | Parceria VW em publicação |
+| **Lubrificantes** | Escala comercial, replicação estatística e aplicações além automotiva | MÉDIA | Parceria VW em publicação + fonte externa 200h Shanghai 2026 registrada sem armazenar PDF |
 
 ### Documentos Faltantes
 

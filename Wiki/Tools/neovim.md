@@ -3,12 +3,13 @@ title: neovim
 type: Tool
 cover: "[[Wiki/Tools/_covers/neovim.png]]"
 sources:
+  - InfraKeeper
 related:
   - "[[tmux]]"
   - "[[lazygit]]"
   - "[[ripgrep]]"
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
 ---
 

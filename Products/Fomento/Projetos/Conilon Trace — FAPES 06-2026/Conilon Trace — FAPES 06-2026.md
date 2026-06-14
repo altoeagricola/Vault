@@ -102,10 +102,10 @@ O Conilon capixaba é o maior produtor nacional, mas é "invisível" em rastreab
 
 ### [[ES2030 — Plano de Desenvolvimento do ES]]
 
-| Eixo ES2030 | Como a proposta se enquadra |
-|-------------|----------------------------|
-| **Inserção Competitiva** | Cafeicultura é cadeia produtiva prioritária do plano. A proposta agrega valor via certificação, rastreabilidade e acesso a mercados premium — exatamente o que o ES2030 propõe para superar a dependência de commodities. |
-| **Economia Verde** | Rastreabilidade vinculada à conformidade ambiental (EUDR) e certificações de origem e sustentabilidade. Contribui para o eixo de abertura de novos mercados via atributos ambientais. |
+| Eixo ES2030                        | Como a proposta se enquadra                                                                                                                                                                                                           |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Inserção Competitiva**           | Cafeicultura é cadeia produtiva prioritária do plano. A proposta agrega valor via certificação, rastreabilidade e acesso a mercados premium — exatamente o que o ES2030 propõe para superar a dependência de commodities.             |
+| **Economia Verde**                 | Rastreabilidade vinculada à conformidade ambiental (EUDR) e certificações de origem e sustentabilidade. Contribui para o eixo de abertura de novos mercados via atributos ambientais.                                                 |
 | **Ciência, Tecnologia e Inovação** | Parceria empresa (Amigos do Campo) + ICT ([[IFES Santa Teresa]]) com entregas concretas: dataset, modelo de IA, artigos científicos. Modelo exato que o ES2030 propõe para "fortalecer arranjos institucionais empresa–universidade". |
 
 ### ODS / Plano ES 500 Anos

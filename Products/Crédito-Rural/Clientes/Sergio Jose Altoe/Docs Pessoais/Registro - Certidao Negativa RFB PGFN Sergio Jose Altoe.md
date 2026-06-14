@@ -9,10 +9,10 @@ hora_emissao: "09:10:20"
 data_vencimento: 2026-11-25
 status_documental: "consultado_sem_anexo"
 status_conferencia: "texto_extraido_validade_confirmada"
-fonte_arquivo: "/Users/okumaaltoe/Downloads/Certidão Negativa - Sergio Jose Altoe - CPF 57944873720.pdf"
+fonte_arquivo: "/Users/okumaaltoe/Downloads/Certidão Negativa - CPF 57944873720 - Sergio Jose Altoe.pdf"
 fonte_ocr: "pdftotext no PDF em Downloads; PDF nao copiado para o Vault por instrucao do usuario"
-data_conferencia: 2026-05-29
-conferido_por: Cacilda
+data_conferencia: 2026-05-30
+conferido_por: Brasilino
 confianca_extracao: "alta - PDF com texto pesquisavel"
 divergencias: "nenhuma divergencia identificada nos campos extraidos"
 pendencias: "verificar autenticidade nos portais RFB/PGFN antes de protocolo bancario; nao usar como substituto isolado de comprovante especifico de quitacao do DARF ITR"
@@ -74,7 +74,7 @@ O documento foi consultado no arquivo localizado em Downloads e **nao foi copiad
 
 | Tipo | Caminho |
 | --- | --- |
-| Fonte consultada | `/Users/okumaaltoe/Downloads/Certidão Negativa - Sergio Jose Altoe - CPF 57944873720.pdf` |
+| Fonte consultada | `/Users/okumaaltoe/Downloads/Certidão Negativa - CPF 57944873720 - Sergio Jose Altoe.pdf` |
 | Nota operacional | Esta nota |
 | PDF no Vault | Nao copiado/internalizado por instrucao do usuario |
 
@@ -91,7 +91,7 @@ O documento foi consultado no arquivo localizado em Downloads e **nao foi copiad
 
 ## Observacoes de Conferencia
 
-**Data:** 2026-05-29  
-**Conferido por:** Cacilda
+**Data:** 2026-05-30  
+**Conferido por:** Brasilino
 
 Documento extraido de PDF pesquisavel em Downloads. A certidao informa que nao constam pendencias em nome de Sergio Jose Altoe perante RFB/PGFN na data de emissao, com validade ate 25/11/2026 e codigo de controle 40BC.FBDD.5CC5.D80A.
